@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 6a8e20296054a40d29a01c1eda7611c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4428169333961260338
+    second: Villian Jelly 2_00000_1
+  - first:
+      213: -3397770246409213370
+    second: Villian Jelly 2_00001_1
+  - first:
+      213: -3287764375119691998
+    second: Villian Jelly 2_00002_1
+  - first:
+      213: 8509718347340385430
+    second: Villian Jelly 2_00003_1
+  - first:
+      213: -5003357975065710730
+    second: Villian Jelly 2_00004_1
+  - first:
+      213: 4141283958159926418
+    second: Villian Jelly 2_00005_1
+  - first:
+      213: -5194453876373004165
+    second: Villian Jelly 2_00006_1
+  - first:
+      213: -192649231611712444
+    second: Villian Jelly 2_00007_1
+  - first:
+      213: 35608150118048763
+    second: Villian Jelly 2_00008_1
+  - first:
+      213: -8369426230370417920
+    second: Villian Jelly 2_00009_1
+  - first:
+      213: 6155452580120338761
+    second: Villian Jelly 2_00010_1
+  - first:
+      213: 4383297818275724649
+    second: Villian Jelly 2_00011_1
+  - first:
+      213: -1892537594029783087
+    second: Villian Jelly 2_00012_1
+  - first:
+      213: 8358419365242410343
+    second: Villian Jelly 2_00013_1
+  - first:
+      213: 2751612411641644316
+    second: Villian Jelly 2_00014_1
+  - first:
+      213: -6052731157574105972
+    second: Villian Jelly 2_00015_1
+  - first:
+      213: 7405136538795885724
+    second: Villian Jelly 2_00016_1
+  - first:
+      213: -6502055522667214350
+    second: Villian Jelly 2_00017_1
+  - first:
+      213: 7490711632280737765
+    second: Villian Jelly 2_00018_1
+  - first:
+      213: -2410180695166422945
+    second: Villian Jelly 2_00019_1
+  - first:
+      213: -255587911775622880
+    second: Villian Jelly 2_00020_1
+  - first:
+      213: -8371690629121356410
+    second: Villian Jelly 2_00021_1
+  - first:
+      213: -2531499701332750601
+    second: Villian Jelly 2_00022_1
+  - first:
+      213: -9042746528934563654
+    second: Villian Jelly 2_00023_1
+  - first:
+      213: -4515292344941183090
+    second: Villian Jelly 2_00024_1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Villian Jelly 2_00000_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 550
+        width: 526
+        height: 440
+      alignment: 9
+      pivot: {x: 0.50190115, y: -0.6545454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec206f3c37bfb82c0800000000000000
+      internalID: -4428169333961260338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00001_1
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1004
+        width: 529
+        height: 439
+      alignment: 9
+      pivot: {x: 0.5122873, y: -0.65831435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a236a86f1b8d0d0800000000000000
+      internalID: -3397770246409213370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00002_1
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 556
+        width: 526
+        height: 441
+      alignment: 9
+      pivot: {x: 0.5, y: -0.6553288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f7ecb58b38f52d0800000000000000
+      internalID: -3287764375119691998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00003_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 992
+        width: 534
+        height: 440
+      alignment: 9
+      pivot: {x: 0.49250937, y: -0.6545454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c09df10c7981670800000000000000
+      internalID: 8509718347340385430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00004_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1434
+        width: 540
+        height: 441
+      alignment: 9
+      pivot: {x: 0.48518518, y: -0.6530612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f271c3e60809ab0800000000000000
+      internalID: -5003357975065710730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00005_1
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1888
+        width: 553
+        height: 442
+      alignment: 9
+      pivot: {x: 0.45931283, y: -0.64932126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294652881dbc87930800000000000000
+      internalID: 4141283958159926418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00006_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1887
+        width: 552
+        height: 439
+      alignment: 9
+      pivot: {x: 0.4456522, y: -0.6514806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70e2a888b799e7b0800000000000000
+      internalID: -5194453876373004165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00007_1
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2332
+        width: 555
+        height: 440
+      alignment: 9
+      pivot: {x: 0.42702702, y: -0.6522727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c28876b82935df0800000000000000
+      internalID: -192649231611712444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00008_1
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 3213
+        width: 564
+        height: 442
+      alignment: 9
+      pivot: {x: 0.41666666, y: -0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf325e28c618e7000800000000000000
+      internalID: 35608150118048763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00009_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2770
+        width: 562
+        height: 441
+      alignment: 9
+      pivot: {x: 0.4039146, y: -0.6485261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034fe4cf23d9db80800000000000000
+      internalID: -8369426230370417920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00010_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3648
+        width: 575
+        height: 447
+      alignment: 9
+      pivot: {x: 0.39826086, y: -0.6353468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941a5d5328f8c6550800000000000000
+      internalID: 6155452580120338761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00011_1
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 3655
+        width: 567
+        height: 440
+      alignment: 9
+      pivot: {x: 0.3968254, y: -0.6454545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96db11b542a94dc30800000000000000
+      internalID: 4383297818275724649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00012_1
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 3657
+        width: 570
+        height: 438
+      alignment: 9
+      pivot: {x: 0.3877193, y: -0.65296805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d748c7d51b5cb5e0800000000000000
+      internalID: -1892537594029783087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00013_1
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 3212
+        width: 563
+        height: 441
+      alignment: 9
+      pivot: {x: 0.40142095, y: -0.6485261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765150db0221ff370800000000000000
+      internalID: 8358419365242410343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00014_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3204
+        width: 564
+        height: 442
+      alignment: 9
+      pivot: {x: 0.40602836, y: -0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15c473e8e0bf2620800000000000000
+      internalID: 2751612411641644316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00015_1
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2328
+        width: 554
+        height: 440
+      alignment: 9
+      pivot: {x: 0.41516244, y: -0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c844bd7b411600ca0800000000000000
+      internalID: -6052731157574105972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00016_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2759
+        width: 559
+        height: 443
+      alignment: 9
+      pivot: {x: 0.4293381, y: -0.6455982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94c13ca27454c660800000000000000
+      internalID: 7405136538795885724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00017_1
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2774
+        width: 557
+        height: 436
+      alignment: 9
+      pivot: {x: 0.4416517, y: -0.6605505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9cd8593fe04c5a0800000000000000
+      internalID: -6502055522667214350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00018_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2318
+        width: 554
+        height: 439
+      alignment: 9
+      pivot: {x: 0.45487365, y: -0.6537585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7daf4ca8a54f760800000000000000
+      internalID: 7490711632280737765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00019_1
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1446
+        width: 542
+        height: 439
+      alignment: 9
+      pivot: {x: 0.46309963, y: -0.6537585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50f91c6d615d8ed0800000000000000
+      internalID: -2410180695166422945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00020_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1877
+        width: 544
+        height: 439
+      alignment: 9
+      pivot: {x: 0.47977942, y: -0.65603644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029eabdf528f37cf0800000000000000
+      internalID: -255587911775622880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00021_1
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1445
+        width: 542
+        height: 441
+      alignment: 9
+      pivot: {x: 0.4889299, y: -0.6530612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d41c95ab7c1db80800000000000000
+      internalID: -8371690629121356410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00022_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 999
+        width: 534
+        height: 445
+      alignment: 9
+      pivot: {x: 0.49438202, y: -0.64494383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fecd012f6e4edcd0800000000000000
+      internalID: -2531499701332750601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00023_1
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 563
+        width: 529
+        height: 439
+      alignment: 9
+      pivot: {x: 0.5047259, y: -0.65603644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab075f441f5b18280800000000000000
+      internalID: -9042746528934563654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villian Jelly 2_00024_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 525
+        height: 444
+      alignment: 9
+      pivot: {x: 0.5104762, y: -0.6486486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f7dba09857651c0800000000000000
+      internalID: -4515292344941183090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
