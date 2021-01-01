@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 288350130768254655}
   - component: {fileID: 7329348830272583309}
   - component: {fileID: 1999138415489370555}
+  - component: {fileID: 2414068442231044992}
   m_Layer: 0
   m_Name: Oil Monster
   m_TagString: Untagged
@@ -56,3 +57,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfb3cb0f20fcc344a99681a23cc1e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2414068442231044992
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277005037702263609}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05d9f0602d4a349148d9cf9c1e1b5aa3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
