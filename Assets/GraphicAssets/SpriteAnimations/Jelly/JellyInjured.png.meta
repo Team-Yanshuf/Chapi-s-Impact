@@ -1,58 +1,58 @@
 fileFormatVersion: 2
-guid: e958d1da9909e4815891852efa039aa8
+guid: 7be2f6b7164cf4e0880a70ec0fb31a05
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4138436952327012140
-    second: JellyInjured_00000
+      213: -1947877439914079376
+    second: Exporter Jelly Injured_00000
   - first:
-      213: 6029826921549819414
-    second: JellyInjured_00001
+      213: -8042610811418483197
+    second: Exporter Jelly Injured_00001
   - first:
-      213: 6530354807984929897
-    second: JellyInjured_00002
+      213: -1042821354380651402
+    second: Exporter Jelly Injured_00002
   - first:
-      213: -9180792587015098300
-    second: JellyInjured_00003
+      213: -1684870916441359065
+    second: Exporter Jelly Injured_00003
   - first:
-      213: 5238800606201064506
-    second: JellyInjured_00004
+      213: -5009934876228716541
+    second: Exporter Jelly Injured_00004
   - first:
-      213: -5994428766164697048
-    second: JellyInjured_00005
+      213: -7493980155791806670
+    second: Exporter Jelly Injured_00005
   - first:
-      213: 2732767998333110675
-    second: JellyInjured_00006
+      213: -3073322670851026741
+    second: Exporter Jelly Injured_00006
   - first:
-      213: -4244746022444177148
-    second: JellyInjured_00007
+      213: 2948221913670345857
+    second: Exporter Jelly Injured_00007
   - first:
-      213: -2829468701696879074
-    second: JellyInjured_00008
+      213: -7454533565381021772
+    second: Exporter Jelly Injured_00008
   - first:
-      213: 8465714711908412362
-    second: JellyInjured_00009
+      213: 5396548935975353629
+    second: Exporter Jelly Injured_00009
   - first:
-      213: -443571060295025077
-    second: JellyInjured_00010
+      213: 4910058804361546868
+    second: Exporter Jelly Injured_00010
   - first:
-      213: -3600009517983298654
-    second: JellyInjured_00011
+      213: 4490627398003424491
+    second: Exporter Jelly Injured_00011
   - first:
-      213: 8005858347059172315
-    second: JellyInjured_00012
+      213: -8743224759053974965
+    second: Exporter Jelly Injured_00012
   - first:
-      213: 2319671247819288404
-    second: JellyInjured_00013
+      213: 3744772014916978539
+    second: Exporter Jelly Injured_00013
   - first:
-      213: -5377179673535292126
-    second: JellyInjured_00014
+      213: 7921031548575329951
+    second: Exporter Jelly Injured_00014
   - first:
-      213: -5211556174026035145
-    second: JellyInjured_00015
+      213: 3805717428084559520
+    second: Exporter Jelly Injured_00015
   - first:
-      213: -246958417122238522
-    second: JellyInjured_00016
+      213: 1035348770870687938
+    second: Exporter Jelly Injured_00016
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -93,7 +93,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,358 +126,358 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JellyInjured_00000
+      name: Exporter Jelly Injured_00000
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1074
-        width: 511
-        height: 439
+        x: 582
+        y: 1099
+        width: 497
+        height: 430
       alignment: 9
-      pivot: {x: 1.7671233, y: -0.67425966}
+      pivot: {x: 0.556338, y: 0.605814}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2f3dc45b7eae6930800000000000000
-      internalID: 4138436952327012140
+      spriteID: 07b8ce7e9cfb7f4e0800000000000000
+      internalID: -1947877439914079376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00001
+      name: Exporter Jelly Injured_00001
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1515
-        width: 574
-        height: 532
+        x: 582
+        y: 1531
+        width: 559
+        height: 516
       alignment: 9
-      pivot: {x: 1.7108014, y: -0.46616542}
+      pivot: {x: 0.63237923, y: 0.59399223}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61e601443af3ea350800000000000000
-      internalID: 6029826921549819414
+      spriteID: 3066fae1418e26090800000000000000
+      internalID: -8042610811418483197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00002
+      name: Exporter Jelly Injured_00002
       rect:
         serializedVersion: 2
         x: 1
-        y: 1484
-        width: 590
-        height: 563
+        y: 1500
+        width: 579
+        height: 547
       alignment: 9
-      pivot: {x: 1.6525424, y: -0.39964476}
+      pivot: {x: 0.6018998, y: 0.6042048}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96cb43b391b70aa50800000000000000
-      internalID: 6530354807984929897
+      spriteID: 67413f7d0872781f0800000000000000
+      internalID: -1042821354380651402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00003
+      name: Exporter Jelly Injured_00003
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 1478
-        width: 546
-        height: 569
+        x: 1143
+        y: 1492
+        width: 545
+        height: 555
       alignment: 9
-      pivot: {x: 1.7399267, y: -0.38664323}
+      pivot: {x: 0.60458714, y: 0.6045045}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 440fc66b8c5479080800000000000000
-      internalID: -9180792587015098300
+      spriteID: 72d302d04d22e98e0800000000000000
+      internalID: -1684870916441359065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00004
+      name: Exporter Jelly Injured_00004
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 951
+        width: 481
+        height: 539
+      alignment: 9
+      pivot: {x: 0.5956341, y: 0.62059367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308fb8a16c2297ab0800000000000000
+      internalID: -5009934876228716541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Injured_00005
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 612
+        width: 468
+        height: 467
+      alignment: 9
+      pivot: {x: 0.51816237, y: 0.63704497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fe33cc0c8000890800000000000000
+      internalID: -7493980155791806670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Injured_00006
       rect:
         serializedVersion: 2
         x: 1
-        y: 930
-        width: 499
-        height: 552
+        y: 1079
+        width: 489
+        height: 419
       alignment: 9
-      pivot: {x: 1.8356713, y: -0.39492753}
+      pivot: {x: 0.5654397, y: 0.6360382}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3c27bd1565f3b840800000000000000
-      internalID: 5238800606201064506
+      spriteID: bc015c3605d5955d0800000000000000
+      internalID: -3073322670851026741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00005
+      name: Exporter Jelly Injured_00007
       rect:
         serializedVersion: 2
-        x: 1
-        y: 442
-        width: 483
-        height: 486
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.7971015, y: -0.5123457}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 820ce590cc28fcca0800000000000000
-      internalID: -5994428766164697048
+      spriteID: 184e75bc5303ae820800000000000000
+      internalID: 2948221913670345857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00006
+      name: Exporter Jelly Injured_00008
       rect:
         serializedVersion: 2
-        x: 1
-        y: 9
-        width: 499
-        height: 431
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8156313, y: -0.67053366}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3994332040ebce520800000000000000
-      internalID: 2732767998333110675
+      spriteID: 4bfec35d73d2c8890800000000000000
+      internalID: -7454533565381021772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00007
+      name: Exporter Jelly Injured_00009
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40966727bf1a715c0800000000000000
-      internalID: -4244746022444177148
+      spriteID: d1db2d54aa464ea40800000000000000
+      internalID: 5396548935975353629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00008
+      name: Exporter Jelly Injured_00010
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e16954cf435bbb8d0800000000000000
-      internalID: -2829468701696879074
+      spriteID: 47ccf3cc778042440800000000000000
+      internalID: 4910058804361546868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00009
+      name: Exporter Jelly Injured_00011
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acb691d5da24c7570800000000000000
-      internalID: 8465714711908412362
+      spriteID: bec71ac73d9e15e30800000000000000
+      internalID: 4490627398003424491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00010
+      name: Exporter Jelly Injured_00012
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4eb876887e18d9f0800000000000000
-      internalID: -443571060295025077
+      spriteID: b42003db763d9a680800000000000000
+      internalID: -8743224759053974965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00011
+      name: Exporter Jelly Injured_00013
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ab8494ca623a0ec0800000000000000
-      internalID: -3600009517983298654
+      spriteID: b6743f19e4a18f330800000000000000
+      internalID: 3744772014916978539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00012
+      name: Exporter Jelly Injured_00014
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd3de82ffb58a1f60800000000000000
-      internalID: 8005858347059172315
+      spriteID: f9eae7bd9382ded60800000000000000
+      internalID: 7921031548575329951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00013
+      name: Exporter Jelly Injured_00015
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45fa4f1b5b0213020800000000000000
-      internalID: 2319671247819288404
+      spriteID: 0ae4e7856df90d430800000000000000
+      internalID: 3805717428084559520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JellyInjured_00014
+      name: Exporter Jelly Injured_00016
       rect:
         serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
+        x: 1564
+        y: 1081
+        width: 481
+        height: 409
       alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
+      pivot: {x: 0.55613303, y: 0.6271394}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22d5a71939b6065b0800000000000000
-      internalID: -5377179673535292126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JellyInjured_00015
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
-      alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7303f209545dca7b0800000000000000
-      internalID: -5211556174026035145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JellyInjured_00016
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 510
-        width: 493
-        height: 418
-      alignment: 9
-      pivot: {x: 1.8133874, y: -0.7200957}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cfd229c0a0a29cf0800000000000000
-      internalID: -246958417122238522
+      spriteID: 2c8726ab83c4e5e00800000000000000
+      internalID: 1035348770870687938
       vertices: []
       indices: 
       edges: []

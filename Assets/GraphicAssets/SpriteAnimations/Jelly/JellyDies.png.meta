@@ -1,58 +1,58 @@
 fileFormatVersion: 2
-guid: c0ae00e2fb9e54ebb809809b75bbd02b
+guid: 28734cd2c96a34ea0bdb17f6ee432208
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6108510857594638284
-    second: jellyDies_00000
+      213: 3087398205327182605
+    second: Exporter Jelly Dies_00000
   - first:
-      213: -8348973097776164836
-    second: jellyDies_00001
+      213: 4640073550096799489
+    second: Exporter Jelly Dies_00001
   - first:
-      213: 4250926215985801782
-    second: jellyDies_00002
+      213: 4888166982373549251
+    second: Exporter Jelly Dies_00002
   - first:
-      213: -4713744480653743640
-    second: jellyDies_00003
+      213: 7445874154580663430
+    second: Exporter Jelly Dies_00003
   - first:
-      213: -769642076847428659
-    second: jellyDies_00004
+      213: 8274606512224862000
+    second: Exporter Jelly Dies_00004
   - first:
-      213: 3709563785727113752
-    second: jellyDies_00005
+      213: -5104314624432144709
+    second: Exporter Jelly Dies_00005
   - first:
-      213: 755325329692358101
-    second: jellyDies_00006
+      213: -5111069000416889427
+    second: Exporter Jelly Dies_00006
   - first:
-      213: -5465674073045182964
-    second: jellyDies_00007
+      213: 1710605791500050345
+    second: Exporter Jelly Dies_00007
   - first:
-      213: 4687677678573314812
-    second: jellyDies_00008
+      213: 8465551944723791704
+    second: Exporter Jelly Dies_00008
   - first:
-      213: 5755358067184576759
-    second: jellyDies_00009
+      213: 8968158027662578114
+    second: Exporter Jelly Dies_00009
   - first:
-      213: 2884294161524545624
-    second: jellyDies_00010
+      213: 8627685472089712993
+    second: Exporter Jelly Dies_00010
   - first:
-      213: -7483584759167031672
-    second: jellyDies_00011
+      213: 1324216070819595477
+    second: Exporter Jelly Dies_00011
   - first:
-      213: 4611799148273422490
-    second: jellyDies_00012
+      213: 3845775365116431669
+    second: Exporter Jelly Dies_00012
   - first:
-      213: 205185331489227963
-    second: jellyDies_00013
+      213: -4669189901760450938
+    second: Exporter Jelly Dies_00013
   - first:
-      213: 6447526634041209040
-    second: jellyDies_00014
+      213: 5256198160030694092
+    second: Exporter Jelly Dies_00014
   - first:
-      213: 3125401724529108383
-    second: jellyDies_00015
+      213: 850420278589270720
+    second: Exporter Jelly Dies_00015
   - first:
-      213: -6891396800520484508
-    second: jellyDies_00016
+      213: 2624035328948871101
+    second: Exporter Jelly Dies_00016
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -93,7 +93,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,358 +126,358 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jellyDies_00000
+      name: Exporter Jelly Dies_00000
       rect:
         serializedVersion: 2
-        x: 1433
-        y: 1075
-        width: 511
-        height: 439
+        x: 1418
+        y: 1099
+        width: 498
+        height: 430
       alignment: 9
-      pivot: {x: 0.5146771, y: -0.67425966}
+      pivot: {x: 0.5552209, y: 0.6034884}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccf8b8db24ac5c450800000000000000
-      internalID: 6108510857594638284
+      spriteID: d0b84bc5f44a8da20800000000000000
+      internalID: 3087398205327182605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00001
+      name: Exporter Jelly Dies_00001
       rect:
         serializedVersion: 2
-        x: 1433
-        y: 1516
-        width: 591
-        height: 531
+        x: 1418
+        y: 1531
+        width: 582
+        height: 516
       alignment: 9
-      pivot: {x: 0.58714044, y: -0.47834274}
+      pivot: {x: 0.61426115, y: 0.5746124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1052cbc33d722c80800000000000000
-      internalID: -8348973097776164836
+      spriteID: 10794354f4ad46040800000000000000
+      internalID: 4640073550096799489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00002
+      name: Exporter Jelly Dies_00002
       rect:
         serializedVersion: 2
-        x: 733
-        y: 896
-        width: 649
-        height: 545
+        x: 723
+        y: 915
+        width: 644
+        height: 540
       alignment: 9
-      pivot: {x: 0.577812, y: -0.43486238}
+      pivot: {x: 0.60481364, y: 0.5842593}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63aaa3efed25efa30800000000000000
-      internalID: 4250926215985801782
+      spriteID: 3c42b2bc8f146d340800000000000000
+      internalID: 4888166982373549251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00003
+      name: Exporter Jelly Dies_00003
       rect:
         serializedVersion: 2
-        x: 733
-        y: 1443
-        width: 698
-        height: 604
+        x: 723
+        y: 1457
+        width: 693
+        height: 590
       alignment: 9
-      pivot: {x: 0.5573066, y: -0.34602648}
+      pivot: {x: 0.58802307, y: 0.5838983}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e9ecac8e5a659eb0800000000000000
-      internalID: -4713744480653743640
+      spriteID: 68cda0af71f055760800000000000000
+      internalID: 7445874154580663430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00004
+      name: Exporter Jelly Dies_00004
       rect:
         serializedVersion: 2
         x: 1
-        y: 1416
-        width: 730
-        height: 631
+        y: 1449
+        width: 720
+        height: 598
       alignment: 9
-      pivot: {x: 0.55342466, y: -0.31378764}
+      pivot: {x: 0.58125, y: 0.57608694}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcba05ddb9ea155f0800000000000000
-      internalID: -769642076847428659
+      spriteID: 03ffb4938ce45d270800000000000000
+      internalID: 8274606512224862000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00005
+      name: Exporter Jelly Dies_00005
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81afae7eb940b7330800000000000000
-      internalID: 3709563785727113752
+      spriteID: bbef3e494e4d929b0800000000000000
+      internalID: -5104314624432144709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00006
+      name: Exporter Jelly Dies_00006
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d5fa2ea2647b7a00800000000000000
-      internalID: 755325329692358101
+      spriteID: da5f3afd2d5d119b0800000000000000
+      internalID: -5111069000416889427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00007
+      name: Exporter Jelly Dies_00007
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c06541293660624b0800000000000000
-      internalID: -5465674073045182964
+      spriteID: 9af161977ea4db710800000000000000
+      internalID: 1710605791500050345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00008
+      name: Exporter Jelly Dies_00008
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf2e3e4230afd0140800000000000000
-      internalID: 4687677678573314812
+      spriteID: 85ff0ec24aeab7570800000000000000
+      internalID: 8465551944723791704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00009
+      name: Exporter Jelly Dies_00009
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f827bd3ba32fdf40800000000000000
-      internalID: 5755358067184576759
+      spriteID: 2c15568f53c457c70800000000000000
+      internalID: 8968158027662578114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00010
+      name: Exporter Jelly Dies_00010
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 858576d1242170820800000000000000
-      internalID: 2884294161524545624
+      spriteID: 169a4b5b932bbb770800000000000000
+      internalID: 8627685472089712993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00011
+      name: Exporter Jelly Dies_00011
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 886625faf47f42890800000000000000
-      internalID: -7483584759167031672
+      spriteID: 5d4c01b108f806210800000000000000
+      internalID: 1324216070819595477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00012
+      name: Exporter Jelly Dies_00012
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a90594814e6600040800000000000000
-      internalID: 4611799148273422490
+      spriteID: 53d86bb9150fe5530800000000000000
+      internalID: 3845775365116431669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00013
+      name: Exporter Jelly Dies_00013
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb4498cc8f6f8d200800000000000000
-      internalID: 205185331489227963
+      spriteID: 68e2ab4d584b33fb0800000000000000
+      internalID: -4669189901760450938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00014
+      name: Exporter Jelly Dies_00014
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d075ed20573a7950800000000000000
-      internalID: 6447526634041209040
+      spriteID: ccaf0b5c064c1f840800000000000000
+      internalID: 5256198160030694092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00015
+      name: Exporter Jelly Dies_00015
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9563f23f48af5b20800000000000000
-      internalID: 3125401724529108383
+      spriteID: 0ca2a17dcbc4dcb00800000000000000
+      internalID: 850420278589270720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jellyDies_00016
+      name: Exporter Jelly Dies_00016
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1342
-        width: 90
-        height: 172
+        x: 1918
+        y: 1370
+        width: 75
+        height: 159
       alignment: 9
-      pivot: {x: -1.4444444, y: -1.9883721}
+      pivot: {x: -1.6066667, y: 1.2861636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46986b24f17dc50a0800000000000000
-      internalID: -6891396800520484508
+      spriteID: dbf921c9a327a6420800000000000000
+      internalID: 2624035328948871101
       vertices: []
       indices: 
       edges: []

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 4663cbb8865654138ae7c43df9494925
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Eklekt
+  fontNames:
+  - Eklekt
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 116751b756c894e578cd8d4a97088c55, type: 3}
+  - {fileID: 12800000, guid: f2050de7627224d1b93332aaa327574f, type: 3}
+  - {fileID: 12800000, guid: 4c1d415914b4e45fc92e07ed23a645c0, type: 3}
+  - {fileID: 12800000, guid: df0fc69913d0a45ef92a916f9b7de56c, type: 3}
+  - {fileID: 12800000, guid: 9f805a8e51c5b4bbf9f26e0e6a36c967, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
