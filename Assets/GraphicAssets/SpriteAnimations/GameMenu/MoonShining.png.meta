@@ -1,0 +1,2492 @@
+fileFormatVersion: 2
+guid: 368a1532eddba4a61ac357443637fc1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4239532675237079799
+    second: Moon_00000
+  - first:
+      213: 8738880217518014396
+    second: Moon_00001
+  - first:
+      213: 8864868947538180451
+    second: Moon_00002
+  - first:
+      213: 4023745657022431806
+    second: Moon_00003
+  - first:
+      213: -2721919687664072748
+    second: Moon_00004
+  - first:
+      213: -4766331965114445432
+    second: Moon_00005
+  - first:
+      213: 2693399947729102731
+    second: Moon_00006
+  - first:
+      213: 3225376376545411082
+    second: Moon_00007
+  - first:
+      213: 1845469371705624552
+    second: Moon_00008
+  - first:
+      213: 4642686577670776183
+    second: Moon_00009
+  - first:
+      213: 1955028873445369446
+    second: Moon_00010
+  - first:
+      213: -2866337487133573752
+    second: Moon_00011
+  - first:
+      213: -960735445135740782
+    second: Moon_00012
+  - first:
+      213: -6212679546914365984
+    second: Moon_00013
+  - first:
+      213: 4648480593042748592
+    second: Moon_00014
+  - first:
+      213: 9160574060330718606
+    second: Moon_00015
+  - first:
+      213: -6735986293971881746
+    second: Moon_00016
+  - first:
+      213: -3178484361269507653
+    second: Moon_00017
+  - first:
+      213: -5829377978165973181
+    second: Moon_00018
+  - first:
+      213: -5102648113868512984
+    second: Moon_00019
+  - first:
+      213: 6552095604649671962
+    second: Moon_00020
+  - first:
+      213: 3592152454928663185
+    second: Moon_00021
+  - first:
+      213: 1942867932197117468
+    second: Moon_00022
+  - first:
+      213: 1536258757960895238
+    second: Moon_00023
+  - first:
+      213: -5057923046754612106
+    second: Moon_00024
+  - first:
+      213: 2441382326508512019
+    second: Moon_00025
+  - first:
+      213: 8245663196723041704
+    second: Moon_00026
+  - first:
+      213: -45490474917689639
+    second: Moon_00027
+  - first:
+      213: 5998594743578619908
+    second: Moon_00028
+  - first:
+      213: -5755801796341242853
+    second: Moon_00029
+  - first:
+      213: -3973886926504953554
+    second: Moon_00030
+  - first:
+      213: 6914080261564123406
+    second: Moon_00031
+  - first:
+      213: -7926063099080112045
+    second: Moon_00032
+  - first:
+      213: 3133999323166276377
+    second: Moon_00033
+  - first:
+      213: -4053955035217616487
+    second: Moon_00034
+  - first:
+      213: 7356193673161338065
+    second: Moon_00035
+  - first:
+      213: -6328903278500247237
+    second: Moon_00036
+  - first:
+      213: 8647888703226220489
+    second: Moon_00037
+  - first:
+      213: 7049972681501465757
+    second: Moon_00038
+  - first:
+      213: 340673406556263759
+    second: Moon_00039
+  - first:
+      213: -3166042745371582704
+    second: Moon_00040
+  - first:
+      213: 4008283053693042525
+    second: Moon_00041
+  - first:
+      213: 285410709700018939
+    second: Moon_00042
+  - first:
+      213: -6771117583454353950
+    second: Moon_00043
+  - first:
+      213: -1299352557486251209
+    second: Moon_00044
+  - first:
+      213: -5619712801416689800
+    second: Moon_00045
+  - first:
+      213: -4891898909137093827
+    second: Moon_00046
+  - first:
+      213: 3371024500710579358
+    second: Moon_00047
+  - first:
+      213: -1382665014043649022
+    second: Moon_00048
+  - first:
+      213: 1732387333556223517
+    second: Moon_00049
+  - first:
+      213: 1347400406636453678
+    second: Moon_00050
+  - first:
+      213: 8241532112279844949
+    second: Moon_00051
+  - first:
+      213: 6196916219233025971
+    second: Moon_00052
+  - first:
+      213: 2863374849023224077
+    second: Moon_00053
+  - first:
+      213: -1979118887128944840
+    second: Moon_00054
+  - first:
+      213: 7502711608293972007
+    second: Moon_00055
+  - first:
+      213: -1827549229197184469
+    second: Moon_00056
+  - first:
+      213: 6807222673112056651
+    second: Moon_00057
+  - first:
+      213: -4107433100602301283
+    second: Moon_00058
+  - first:
+      213: 1428349655346641772
+    second: Moon_00059
+  - first:
+      213: 6674940483456541645
+    second: Moon_00060
+  - first:
+      213: 3459272274754277494
+    second: Moon_00061
+  - first:
+      213: 1177790864453564543
+    second: Moon_00062
+  - first:
+      213: 132464516903154387
+    second: Moon_00063
+  - first:
+      213: 7231424024089564465
+    second: Moon_00064
+  - first:
+      213: -4017560455162513119
+    second: Moon_00065
+  - first:
+      213: -1390337991137391959
+    second: Moon_00066
+  - first:
+      213: 3813635718161515698
+    second: Moon_00067
+  - first:
+      213: 6407762740477516219
+    second: Moon_00068
+  - first:
+      213: -6888720525645552130
+    second: Moon_00069
+  - first:
+      213: 4006093632683359688
+    second: Moon_00070
+  - first:
+      213: -1186440847541606998
+    second: Moon_00071
+  - first:
+      213: -2781347819196194235
+    second: Moon_00072
+  - first:
+      213: 7746753213351354390
+    second: Moon_00073
+  - first:
+      213: 3339510389831833154
+    second: Moon_00074
+  - first:
+      213: -5048817556534173150
+    second: Moon_00075
+  - first:
+      213: -4130050005645048954
+    second: Moon_00076
+  - first:
+      213: -3863051255324965820
+    second: Moon_00077
+  - first:
+      213: 5143661367969608533
+    second: Moon_00078
+  - first:
+      213: -7445073095557117921
+    second: Moon_00079
+  - first:
+      213: 1543737195914043815
+    second: Moon_00080
+  - first:
+      213: 2034765984952212286
+    second: Moon_00081
+  - first:
+      213: -4994085214021672498
+    second: Moon_00082
+  - first:
+      213: 6008673616673693346
+    second: Moon_00083
+  - first:
+      213: 738351050742969113
+    second: Moon_00084
+  - first:
+      213: 2604315706017158629
+    second: Moon_00085
+  - first:
+      213: -7626107758431553855
+    second: Moon_00086
+  - first:
+      213: 1841111916333934792
+    second: Moon_00087
+  - first:
+      213: 8559160244430197649
+    second: Moon_00088
+  - first:
+      213: 5651978682827571630
+    second: Moon_00089
+  - first:
+      213: -8927293041855136193
+    second: Moon_00090
+  - first:
+      213: -251320508864558434
+    second: Moon_00091
+  - first:
+      213: -4559018452952346351
+    second: Moon_00092
+  - first:
+      213: -3747554571616643591
+    second: Moon_00093
+  - first:
+      213: 4444622065091137546
+    second: Moon_00094
+  - first:
+      213: 694850545894139827
+    second: Moon_00095
+  - first:
+      213: 5596346772301715287
+    second: Moon_00096
+  - first:
+      213: 525974456645754085
+    second: Moon_00097
+  - first:
+      213: 6077451905114973337
+    second: Moon_00098
+  - first:
+      213: -1123275101302625827
+    second: Moon_00099
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Moon_00000
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 316
+        width: 148
+        height: 175
+      alignment: 9
+      pivot: {x: 0.4391892, y: -0.08571429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faea219188d5da30800000000000000
+      internalID: 4239532675237079799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00001
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 507
+        width: 146
+        height: 180
+      alignment: 9
+      pivot: {x: 0.44520548, y: -0.055555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf79dbd14db64970800000000000000
+      internalID: 8738880217518014396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 140
+        width: 147
+        height: 175
+      alignment: 9
+      pivot: {x: 0.44217688, y: -0.057142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3697766f657560b70800000000000000
+      internalID: 8864868947538180451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00003
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 516
+        width: 157
+        height: 178
+      alignment: 9
+      pivot: {x: 0.4713376, y: -0.039325844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32c7593b5737d730800000000000000
+      internalID: 4023745657022431806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00004
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 336
+        width: 142
+        height: 171
+      alignment: 9
+      pivot: {x: 0.45070422, y: -0.0877193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d704a5277cc93ad0800000000000000
+      internalID: -2721919687664072748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 694
+        width: 163
+        height: 186
+      alignment: 9
+      pivot: {x: 0.48466256, y: -0.043010753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88193c1b4569addb0800000000000000
+      internalID: -4766331965114445432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00006
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 509
+        width: 143
+        height: 177
+      alignment: 9
+      pivot: {x: 0.44755244, y: -0.056497175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87e2727bf0e06520800000000000000
+      internalID: 2693399947729102731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 507
+        width: 158
+        height: 185
+      alignment: 9
+      pivot: {x: 0.48101267, y: -0.048648648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a000de6c9b6d2cc20800000000000000
+      internalID: 3225376376545411082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00008
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 330
+        width: 146
+        height: 179
+      alignment: 9
+      pivot: {x: 0.44520548, y: -0.061452515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e78068ad9c6c9910800000000000000
+      internalID: 1845469371705624552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00009
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 334
+        width: 148
+        height: 180
+      alignment: 9
+      pivot: {x: 0.4864865, y: -0.044444446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7756a8928d22e6040800000000000000
+      internalID: 4642686577670776183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00010
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 888
+        width: 163
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4785276, y: -0.038674034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666e757f668a12b10800000000000000
+      internalID: 1955028873445369446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00011
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 511
+        width: 150
+        height: 181
+      alignment: 9
+      pivot: {x: 0.44, y: -0.06629834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d7401fd39b838d0800000000000000
+      internalID: -2866337487133573752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00012
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 148
+        width: 143
+        height: 184
+      alignment: 9
+      pivot: {x: 0.46153846, y: -0.038043477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290be8de338caa2f0800000000000000
+      internalID: -960735445135740782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00013
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 135
+        width: 143
+        height: 179
+      alignment: 9
+      pivot: {x: 0.45454547, y: -0.05586592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed95d64ed028c9a0800000000000000
+      internalID: -6212679546914365984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00014
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 694
+        width: 157
+        height: 184
+      alignment: 9
+      pivot: {x: 0.477707, y: -0.038043477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b43c9d7878b28040800000000000000
+      internalID: 4648480593042748592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00015
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 688
+        width: 165
+        height: 189
+      alignment: 9
+      pivot: {x: 0.4848485, y: -0.01058201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e859ba4b295e02f70800000000000000
+      internalID: 9160574060330718606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00016
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 696
+        width: 162
+        height: 190
+      alignment: 9
+      pivot: {x: 0.4814815, y: -0.015789473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0f7e78728f482a0800000000000000
+      internalID: -6735986293971881746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00017
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 493
+        width: 154
+        height: 187
+      alignment: 9
+      pivot: {x: 0.42857143, y: -0.026737968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb985625051c3e3d0800000000000000
+      internalID: -3178484361269507653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 882
+        width: 169
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49112427, y: -0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34faeed3d93e91fa0800000000000000
+      internalID: -5829377978165973181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 317
+        width: 152
+        height: 188
+      alignment: 9
+      pivot: {x: 0.45394737, y: -0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821ec0f4390cf29b0800000000000000
+      internalID: -5102648113868512984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00020
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1076
+        width: 169
+        height: 188
+      alignment: 9
+      pivot: {x: 0.46745563, y: -0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dba89ec38bdea50800000000000000
+      internalID: 6552095604649671962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00021
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 689
+        width: 151
+        height: 185
+      alignment: 9
+      pivot: {x: 0.45695364, y: -0.043243244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192021f20a3e9d130800000000000000
+      internalID: 3592152454928663185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00022
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 682
+        width: 161
+        height: 191
+      alignment: 9
+      pivot: {x: 0.4409938, y: -0.015706806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e5b10371476fa10800000000000000
+      internalID: 1942867932197117468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00023
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 879
+        width: 167
+        height: 190
+      alignment: 9
+      pivot: {x: 0.46706587, y: -0.021052632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b875f6333e15510800000000000000
+      internalID: 1536258757960895238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00024
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1071
+        width: 168
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4702381, y: -0.010416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c0ee879c5aec9b0800000000000000
+      internalID: -5057923046754612106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00025
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1266
+        width: 172
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4883721, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313e47c7a4881e120800000000000000
+      internalID: 2441382326508512019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00026
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1462
+        width: 176
+        height: 193
+      alignment: 9
+      pivot: {x: 0.48295453, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a550327dfa7e6270800000000000000
+      internalID: 8245663196723041704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00027
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 875
+        width: 163
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43558282, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d60ed177a26e5ff0800000000000000
+      internalID: -45490474917689639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1072
+        width: 170
+        height: 191
+      alignment: 9
+      pivot: {x: 0.4882353, y: -0.015706806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400778a232a4f3350800000000000000
+      internalID: 5998594743578619908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00029
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1071
+        width: 170
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4882353, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14668303c84f10b0800000000000000
+      internalID: -5755801796341242853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00030
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1267
+        width: 174
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4770115, y: -0.010416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e297a1815eae9d8c0800000000000000
+      internalID: -3973886926504953554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00031
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 876
+        width: 167
+        height: 193
+      alignment: 9
+      pivot: {x: 0.44311377, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09c1139d5fb3ff50800000000000000
+      internalID: 6914080261564123406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00032
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 880
+        width: 167
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4491018, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3588ffffa97f00290800000000000000
+      internalID: -7926063099080112045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00033
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1461
+        width: 175
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf3af97c33e7b20800000000000000
+      internalID: 3133999323166276377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00034
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1657
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991a27ecf557db7c0800000000000000
+      internalID: -4053955035217616487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00035
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1266
+        width: 174
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43678162, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dce1c3cb23761660800000000000000
+      internalID: 7356193673161338065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00036
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1853
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.45901638, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39003b00083b28a0800000000000000
+      internalID: -6328903278500247237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00037
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1071
+        width: 173
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43930635, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf89e405f8730870800000000000000
+      internalID: 8647888703226220489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00038
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1461
+        width: 176
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4431818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c5a1d2dc886d160800000000000000
+      internalID: 7049972681501465757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00039
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1461
+        width: 178
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43820226, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45553688a05ab400800000000000000
+      internalID: 340673406556263759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1265
+        width: 173
+        height: 194
+      alignment: 9
+      pivot: {x: 0.44508672, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f9c62c5e4ff04d0800000000000000
+      internalID: -3166042745371582704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00041
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1853
+        width: 187
+        height: 194
+      alignment: 9
+      pivot: {x: 0.46524063, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f7796533840a730800000000000000
+      internalID: 4008283053693042525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00042
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1265
+        width: 171
+        height: 194
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf203ce378bf5f300800000000000000
+      internalID: 285410709700018939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00043
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1657
+        width: 181
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48618785, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e54dc9ce682802a0800000000000000
+      internalID: -6771117583454353950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00044
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1853
+        width: 190
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47894737, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7336905bbb5c7fde0800000000000000
+      internalID: -1299352557486251209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1853
+        width: 199
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877c7db4bf4c202b0800000000000000
+      internalID: -5619712801416689800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1657
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43715847, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b33cb4cdb7c1cb0800000000000000
+      internalID: -4891898909137093827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00047
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1853
+        width: 196
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4744898, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c1ef54ce848ce20800000000000000
+      internalID: 3371024500710579358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00048
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1657
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c5192de79cfcce0800000000000000
+      internalID: -1382665014043649022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00049
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1657
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e310ee91daa0810800000000000000
+      internalID: 1732387333556223517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1461
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f58cfe78de2b210800000000000000
+      internalID: 1347400406636453678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00051
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1657
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5583a656acdcf5270800000000000000
+      internalID: 8241532112279844949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00052
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1657
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfbd3ef77edff550800000000000000
+      internalID: 6196916219233025971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00053
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1853
+        width: 196
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4744898, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0921de1140ccb720800000000000000
+      internalID: 2863374849023224077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00054
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1657
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43715847, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fa964abd1c884e0800000000000000
+      internalID: -1979118887128944840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00055
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1853
+        width: 199
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49748743, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728df88e47cfe1860800000000000000
+      internalID: 7502711608293972007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00056
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1853
+        width: 190
+        height: 194
+      alignment: 9
+      pivot: {x: 0.47894737, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22b928a8ad33a6e0800000000000000
+      internalID: -1827549229197184469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00057
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1657
+        width: 181
+        height: 194
+      alignment: 9
+      pivot: {x: 0.48618785, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4344d974fc187e50800000000000000
+      internalID: 6807222673112056651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00058
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1265
+        width: 171
+        height: 194
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d942beb6b577ff6c0800000000000000
+      internalID: -4107433100602301283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00059
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1853
+        width: 187
+        height: 194
+      alignment: 9
+      pivot: {x: 0.46524063, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bfcfd917482d310800000000000000
+      internalID: 1428349655346641772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00060
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1265
+        width: 173
+        height: 194
+      alignment: 9
+      pivot: {x: 0.44508672, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc32d4d110722ac50800000000000000
+      internalID: 6674940483456541645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00061
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1461
+        width: 178
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43820226, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670161e4ecdc10030800000000000000
+      internalID: 3459272274754277494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00062
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1461
+        width: 176
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4431818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78747f0d8a585010800000000000000
+      internalID: 1177790864453564543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00063
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1071
+        width: 173
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43930635, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d23b5bb6cb96d100800000000000000
+      internalID: 132464516903154387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00064
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1853
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.45901638, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135951016dd2b5460800000000000000
+      internalID: 7231424024089564465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00065
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1266
+        width: 174
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43678162, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129b16e4d02ce38c0800000000000000
+      internalID: -4017560455162513119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00066
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1657
+        width: 180
+        height: 194
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa8680a6f684bce0800000000000000
+      internalID: -1390337991137391959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00067
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1461
+        width: 175
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b442cbea71cce430800000000000000
+      internalID: 3813635718161515698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00068
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 880
+        width: 167
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4491018, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9552f3342fce850800000000000000
+      internalID: 6407762740477516219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00069
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 876
+        width: 167
+        height: 193
+      alignment: 9
+      pivot: {x: 0.44311377, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef564ff0e295660a0800000000000000
+      internalID: -6888720525645552130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00070
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1267
+        width: 174
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4770115, y: -0.010416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdbb090fe0889730800000000000000
+      internalID: 4006093632683359688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00071
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1071
+        width: 170
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4882353, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5e44fc55ae88fe0800000000000000
+      internalID: -1186440847541606998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00072
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1072
+        width: 170
+        height: 191
+      alignment: 9
+      pivot: {x: 0.4882353, y: -0.015706806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542e00805eaa669d0800000000000000
+      internalID: -2781347819196194235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00073
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 875
+        width: 163
+        height: 194
+      alignment: 9
+      pivot: {x: 0.43558282, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6106c64e00ff18b60800000000000000
+      internalID: 7746753213351354390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00074
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1462
+        width: 176
+        height: 193
+      alignment: 9
+      pivot: {x: 0.48295453, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24617ad8103585e20800000000000000
+      internalID: 3339510389831833154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00075
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1266
+        width: 172
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4883721, y: -0.005181347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222660f9e2ffee9b0800000000000000
+      internalID: -5048817556534173150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00076
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1071
+        width: 168
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4702381, y: -0.010416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6834decd66d1fa6c0800000000000000
+      internalID: -4130050005645048954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00077
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 879
+        width: 167
+        height: 190
+      alignment: 9
+      pivot: {x: 0.46706587, y: -0.021052632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4448a31c95fa36ac0800000000000000
+      internalID: -3863051255324965820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00078
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 682
+        width: 161
+        height: 191
+      alignment: 9
+      pivot: {x: 0.4409938, y: -0.015706806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5537aba03c4f16740800000000000000
+      internalID: 5143661367969608533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00079
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 689
+        width: 151
+        height: 185
+      alignment: 9
+      pivot: {x: 0.45695364, y: -0.043243244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18008c1779cda890800000000000000
+      internalID: -7445073095557117921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00080
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1076
+        width: 169
+        height: 188
+      alignment: 9
+      pivot: {x: 0.46745563, y: -0.031914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1a305fcc47c6510800000000000000
+      internalID: 1543737195914043815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00081
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 317
+        width: 152
+        height: 188
+      alignment: 9
+      pivot: {x: 0.45394737, y: -0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bdf16f1e0fc3c10800000000000000
+      internalID: 2034765984952212286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00082
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 882
+        width: 169
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49112427, y: -0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1253825f171bab0800000000000000
+      internalID: -4994085214021672498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00083
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 493
+        width: 154
+        height: 187
+      alignment: 9
+      pivot: {x: 0.42857143, y: -0.026737968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aed81da1d8136350800000000000000
+      internalID: 6008673616673693346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00084
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 696
+        width: 162
+        height: 190
+      alignment: 9
+      pivot: {x: 0.4814815, y: -0.015789473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91332136e562f3a00800000000000000
+      internalID: 738351050742969113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00085
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 688
+        width: 165
+        height: 189
+      alignment: 9
+      pivot: {x: 0.4848485, y: -0.01058201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e59f1c1653642420800000000000000
+      internalID: 2604315706017158629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00086
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 694
+        width: 157
+        height: 184
+      alignment: 9
+      pivot: {x: 0.477707, y: -0.038043477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c636d7066f9a2690800000000000000
+      internalID: -7626107758431553855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00087
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 135
+        width: 143
+        height: 179
+      alignment: 9
+      pivot: {x: 0.45454547, y: -0.05586592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8a2d48881fc8910800000000000000
+      internalID: 1841111916333934792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00088
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 148
+        width: 143
+        height: 184
+      alignment: 9
+      pivot: {x: 0.46153846, y: -0.038043477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19358e8d4ee38c670800000000000000
+      internalID: 8559160244430197649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00089
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 511
+        width: 150
+        height: 181
+      alignment: 9
+      pivot: {x: 0.44, y: -0.06629834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea18404aaacdf6e40800000000000000
+      internalID: 5651978682827571630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00090
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 888
+        width: 163
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4785276, y: -0.038674034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e786af642eb1480800000000000000
+      internalID: -8927293041855136193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00091
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 334
+        width: 148
+        height: 180
+      alignment: 9
+      pivot: {x: 0.4864865, y: -0.044444446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a8b582451238cf0800000000000000
+      internalID: -251320508864558434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00092
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 330
+        width: 146
+        height: 179
+      alignment: 9
+      pivot: {x: 0.44520548, y: -0.061452515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111135b2fdc1bb0c0800000000000000
+      internalID: -4559018452952346351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00093
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 507
+        width: 158
+        height: 185
+      alignment: 9
+      pivot: {x: 0.48101267, y: -0.048648648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f51666f8f20efbc0800000000000000
+      internalID: -3747554571616643591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00094
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 509
+        width: 143
+        height: 177
+      alignment: 9
+      pivot: {x: 0.44755244, y: -0.056497175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00de9638387ead30800000000000000
+      internalID: 4444622065091137546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00095
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 694
+        width: 163
+        height: 186
+      alignment: 9
+      pivot: {x: 0.48466256, y: -0.043010753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7a108d3ea94a900800000000000000
+      internalID: 694850545894139827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00096
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 336
+        width: 142
+        height: 171
+      alignment: 9
+      pivot: {x: 0.45070422, y: -0.0877193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75792fa1db73aad40800000000000000
+      internalID: 5596346772301715287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00097
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 516
+        width: 157
+        height: 178
+      alignment: 9
+      pivot: {x: 0.4713376, y: -0.039325844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec9c494bf2ac4700800000000000000
+      internalID: 525974456645754085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00098
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 140
+        width: 147
+        height: 175
+      alignment: 9
+      pivot: {x: 0.44217688, y: -0.057142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99426e7de42775450800000000000000
+      internalID: 6077451905114973337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Moon_00099
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 507
+        width: 146
+        height: 180
+      alignment: 9
+      pivot: {x: 0.44520548, y: -0.055555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9e0d92f335960f0800000000000000
+      internalID: -1123275101302625827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

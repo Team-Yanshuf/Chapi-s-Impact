@@ -1,82 +1,82 @@
 fileFormatVersion: 2
-guid: 6a8e20296054a40d29a01c1eda7611c5
+guid: 78d4bce9b086d48f8afc7c984ed0d6a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4428169333961260338
-    second: Villian Jelly 2_00000_1
+      213: 3257396624544921176
+    second: Exporter Jelly Crawl_00000
   - first:
-      213: -3397770246409213370
-    second: Villian Jelly 2_00001_1
+      213: -2974703106581787548
+    second: Exporter Jelly Crawl_00001
   - first:
-      213: -3287764375119691998
-    second: Villian Jelly 2_00002_1
+      213: 8470402236249818680
+    second: Exporter Jelly Crawl_00002
   - first:
-      213: 8509718347340385430
-    second: Villian Jelly 2_00003_1
+      213: 1818189590365868758
+    second: Exporter Jelly Crawl_00003
   - first:
-      213: -5003357975065710730
-    second: Villian Jelly 2_00004_1
+      213: 8698553758398486483
+    second: Exporter Jelly Crawl_00004
   - first:
-      213: 4141283958159926418
-    second: Villian Jelly 2_00005_1
+      213: -2243220764339938101
+    second: Exporter Jelly Crawl_00005
   - first:
-      213: -5194453876373004165
-    second: Villian Jelly 2_00006_1
+      213: 6588151207751680229
+    second: Exporter Jelly Crawl_00006
   - first:
-      213: -192649231611712444
-    second: Villian Jelly 2_00007_1
+      213: -6380345905801100573
+    second: Exporter Jelly Crawl_00007
   - first:
-      213: 35608150118048763
-    second: Villian Jelly 2_00008_1
+      213: -107340009909808734
+    second: Exporter Jelly Crawl_00008
   - first:
-      213: -8369426230370417920
-    second: Villian Jelly 2_00009_1
+      213: 6892163147685246259
+    second: Exporter Jelly Crawl_00009
   - first:
-      213: 6155452580120338761
-    second: Villian Jelly 2_00010_1
+      213: 8704804029860056400
+    second: Exporter Jelly Crawl_00010
   - first:
-      213: 4383297818275724649
-    second: Villian Jelly 2_00011_1
+      213: -6453254877653234852
+    second: Exporter Jelly Crawl_00011
   - first:
-      213: -1892537594029783087
-    second: Villian Jelly 2_00012_1
+      213: 4278150042186605461
+    second: Exporter Jelly Crawl_00012
   - first:
-      213: 8358419365242410343
-    second: Villian Jelly 2_00013_1
+      213: 287543416167422356
+    second: Exporter Jelly Crawl_00013
   - first:
-      213: 2751612411641644316
-    second: Villian Jelly 2_00014_1
+      213: 8013365025846611269
+    second: Exporter Jelly Crawl_00014
   - first:
-      213: -6052731157574105972
-    second: Villian Jelly 2_00015_1
+      213: 5418651355947898377
+    second: Exporter Jelly Crawl_00015
   - first:
-      213: 7405136538795885724
-    second: Villian Jelly 2_00016_1
+      213: 2726523282027353069
+    second: Exporter Jelly Crawl_00016
   - first:
-      213: -6502055522667214350
-    second: Villian Jelly 2_00017_1
+      213: 3138521462038160636
+    second: Exporter Jelly Crawl_00017
   - first:
-      213: 7490711632280737765
-    second: Villian Jelly 2_00018_1
+      213: -5129422171853981572
+    second: Exporter Jelly Crawl_00018
   - first:
-      213: -2410180695166422945
-    second: Villian Jelly 2_00019_1
+      213: -5484878410205896733
+    second: Exporter Jelly Crawl_00019
   - first:
-      213: -255587911775622880
-    second: Villian Jelly 2_00020_1
+      213: -8507426024104531281
+    second: Exporter Jelly Crawl_00020
   - first:
-      213: -8371690629121356410
-    second: Villian Jelly 2_00021_1
+      213: 7179086911799731579
+    second: Exporter Jelly Crawl_00021
   - first:
-      213: -2531499701332750601
-    second: Villian Jelly 2_00022_1
+      213: -3174600803310511197
+    second: Exporter Jelly Crawl_00022
   - first:
-      213: -9042746528934563654
-    second: Villian Jelly 2_00023_1
+      213: -2544232112128538403
+    second: Exporter Jelly Crawl_00023
   - first:
-      213: -4515292344941183090
-    second: Villian Jelly 2_00024_1
+      213: 4273977193883496207
+    second: Exporter Jelly Crawl_00024
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,7 +117,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -150,526 +150,526 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Villian Jelly 2_00000_1
+      name: Exporter Jelly Crawl_00000
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 147
+        width: 517
+        height: 438
+      alignment: 9
+      pivot: {x: 0.5502901, y: 0.6152968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8567e8ab8f8943d20800000000000000
+      internalID: 3257396624544921176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00001
       rect:
         serializedVersion: 2
         x: 1
-        y: 550
-        width: 526
-        height: 440
+        y: 151
+        width: 519
+        height: 438
       alignment: 9
-      pivot: {x: 0.50190115, y: -0.6545454}
+      pivot: {x: 0.54816955, y: 0.6152968}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec206f3c37bfb82c0800000000000000
-      internalID: -4428169333961260338
+      spriteID: 46c01f3094bb7b6d0800000000000000
+      internalID: -2974703106581787548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00001_1
+      name: Exporter Jelly Crawl_00002
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 1004
-        width: 529
-        height: 439
+        x: 526
+        y: 1027
+        width: 521
+        height: 438
       alignment: 9
-      pivot: {x: 0.5122873, y: -0.65831435}
+      pivot: {x: 0.5403071, y: 0.6152968}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64a236a86f1b8d0d0800000000000000
-      internalID: -3397770246409213370
+      spriteID: 836485ca4f9ec8570800000000000000
+      internalID: 8470402236249818680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00002_1
+      name: Exporter Jelly Crawl_00003
       rect:
         serializedVersion: 2
-        x: 537
-        y: 556
-        width: 526
-        height: 441
+        x: 535
+        y: 1467
+        width: 527
+        height: 437
       alignment: 9
-      pivot: {x: 0.5, y: -0.6553288}
+      pivot: {x: 0.528463, y: 0.6167048}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22f7ecb58b38f52d0800000000000000
-      internalID: -3287764375119691998
+      spriteID: 6d2121c9cc18b3910800000000000000
+      internalID: 1818189590365868758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00003_1
+      name: Exporter Jelly Crawl_00004
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1470
+        width: 532
+        height: 437
+      alignment: 9
+      pivot: {x: 0.51409775, y: 0.6167048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d71bfc6e8877b870800000000000000
+      internalID: 8698553758398486483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00005
       rect:
         serializedVersion: 2
         x: 1
-        y: 992
-        width: 534
-        height: 440
+        y: 1906
+        width: 537
+        height: 437
       alignment: 9
-      pivot: {x: 0.49250937, y: -0.6545454}
+      pivot: {x: 0.4962756, y: 0.61899316}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69c09df10c7981670800000000000000
-      internalID: 8509718347340385430
+      spriteID: bccdcb4999a7ed0e0800000000000000
+      internalID: -2243220764339938101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00004_1
+      name: Exporter Jelly Crawl_00006
       rect:
         serializedVersion: 2
         x: 1
-        y: 1434
-        width: 540
-        height: 441
+        y: 2345
+        width: 544
+        height: 436
       alignment: 9
-      pivot: {x: 0.48518518, y: -0.6530612}
+      pivot: {x: 0.4788603, y: 0.6204128}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67f271c3e60809ab0800000000000000
-      internalID: -5003357975065710730
+      spriteID: 5e089903e90dd6b50800000000000000
+      internalID: 6588151207751680229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00005_1
+      name: Exporter Jelly Crawl_00007
       rect:
         serializedVersion: 2
-        x: 1118
-        y: 1888
-        width: 553
-        height: 442
+        x: 1112
+        y: 2784
+        width: 549
+        height: 435
       alignment: 9
-      pivot: {x: 0.45931283, y: -0.64932126}
+      pivot: {x: 0.46174863, y: 0.6218391}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 294652881dbc87930800000000000000
-      internalID: 4141283958159926418
+      spriteID: 3e28b9404357477a0800000000000000
+      internalID: -6380345905801100573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00006_1
+      name: Exporter Jelly Crawl_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2783
+        width: 554
+        height: 436
+      alignment: 9
+      pivot: {x: 0.4467509, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1932764d6a28ef0800000000000000
+      internalID: -107340009909808734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3221
+        width: 560
+        height: 436
+      alignment: 9
+      pivot: {x: 0.43660715, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33531d7ddd1e5af50800000000000000
+      internalID: 6892163147685246259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00010
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 3659
+        width: 562
+        height: 436
+      alignment: 9
+      pivot: {x: 0.4297153, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d8237252dadc870800000000000000
+      internalID: 8704804029860056400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3659
+        width: 563
+        height: 436
+      alignment: 9
+      pivot: {x: 0.42717585, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b0c6c21ee6176a0800000000000000
+      internalID: -6453254877653234852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00012
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 3659
+        width: 562
+        height: 436
+      alignment: 9
+      pivot: {x: 0.42793596, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593ea58fbca0f5b30800000000000000
+      internalID: 4278150042186605461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00013
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3221
+        width: 560
+        height: 436
+      alignment: 9
+      pivot: {x: 0.4330357, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499592aa63f8df300800000000000000
+      internalID: 287543416167422356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00014
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 3221
+        width: 558
+        height: 436
+      alignment: 9
+      pivot: {x: 0.43996415, y: 0.6227064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d402dc801353f60800000000000000
+      internalID: 8013365025846611269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00015
       rect:
         serializedVersion: 2
         x: 557
-        y: 1887
-        width: 552
-        height: 439
-      alignment: 9
-      pivot: {x: 0.4456522, y: -0.6514806}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b70e2a888b799e7b0800000000000000
-      internalID: -5194453876373004165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00007_1
-      rect:
-        serializedVersion: 2
-        x: 1131
-        y: 2332
-        width: 555
-        height: 440
-      alignment: 9
-      pivot: {x: 0.42702702, y: -0.6522727}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44c28876b82935df0800000000000000
-      internalID: -192649231611712444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00008_1
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 3213
-        width: 564
-        height: 442
-      alignment: 9
-      pivot: {x: 0.41666666, y: -0.64705884}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf325e28c618e7000800000000000000
-      internalID: 35608150118048763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00009_1
-      rect:
-        serializedVersion: 2
-        x: 567
-        y: 2770
-        width: 562
-        height: 441
-      alignment: 9
-      pivot: {x: 0.4039146, y: -0.6485261}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0034fe4cf23d9db80800000000000000
-      internalID: -8369426230370417920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00010_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 3648
-        width: 575
-        height: 447
-      alignment: 9
-      pivot: {x: 0.39826086, y: -0.6353468}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 941a5d5328f8c6550800000000000000
-      internalID: 6155452580120338761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00011_1
-      rect:
-        serializedVersion: 2
-        x: 1150
-        y: 3655
-        width: 567
-        height: 440
-      alignment: 9
-      pivot: {x: 0.3968254, y: -0.6454545}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96db11b542a94dc30800000000000000
-      internalID: 4383297818275724649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00012_1
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 3657
-        width: 570
-        height: 438
-      alignment: 9
-      pivot: {x: 0.3877193, y: -0.65296805}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d748c7d51b5cb5e0800000000000000
-      internalID: -1892537594029783087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00013_1
-      rect:
-        serializedVersion: 2
-        x: 1144
-        y: 3212
-        width: 563
-        height: 441
-      alignment: 9
-      pivot: {x: 0.40142095, y: -0.6485261}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 765150db0221ff370800000000000000
-      internalID: 8358419365242410343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00014_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 3204
-        width: 564
-        height: 442
-      alignment: 9
-      pivot: {x: 0.40602836, y: -0.64705884}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c15c473e8e0bf2620800000000000000
-      internalID: 2751612411641644316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00015_1
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 2328
-        width: 554
-        height: 440
-      alignment: 9
-      pivot: {x: 0.41516244, y: -0.65}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c844bd7b411600ca0800000000000000
-      internalID: -6052731157574105972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00016_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 2759
-        width: 559
-        height: 443
-      alignment: 9
-      pivot: {x: 0.4293381, y: -0.6455982}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c94c13ca27454c660800000000000000
-      internalID: 7405136538795885724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00017_1
-      rect:
-        serializedVersion: 2
-        x: 1131
-        y: 2774
-        width: 557
+        y: 2783
+        width: 553
         height: 436
       alignment: 9
-      pivot: {x: 0.4416517, y: -0.6605505}
+      pivot: {x: 0.44936708, y: 0.6227064}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f9cd8593fe04c5a0800000000000000
-      internalID: -6502055522667214350
+      spriteID: 90696f0f2bae23b40800000000000000
+      internalID: 5418651355947898377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00018_1
+      name: Exporter Jelly Crawl_00016
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2318
-        width: 554
-        height: 439
+        x: 1112
+        y: 2347
+        width: 549
+        height: 435
       alignment: 9
-      pivot: {x: 0.45487365, y: -0.6537585}
+      pivot: {x: 0.46174863, y: 0.6218391}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e7daf4ca8a54f760800000000000000
-      internalID: 7490711632280737765
+      spriteID: de39211ba7e86d520800000000000000
+      internalID: 2726523282027353069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00019_1
+      name: Exporter Jelly Crawl_00017
       rect:
         serializedVersion: 2
         x: 547
-        y: 1446
-        width: 542
-        height: 439
-      alignment: 9
-      pivot: {x: 0.46309963, y: -0.6537585}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f50f91c6d615d8ed0800000000000000
-      internalID: -2410180695166422945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00020_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1877
+        y: 2345
         width: 544
-        height: 439
+        height: 436
       alignment: 9
-      pivot: {x: 0.47977942, y: -0.65603644}
+      pivot: {x: 0.47334558, y: 0.6204128}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 029eabdf528f37cf0800000000000000
-      internalID: -255587911775622880
+      spriteID: cf469b024a44e8b20800000000000000
+      internalID: 3138521462038160636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00021_1
+      name: Exporter Jelly Crawl_00018
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 1445
-        width: 542
-        height: 441
+        x: 1093
+        y: 1909
+        width: 541
+        height: 436
       alignment: 9
-      pivot: {x: 0.4889299, y: -0.6530612}
+      pivot: {x: 0.487061, y: 0.6204128}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68d41c95ab7c1db80800000000000000
-      internalID: -8371690629121356410
+      spriteID: c7871a726b1a0d8b0800000000000000
+      internalID: -5129422171853981572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00022_1
+      name: Exporter Jelly Crawl_00019
       rect:
         serializedVersion: 2
-        x: 543
-        y: 999
-        width: 534
-        height: 445
+        x: 540
+        y: 1906
+        width: 536
+        height: 437
       alignment: 9
-      pivot: {x: 0.49438202, y: -0.64494383}
+      pivot: {x: 0.5009328, y: 0.61899316}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fecd012f6e4edcd0800000000000000
-      internalID: -2531499701332750601
+      spriteID: 3efd773652cc1e3b0800000000000000
+      internalID: -5484878410205896733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villian Jelly 2_00023_1
-      rect:
-        serializedVersion: 2
-        x: 1079
-        y: 563
-        width: 529
-        height: 439
-      alignment: 9
-      pivot: {x: 0.5047259, y: -0.65603644}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab075f441f5b18280800000000000000
-      internalID: -9042746528934563654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Villian Jelly 2_00024_1
+      name: Exporter Jelly Crawl_00020
       rect:
         serializedVersion: 2
         x: 1
-        y: 104
-        width: 525
-        height: 444
+        y: 1467
+        width: 532
+        height: 437
       alignment: 9
-      pivot: {x: 0.5104762, y: -0.6486486}
+      pivot: {x: 0.51409775, y: 0.6167048}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8f7dba09857651c0800000000000000
-      internalID: -4515292344941183090
+      spriteID: faae558fa1d8fe980800000000000000
+      internalID: -8507426024104531281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00021
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1031
+        width: 527
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5265655, y: 0.6167048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75aa75828d31a360800000000000000
+      internalID: 7179086911799731579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1027
+        width: 523
+        height: 438
+      alignment: 9
+      pivot: {x: 0.53632885, y: 0.6152968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abd10f936d81f3d0800000000000000
+      internalID: -3174600803310511197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00023
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 591
+        width: 521
+        height: 438
+      alignment: 9
+      pivot: {x: 0.5441459, y: 0.6152968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8cf6abf5211bcd0800000000000000
+      internalID: -2544232112128538403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Jelly Crawl_00024
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 587
+        width: 518
+        height: 438
+      alignment: 9
+      pivot: {x: 0.5492278, y: 0.6152968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0feb830d97305b30800000000000000
+      internalID: 4273977193883496207
       vertices: []
       indices: 
       edges: []
