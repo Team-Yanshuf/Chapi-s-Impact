@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 8174862d1c78b4c3da18558b13a5d2be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5185729480798489128
+    second: CreditsButton_00000
+  - first:
+      213: 6848614673723244849
+    second: CreditsButton_00001
+  - first:
+      213: 8974907159890385810
+    second: CreditsButton_00002
+  - first:
+      213: 5292939056120875202
+    second: CreditsButton_00003
+  - first:
+      213: 1849508960391709087
+    second: CreditsButton_00004
+  - first:
+      213: 5931857649484986337
+    second: CreditsButton_00005
+  - first:
+      213: -4602928713663329759
+    second: CreditsButton_00006
+  - first:
+      213: 8241838922257691318
+    second: CreditsButton_00007
+  - first:
+      213: -8460342242276997566
+    second: CreditsButton_00008
+  - first:
+      213: -7075426269046126576
+    second: CreditsButton_00009
+  - first:
+      213: -2875053803980492922
+    second: CreditsButton_00010
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CreditsButton_00000
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 171
+        width: 245
+        height: 71
+      alignment: 9
+      pivot: {x: 1.022449, y: -0.33802816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d53cbb23869808b0800000000000000
+      internalID: -5185729480798489128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 164
+        width: 249
+        height: 78
+      alignment: 9
+      pivot: {x: 1.0020081, y: -0.24358974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1314dce92ca2b0f50800000000000000
+      internalID: 6848614673723244849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 244
+        width: 265
+        height: 80
+      alignment: 9
+      pivot: {x: 0.9528302, y: -0.2375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b5065c2864d8c70800000000000000
+      internalID: 8974907159890385810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326
+        width: 267
+        height: 85
+      alignment: 9
+      pivot: {x: 0.9494382, y: -0.16470589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c840e1470c447940800000000000000
+      internalID: 5292939056120875202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 413
+        width: 281
+        height: 89
+      alignment: 9
+      pivot: {x: 0.90213525, y: -0.14606741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91cc01b996caa910800000000000000
+      internalID: 1849508960391709087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 504
+        width: 287
+        height: 93
+      alignment: 9
+      pivot: {x: 0.8832753, y: -0.09677419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e77cb79a11325250800000000000000
+      internalID: 5931857649484986337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 854
+        width: 299
+        height: 89
+      alignment: 9
+      pivot: {x: 0.84782606, y: -0.14606741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ac6a7e8bc1f10c0800000000000000
+      internalID: -4602928713663329759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 766
+        width: 298
+        height: 86
+      alignment: 9
+      pivot: {x: 0.8506711, y: -0.1627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2782925d4e06270800000000000000
+      internalID: 8241838922257691318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 945
+        width: 309
+        height: 78
+      alignment: 9
+      pivot: {x: 0.8171521, y: -0.23076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24609d23e83d69a80800000000000000
+      internalID: -8460342242276997566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 676
+        width: 293
+        height: 88
+      alignment: 9
+      pivot: {x: 0.8412969, y: -0.13636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018c907ab490fcd90800000000000000
+      internalID: -7075426269046126576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CreditsButton_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 599
+        width: 291
+        height: 75
+      alignment: 9
+      pivot: {x: 0.8402062, y: -0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f6b974cc1c918d0800000000000000
+      internalID: -2875053803980492922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

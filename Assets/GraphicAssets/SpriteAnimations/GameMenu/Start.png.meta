@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: a5946f93382a44687ab406318682c327
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5370437824790285483
+    second: StartButton_00000
+  - first:
+      213: 154254270709483918
+    second: StartButton_00001
+  - first:
+      213: -4310031288645663957
+    second: StartButton_00002
+  - first:
+      213: 1263992545895175214
+    second: StartButton_00003
+  - first:
+      213: 3590275930420791853
+    second: StartButton_00004
+  - first:
+      213: -769541689266475293
+    second: StartButton_00005
+  - first:
+      213: -3007967855320156280
+    second: StartButton_00006
+  - first:
+      213: -6083028827765161712
+    second: StartButton_00007
+  - first:
+      213: 3374241373828384059
+    second: StartButton_00008
+  - first:
+      213: 2814052275656877828
+    second: StartButton_00009
+  - first:
+      213: -6942638947967121676
+    second: StartButton_00010
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StartButton_00000
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 48
+        width: 173
+        height: 66
+      alignment: 9
+      pivot: {x: 1.4537572, y: -0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553bd0d804f5875b0800000000000000
+      internalID: -5370437824790285483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 176
+        height: 68
+      alignment: 9
+      pivot: {x: 1.4119319, y: -0.32352942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89c9b22175042200800000000000000
+      internalID: 154254270709483918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 116
+        width: 192
+        height: 74
+      alignment: 9
+      pivot: {x: 1.3203125, y: -0.27027026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23c475e061bf24c0800000000000000
+      internalID: -4310031288645663957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00003
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 199
+        width: 201
+        height: 79
+      alignment: 9
+      pivot: {x: 1.261194, y: -0.18987341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24d2d8068a9a8110800000000000000
+      internalID: 1263992545895175214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 200
+        height: 84
+      alignment: 9
+      pivot: {x: 1.2675, y: -0.15476191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2acd56cfe833d130800000000000000
+      internalID: 3590275930420791853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00005
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 340
+        width: 207
+        height: 88
+      alignment: 9
+      pivot: {x: 1.2246376, y: -0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eeea6b29e90255f0800000000000000
+      internalID: -769541689266475293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 354
+        width: 211
+        height: 83
+      alignment: 9
+      pivot: {x: 1.2014219, y: -0.15662651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88739d72c2d8146d0800000000000000
+      internalID: -3007967855320156280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00007
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 430
+        width: 216
+        height: 81
+      alignment: 9
+      pivot: {x: 1.1736112, y: -0.17283951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011c89aa28db49ba0800000000000000
+      internalID: -6083028827765161712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 439
+        width: 220
+        height: 72
+      alignment: 9
+      pivot: {x: 1.1477273, y: -0.2638889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b358779e6a6b3de20800000000000000
+      internalID: 3374241373828384059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 278
+        width: 207
+        height: 74
+      alignment: 9
+      pivot: {x: 1.1908213, y: -0.24324325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40768ed92a58d0720800000000000000
+      internalID: 2814052275656877828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartButton_00010
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 280
+        width: 202
+        height: 58
+      alignment: 9
+      pivot: {x: 1.210396, y: -0.43103448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6c0a619aac6af90800000000000000
+      internalID: -6942638947967121676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
