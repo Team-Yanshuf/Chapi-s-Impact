@@ -2061,7 +2061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/Chapis Footsteps
+  Event: event:/SFX/Chapi (player)/Chapis Footsteps
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
