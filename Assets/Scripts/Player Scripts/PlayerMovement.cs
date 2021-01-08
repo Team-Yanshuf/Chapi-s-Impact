@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     //Component References.
     Player playerM;
     Rigidbody rb;
+    SpriteRenderer renderer;
     Vector3 movement;
     [SerializeField] float groundRotation;
 
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     { 
         playerM = GetComponent<Player>();
         rb = GetComponent<Rigidbody>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -40,6 +42,14 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(transform.position + movement * speed * Time.deltaTime);
     }
 
+    //TODO:change the sorting layer dynamically according to player position.
+    void changeSortingLayer()
+    {
+    }
 
 
+    public bool isMoving()
+    {
+        return movement.magnitude == 0;
+    }
 }

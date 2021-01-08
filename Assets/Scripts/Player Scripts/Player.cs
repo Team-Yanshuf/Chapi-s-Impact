@@ -11,18 +11,25 @@ public class Player : MonoBehaviour
     [SerializeField] PlayerAttacking attackM;
     [SerializeField] PlayerInput inputM;
     [SerializeField] PlayerHealth healthM;
+    [SerializeField] PlayerCollision collisionM;
 
     [SerializeField] int health;
 
 
-    void Start()
-    {
 
+
+    public void getMovementAxes(ref float horizontal,ref float vertical)
+    {
+        inputM.getAxes(ref horizontal, ref vertical);
     }
 
-
-    void Update()
+    public bool isMoving()
     {
-        
+        return movementM.isMoving();
+    }
+
+    public bool isCollecting()
+    {
+        return collisionM.isCollecting();
     }
 }
