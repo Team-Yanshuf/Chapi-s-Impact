@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794961282}
+  - component: {fileID: 53445872}
+  - component: {fileID: 53445873}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -30,6 +32,34 @@ Transform:
   m_Father: {fileID: 7137872134925363673}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &53445872
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794961281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.19
+  m_Height: 5.29
+  m_Direction: 1
+  m_Center: {x: 2.94, y: -0.94, z: 0}
+--- !u!114 &53445873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794961281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac3ca218dc4e72a4692be70d0fddb510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  attackDuration: 3
 --- !u!1 &4502266292215735126
 GameObject:
   m_ObjectHideFlags: 0
@@ -49,6 +79,7 @@ GameObject:
   - component: {fileID: -1991750744755194796}
   - component: {fileID: 1313611705}
   - component: {fileID: 3914081930741100285}
+  - component: {fileID: 1313611698}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -86,7 +117,8 @@ MonoBehaviour:
   movementM: {fileID: 300265745222436763}
   attackM: {fileID: 4705456647671918313}
   inputM: {fileID: 4558363665204712372}
-  healthM: {fileID: 0}
+  healthM: {fileID: 2296967874140875719}
+  collisionM: {fileID: 1313611698}
   health: 0
 --- !u!114 &300265745222436763
 MonoBehaviour:
@@ -151,8 +183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footSteps: {fileID: 0}
-  attack: {fileID: 0}
   hurt: {fileID: 0}
+  attack: {fileID: 0}
+  collect: {fileID: 0}
 --- !u!95 &588032050553319819
 Animator:
   serializedVersion: 3
@@ -335,3 +368,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1313611698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502266292215735126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d42b0c440fd1474faec89d4349b5abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

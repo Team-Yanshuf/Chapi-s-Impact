@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CapsuleCollider))]
 public class Staff : MonoBehaviour, IWeapon
 {
     bool canHit;
@@ -20,11 +21,17 @@ public class Staff : MonoBehaviour, IWeapon
     {
         if (canHit)
         {
-            if (attackStartTime + attackDuration > Time.realtimeSinceStartup)
+            if (attackStartTime + attackDuration < Time.realtimeSinceStartup)
             {
                 canHit = false;
                 hitbox.enabled = false;
             }
+        }
+
+        else
+        {
+            Debug.Log("Cant Hit");
+            hitbox.enabled = false;
         }
     }
 
