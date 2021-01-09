@@ -414,8 +414,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../Fmod/Chapis impact/chapis impact/chapis impact.fspro
-  sourceBankPath: ..\..\Fmod\Chapis impact\chapis impact\Build
+  sourceProjectPath: Assets/FMOD/chapis impact/chapis impact.fspro
+  sourceBankPath: Assets\FMOD\chapis impact\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
