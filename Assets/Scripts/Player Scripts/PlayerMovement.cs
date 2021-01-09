@@ -50,6 +50,6 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isMoving()
     {
-        return movement.magnitude == 0;
+        return movement.magnitude != 0;
     }
 }

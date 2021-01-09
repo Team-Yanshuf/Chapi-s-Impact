@@ -33,6 +33,7 @@ public class PlayerSound : MonoBehaviour
 
         else if  (playerM.isMoving() && !footSteps.isPlaying)
         {
+            Debug.Log("Trying to play footsteps");
             footSteps.Play();
         }
     }
