@@ -780,6 +780,7 @@ GameObject:
   - component: {fileID: 321817563}
   - component: {fileID: 321817562}
   - component: {fileID: 321817561}
+  - component: {fileID: 321817564}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -794,7 +795,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321817560}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &321817562
 Camera:
   m_ObjectHideFlags: 0
@@ -852,6 +853,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &321817564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321817560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1 &356783044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2027,6 +2042,35 @@ Transform:
   m_Father: {fileID: 1186219482}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &799412021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
+    type: 3}
+  m_PrefabInstance: {fileID: 909408034}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &799412022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Chapis Footsteps
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &909408034
 PrefabInstance:
   m_ObjectHideFlags: 0
