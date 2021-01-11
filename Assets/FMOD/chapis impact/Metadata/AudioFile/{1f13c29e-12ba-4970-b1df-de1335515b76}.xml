@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{1f13c29e-12ba-4970-b1df-de1335515b76}">
+		<property name="assetPath">
+			<value>trashbag move.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.75</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{807ddc95-9443-4328-a3b2-4f4a8c96b19c}</destination>
+		</relationship>
+	</object>
+</objects>
