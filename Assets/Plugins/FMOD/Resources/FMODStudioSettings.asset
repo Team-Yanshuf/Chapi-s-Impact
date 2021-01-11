@@ -415,7 +415,7 @@ MonoBehaviour:
   HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: Assets/FMOD/chapis impact/chapis impact.fspro
-  sourceBankPath: Assets\FMOD\chapis impact\Build
+  sourceBankPath: Assets/FMOD/chapis impact/Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -434,7 +434,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
