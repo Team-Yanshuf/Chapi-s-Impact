@@ -30,7 +30,6 @@ public class Staff : MonoBehaviour, IWeapon
 
         else
         {
-            Debug.Log("Cant Hit");
             hitbox.enabled = false;
         }
     }

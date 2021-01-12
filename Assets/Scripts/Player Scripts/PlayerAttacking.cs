@@ -1,35 +1,49 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {
-    Player playerM;
-    CapsuleCollider hitbox;
-    IWeapon staff;
-    bool isAttacking;
-    void Start()
-    {
-        staff = GetComponentInChildren<Staff>();
-        isAttacking = false;
-        hitbox=GetComponentInChildren<CapsuleCollider>();
-        playerM = GetComponent<Player>();
-    }
+	[SerializeField] Projectile projectile;
+	[SerializeField] float projectileSpeed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        attacking();   
-    }
+	Player playerM;
+	CapsuleCollider hitbox;
+	IWeapon staff;
+	bool isAttacking;
 
-    void attacking()
-    {
-       if (Input.GetKeyDown(KeyCode.Space))
-        {
-            staff.attack();
-        }
-    }
+	void Start()
+	{
+		staff = GetComponentInChildren<Staff>();
+		isAttacking = false;
+		hitbox=GetComponentInChildren<CapsuleCollider>();
+		playerM = GetComponent<Player>();
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		melee(); 
+		
+		if (Input.GetMouseButtonDown(0))
+		{
+			throwProjectile();
+		}
+	}
+
+	void melee()
+	{
+	   if (Input.GetKeyDown(KeyCode.Space))
+		{
+			staff.attack();
+		}
+	}
+
+	void throwProjectile()
+	{
+		Vector3 direction = playerM.getDirectionToMouseNormalized();
+		Projectile proj = Instantiate<Projectile>(projectile, transform.position, Quaternion.identity);
+
+		proj.transform.LookAt(playerM.getDirectionToMouseNormalized()); ;
+	}
 
 
 

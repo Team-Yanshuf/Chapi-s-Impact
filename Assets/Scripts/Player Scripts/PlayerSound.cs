@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerSound : MonoBehaviour
 {
@@ -33,7 +31,7 @@ public class PlayerSound : MonoBehaviour
 
         else if  (playerM.isMoving() && !footSteps.isPlaying)
         {
-            Debug.Log("Trying to play footsteps");
+            //Debug.Log("Trying to play footsteps");
             footSteps.Play();
         }
     }

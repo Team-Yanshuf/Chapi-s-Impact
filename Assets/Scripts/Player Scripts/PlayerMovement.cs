@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -24,19 +22,15 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        updateAxis();
         move();
+
     }
 
-    void updateAxis()
-    {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
-    }
 
     void move()
     {
-        movement = new Vector3(horizontal, 0, vertical);
+        playerM.getMovementAxes(ref horizontal, ref vertical);
+        movement = new Vector3(horizontal, vertical,0);
         Quaternion rotation = Quaternion.Euler(groundRotation, 0, 0);
         movement = rotation * movement;
         rb.MovePosition(transform.position + movement * speed * Time.deltaTime);
@@ -52,4 +46,7 @@ public class PlayerMovement : MonoBehaviour
     {
         return movement.magnitude != 0;
     }
+
+
+
 }

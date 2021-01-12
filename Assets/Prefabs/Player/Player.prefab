@@ -75,11 +75,12 @@ GameObject:
   - component: {fileID: 2296967874140875719}
   - component: {fileID: 4705456647671918313}
   - component: {fileID: 1313611706}
+  - component: {fileID: 1313611698}
   - component: {fileID: 588032050553319819}
   - component: {fileID: -1991750744755194796}
   - component: {fileID: 1313611705}
   - component: {fileID: 3914081930741100285}
-  - component: {fileID: 1313611698}
+  - component: {fileID: 799412022}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -118,7 +119,7 @@ MonoBehaviour:
   attackM: {fileID: 4705456647671918313}
   inputM: {fileID: 4558363665204712372}
   healthM: {fileID: 2296967874140875719}
-  collisionM: {fileID: 1313611698}
+  collisionM: {fileID: 0}
   health: 0
 --- !u!114 &300265745222436763
 MonoBehaviour:
@@ -132,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 262cc1808d3c533438e6328894f407b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundRotation: -50
+  groundRotation: -40
   speed: 5
 --- !u!114 &4558363665204712372
 MonoBehaviour:
@@ -146,6 +147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9b0bed3da90e1419b821e2edc0b70a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aimVector: {x: 0, y: 0, z: 0}
+  interpolator: {x: 0, y: 0, z: 0}
+  t: 0
 --- !u!114 &2296967874140875719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,6 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42867e759a8e460418e396bca400a24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectileSpeed: 0
 --- !u!114 &1313611706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,10 +187,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55ce462419adb9c4d999ac8a260d26fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footSteps: {fileID: 0}
+  footSteps: {fileID: 3914081930741100285}
   hurt: {fileID: 0}
   attack: {fileID: 0}
   collect: {fileID: 0}
+--- !u!114 &1313611698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502266292215735126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d42b0c440fd1474faec89d4349b5abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &588032050553319819
 Animator:
   serializedVersion: 3
@@ -282,7 +299,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 41afdb213a0b5864a9c99cba172148e6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -293,7 +310,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 59.24121
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -368,7 +385,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1313611698
+--- !u!114 &799412022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -377,6 +394,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 4502266292215735126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d42b0c440fd1474faec89d4349b5abc, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Chapis Footsteps
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
