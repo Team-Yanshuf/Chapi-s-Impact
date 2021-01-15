@@ -10,12 +10,17 @@ public interface IHitter
 
 public interface IVulnrable
 {
-    void hurt(int damage = 0);
+    void takeDamage(int damage = 0);
 }
 
 public interface ICollectible
 {
     void collected();
+}
+
+public interface IWeapon
+{
+    void attack();
 }
 
 
