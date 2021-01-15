@@ -27,8 +27,12 @@ public class PlayerInput : MonoBehaviour
 		RaycastHit hit;
 		if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
 		{
-			return (transform.position - hit.normal);
+			//Debug.Log("Hit: " + hit.point);
+			Debug.DrawRay(hit.point, hit.normal, Color.yellow,5f);
+			
+			return (hit.point-transform.position);
 		}
+		Debug.Log("No hit found");
 		return Camera.main.ScreenToWorldPoint(Input.mousePosition).normalized;
 
 	}

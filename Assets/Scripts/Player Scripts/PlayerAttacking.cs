@@ -40,9 +40,12 @@ public class PlayerAttacking : MonoBehaviour
 	void throwProjectile()
 	{
 		Vector3 direction = playerM.getDirectionToMouseNormalized();
-		Projectile proj = Instantiate<Projectile>(projectile, transform.position, Quaternion.identity);
+		float angle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
+		Projectile proj = Instantiate(projectile, transform.position, Quaternion.identity);
 
-		proj.transform.LookAt(playerM.getDirectionToMouseNormalized()); ;
+		if (proj) 
+		proj.fireWithRotation(Quaternion.AngleAxis(angle,Vector3.forward),direction.normalized);
+		
 	}
 
 
