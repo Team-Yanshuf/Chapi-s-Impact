@@ -110,17 +110,10 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-<<<<<<< HEAD
-=======
-    m_State: {fileID: 3146872013800282485}
-    m_Position: {x: 490, y: 310, z: 0}
-  - serializedVersion: 1
->>>>>>> Graphics_Branch
     m_State: {fileID: 3595622159785399786}
     m_Position: {x: 120, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6206685740459771015}
-<<<<<<< HEAD
     m_Position: {x: 130, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7915083963848921249}
@@ -128,9 +121,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -9033670398009173798}
     m_Position: {x: 260, y: 520, z: 0}
-=======
-    m_Position: {x: 230, y: 310, z: 0}
->>>>>>> Graphics_Branch
   - serializedVersion: 1
     m_State: {fileID: 7582402659924077853}
     m_Position: {x: 295, y: 585, z: 0}
