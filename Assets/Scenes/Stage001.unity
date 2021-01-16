@@ -1850,6 +1850,10 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 771073710, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -1873,7 +1877,7 @@ PrefabInstance:
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.58
+      value: 5.17
       objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
@@ -1920,11 +1924,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 1999138415489370555, guid: f9eb6b163ddc68e46a8b952be557d269,
+        type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2414068442231044992, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 05d9f0602d4a349148d9cf9c1e1b5aa3, type: 2}
+    - target: {fileID: 7329348830272583309, guid: f9eb6b163ddc68e46a8b952be557d269,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 799412021}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
 --- !u!1 &771073704 stripped
@@ -2149,7 +2163,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 3178e7363c3bb4cf8ae6bc7055734a32, type: 2}
+      objectReference: {fileID: 9100000, guid: 95812995ea3224d52b573667646fbaac, type: 2}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name
@@ -2178,7 +2192,7 @@ PrefabInstance:
     - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 9.03
       objectReference: {fileID: 0}
     - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
