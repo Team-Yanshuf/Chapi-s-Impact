@@ -2,8 +2,11 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Hit.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/HitsRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/idle left.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/IdleRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/runLeft.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/RunRight.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedBall.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedThrow.tpsheet
@@ -20,8 +23,11 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Hit.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/HitsRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/idle left.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/IdleRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/runLeft.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/RunRight.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedBall.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedThrow.png
@@ -38,6 +44,9 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
 - 
 - 
 - 

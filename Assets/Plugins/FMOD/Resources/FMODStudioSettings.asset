@@ -415,7 +415,7 @@ MonoBehaviour:
   HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: Assets/FMOD/chapis impact/chapis impact.fspro
-  sourceBankPath: Assets\FMOD\chapis impact\Build
+  sourceBankPath: Assets/FMOD/chapis impact/Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -521,13 +521,13 @@ MonoBehaviour:
       Value: 1
       HasValue: 1
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     Logging:
       Value: 0
       HasValue: 0
     SampleRate:
-      Value: 48000
+      Value: 44100
       HasValue: 1
     BuildDirectory:
       Value: 

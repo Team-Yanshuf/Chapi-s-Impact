@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -11,18 +8,28 @@ public class Player : MonoBehaviour
     [SerializeField] PlayerAttacking attackM;
     [SerializeField] PlayerInput inputM;
     [SerializeField] PlayerHealth healthM;
+    [SerializeField] PlayerCollision collisionM;
 
     [SerializeField] int health;
 
 
-    void Start()
-    {
 
+    //*******************INPUT FUNCTIONS*****************//
+    public void getMovementAxes(ref float horizontal,ref float vertical)
+    {
+        inputM.getAxes(ref horizontal, ref vertical);
+    }
+   public Vector3 getDirectionToMouseNormalized()
+    {
+        return inputM.getMouseAimDirectionNormalized();
+    }
+    public bool isMoving()
+    {
+        return movementM.isMoving();
     }
 
-
-    void Update()
+    public bool isCollecting()
     {
-        
+        return collisionM.isCollecting();
     }
 }
