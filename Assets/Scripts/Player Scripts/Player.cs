@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] PlayerInput inputM;
     [SerializeField] PlayerHealth healthM;
     [SerializeField] PlayerCollision collisionM;
+    [SerializeField] PlayerAnimation animationM;
 
     [SerializeField] int health;
 
@@ -23,9 +24,19 @@ public class Player : MonoBehaviour
     {
         return inputM.getMouseAimDirectionNormalized();
     }
+
+
+    //******************MOVEMENT FUNCTIONS **************//
+
     public bool isMoving()
     {
         return movementM.isMoving();
+    }
+
+    public bool isDashing()
+    {
+        return movementM.isDash();
+
     }
 
     public bool isCollecting()
@@ -33,3 +44,13 @@ public class Player : MonoBehaviour
         return collisionM.isCollecting();
     }
 }
+/* Implementation of the player manager as a state machine.
+ * 
+ * if isMoving, state is moving
+ * 
+ * if hurt, state is hurt.
+ * 
+ * if colliding, state is colliding.
+ * 
+ * 
+ */

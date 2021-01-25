@@ -19,8 +19,20 @@ public class PlayerInput : MonoBehaviour
 
 	public void getAxes(ref float horizontal,ref float vertical)
 	{
-		horizontal = Input.GetAxis("Horizontal");
-		vertical = Input.GetAxis("Vertical");
+		horizontal = Input.GetAxisRaw("Horizontal");
+		vertical = Input.GetAxisRaw("Vertical");
+
+		//if (Input.GetAxis("Horizontal") > 0)
+		//	horizontal = 1;
+		//else if (Input.GetAxis("Horizontal") < 0)
+		//	horizontal = -1;
+		//else horizontal = 0;
+
+		//if (Input.GetAxis("Vertical") > 0)
+		//	vertical= 1;
+		//else if (Input.GetAxis("Vertical") < 0)
+		//	vertical = -1;
+		//else vertical = 0;
 	}
 	public Vector3 getMouseAimDirectionNormalized()
 	{
