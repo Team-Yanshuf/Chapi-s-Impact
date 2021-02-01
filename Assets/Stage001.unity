@@ -526,37 +526,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &248097917 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1277005037702263609, guid: f9eb6b163ddc68e46a8b952be557d269,
-    type: 3}
-  m_PrefabInstance: {fileID: 771073703}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &248097925
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248097917}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.3199997, y: 4.3699994, z: 0.2}
-  m_Center: {x: -0.07500004, y: -0.50999993, z: 0}
---- !u!114 &248097926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248097917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0b564d53ee20a24d97b349bbdf9ffb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &264475744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1005,7 @@ GameObject:
   - component: {fileID: 401677748}
   - component: {fileID: 401677747}
   - component: {fileID: 401677749}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ground01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1878,17 +1847,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 771073710, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 771073710, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 771073710, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
+    - target: {fileID: 248097926, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: hp
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
@@ -1949,11 +1910,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Oil Monster
-      objectReference: {fileID: 0}
-    - target: {fileID: 1999138415489370555, guid: f9eb6b163ddc68e46a8b952be557d269,
-        type: 3}
-      propertyPath: speed
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7329348830272583309, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
@@ -2049,6 +2005,30 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 909408034}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &799412022 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 799412024, guid: afc19573045fdac4081c14462eb0761d,
+    type: 3}
+  m_PrefabInstance: {fileID: 909408034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab8f75c0150d324aa4a281f2abe41fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &799412029 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1313611698, guid: afc19573045fdac4081c14462eb0761d,
+    type: 3}
+  m_PrefabInstance: {fileID: 909408034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d42b0c440fd1474faec89d4349b5abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &909408034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2056,9 +2036,44 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 300265745222436763, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: dashSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2296967874140875719, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: hp
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2296967874140875719, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: flashingDelta
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2296967874140875719, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: invincibilityDuration
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: animationM
+      value: 
+      objectReference: {fileID: 799412022}
+    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: collisionM
+      value: 
+      objectReference: {fileID: 799412029}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
@@ -3753,8 +3768,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1575885342}
   - component: {fileID: 1575885343}
-  m_Layer: 0
-  m_Name: GameObject
+  m_Layer: 10
+  m_Name: Right Barriar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

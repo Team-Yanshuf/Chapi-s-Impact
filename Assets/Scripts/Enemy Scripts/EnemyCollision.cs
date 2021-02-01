@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyCollision : MonoBehaviour, IVulnrable
 {
     OilMonster monsterM;
+    [SerializeField] float hp;
 
     // Start is called before the first frame update
     void Start()
@@ -12,14 +13,33 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         monsterM= GetComponent<OilMonster>();       
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        checkIfAlive();
+    }
+    public void takeDamage(float damage)
+    {
+        hp -= damage;
+            
     }
 
-    public void takeDamage(int damage=0)
+    void checkIfAlive()
     {
-
+        if (hp<=0)
+        {
+            Destroy(this.gameObject);
+        }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+            IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
+            Debug.Log("Attacking player");
+            player?.takeDamage(15);
+        }
+    }
+
 }

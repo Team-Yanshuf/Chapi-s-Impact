@@ -1,10 +1,13 @@
-﻿using UnityEditor.Experimental.GraphView;
+﻿using System.Xml.Serialization;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
     [SerializeField] float speed;
-
+    [SerializeField] float lifeTime;
+    [SerializeField] float damage;
+    float instantiateTime;
      Vector3 direction;
  
     Rigidbody rb;
@@ -12,6 +15,7 @@ public class Projectile : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        instantiateTime= Time.realtimeSinceStartup;
     }
 
 
@@ -19,6 +23,7 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         move();
+        lifeTimer();    
     }
     public void fireWithRotation(Quaternion rot,Vector3 direction)
     {
@@ -32,9 +37,35 @@ public class Projectile : MonoBehaviour
         transform.rotation = rot;
     }
 
+    void lifeTimer()
+    {
+        float time = Time.realtimeSinceStartup;
+        if (instantiateTime+ lifeTime < time)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
 
     void move()
     {
         rb.MovePosition(transform.position + direction * speed * Time.deltaTime);
+
     }
+
+
+    private void OnCollisionEnter(Collision collision)
+    { 
+        IVulnrable vuln = collision.gameObject.GetComponent<IVulnrable>();
+        if(vuln!=null)
+        {
+            IVulnrable other = collision as IVulnrable;
+            vuln.takeDamage(damage);
+        }
+        Destroy(this.gameObject);
+    }
+
+
+
+    
 }

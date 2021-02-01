@@ -21,19 +21,8 @@ public class PlayerInput : MonoBehaviour
 	{
 		horizontal = Input.GetAxisRaw("Horizontal");
 		vertical = Input.GetAxisRaw("Vertical");
-
-		//if (Input.GetAxis("Horizontal") > 0)
-		//	horizontal = 1;
-		//else if (Input.GetAxis("Horizontal") < 0)
-		//	horizontal = -1;
-		//else horizontal = 0;
-
-		//if (Input.GetAxis("Vertical") > 0)
-		//	vertical= 1;
-		//else if (Input.GetAxis("Vertical") < 0)
-		//	vertical = -1;
-		//else vertical = 0;
 	}
+
 	public Vector3 getMouseAimDirectionNormalized()
 	{
 		RaycastHit hit;
@@ -42,9 +31,8 @@ public class PlayerInput : MonoBehaviour
 			//Debug.Log("Hit: " + hit.point);
 			Debug.DrawRay(hit.point, hit.normal, Color.yellow,5f);
 			
-			return (hit.point-transform.position);
+			return ((hit.point+hit.normal)-transform.position);
 		}
-		Debug.Log("No hit found");
 		return Camera.main.ScreenToWorldPoint(Input.mousePosition).normalized;
 
 	}
