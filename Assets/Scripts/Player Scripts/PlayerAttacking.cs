@@ -6,15 +6,11 @@ public class PlayerAttacking : MonoBehaviour
 	[SerializeField] float projectileSpeed;
 
 	Player playerM;
-	CapsuleCollider hitbox;
 	IWeapon staff;
-	bool isAttacking;
 
 	void Start()
 	{
 		staff = GetComponentInChildren<Staff>();
-		isAttacking = false;
-		hitbox=GetComponentInChildren<CapsuleCollider>();
 		playerM = GetComponent<Player>();
 	}
 
@@ -42,9 +38,8 @@ public class PlayerAttacking : MonoBehaviour
 		Vector3 direction = playerM.getDirectionToMouseNormalized();
 		float angle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
 		Projectile proj = Instantiate(projectile, transform.position, Quaternion.identity);
-
-		if (proj) 
-		proj.fireWithRotation(Quaternion.AngleAxis(angle,Vector3.forward),direction.normalized);
+ 
+		proj?.fireWithRotation(Quaternion.AngleAxis(angle,Vector3.forward),direction.normalized);
 		
 	}
 

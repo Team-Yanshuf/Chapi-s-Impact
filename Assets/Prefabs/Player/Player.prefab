@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 794961282}
   - component: {fileID: 53445872}
   - component: {fileID: 53445873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 799412022}
   - component: {fileID: 799412035}
   - component: {fileID: 799412024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Security.Cryptography;
+using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -30,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
     {
         setMovementVector();
         move();
-
     }
 
     private void setMovementVector()
@@ -43,18 +44,6 @@ public class PlayerMovement : MonoBehaviour
 
     void move()
     {
-
-        //if (isDashing)
-        //{
-        //    if (dashStart+Time.realtimeSinceStartup>dashLength)
-        //    {
-        //        isDashing = false;
-        //    }
-        //}
-
-        //if (!isMoving())
-            //rb.velocity = Vector3.zero;
-
          if (Input.GetKeyDown(KeyCode.C))
         {
             isDashing = true;
@@ -79,15 +68,23 @@ public class PlayerMovement : MonoBehaviour
         return isDashing;
     }
 
-
     void teleDash()
     {
-        rb.MovePosition(transform.position + movement * dashLength * Time.deltaTime);
+        StartCoroutine(dash());
+        //rb.MovePosition(transform.position + movement * dashLength * Time.deltaTime);
 
     }
 
+    IEnumerator dash()
+    {
+        for (int i=0; i<5; i++)
+        { 
+            rb.MovePosition(transform.position + movement * dashSpeed * Time.deltaTime);
+            yield return null;
 
+        }
 
+    }
 }
 
 
