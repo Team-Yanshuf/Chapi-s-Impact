@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
 public class PlayerSound : MonoBehaviour
+
 {
     Player playerM;
 
@@ -9,31 +10,46 @@ public class PlayerSound : MonoBehaviour
     [SerializeField] AudioSource attack;
     [SerializeField] AudioSource collect;
 
+    private FMOD.Studio.EventInstance instance;
 
+    [FMODUnity.EventRef]
+    public string fmodEvent;
 
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float Walking;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
+      //  instance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
+
         playerM = GetComponent<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playFootSetps();
+       // playFootSetps();
     }
 
     void playFootSetps()
     {
-        if (!footSteps)
-            return;
+       // bool isPlaying = instance.getPlaybackState(studio.PLAYBACK_STATE.FMOD_STUDIO_PLAYBACK_STOPPED)
 
-        else if  (playerM.isMoving() && !footSteps.isPlaying)
+
+
+       // if  (playerM.isMoving())
         {
             //Debug.Log("Trying to play footsteps");
-            footSteps.Play();
+           
+          //  instance.start();
         }
+
+       
+
     }
 
     void playCollect()

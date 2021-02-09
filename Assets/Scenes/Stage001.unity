@@ -2107,20 +2107,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 799412021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: a8addd4bf826ad74ba382181265a72b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Chapi (player)/Chapis Footsteps
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  fmodEvent: event:/SFX/Chapi (player)/Chapis Footsteps
+  Walking: 0
 --- !u!1001 &909408034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2159,11 +2150,45 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 799412022, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: Params.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 799412022, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Walking
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: Walking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: fmodEvent
+      value: event:/SFX/Chapi (player)/Chapis Footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: footSteps
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300265745222436763, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 588032050553319819, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 95812995ea3224d52b573667646fbaac, type: 2}
+    - target: {fileID: 3914081930741100285, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name
@@ -2234,7 +2259,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3914081930741100285, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+    - {fileID: 799412022, guid: afc19573045fdac4081c14462eb0761d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: afc19573045fdac4081c14462eb0761d, type: 3}
 --- !u!1 &918876859
 GameObject:

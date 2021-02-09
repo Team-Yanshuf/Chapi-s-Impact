@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/chapis impact/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637458678639682968
+  lastModified: 637471662326621768
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1210
+    Value: 1258
   Exists: 1
 --- !u!114 &-8101863297964274558
 MonoBehaviour:
@@ -66,6 +66,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2704
+--- !u!114 &-7223106343268329381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-6644619365369801472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-1678358512655647542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +228,7 @@ MonoBehaviour:
   - {fileID: 4059384351911074103}
   StringsBanks:
   - {fileID: -8973895242907070913}
-  stringsBankWriteTime: 637458678639682968
+  stringsBankWriteTime: 637471662326621768
   cacheVersion: 5
 --- !u!114 &4059384351911074103
 MonoBehaviour:
@@ -204,7 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/chapis impact/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637458678639653178
+  lastModified: 637471662326577156
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -254,6 +294,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1750
+--- !u!114 &8730511156270793008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8769709974184171374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,8 +332,49 @@ MonoBehaviour:
   - {fileID: 4059384351911074103}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8730511156270793008}
   MinDistance: 0
   MaxDistance: 0
-  Length: 583
+  Length: 584
+--- !u!114 &8805138934409310778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &9161270048923816730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
