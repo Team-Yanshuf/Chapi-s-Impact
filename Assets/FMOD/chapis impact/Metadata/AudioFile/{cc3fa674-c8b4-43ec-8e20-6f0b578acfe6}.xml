@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{cc3fa674-c8b4-43ec-8e20-6f0b578acfe6}">
+		<property name="assetPath">
+			<value>0004 - Plastic enemies theme - Audio - PVC Tube (R).mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>123.336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{807ddc95-9443-4328-a3b2-4f4a8c96b19c}</destination>
+		</relationship>
+	</object>
+</objects>
