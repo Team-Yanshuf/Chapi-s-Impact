@@ -68,7 +68,10 @@ public class Player : MonoBehaviour
         renderer.enabled = enabled;
     }
     
-
+    public bool isShooting()
+    {
+        return attackM.isShooting();
+    }
 
 }
 

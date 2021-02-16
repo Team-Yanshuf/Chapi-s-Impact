@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
 
 public class PlayerSound : MonoBehaviour
+
 {
     Player playerM;
 
-    [SerializeField] AudioSource footSteps;
-    [SerializeField] AudioSource hurt;
-    [SerializeField] AudioSource attack;
-    [SerializeField] AudioSource collect;
+    
+    [SerializeField]  FMODUnity.StudioEventEmitter footstepsEmmiter;
+    [SerializeField]  FMODUnity.StudioEventEmitter dash;
+    [SerializeField]  FMODUnity.StudioEventEmitter shoot;
+    [SerializeField]  FMODUnity.StudioEventEmitter hurt;
+    //private FMOD.Studio.EventInstance instance;
+
 
 
 
@@ -15,34 +19,58 @@ public class PlayerSound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         playerM = GetComponent<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playFootSetps();
+             playFootSetps();
+        playDash();
+        playShooting();
     }
 
     void playFootSetps()
     {
-        if (!footSteps)
-            return;
+       // bool isPlaying = instance.getPlaybackState(studio.PLAYBACK_STATE.FMOD_STUDIO_PLAYBACK_STOPPED)
 
-        else if  (playerM.isMoving() && !footSteps.isPlaying)
+
+
+       if  (playerM.isMoving())
         {
+            if (!footstepsEmmiter.IsPlaying())
+                footstepsEmmiter.Play();
+           // instance.setParameterByName("Walking", 1);
             //Debug.Log("Trying to play footsteps");
-            footSteps.Play();
+           
+           // instance.start();
         }
+
+       
+
     }
 
+    void playDash()
+    {
+        if (playerM.isDashing() && !dash.IsPlaying())
+        {
+            dash.Play();
+        }
+    }
     void playCollect()
     {
-        if (!collect)
-            return;
-
-        if (playerM.isCollecting())
-            collect.Play();
+        
             
+    }
+
+    void playShooting()
+    {
+        if (playerM.isShooting() && !shoot.IsPlaying())
+        {
+            shoot.Play();
+        }
+
+
     }
 }
