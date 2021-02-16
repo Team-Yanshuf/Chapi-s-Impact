@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 38493bee01fb4466d8fe796ba6235974
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7647851320764760804
+    second: Exporter Organic Fluids_00000
+  - first:
+      213: 3482319472986118665
+    second: Exporter Organic Fluids_00001
+  - first:
+      213: -6904561352303885323
+    second: Exporter Organic Fluids_00002
+  - first:
+      213: 5681823111118391500
+    second: Exporter Organic Fluids_00003
+  - first:
+      213: 7464693930182532723
+    second: Exporter Organic Fluids_00004
+  - first:
+      213: 2648208378556623725
+    second: Exporter Organic Fluids_00005
+  - first:
+      213: -1516487014155767814
+    second: Exporter Organic Fluids_00006
+  - first:
+      213: -2147581010409523569
+    second: Exporter Organic Fluids_00007
+  - first:
+      213: -4126658982851479608
+    second: Exporter Organic Fluids_00008
+  - first:
+      213: -5561137715709144733
+    second: Exporter Organic Fluids_00009
+  - first:
+      213: 4686622368473497782
+    second: Exporter Organic Fluids_00010
+  - first:
+      213: 4797892679658434884
+    second: Exporter Organic Fluids_00011
+  - first:
+      213: -5932443426050348157
+    second: Exporter Organic Fluids_00012
+  - first:
+      213: 7319935870188675220
+    second: Exporter Organic Fluids_00013
+  - first:
+      213: 3276782972051229037
+    second: Exporter Organic Fluids_00014
+  - first:
+      213: 1974223629808914685
+    second: Exporter Organic Fluids_00015
+  - first:
+      213: 7095826557857685798
+    second: Exporter Organic Fluids_00016
+  - first:
+      213: -2509294446614800464
+    second: Exporter Organic Fluids_00017
+  - first:
+      213: -2002452101481000131
+    second: Exporter Organic Fluids_00018
+  - first:
+      213: 2741344122008282499
+    second: Exporter Organic Fluids_00019
+  - first:
+      213: -8249283033014842081
+    second: Exporter Organic Fluids_00020
+  - first:
+      213: -7289624360500047770
+    second: Exporter Organic Fluids_00021
+  - first:
+      213: -7641140057020142998
+    second: Exporter Organic Fluids_00022
+  - first:
+      213: 5853763101333763522
+    second: Exporter Organic Fluids_00023
+  - first:
+      213: 8843286643415365953
+    second: Exporter Organic Fluids_00024
+  - first:
+      213: -599110690136172537
+    second: Exporter Organic Fluids_00025
+  - first:
+      213: -2643968613214757446
+    second: Exporter Organic Fluids_00026
+  - first:
+      213: 750866741874165638
+    second: Exporter Organic Fluids_00027
+  - first:
+      213: 339837583021456988
+    second: Exporter Organic Fluids_00028
+  - first:
+      213: -1751222885878592413
+    second: Exporter Organic Fluids_00029
+  - first:
+      213: -9221031567176742565
+    second: Exporter Organic Fluids_00030
+  - first:
+      213: -5296218802487932566
+    second: Exporter Organic Fluids_00031
+  - first:
+      213: 1404942071452960929
+    second: Exporter Organic Fluids_00032
+  - first:
+      213: 5110070573569058648
+    second: Exporter Organic Fluids_00033
+  - first:
+      213: -6049031084137235456
+    second: Exporter Organic Fluids_00034
+  - first:
+      213: -7135091873451025967
+    second: Exporter Organic Fluids_00035
+  - first:
+      213: 8745213592121879193
+    second: Exporter Organic Fluids_00036
+  - first:
+      213: -4352717623506718741
+    second: Exporter Organic Fluids_00037
+  - first:
+      213: 7868442737729063933
+    second: Exporter Organic Fluids_00038
+  - first:
+      213: -8255244872689750974
+    second: Exporter Organic Fluids_00039
+  - first:
+      213: 4349429078308702301
+    second: Exporter Organic Fluids_00040
+  - first:
+      213: -6172502566585446100
+    second: Exporter Organic Fluids_00041
+  - first:
+      213: 4008177449362114583
+    second: Exporter Organic Fluids_00042
+  - first:
+      213: 316803936611794223
+    second: Exporter Organic Fluids_00043
+  - first:
+      213: -145535622821877433
+    second: Exporter Organic Fluids_00044
+  - first:
+      213: -5372033946566036733
+    second: Exporter Organic Fluids_00045
+  - first:
+      213: 7627237208453687190
+    second: Exporter Organic Fluids_00046
+  - first:
+      213: 1999429450921264499
+    second: Exporter Organic Fluids_00047
+  - first:
+      213: 5553107995107577135
+    second: Exporter Organic Fluids_00048
+  - first:
+      213: -4064718934953867023
+    second: Exporter Organic Fluids_00049
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4628
+        width: 942
+        height: 711
+      alignment: 9
+      pivot: {x: 0.56050956, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e28f259140a22a60800000000000000
+      internalID: 7647851320764760804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5341
+        width: 974
+        height: 711
+      alignment: 9
+      pivot: {x: 0.54209447, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a53cd4c1fa35030800000000000000
+      internalID: 3482319472986118665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6054
+        width: 1007
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5243297, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3490238021e20a0800000000000000
+      internalID: -6904561352303885323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6767
+        width: 1039
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5081809, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc801d61404e9de40800000000000000
+      internalID: 5681823111118391500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e5b81749be79760800000000000000
+      internalID: 7464693930182532723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00005
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ba41f4d7350c420800000000000000
+      internalID: 2648208378556623725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00006
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affa0c6681b54fae0800000000000000
+      internalID: -1516487014155767814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00007
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f867a2c03724232e0800000000000000
+      internalID: -2147581010409523569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00008
+      rect:
+        serializedVersion: 2
+        x: 4233
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c776f1e4892bb6c0800000000000000
+      internalID: -4126658982851479608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00009
+      rect:
+        serializedVersion: 2
+        x: 5291
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361112436bed2d2b0800000000000000
+      internalID: -5561137715709144733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00010
+      rect:
+        serializedVersion: 2
+        x: 6349
+        y: 7480
+        width: 1056
+        height: 711
+      alignment: 9
+      pivot: {x: 0.5, y: 0.835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0434d963a3a0140800000000000000
+      internalID: 4686622368473497782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3916
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441fc79c8f9859240800000000000000
+      internalID: 4797892679658434884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00012
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 4629
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bea2ca22abbada0800000000000000
+      internalID: -5932443426050348157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00013
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 5342
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4906c3924e2a59560800000000000000
+      internalID: 7319935870188675220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00014
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 6055
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69892f70c8797d20800000000000000
+      internalID: 3276782972051229037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00015
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 6768
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df051f17ee9d56b10800000000000000
+      internalID: 1974223629808914685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3204
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621e3e8b8a0797260800000000000000
+      internalID: 7095826557857685798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2492
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b71aa0eef13d2dd0800000000000000
+      internalID: -2509294446614800464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1780
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d339d735c6cd534e0800000000000000
+      internalID: -2002452101481000131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1068
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385a86764f53b0620800000000000000
+      internalID: 2741344122008282499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d4e7db9c8a48d80800000000000000
+      internalID: -8249283033014842081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00021
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3917
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6605c56244d06da90800000000000000
+      internalID: -7289624360500047770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00022
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4630
+        width: 1056
+        height: 710
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8352113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a6e464a9735f590800000000000000
+      internalID: -7641140057020142998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00023
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 5344
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5b94ea68ebc3150800000000000000
+      internalID: 5853763101333763522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00024
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 6057
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149bab3395aa9ba70800000000000000
+      internalID: 8843286643415365953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00025
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 6769
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7085b4560088fa7f0800000000000000
+      internalID: -599110690136172537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00026
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3206
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd5d0cfd8cbe4bd0800000000000000
+      internalID: -2643968613214757446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00027
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 2495
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687801fc25d9b6a00800000000000000
+      internalID: 750866741874165638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00028
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1784
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e32513b7857b400800000000000000
+      internalID: 339837583021456988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00029
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1073
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c0cac401862b7e0800000000000000
+      internalID: -1751222885878592413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00030
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 362
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5944cf05a0580080800000000000000
+      internalID: -9221031567176742565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00031
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 3919
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6946f84f0d0086b0800000000000000
+      internalID: -5296218802487932566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00032
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 4633
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a884face5b5f7310800000000000000
+      internalID: 1404942071452960929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00033
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 5346
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857a2c2cc1e9ae640800000000000000
+      internalID: 5110070573569058648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00034
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 6058
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c34b237468d0ca0800000000000000
+      internalID: -6049031084137235456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00035
+      rect:
+        serializedVersion: 2
+        x: 3158
+        y: 6769
+        width: 1056
+        height: 709
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8349788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9dc239ebf0bfc90800000000000000
+      internalID: -7135091873451025967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00036
+      rect:
+        serializedVersion: 2
+        x: 4216
+        y: 6770
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99aa75b8d6d3d5970800000000000000
+      internalID: 8745213592121879193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00037
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 6770
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befac43126a0893c0800000000000000
+      internalID: -4352717623506718741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00038
+      rect:
+        serializedVersion: 2
+        x: 6332
+        y: 6770
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbc7dd2bf2523d60800000000000000
+      internalID: 7868442737729063933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00039
+      rect:
+        serializedVersion: 2
+        x: 4216
+        y: 6060
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c6675c68a7f6d80800000000000000
+      internalID: -8255244872689750974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00040
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 6060
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d584854d3b64c5c30800000000000000
+      internalID: 4349429078308702301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00041
+      rect:
+        serializedVersion: 2
+        x: 6332
+        y: 6060
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21dc777e9dd65aa0800000000000000
+      internalID: -6172502566585446100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00042
+      rect:
+        serializedVersion: 2
+        x: 4184
+        y: 5350
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718c5f96728ef9730800000000000000
+      internalID: 4008177449362114583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00043
+      rect:
+        serializedVersion: 2
+        x: 5242
+        y: 5350
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2df0397083856400800000000000000
+      internalID: 316803936611794223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00044
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 5350
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74969834f14fafdf0800000000000000
+      internalID: -145535622821877433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00045
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 4640
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303779d7693b275b0800000000000000
+      internalID: -5372033946566036733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00046
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 4640
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697268b84d369d960800000000000000
+      internalID: 7627237208453687190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00047
+      rect:
+        serializedVersion: 2
+        x: 6267
+        y: 4640
+        width: 1056
+        height: 708
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83474576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375cd9ffd766fbb10800000000000000
+      internalID: 1999429450921264499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00048
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 3931
+        width: 1056
+        height: 707
+      alignment: 9
+      pivot: {x: 0.5, y: 0.834512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dc4c7cc4a901d40800000000000000
+      internalID: 5553107995107577135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Organic Fluids_00049
+      rect:
+        serializedVersion: 2
+        x: 5177
+        y: 3931
+        width: 1056
+        height: 707
+      alignment: 9
+      pivot: {x: 0.5, y: 0.834512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8454a1aa73797c0800000000000000
+      internalID: -4064718934953867023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

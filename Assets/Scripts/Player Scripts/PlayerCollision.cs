@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCollision : MonoBehaviour
+public class PlayerCollision : MonoBehaviour, IVulnrable
 {
+
+    Player playerM;
     bool collecting;
 
 
+    private void Start()
+    {
+        playerM = GetComponent<Player>();
+    }
 
 
     public bool isCollecting()
@@ -19,5 +25,10 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.CompareTag("Collectible"))
             collecting = true;
+    }
+
+    public void takeDamage(float damage)
+    {
+        playerM.takeDamage(damage);
     }
 }

@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: 5271dfe6f25d246349f271d04bb3cf1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -389254645903796083
+    second: Exporter WandPlantLeft_00000
+  - first:
+      213: 4188534193835697132
+    second: Exporter WandPlantLeft_00001
+  - first:
+      213: -3867240784993511070
+    second: Exporter WandPlantLeft_00002
+  - first:
+      213: 6490376309504378793
+    second: Exporter WandPlantLeft_00003
+  - first:
+      213: -5967898191024306932
+    second: Exporter WandPlantLeft_00004
+  - first:
+      213: 1193235990277795731
+    second: Exporter WandPlantLeft_00005
+  - first:
+      213: 8750516089713923914
+    second: Exporter WandPlantLeft_00006
+  - first:
+      213: -5466822845683588313
+    second: Exporter WandPlantLeft_00007
+  - first:
+      213: 5029299508454486121
+    second: Exporter WandPlantLeft_00008
+  - first:
+      213: -1880343505277788133
+    second: Exporter WandPlantLeft_00009
+  - first:
+      213: -321165222129193187
+    second: Exporter WandPlantLeft_00010
+  - first:
+      213: -5593840457597907487
+    second: Exporter WandPlantLeft_00011
+  - first:
+      213: 3733834207072000371
+    second: Exporter WandPlantLeft_00012
+  - first:
+      213: 4074973353400478938
+    second: Exporter WandPlantLeft_00013
+  - first:
+      213: -4246854632320449453
+    second: Exporter WandPlantLeft_00014
+  - first:
+      213: 986091266002793315
+    second: Exporter WandPlantLeft_00015
+  - first:
+      213: -6567462559414323167
+    second: Exporter WandPlantLeft_00016
+  - first:
+      213: 8252792637227503049
+    second: Exporter WandPlantLeft_00017
+  - first:
+      213: -1188348928267179605
+    second: Exporter WandPlantLeft_00018
+  - first:
+      213: -7511209603511700081
+    second: Exporter WandPlantLeft_00019
+  - first:
+      213: 9067304619473482264
+    second: Exporter WandPlantLeft_00020
+  - first:
+      213: -3545527213078115967
+    second: Exporter WandPlantLeft_00021
+  - first:
+      213: -4166785268088594310
+    second: Exporter WandPlantLeft_00022
+  - first:
+      213: 951553327616849006
+    second: Exporter WandPlantLeft_00023
+  - first:
+      213: 5834337920172564321
+    second: Exporter WandPlantLeft_00024
+  - first:
+      213: 6268025390706383232
+    second: Exporter WandPlantLeft_00025
+  - first:
+      213: 7149857970808154791
+    second: Exporter WandPlantLeft_00026
+  - first:
+      213: 1174820263074482615
+    second: Exporter WandPlantLeft_00027
+  - first:
+      213: -4846483939065679368
+    second: Exporter WandPlantLeft_00028
+  - first:
+      213: -4689273363579729131
+    second: Exporter WandPlantLeft_00029
+  - first:
+      213: 5595536092771316224
+    second: Exporter WandPlantLeft_00030
+  - first:
+      213: -521907796832051040
+    second: Exporter WandPlantLeft_00031
+  - first:
+      213: -2681505418968878886
+    second: Exporter WandPlantLeft_00032
+  - first:
+      213: -8128800853606013432
+    second: Exporter WandPlantLeft_00033
+  - first:
+      213: 569603200143080543
+    second: Exporter WandPlantLeft_00034
+  - first:
+      213: 3337108143841777420
+    second: Exporter WandPlantLeft_00035
+  - first:
+      213: -5851724403313644936
+    second: Exporter WandPlantLeft_00036
+  - first:
+      213: -7034396254002324173
+    second: Exporter WandPlantLeft_00037
+  - first:
+      213: -8090477502946729015
+    second: Exporter WandPlantLeft_00038
+  - first:
+      213: -4461509003453358367
+    second: Exporter WandPlantLeft_00039
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00000
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 4051
+        width: 588
+        height: 644
+      alignment: 9
+      pivot: {x: 0.8154762, y: 0.44487578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88dbbf36f6199af0800000000000000
+      internalID: -389254645903796083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00001
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 3648
+        width: 566
+        height: 672
+      alignment: 9
+      pivot: {x: 0.8065371, y: 0.4203869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3672158a9a02a30800000000000000
+      internalID: 4188534193835697132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00002
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 3519
+        width: 517
+        height: 710
+      alignment: 9
+      pivot: {x: 0.78239846, y: 0.38521126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2691f8ddefcc45ac0800000000000000
+      internalID: -3867240784993511070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2346
+        width: 459
+        height: 737
+      alignment: 9
+      pivot: {x: 0.75272334, y: 0.3670285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a78e92bdd2721a50800000000000000
+      internalID: 6490376309504378793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00004
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 3340
+        width: 423
+        height: 744
+      alignment: 9
+      pivot: {x: 0.7364066, y: 0.36357528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05cc4ce634cd2da0800000000000000
+      internalID: -5967898191024306932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00005
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 4121
+        width: 435
+        height: 744
+      alignment: 9
+      pivot: {x: 0.745977, y: 0.36357528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f28b5afc93f8010800000000000000
+      internalID: 1193235990277795731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00006
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 3416
+        width: 456
+        height: 738
+      alignment: 9
+      pivot: {x: 0.76644737, y: 0.36653116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a471db87504107970800000000000000
+      internalID: 8750516089713923914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00007
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2649
+        width: 480
+        height: 731
+      alignment: 9
+      pivot: {x: 0.7885417, y: 0.37004104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7232a091691f124b0800000000000000
+      internalID: -5466822845683588313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00008
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2922
+        width: 503
+        height: 724
+      alignment: 9
+      pivot: {x: 0.8101392, y: 0.37361878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960f97ea149abc540800000000000000
+      internalID: 5029299508454486121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00009
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 4086
+        width: 526
+        height: 716
+      alignment: 9
+      pivot: {x: 0.8203422, y: 0.38198325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1064306b8da7e5e0800000000000000
+      internalID: -1880343505277788133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00010
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 4156
+        width: 543
+        height: 709
+      alignment: 9
+      pivot: {x: 0.82596684, y: 0.39280677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fa7cc9eedfa8bf0800000000000000
+      internalID: -321165222129193187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3085
+        width: 547
+        height: 679
+      alignment: 9
+      pivot: {x: 0.82906765, y: 0.4131075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed0ba2cdbfae52b0800000000000000
+      internalID: -5593840457597907487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00012
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 3382
+        width: 559
+        height: 667
+      alignment: 9
+      pivot: {x: 0.8273703, y: 0.42053974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3799ababd6e31d330800000000000000
+      internalID: 3733834207072000371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00013
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 4231
+        width: 575
+        height: 640
+      alignment: 9
+      pivot: {x: 0.8269565, y: 0.44296876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc2e9ebca63d8830800000000000000
+      internalID: 4074973353400478938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3766
+        width: 587
+        height: 604
+      alignment: 9
+      pivot: {x: 0.82367975, y: 0.47268212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35441d376342015c0800000000000000
+      internalID: -4246854632320449453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00015
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 4697
+        width: 602
+        height: 585
+      alignment: 9
+      pivot: {x: 0.8197674, y: 0.4897436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363363a28cc4fad00800000000000000
+      internalID: 986091266002793315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00016
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 4912
+        width: 603
+        height: 585
+      alignment: 9
+      pivot: {x: 0.81840795, y: 0.4897436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287e6e199fabd4a0800000000000000
+      internalID: -6567462559414323167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00017
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 4873
+        width: 601
+        height: 587
+      alignment: 9
+      pivot: {x: 0.81613976, y: 0.48807496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd87eaad2fc78270800000000000000
+      internalID: 8252792637227503049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00018
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 4322
+        width: 595
+        height: 588
+      alignment: 9
+      pivot: {x: 0.8142857, y: 0.4855442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba92b6522f2228fe0800000000000000
+      internalID: -1188348928267179605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00019
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 4867
+        width: 587
+        height: 591
+      alignment: 9
+      pivot: {x: 0.8117547, y: 0.48307952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85be2569a2d2c790800000000000000
+      internalID: -7511209603511700081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00020
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 4804
+        width: 577
+        height: 594
+      alignment: 9
+      pivot: {x: 0.8102253, y: 0.48063973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812b9f1c28985dd70800000000000000
+      internalID: 9067304619473482264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00021
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 7175
+        width: 655
+        height: 1016
+      alignment: 9
+      pivot: {x: 0.8328244, y: 0.2819882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1898ff2e8c1cbcec0800000000000000
+      internalID: -3545527213078115967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00022
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 7175
+        width: 655
+        height: 1016
+      alignment: 9
+      pivot: {x: 0.8343511, y: 0.2819882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70af3010ea9c26c0800000000000000
+      internalID: -4166785268088594310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00023
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 6142
+        width: 654
+        height: 1016
+      alignment: 9
+      pivot: {x: 0.8356269, y: 0.2819882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64717db5b8943d00800000000000000
+      internalID: 951553327616849006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00024
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 6157
+        width: 655
+        height: 1016
+      alignment: 9
+      pivot: {x: 0.83587784, y: 0.2819882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f1a7f3d6bb7f050800000000000000
+      internalID: 5834337920172564321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00025
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 6154
+        width: 655
+        height: 1016
+      alignment: 9
+      pivot: {x: 0.83587784, y: 0.2819882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089de2822ef7cf650800000000000000
+      internalID: 6268025390706383232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00026
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 7172
+        width: 658
+        height: 1019
+      alignment: 9
+      pivot: {x: 0.83358663, y: 0.28606477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aae38061f5693360800000000000000
+      internalID: 7149857970808154791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00027
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 7160
+        width: 665
+        height: 1031
+      alignment: 9
+      pivot: {x: 0.82631576, y: 0.2943744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b94c770ecccd4010800000000000000
+      internalID: 1174820263074482615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00028
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 6232
+        width: 663
+        height: 1021
+      alignment: 9
+      pivot: {x: 0.831825, y: 0.2884427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1ba520984ddbcb0800000000000000
+      internalID: -4846483939065679368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5303
+        width: 663
+        height: 1001
+      alignment: 9
+      pivot: {x: 0.8348416, y: 0.27522478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b012d78ba5ceeb0800000000000000
+      internalID: -4689273363579729131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6306
+        width: 666
+        height: 970
+      alignment: 9
+      pivot: {x: 0.8325826, y: 0.25412372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002f2811e6657ad40800000000000000
+      internalID: 5595536092771316224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00031
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 7255
+        width: 673
+        height: 936
+      alignment: 9
+      pivot: {x: 0.8268945, y: 0.22809829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0a15cbf9fc1c8f0800000000000000
+      internalID: -521907796832051040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00032
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7278
+        width: 681
+        height: 913
+      alignment: 9
+      pivot: {x: 0.8215859, y: 0.20317633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad03317570169cad0800000000000000
+      internalID: -2681505418968878886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00033
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 5284
+        width: 654
+        height: 946
+      alignment: 9
+      pivot: {x: 0.81269115, y: 0.1844609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806ebee11b2b03f80800000000000000
+      internalID: -8128800853606013432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00034
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4372
+        width: 653
+        height: 929
+      alignment: 9
+      pivot: {x: 0.8139357, y: 0.19321851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c3477b713a7e700800000000000000
+      internalID: 569603200143080543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00035
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 6287
+        width: 647
+        height: 886
+      alignment: 9
+      pivot: {x: 0.8153014, y: 0.22065462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0790c21d2acf4e20800000000000000
+      internalID: 3337108143841777420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00036
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 5460
+        width: 638
+        height: 825
+      alignment: 9
+      pivot: {x: 0.8189655, y: 0.26363635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a6101b8af7acea0800000000000000
+      internalID: -5851724403313644936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00037
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 5400
+        width: 628
+        height: 755
+      alignment: 9
+      pivot: {x: 0.82245225, y: 0.31986755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d5ad670edc06e90800000000000000
+      internalID: -7034396254002324173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00038
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 5462
+        width: 620
+        height: 690
+      alignment: 9
+      pivot: {x: 0.825, y: 0.38333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c322958399d8bf80800000000000000
+      internalID: -8090477502946729015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter WandPlantLeft_00039
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 5499
+        width: 615
+        height: 641
+      alignment: 9
+      pivot: {x: 0.82520324, y: 0.4375975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee94fe03398512c0800000000000000
+      internalID: -4461509003453358367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

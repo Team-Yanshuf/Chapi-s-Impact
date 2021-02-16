@@ -10,7 +10,7 @@ public interface IHitter
 
 public interface IVulnrable
 {
-    void takeDamage(int damage = 0);
+    void takeDamage(float damage = 0);
 }
 
 public interface ICollectible
