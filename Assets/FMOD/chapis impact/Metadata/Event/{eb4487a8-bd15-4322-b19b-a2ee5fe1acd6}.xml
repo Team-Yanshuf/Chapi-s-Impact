@@ -105,7 +105,7 @@
 	<object class="MixerBusPanner" id="{cfba13ab-8697-42f7-b092-45287db56d2f}" />
 	<object class="MultiSound" id="{ed24255d-dc11-49f5-8ee9-6a1043121fcb}">
 		<property name="length">
-			<value>0.58318749999999997</value>
+			<value>0.41000000000000003</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -122,6 +122,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8ba37a34-d43e-490a-a612-eafd56c357b9}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Dirt</value>
 		</property>
@@ -140,7 +143,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>0.58399999999999996</value>
+			<value>0.41000000000000003</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{da352273-c439-41c6-ba56-3f13ca4a56b6}</destination>
@@ -151,7 +154,7 @@
 	</object>
 	<object class="NamedMarker" id="{4b4571c0-023d-43cd-8b64-f535b01ea6bf}">
 		<property name="position">
-			<value>0.58399999999999996</value>
+			<value>0.40999999999999998</value>
 		</property>
 		<property name="name">
 			<value>Marker A</value>
@@ -165,7 +168,7 @@
 	</object>
 	<object class="TransitionRegion" id="{cd0c6ecf-629e-4c11-ac8f-a27f2023ed8b}">
 		<property name="position">
-			<value>0.53200000000000003</value>
+			<value>0.35999999999999999</value>
 		</property>
 		<property name="length">
 			<value>0.050000000000000003</value>
@@ -180,7 +183,7 @@
 			<destination>{4b4571c0-023d-43cd-8b64-f535b01ea6bf}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
-			<destination>{a6462e0b-02e5-4f58-a8fd-f90911c1e9f4}</destination>
+			<destination>{41b59abe-acce-4640-bf2e-803280cf5896}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{736932d3-41f8-4752-9aca-fde20f8e5866}">
@@ -232,12 +235,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bb61dbef-43db-4d1b-9f13-d8c84da1a873}" />
-	<object class="ParameterCondition" id="{a6462e0b-02e5-4f58-a8fd-f90911c1e9f4}">
+	<object class="ParameterCondition" id="{41b59abe-acce-4640-bf2e-803280cf5896}">
 		<property name="minimum">
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>0.99000000953674316</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{35ea64d0-364d-4e5c-b5f4-896722b9ed8f}</destination>

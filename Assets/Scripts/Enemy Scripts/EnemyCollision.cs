@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyCollision : MonoBehaviour, IVulnrable
 {
+    bool hurt = false;
     OilMonster monsterM;
     [SerializeField] float hp;
 
@@ -19,6 +20,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     }
     public void takeDamage(float damage)
     {
+        hurt = true;
         hp -= damage;
             
     }
@@ -34,12 +36,24 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
-        {
-
+        { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
             Debug.Log("Attacking player");
             player?.takeDamage(15);
+
         }
+    }
+
+
+    public bool isHurt()
+    {
+        if (hurt)
+        {
+            hurt = false;
+            return true;
+        }
+
+        return false;
     }
 
 }

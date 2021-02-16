@@ -5,26 +5,20 @@ public class PlayerSound : MonoBehaviour
 {
     Player playerM;
 
-    [SerializeField] AudioSource footSteps;
-    [SerializeField] AudioSource hurt;
-    [SerializeField] AudioSource attack;
-    [SerializeField] AudioSource collect;
-
-    private FMOD.Studio.EventInstance instance;
-
-    [FMODUnity.EventRef]
-    public string fmodEvent;
-
-    [SerializeField]
-    [Range(0f, 1f)]
-    private float Walking;
-
     
+    [SerializeField]  FMODUnity.StudioEventEmitter footstepsEmmiter;
+    [SerializeField]  FMODUnity.StudioEventEmitter dash;
+    [SerializeField]  FMODUnity.StudioEventEmitter shoot;
+    [SerializeField]  FMODUnity.StudioEventEmitter hurt;
+    //private FMOD.Studio.EventInstance instance;
+
+
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-      //  instance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
 
         playerM = GetComponent<Player>();
     }
@@ -32,7 +26,9 @@ public class PlayerSound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // playFootSetps();
+             playFootSetps();
+        playDash();
+        playShooting();
     }
 
     void playFootSetps()
@@ -41,24 +37,40 @@ public class PlayerSound : MonoBehaviour
 
 
 
-       // if  (playerM.isMoving())
+       if  (playerM.isMoving())
         {
+            if (!footstepsEmmiter.IsPlaying())
+                footstepsEmmiter.Play();
+           // instance.setParameterByName("Walking", 1);
             //Debug.Log("Trying to play footsteps");
            
-          //  instance.start();
+           // instance.start();
         }
 
        
 
     }
 
+    void playDash()
+    {
+        if (playerM.isDashing() && !dash.IsPlaying())
+        {
+            dash.Play();
+        }
+    }
     void playCollect()
     {
-        if (!collect)
-            return;
-
-        if (playerM.isCollecting())
-            collect.Play();
+        
             
+    }
+
+    void playShooting()
+    {
+        if (playerM.isShooting() && !shoot.IsPlaying())
+        {
+            shoot.Play();
+        }
+
+
     }
 }

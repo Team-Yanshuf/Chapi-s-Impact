@@ -7,9 +7,11 @@ public class OilMonster : MonoBehaviour
     WormChasePlayer movementM;
     AnimationStateHandler animationM;
     [SerializeField] GameObject target;
+    EnemyCollision collisionM;
     // Start is called before the first frame update
     void Awake()
     {
+        collisionM = GetComponent<EnemyCollision>();
         movementM = GetComponent<WormChasePlayer>();
         animationM = GetComponent<AnimationStateHandler>();
     }
@@ -44,4 +46,8 @@ public class OilMonster : MonoBehaviour
         return target != null;
     }
 
+    public bool isHurt()
+    {
+        return collisionM.isHurt();
+    }
 }

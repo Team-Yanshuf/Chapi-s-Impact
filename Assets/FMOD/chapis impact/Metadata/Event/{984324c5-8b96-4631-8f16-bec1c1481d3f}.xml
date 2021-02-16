@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4d139f67-b08a-44a0-8ab4-4a8fb9e26d1a}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="name">
 			<value>trashbag die</value>
 		</property>
