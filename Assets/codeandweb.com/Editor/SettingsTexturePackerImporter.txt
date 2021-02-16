@@ -2,6 +2,19 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft 1.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunBack.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunFront.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunRight.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Hit.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/HitsRight.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/idle left.tpsheet
@@ -18,11 +31,26 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Pref.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Star.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Start.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/InGameUI/Fluids/Bottle.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/InGameUI/Fluids/OrganicBackNoBubbles.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyCrawl.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyDies.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunBack.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunFront.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunRight.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Hit.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/HitsRight.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/idle left.png
@@ -39,11 +67,28 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Pref.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Star.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Start.png
+- Assets/GraphicAssets/SpriteAnimations/InGameUI/Fluids/Bottle.png
+- Assets/GraphicAssets/SpriteAnimations/InGameUI/Fluids/OrganicBackNoBubbles.png
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyCrawl.png
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyDies.png
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

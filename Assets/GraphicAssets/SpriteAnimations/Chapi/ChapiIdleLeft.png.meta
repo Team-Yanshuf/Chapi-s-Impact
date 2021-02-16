@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 1dda7b88b5c0a40a9b6599c3327bce76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5728697396622934358
+    second: Exporter Chapi Idle Left_00000
+  - first:
+      213: -1313982460098156327
+    second: Exporter Chapi Idle Left_00001
+  - first:
+      213: -2651829672738995796
+    second: Exporter Chapi Idle Left_00002
+  - first:
+      213: -9102102289728476060
+    second: Exporter Chapi Idle Left_00003
+  - first:
+      213: -4981982808129994284
+    second: Exporter Chapi Idle Left_00004
+  - first:
+      213: -4300087775405498540
+    second: Exporter Chapi Idle Left_00005
+  - first:
+      213: -7836786827493601569
+    second: Exporter Chapi Idle Left_00006
+  - first:
+      213: 1720071621614982691
+    second: Exporter Chapi Idle Left_00007
+  - first:
+      213: 6929582923524010328
+    second: Exporter Chapi Idle Left_00008
+  - first:
+      213: -5635834971123678609
+    second: Exporter Chapi Idle Left_00009
+  - first:
+      213: -1391905434223744148
+    second: Exporter Chapi Idle Left_00010
+  - first:
+      213: 5020719051314919425
+    second: Exporter Chapi Idle Left_00011
+  - first:
+      213: 5242883575235693412
+    second: Exporter Chapi Idle Left_00012
+  - first:
+      213: -4755167013504879341
+    second: Exporter Chapi Idle Left_00013
+  - first:
+      213: -9154159133995304494
+    second: Exporter Chapi Idle Left_00014
+  - first:
+      213: -9146461246930748202
+    second: Exporter Chapi Idle Left_00015
+  - first:
+      213: 6065060207365398499
+    second: Exporter Chapi Idle Left_00016
+  - first:
+      213: -3925854827648559979
+    second: Exporter Chapi Idle Left_00017
+  - first:
+      213: -531343183228482557
+    second: Exporter Chapi Idle Left_00018
+  - first:
+      213: -1802066877259010398
+    second: Exporter Chapi Idle Left_00019
+  - first:
+      213: 586774283766361120
+    second: Exporter Chapi Idle Left_00020
+  - first:
+      213: 1763671312564901834
+    second: Exporter Chapi Idle Left_00021
+  - first:
+      213: -287496928841676339
+    second: Exporter Chapi Idle Left_00022
+  - first:
+      213: 4374382677456927372
+    second: Exporter Chapi Idle Left_00023
+  - first:
+      213: 5433917099877103063
+    second: Exporter Chapi Idle Left_00024
+  - first:
+      213: 2885435482856196519
+    second: Exporter Chapi Idle Left_00025
+  - first:
+      213: -5370950318736819783
+    second: Exporter Chapi Idle Left_00026
+  - first:
+      213: 126252158725147856
+    second: Exporter Chapi Idle Left_00027
+  - first:
+      213: -3246219944674484465
+    second: Exporter Chapi Idle Left_00028
+  - first:
+      213: 2207480420728200957
+    second: Exporter Chapi Idle Left_00029
+  - first:
+      213: -1086954701060345969
+    second: Exporter Chapi Idle Left_00030
+  - first:
+      213: -6412911787829755444
+    second: Exporter Chapi Idle Left_00031
+  - first:
+      213: -102864022288389178
+    second: Exporter Chapi Idle Left_00032
+  - first:
+      213: -8815648781820902444
+    second: Exporter Chapi Idle Left_00033
+  - first:
+      213: -464109257565125470
+    second: Exporter Chapi Idle Left_00034
+  - first:
+      213: -5324405790162111632
+    second: Exporter Chapi Idle Left_00035
+  - first:
+      213: -6455747821083764865
+    second: Exporter Chapi Idle Left_00036
+  - first:
+      213: -8693282783734529150
+    second: Exporter Chapi Idle Left_00037
+  - first:
+      213: 7964795370082559043
+    second: Exporter Chapi Idle Left_00038
+  - first:
+      213: -448554097326460947
+    second: Exporter Chapi Idle Left_00039
+  - first:
+      213: 410751162260386675
+    second: Exporter Chapi Idle Left_00040
+  - first:
+      213: 7174198983846280498
+    second: Exporter Chapi Idle Left_00041
+  - first:
+      213: -6908704977718590018
+    second: Exporter Chapi Idle Left_00042
+  - first:
+      213: 5800477932942943850
+    second: Exporter Chapi Idle Left_00043
+  - first:
+      213: -7006590452698907511
+    second: Exporter Chapi Idle Left_00044
+  - first:
+      213: 2309597587570781946
+    second: Exporter Chapi Idle Left_00045
+  - first:
+      213: -4182190271695276740
+    second: Exporter Chapi Idle Left_00046
+  - first:
+      213: 5019284973953573562
+    second: Exporter Chapi Idle Left_00047
+  - first:
+      213: 6568877279663976609
+    second: Exporter Chapi Idle Left_00048
+  - first:
+      213: -7895167256261846167
+    second: Exporter Chapi Idle Left_00049
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00000
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 3347
+        width: 697
+        height: 552
+      alignment: 9
+      pivot: {x: 0.8364419, y: 0.5543478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeb598d1149f70b0800000000000000
+      internalID: -5728697396622934358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00001
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 4385
+        width: 698
+        height: 553
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.5551537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d861c01aebc3cde0800000000000000
+      internalID: -1313982460098156327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3884
+        width: 698
+        height: 552
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.55615944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca14d8f66fec23bd0800000000000000
+      internalID: -2651829672738995796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00003
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 4982
+        width: 699
+        height: 550
+      alignment: 9
+      pivot: {x: 0.8369099, y: 0.5581818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ce6774136dea180800000000000000
+      internalID: -9102102289728476060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00004
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 6023
+        width: 700
+        height: 547
+      alignment: 9
+      pivot: {x: 0.8371429, y: 0.5630713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d10f4c18017cdab0800000000000000
+      internalID: -4981982808129994284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00005
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 6576
+        width: 700
+        height: 544
+      alignment: 9
+      pivot: {x: 0.8385714, y: 0.5661765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f94fb73f40354c0800000000000000
+      internalID: -4300087775405498540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00006
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 6572
+        width: 701
+        height: 540
+      alignment: 9
+      pivot: {x: 0.83880174, y: 0.5703704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde88c6c6e32e3390800000000000000
+      internalID: -7836786827493601569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00007
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 7654
+        width: 703
+        height: 537
+      alignment: 9
+      pivot: {x: 0.83926034, y: 0.575419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326579ac60ceed710800000000000000
+      internalID: 1720071621614982691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00008
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 7659
+        width: 704
+        height: 532
+      alignment: 9
+      pivot: {x: 0.8394886, y: 0.58082706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851f24654f2da2060800000000000000
+      internalID: 6929582923524010328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00009
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 7661
+        width: 704
+        height: 530
+      alignment: 9
+      pivot: {x: 0.8394886, y: 0.58301884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62037524fd79c1b0800000000000000
+      internalID: -5635834971123678609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6584
+        width: 702
+        height: 530
+      alignment: 9
+      pivot: {x: 0.84045583, y: 0.5849057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b6828d165feace0800000000000000
+      internalID: -1391905434223744148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00011
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 7128
+        width: 702
+        height: 529
+      alignment: 9
+      pivot: {x: 0.84045583, y: 0.58601135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10879a2506d2da540800000000000000
+      internalID: 5020719051314919425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00012
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 6597
+        width: 702
+        height: 529
+      alignment: 9
+      pivot: {x: 0.84045583, y: 0.58601135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b47ac65d672c840800000000000000
+      internalID: 5242883575235693412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00013
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 6066
+        width: 701
+        height: 529
+      alignment: 9
+      pivot: {x: 0.84022826, y: 0.58601135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315f2609bc0420eb0800000000000000
+      internalID: -4755167013504879341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00014
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 5534
+        width: 700
+        height: 530
+      alignment: 9
+      pivot: {x: 0.84, y: 0.5849057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9ffc8b4c4e5f080800000000000000
+      internalID: -9154159133995304494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6052
+        width: 701
+        height: 530
+      alignment: 9
+      pivot: {x: 0.83880174, y: 0.58301884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcf0d8b4fd311180800000000000000
+      internalID: -9146461246930748202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00016
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 6063
+        width: 700
+        height: 531
+      alignment: 9
+      pivot: {x: 0.8385714, y: 0.5819209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef1f51ef1c6b2450800000000000000
+      internalID: 6065060207365398499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00017
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 5511
+        width: 699
+        height: 532
+      alignment: 9
+      pivot: {x: 0.83834046, y: 0.58082706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594514695df8489c0800000000000000
+      internalID: -3925854827648559979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4438
+        width: 699
+        height: 533
+      alignment: 9
+      pivot: {x: 0.83834046, y: 0.5778612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c47d5a03a40a8f0800000000000000
+      internalID: -531343183228482557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00019
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 3374
+        width: 698
+        height: 534
+      alignment: 9
+      pivot: {x: 0.8381089, y: 0.576779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aeaa7f09b5cdf6e0800000000000000
+      internalID: -1802066877259010398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3346
+        width: 698
+        height: 536
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.57462686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c6a3b2a14a42800800000000000000
+      internalID: 586774283766361120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00021
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 4439
+        width: 698
+        height: 536
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.5727612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac75af5e6b1d97810800000000000000
+      internalID: 1763671312564901834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00022
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3846
+        width: 698
+        height: 537
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.5716946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc94062011b920cf0800000000000000
+      internalID: -287496928841676339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00023
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 3910
+        width: 698
+        height: 538
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.570632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a31716edde4bc30800000000000000
+      internalID: 4374382677456927372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00024
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 2835
+        width: 697
+        height: 537
+      alignment: 9
+      pivot: {x: 0.8364419, y: 0.5698324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5781defc6296b40800000000000000
+      internalID: 5433917099877103063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00025
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 3345
+        width: 697
+        height: 538
+      alignment: 9
+      pivot: {x: 0.8364419, y: 0.570632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a983f1b8402b0820800000000000000
+      internalID: 2885435482856196519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00026
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2771
+        width: 697
+        height: 537
+      alignment: 9
+      pivot: {x: 0.8364419, y: 0.5716946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9bb61442d8675b0800000000000000
+      internalID: -5370950318736819783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00027
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 3901
+        width: 698
+        height: 536
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.5727612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc40f06ba980c100800000000000000
+      internalID: 126252158725147856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00028
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 3885
+        width: 698
+        height: 536
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.57462686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f93e6d82c13f2d0800000000000000
+      internalID: -3246219944674484465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00029
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3310
+        width: 698
+        height: 534
+      alignment: 9
+      pivot: {x: 0.8381089, y: 0.576779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe52263fbb82ae10800000000000000
+      internalID: 2207480420728200957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2811
+        width: 698
+        height: 533
+      alignment: 9
+      pivot: {x: 0.8381089, y: 0.5778612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f6b54557c5ae0f0800000000000000
+      internalID: -1086954701060345969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00031
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 4977
+        width: 699
+        height: 532
+      alignment: 9
+      pivot: {x: 0.83834046, y: 0.58082706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc10e7eb4b2c007a0800000000000000
+      internalID: -6412911787829755444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00032
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 4977
+        width: 699
+        height: 531
+      alignment: 9
+      pivot: {x: 0.83834046, y: 0.5819209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb255b77bd829ef0800000000000000
+      internalID: -102864022288389178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00033
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 5491
+        width: 700
+        height: 530
+      alignment: 9
+      pivot: {x: 0.8385714, y: 0.58301884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3c5f6e32688a580800000000000000
+      internalID: -8815648781820902444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00034
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 4450
+        width: 699
+        height: 530
+      alignment: 9
+      pivot: {x: 0.8397711, y: 0.5849057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a44cd5d6172f89f0800000000000000
+      internalID: -464109257565125470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4973
+        width: 700
+        height: 529
+      alignment: 9
+      pivot: {x: 0.84, y: 0.58601135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073ba5dc429eb16b0800000000000000
+      internalID: -5324405790162111632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00036
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 6045
+        width: 700
+        height: 529
+      alignment: 9
+      pivot: {x: 0.84, y: 0.58601135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77dccc8f839866a0800000000000000
+      internalID: -6455747821083764865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00037
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 6066
+        width: 701
+        height: 529
+      alignment: 9
+      pivot: {x: 0.84022826, y: 0.58601135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2830c7ffd514b5780800000000000000
+      internalID: -8693282783734529150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00038
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 6596
+        width: 701
+        height: 530
+      alignment: 9
+      pivot: {x: 0.84022826, y: 0.5849057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34462769033a88e60800000000000000
+      internalID: 7964795370082559043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00039
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 7122
+        width: 703
+        height: 530
+      alignment: 9
+      pivot: {x: 0.83926034, y: 0.58301884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def6f4ecc6a66c9f0800000000000000
+      internalID: -448554097326460947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00040
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 7128
+        width: 703
+        height: 531
+      alignment: 9
+      pivot: {x: 0.83926034, y: 0.5819209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373fb9d710843b500800000000000000
+      internalID: 410751162260386675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00041
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 7659
+        width: 704
+        height: 532
+      alignment: 9
+      pivot: {x: 0.8394886, y: 0.58082706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d302c17ffdf8360800000000000000
+      internalID: 7174198983846280498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00042
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7657
+        width: 704
+        height: 534
+      alignment: 9
+      pivot: {x: 0.8394886, y: 0.576779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb54c193d695f10a0800000000000000
+      internalID: -6908704977718590018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7116
+        width: 702
+        height: 539
+      alignment: 9
+      pivot: {x: 0.83903134, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a666e80a2ff6f7050800000000000000
+      internalID: 5800477932942943850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00044
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 7114
+        width: 702
+        height: 543
+      alignment: 9
+      pivot: {x: 0.83760685, y: 0.56721914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cfc341b1793ce90800000000000000
+      internalID: -7006590452698907511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5504
+        width: 700
+        height: 546
+      alignment: 9
+      pivot: {x: 0.8371429, y: 0.56227106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe6145e4c65d0020800000000000000
+      internalID: 2309597587570781946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00046
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 4940
+        width: 699
+        height: 549
+      alignment: 9
+      pivot: {x: 0.8369099, y: 0.55919856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3532882b10e5f5c0800000000000000
+      internalID: -4182190271695276740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00047
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 5510
+        width: 699
+        height: 551
+      alignment: 9
+      pivot: {x: 0.8369099, y: 0.5571688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab265fa271518a540800000000000000
+      internalID: 5019284973953573562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00048
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 4423
+        width: 698
+        height: 552
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.5543478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0718b1517592b50800000000000000
+      internalID: 6568877279663976609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Idle Left_00049
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 4385
+        width: 698
+        height: 553
+      alignment: 9
+      pivot: {x: 0.83667624, y: 0.5551537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b9738f53bbe6290800000000000000
+      internalID: -7895167256261846167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

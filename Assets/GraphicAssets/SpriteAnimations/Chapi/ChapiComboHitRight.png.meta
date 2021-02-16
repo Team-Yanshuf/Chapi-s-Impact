@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 21c680b270e4a48b9bec289b37f896df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1995355300330388055
+    second: Exporter Chapi Combo Right_00000
+  - first:
+      213: 5606226809291419885
+    second: Exporter Chapi Combo Right_00001
+  - first:
+      213: 7057733302002334465
+    second: Exporter Chapi Combo Right_00002
+  - first:
+      213: -1917301218576024797
+    second: Exporter Chapi Combo Right_00003
+  - first:
+      213: 1014350207725589611
+    second: Exporter Chapi Combo Right_00004
+  - first:
+      213: 1321243121708125711
+    second: Exporter Chapi Combo Right_00005
+  - first:
+      213: 301091627712985646
+    second: Exporter Chapi Combo Right_00006
+  - first:
+      213: 5142879610141600280
+    second: Exporter Chapi Combo Right_00007
+  - first:
+      213: 3869423565384646994
+    second: Exporter Chapi Combo Right_00008
+  - first:
+      213: -4484568527554188863
+    second: Exporter Chapi Combo Right_00009
+  - first:
+      213: 5738215017151441979
+    second: Exporter Chapi Combo Right_00010
+  - first:
+      213: -5762389822705711112
+    second: Exporter Chapi Combo Right_00011
+  - first:
+      213: 7616118867023408815
+    second: Exporter Chapi Combo Right_00012
+  - first:
+      213: 6683850573209499448
+    second: Exporter Chapi Combo Right_00013
+  - first:
+      213: -3876021834876121134
+    second: Exporter Chapi Combo Right_00014
+  - first:
+      213: 6674736426726003834
+    second: Exporter Chapi Combo Right_00015
+  - first:
+      213: 5373352473002423836
+    second: Exporter Chapi Combo Right_00016
+  - first:
+      213: -4540324731744941253
+    second: Exporter Chapi Combo Right_00017
+  - first:
+      213: 2362317886304308914
+    second: Exporter Chapi Combo Right_00018
+  - first:
+      213: 5302047944015802961
+    second: Exporter Chapi Combo Right_00019
+  - first:
+      213: -3748046666211135299
+    second: Exporter Chapi Combo Right_00020
+  - first:
+      213: 5497548493183318284
+    second: Exporter Chapi Combo Right_00021
+  - first:
+      213: -6675568799038664638
+    second: Exporter Chapi Combo Right_00022
+  - first:
+      213: 8515693514285460687
+    second: Exporter Chapi Combo Right_00023
+  - first:
+      213: 650439644178976395
+    second: Exporter Chapi Combo Right_00024
+  - first:
+      213: 4833789869088251468
+    second: Exporter Chapi Combo Right_00025
+  - first:
+      213: -4884832718004882511
+    second: Exporter Chapi Combo Right_00026
+  - first:
+      213: -4677145817501430538
+    second: Exporter Chapi Combo Right_00027
+  - first:
+      213: -4817965329609160966
+    second: Exporter Chapi Combo Right_00028
+  - first:
+      213: 5516813294967587996
+    second: Exporter Chapi Combo Right_00029
+  - first:
+      213: -8915942292542032493
+    second: Exporter Chapi Combo Right_00030
+  - first:
+      213: -7444718767580603810
+    second: Exporter Chapi Combo Right_00031
+  - first:
+      213: 530238307245132999
+    second: Exporter Chapi Combo Right_00032
+  - first:
+      213: -2140320588640137488
+    second: Exporter Chapi Combo Right_00033
+  - first:
+      213: 3535841701768217816
+    second: Exporter Chapi Combo Right_00034
+  - first:
+      213: 5056366478770469420
+    second: Exporter Chapi Combo Right_00035
+  - first:
+      213: -4717420777270578115
+    second: Exporter Chapi Combo Right_00036
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00000
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 4585
+        width: 703
+        height: 690
+      alignment: 9
+      pivot: {x: 0.56187767, y: 0.45507246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a54d1b1de21f44e0800000000000000
+      internalID: -1995355300330388055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00001
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3898
+        width: 690
+        height: 722
+      alignment: 9
+      pivot: {x: 0.5826087, y: 0.43490306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0361a74915dcd40800000000000000
+      internalID: 5606226809291419885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00002
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 5277
+        width: 630
+        height: 767
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.40938723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b3b417b0b12f160800000000000000
+      internalID: 7057733302002334465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00003
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 3804
+        width: 566
+        height: 779
+      alignment: 9
+      pivot: {x: 0.7773852, y: 0.40308088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b3a5333b06465e0800000000000000
+      internalID: -1917301218576024797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2650
+        width: 573
+        height: 772
+      alignment: 9
+      pivot: {x: 0.7975567, y: 0.40673575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64d351c322b31e00800000000000000
+      internalID: 1014350207725589611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00005
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3123
+        width: 575
+        height: 773
+      alignment: 9
+      pivot: {x: 0.8052174, y: 0.40620956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e47537e9ff55210800000000000000
+      internalID: 1321243121708125711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00006
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 3803
+        width: 564
+        height: 780
+      alignment: 9
+      pivot: {x: 0.7960993, y: 0.4025641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a3daa7d31bd2400800000000000000
+      internalID: 301091627712985646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00007
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 4758
+        width: 723
+        height: 780
+      alignment: 9
+      pivot: {x: 0.57399726, y: 0.4025641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ae61dd1cd2f5740800000000000000
+      internalID: 5142879610141600280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00008
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 6849
+        width: 874
+        height: 634
+      alignment: 9
+      pivot: {x: 0.42906177, y: 0.49526814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251074c4b34f2b530800000000000000
+      internalID: 3869423565384646994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5618
+        width: 875
+        height: 649
+      alignment: 9
+      pivot: {x: 0.39657143, y: 0.48382127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c96c383fac93c1c0800000000000000
+      internalID: -4484568527554188863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00010
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 6207
+        width: 869
+        height: 640
+      alignment: 9
+      pivot: {x: 0.41311854, y: 0.490625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3caf1ed72c32af40800000000000000
+      internalID: 5738215017151441979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00011
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 5540
+        width: 801
+        height: 665
+      alignment: 9
+      pivot: {x: 0.47690386, y: 0.47218046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7cc489cf0e700b0800000000000000
+      internalID: -5762389822705711112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00012
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 3993
+        width: 650
+        height: 763
+      alignment: 9
+      pivot: {x: 0.6261538, y: 0.41153342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faea414f1c3e1b960800000000000000
+      internalID: 7616118867023408815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00013
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3222
+        width: 563
+        height: 769
+      alignment: 9
+      pivot: {x: 0.76731795, y: 0.40832248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83771fb0faec1cc50800000000000000
+      internalID: 6683850573209499448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4199
+        width: 738
+        height: 722
+      alignment: 9
+      pivot: {x: 0.8333333, y: 0.43490306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df0d8e5daa953ac0800000000000000
+      internalID: -3876021834876121134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00015
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 5613
+        width: 840
+        height: 629
+      alignment: 9
+      pivot: {x: 0.85952383, y: 0.49920508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a741d547a6d61ac50800000000000000
+      internalID: 6674736426726003834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00016
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 6244
+        width: 866
+        height: 560
+      alignment: 9
+      pivot: {x: 0.86489606, y: 0.5607143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16b64eda9bf19a40800000000000000
+      internalID: 5373352473002423836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4923
+        width: 810
+        height: 693
+      alignment: 9
+      pivot: {x: 0.85555553, y: 0.45310244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b0c6f46b68df0c0800000000000000
+      internalID: -4540324731744941253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00018
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 3295
+        width: 593
+        height: 778
+      alignment: 9
+      pivot: {x: 0.7892074, y: 0.40359896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be48bbf993a8c020800000000000000
+      internalID: 2362317886304308914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00019
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 4857
+        width: 782
+        height: 754
+      alignment: 9
+      pivot: {x: 0.52557546, y: 0.4164456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152f62d7388a49940800000000000000
+      internalID: 5302047944015802961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00020
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 7587
+        width: 938
+        height: 604
+      alignment: 9
+      pivot: {x: 0.40298507, y: 0.51986754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0f5e24a634cfbc0800000000000000
+      internalID: -3748046666211135299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7569
+        width: 951
+        height: 622
+      alignment: 9
+      pivot: {x: 0.37749738, y: 0.50482315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09fcaf2a373b4c40800000000000000
+      internalID: 5497548493183318284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00022
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 7553
+        width: 935
+        height: 638
+      alignment: 9
+      pivot: {x: 0.40427807, y: 0.492163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2409e93cb8d9b53a0800000000000000
+      internalID: -6675568799038664638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00023
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 4622
+        width: 740
+        height: 780
+      alignment: 9
+      pivot: {x: 0.5554054, y: 0.4025641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc25171222dd2670800000000000000
+      internalID: 8515693514285460687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00024
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 4075
+        width: 691
+        height: 780
+      alignment: 9
+      pivot: {x: 0.85238785, y: 0.4025641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e8e130963d60900800000000000000
+      internalID: 650439644178976395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00025
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 6806
+        width: 891
+        height: 745
+      alignment: 9
+      pivot: {x: 0.9057239, y: 0.38791946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e13e18642151340800000000000000
+      internalID: 4833789869088251468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6269
+        width: 886
+        height: 579
+      alignment: 9
+      pivot: {x: 0.9108352, y: 0.41105354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3fc102686953cb0800000000000000
+      internalID: -4884832718004882511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00027
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 6153
+        width: 889
+        height: 718
+      alignment: 9
+      pivot: {x: 0.89088863, y: 0.35097492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc8f19d8a0771fb0800000000000000
+      internalID: -4677145817501430538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00028
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 5404
+        width: 833
+        height: 747
+      alignment: 9
+      pivot: {x: 0.48739496, y: 0.37617135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af68f743f06232db0800000000000000
+      internalID: -4817965329609160966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6850
+        width: 914
+        height: 717
+      alignment: 9
+      pivot: {x: 0.3774617, y: 0.42677826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9402b26678af8c40800000000000000
+      internalID: 5516813294967587996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00030
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 6873
+        width: 922
+        height: 712
+      alignment: 9
+      pivot: {x: 0.3253796, y: 0.44101125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395762f39b5344480800000000000000
+      internalID: -8915942292542032493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00031
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 7485
+        width: 895
+        height: 706
+      alignment: 9
+      pivot: {x: 0.3519553, y: 0.44475922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a9ca589bb0fa890800000000000000
+      internalID: -7444718767580603810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00032
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3424
+        width: 683
+        height: 773
+      alignment: 9
+      pivot: {x: 0.50951684, y: 0.40620956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc86ad5ee8cb5700800000000000000
+      internalID: 530238307245132999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00033
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2352
+        width: 392
+        height: 769
+      alignment: 9
+      pivot: {x: 0.61989796, y: 0.40832248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe46a8b3cd0c42e0800000000000000
+      internalID: -2140320588640137488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00034
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 6046
+        width: 419
+        height: 754
+      alignment: 9
+      pivot: {x: 0.5202864, y: 0.4164456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d448e74b45d11130800000000000000
+      internalID: 3535841701768217816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00035
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 2576
+        width: 417
+        height: 717
+      alignment: 9
+      pivot: {x: 0.30455637, y: 0.43793583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a7e4dc582db2640800000000000000
+      internalID: 5056366478770469420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Right_00036
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 6802
+        width: 425
+        height: 681
+      alignment: 9
+      pivot: {x: 0.23294118, y: 0.46108663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d347dba0cca588eb0800000000000000
+      internalID: -4717420777270578115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

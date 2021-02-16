@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 5be0d0722e86d46a29a21c7391ef05f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3253502543592635997
+    second: Exporter Chapi Combo Left_00000
+  - first:
+      213: 1483996651012001861
+    second: Exporter Chapi Combo Left_00001
+  - first:
+      213: -1837042841163655636
+    second: Exporter Chapi Combo Left_00002
+  - first:
+      213: 4992806418945586830
+    second: Exporter Chapi Combo Left_00003
+  - first:
+      213: 3369890275607922727
+    second: Exporter Chapi Combo Left_00004
+  - first:
+      213: -3891524872302258713
+    second: Exporter Chapi Combo Left_00005
+  - first:
+      213: 5232837054745261010
+    second: Exporter Chapi Combo Left_00006
+  - first:
+      213: -8368297044762634675
+    second: Exporter Chapi Combo Left_00007
+  - first:
+      213: -9055078501524823332
+    second: Exporter Chapi Combo Left_00008
+  - first:
+      213: 7784199249788726766
+    second: Exporter Chapi Combo Left_00009
+  - first:
+      213: 2793804150709297933
+    second: Exporter Chapi Combo Left_00010
+  - first:
+      213: -412123873192756455
+    second: Exporter Chapi Combo Left_00011
+  - first:
+      213: -6292030942569126265
+    second: Exporter Chapi Combo Left_00012
+  - first:
+      213: 909464552844747826
+    second: Exporter Chapi Combo Left_00013
+  - first:
+      213: -1441545439322851992
+    second: Exporter Chapi Combo Left_00014
+  - first:
+      213: -108735022978460319
+    second: Exporter Chapi Combo Left_00015
+  - first:
+      213: -7307074928053558354
+    second: Exporter Chapi Combo Left_00016
+  - first:
+      213: 2617426624059010127
+    second: Exporter Chapi Combo Left_00017
+  - first:
+      213: -6668406043423789622
+    second: Exporter Chapi Combo Left_00018
+  - first:
+      213: -297981598657714934
+    second: Exporter Chapi Combo Left_00019
+  - first:
+      213: 8476101614740491813
+    second: Exporter Chapi Combo Left_00020
+  - first:
+      213: 6640405621407296378
+    second: Exporter Chapi Combo Left_00021
+  - first:
+      213: 5178972326519325128
+    second: Exporter Chapi Combo Left_00022
+  - first:
+      213: -870196646938110362
+    second: Exporter Chapi Combo Left_00023
+  - first:
+      213: 292387859036560034
+    second: Exporter Chapi Combo Left_00024
+  - first:
+      213: -7635258062364147676
+    second: Exporter Chapi Combo Left_00025
+  - first:
+      213: -8578595524881250204
+    second: Exporter Chapi Combo Left_00026
+  - first:
+      213: 207270309128106774
+    second: Exporter Chapi Combo Left_00027
+  - first:
+      213: -1882437136748453306
+    second: Exporter Chapi Combo Left_00028
+  - first:
+      213: -6536641632204930649
+    second: Exporter Chapi Combo Left_00029
+  - first:
+      213: 8341587533637850073
+    second: Exporter Chapi Combo Left_00030
+  - first:
+      213: -2712848973295580584
+    second: Exporter Chapi Combo Left_00031
+  - first:
+      213: -7029007271740416270
+    second: Exporter Chapi Combo Left_00032
+  - first:
+      213: 5352844569338048735
+    second: Exporter Chapi Combo Left_00033
+  - first:
+      213: -2286347678050763796
+    second: Exporter Chapi Combo Left_00034
+  - first:
+      213: -2698010365854254153
+    second: Exporter Chapi Combo Left_00035
+  - first:
+      213: -5530019983474684856
+    second: Exporter Chapi Combo Left_00036
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00000
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 6122
+        width: 703
+        height: 679
+      alignment: 9
+      pivot: {x: 0.6728307, y: 0.45066273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e3baa5353c62d20800000000000000
+      internalID: 3253502543592635997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00001
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 5533
+        width: 687
+        height: 707
+      alignment: 9
+      pivot: {x: 0.6652111, y: 0.43281472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540907f6717389410800000000000000
+      internalID: 1483996651012001861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00002
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 4778
+        width: 625
+        height: 753
+      alignment: 9
+      pivot: {x: 0.632, y: 0.4063745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26144fd4438186e0800000000000000
+      internalID: -1837042841163655636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00003
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3871
+        width: 535
+        height: 772
+      alignment: 9
+      pivot: {x: 0.57009345, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86ba892cf20a4540800000000000000
+      internalID: 4992806418945586830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00004
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 3357
+        width: 453
+        height: 772
+      alignment: 9
+      pivot: {x: 0.49227372, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72847a9e95144ce20800000000000000
+      internalID: 3369890275607922727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00005
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 3999
+        width: 410
+        height: 772
+      alignment: 9
+      pivot: {x: 0.4390244, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e593df2fb68ef9c0800000000000000
+      internalID: -3891524872302258713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00006
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 3294
+        width: 527
+        height: 772
+      alignment: 9
+      pivot: {x: 0.56356734, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3b7979395ce9840800000000000000
+      internalID: 5232837054745261010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00007
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 6060
+        width: 713
+        height: 758
+      alignment: 9
+      pivot: {x: 0.67741936, y: 0.40369394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46d8f7cc26dddb80800000000000000
+      internalID: -8368297044762634675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6279
+        width: 871
+        height: 610
+      alignment: 9
+      pivot: {x: 0.7359357, y: 0.50163937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd226572416e55280800000000000000
+      internalID: -9055078501524823332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6891
+        width: 897
+        height: 606
+      alignment: 9
+      pivot: {x: 0.74358976, y: 0.5049505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eede488a9f7070c60800000000000000
+      internalID: 7784199249788726766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00010
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6291
+        width: 879
+        height: 606
+      alignment: 9
+      pivot: {x: 0.738339, y: 0.5049505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d032a07a21695c620800000000000000
+      internalID: 2793804150709297933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00011
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 6242
+        width: 797
+        height: 647
+      alignment: 9
+      pivot: {x: 0.7114178, y: 0.4729521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b33e65587d74af0800000000000000
+      internalID: -412123873192756455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00012
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 5311
+        width: 643
+        height: 747
+      alignment: 9
+      pivot: {x: 0.64230174, y: 0.40963855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786a660c1373ea8a0800000000000000
+      internalID: -6292030942569126265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00013
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 4006
+        width: 462
+        height: 765
+      alignment: 9
+      pivot: {x: 0.5021645, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ee1831311f9c00800000000000000
+      internalID: 909464552844747826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2570
+        width: 492
+        height: 742
+      alignment: 9
+      pivot: {x: 0.23170732, y: 0.41239893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865b3918f0a9efbe0800000000000000
+      internalID: -1441545439322851992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00015
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 4063
+        width: 576
+        height: 698
+      alignment: 9
+      pivot: {x: 0.18055555, y: 0.4383954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16599bc9212bd7ef0800000000000000
+      internalID: -108735022978460319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00016
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 4645
+        width: 598
+        height: 664
+      alignment: 9
+      pivot: {x: 0.17224081, y: 0.46084338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea36436411e089a90800000000000000
+      internalID: -7307074928053558354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00017
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 4131
+        width: 557
+        height: 742
+      alignment: 9
+      pivot: {x: 0.19210054, y: 0.41239893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cefa895a7f25420800000000000000
+      internalID: 2617426624059010127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00018
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 4773
+        width: 499
+        height: 772
+      alignment: 9
+      pivot: {x: 0.52705413, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd28a3c8001573a0800000000000000
+      internalID: -6668406043423789622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00019
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 5537
+        width: 774
+        height: 752
+      alignment: 9
+      pivot: {x: 0.70284235, y: 0.4069149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a056766905b5ddbf0800000000000000
+      internalID: -297981598657714934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00020
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 7585
+        width: 940
+        height: 606
+      alignment: 9
+      pivot: {x: 0.7553192, y: 0.5049505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ec8b2a28921a570800000000000000
+      internalID: 8476101614740491813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00021
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 7585
+        width: 966
+        height: 606
+      alignment: 9
+      pivot: {x: 0.7619048, y: 0.5049505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b2d74fab5772c50800000000000000
+      internalID: 6640405621407296378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00022
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 7561
+        width: 937
+        height: 630
+      alignment: 9
+      pivot: {x: 0.75453573, y: 0.4857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c143cf34e76fd740800000000000000
+      internalID: 5178972326519325128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5505
+        width: 733
+        height: 772
+      alignment: 9
+      pivot: {x: 0.686221, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666948692c07ce3f0800000000000000
+      internalID: -870196646938110362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00024
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3289
+        width: 521
+        height: 772
+      alignment: 9
+      pivot: {x: 0.32629558, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aad28a6535ce0400800000000000000
+      internalID: 292387859036560034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4771
+        width: 655
+        height: 732
+      alignment: 9
+      pivot: {x: 0.14351144, y: 0.38387978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4200950ee3d1a0690800000000000000
+      internalID: -7635258062364147676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00026
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 5547
+        width: 698
+        height: 573
+      alignment: 9
+      pivot: {x: 0.12750717, y: 0.40139616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46882bb42d4b2f880800000000000000
+      internalID: -8578595524881250204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4059
+        width: 653
+        height: 710
+      alignment: 9
+      pivot: {x: 0.18376723, y: 0.34366196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613f01c7f3f50e200800000000000000
+      internalID: 207270309128106774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00028
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 6820
+        width: 814
+        height: 739
+      alignment: 9
+      pivot: {x: 0.7174447, y: 0.36941814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642ea10d56d30e5e0800000000000000
+      internalID: -1882437136748453306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00029
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 6899
+        width: 933
+        height: 684
+      alignment: 9
+      pivot: {x: 0.7534834, y: 0.43567252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a14560711f2945a0800000000000000
+      internalID: -6536641632204930649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7499
+        width: 979
+        height: 692
+      alignment: 9
+      pivot: {x: 0.7650664, y: 0.44219652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d39f4d8aa543c370800000000000000
+      internalID: 8341587533637850073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00031
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 6891
+        width: 931
+        height: 692
+      alignment: 9
+      pivot: {x: 0.7529538, y: 0.44219652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a0f696b360a5ad0800000000000000
+      internalID: -2712848973295580584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00032
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 4763
+        width: 661
+        height: 772
+      alignment: 9
+      pivot: {x: 0.6520424, y: 0.39637306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe564ca023f37e90800000000000000
+      internalID: -7029007271740416270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00033
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 6803
+        width: 426
+        height: 756
+      alignment: 9
+      pivot: {x: 0.6737089, y: 0.4047619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0f54576cf194a40800000000000000
+      internalID: 5352844569338048735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00034
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3314
+        width: 493
+        height: 743
+      alignment: 9
+      pivot: {x: 0.7302231, y: 0.41184387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebbeb086e24540e0800000000000000
+      internalID: -2286347678050763796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00035
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 4068
+        width: 579
+        height: 708
+      alignment: 9
+      pivot: {x: 0.78583765, y: 0.43220338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb7feeedddbe8ad0800000000000000
+      internalID: -2698010365854254153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exporter Chapi Combo Left_00036
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 4875
+        width: 609
+        height: 670
+      alignment: 9
+      pivot: {x: 0.8062397, y: 0.45671642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c0e24df1c6143b0800000000000000
+      internalID: -5530019983474684856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
