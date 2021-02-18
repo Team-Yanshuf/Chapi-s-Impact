@@ -29,7 +29,6 @@ public class Projectile : MonoBehaviour
     {
         if (!rb)
         {
-            Debug.Log("No Rigidbody reference in projectile!");
             return;
         }
 

@@ -23,7 +23,6 @@ public class PlayerAttacking : MonoBehaviour
 		if (Input.GetMouseButtonDown(0))
 		{
 			shooting = true;
-			Debug.Log("Shooting is true");
 			throwProjectile();
 		}
 	}
@@ -50,10 +49,8 @@ public class PlayerAttacking : MonoBehaviour
 
 	public bool isShooting()
     {
-		Debug.Log("Called is shooting");
 		if (shooting)
         {
-			Debug.Log("shooting is true");
 			shooting = false;
 			return true;
 		}

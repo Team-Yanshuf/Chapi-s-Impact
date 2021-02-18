@@ -28,7 +28,6 @@ public class PlayerInput : MonoBehaviour
 		RaycastHit hit;
 		if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
 		{
-			//Debug.Log("Hit: " + hit.point);
 			Debug.DrawRay(hit.point, hit.normal, Color.yellow,5f);
 			
 			return ((hit.point+hit.normal)-transform.position);
