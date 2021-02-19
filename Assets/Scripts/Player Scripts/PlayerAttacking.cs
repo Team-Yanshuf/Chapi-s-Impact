@@ -1,16 +1,17 @@
-﻿using UnityEngine;
+﻿using FMOD.Studio;
+using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {
 	[SerializeField] Projectile projectile;
 	[SerializeField] float projectileSpeed;
-
-	bool shooting=false;
+	bool shooting;
 	Player playerM;
 	IWeapon staff;
 
 	void Start()
 	{
+		shooting = false;
 		staff = GetComponentInChildren<Staff>();
 		playerM = GetComponent<Player>();
 	}
@@ -23,10 +24,12 @@ public class PlayerAttacking : MonoBehaviour
 		if (Input.GetMouseButtonDown(0))
 		{
 			shooting = true;
-			Debug.Log("Shooting is true");
 			throwProjectile();
 		}
 	}
+
+	/********************** Handle Melee ********************/
+
 
 	void melee()
 	{
@@ -36,35 +39,31 @@ public class PlayerAttacking : MonoBehaviour
 		}
 	}
 
+	public int getComboCount()
+	{
+		return staff.getCurrentComboHit();
+	}
+
+	/******************* Handle Long Range *******************/
 	void throwProjectile()
 	{
-		shooting = true;
 		Vector3 direction = playerM.getDirectionToMouseNormalized();
 		float angle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
 		Projectile proj = Instantiate(projectile, transform.position, Quaternion.identity);
  
 		proj?.fireWithRotation(Quaternion.AngleAxis(angle,Vector3.forward),direction.normalized);
-	
 	}
 
-
 	public bool isShooting()
-    {
-		Debug.Log("Called is shooting");
+	{
 		if (shooting)
-        {
-			Debug.Log("shooting is true");
+		{
 			shooting = false;
 			return true;
 		}
+		return false;
+	}
 
-		 else return false;
-
-
-
-    }
-
-	
 
 
 }

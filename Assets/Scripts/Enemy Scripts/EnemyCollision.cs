@@ -38,7 +38,6 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         if (collision.gameObject.CompareTag("Player"))
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
-            Debug.Log("Attacking player");
             player?.takeDamage(15);
 
         }

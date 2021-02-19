@@ -1,44 +1,57 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(CapsuleCollider))]
+[RequireComponent(typeof(Timer))]
 public class Staff : MonoBehaviour, IWeapon
 {
+    Timer timer;
     bool canHit;
     [SerializeField] float damage;
     [SerializeField] float attackDuration;
+    [SerializeField] float attackFrameWindow;
+    [SerializeField] int maxComboCount;
+    int currentComboCount = 0;
     float attackStartTime;
     CapsuleCollider hitbox;
     // Start is called before the first frame update
     void Start()
     {
+        timer = GetComponent<Timer>();
         hitbox = GetComponent<CapsuleCollider>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (canHit)
-        {
-            if (attackStartTime + attackDuration < Time.realtimeSinceStartup)
-            {
-                canHit = false;
-                hitbox.enabled = false;
-            }
-        }
-
-        else
-        {
-            hitbox.enabled = false;
-        }
-    }
 
     public void attack()
     {
-        canHit = true;
-        hitbox.enabled = true;
-        attackStartTime = Time.realtimeSinceStartup;
+        timer.setParameters(attackDuration, turnOff);
+        timer.fire();
+        /*
+         * maxComboCounter defines how many hits the combo has.
+         * if the currentComboCount is not maxed out and the maximum delay between
+         * hits was not reached, attack again and reset delay to 0.
+         * 
+         */
+       // Debug.Log("startTime: " + (attackStartTime+attackDuration)  + "\trealTime: " + Time.realtimeSinceStartup);
+
+         if (currentComboCount < maxComboCount) 
+        {
+            Debug.Log("Attack number: " + currentComboCount);
+            simulateAttack();
+            currentComboCount++;
+            if (currentComboCount >= maxComboCount)
+                currentComboCount = 0;
+        }
+
+    }
+
+    void simulateAttack()
+    {    hitbox.enabled = true;    }
+
+    void turnOff()
+    {
+        hitbox.enabled = false;
+        currentComboCount = 0;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -50,4 +63,9 @@ public class Staff : MonoBehaviour, IWeapon
         }
 
     }
-}
+
+
+    public int getCurrentComboHit() => currentComboCount;
+    
+    }
+

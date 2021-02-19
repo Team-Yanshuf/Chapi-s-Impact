@@ -21,6 +21,7 @@ public interface ICollectible
 public interface IWeapon
 {
     void attack();
+    int getCurrentComboHit();
 }
 
 
