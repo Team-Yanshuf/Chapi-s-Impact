@@ -10,9 +10,11 @@ public class Staff : MonoBehaviour, IWeapon
     [SerializeField] float attackDuration;
     float attackStartTime;
     CapsuleCollider hitbox;
+    Timer timer;
     // Start is called before the first frame update
     void Start()
     {
+        timer = GetComponent<Timer>();
         hitbox = GetComponent<CapsuleCollider>();
     }
 
@@ -29,9 +31,7 @@ public class Staff : MonoBehaviour, IWeapon
         }
 
         else
-        {
             hitbox.enabled = false;
-        }
     }
 
     public void attack()

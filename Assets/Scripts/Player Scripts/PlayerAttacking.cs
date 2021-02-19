@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {
+	Timer timer;
 	[SerializeField] Projectile projectile;
 	[SerializeField] float projectileSpeed;
 
@@ -29,6 +31,7 @@ public class PlayerAttacking : MonoBehaviour
 
 	void melee()
 	{
+		load();
 	   if (Input.GetKeyDown(KeyCode.Space))
 		{
 			staff.attack();
@@ -60,6 +63,11 @@ public class PlayerAttacking : MonoBehaviour
 
 
     }
+
+	void load()
+	{
+		PrefabUtility.InstantiatePrefab(timer);
+	}
 
 	
 
