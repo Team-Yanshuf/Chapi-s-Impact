@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/chapis impact/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637491106526439317
+  lastModified: 637491157224413281
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -218,6 +218,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &-3712242468450650454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2783972489720698006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,7 +477,7 @@ MonoBehaviour:
   - {fileID: 4059384351911074103}
   StringsBanks:
   - {fileID: -8973895242907070913}
-  stringsBankWriteTime: 637491106526439317
+  stringsBankWriteTime: 637491157224413281
   cacheVersion: 5
 --- !u!114 &1047686458220645363
 MonoBehaviour:
@@ -519,7 +539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/chapis impact/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637491106526389717
+  lastModified: 637491157224104731
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -695,7 +715,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6132876784952333519}
+  - {fileID: -3712242468450650454}
   MinDistance: 0
   MaxDistance: 0
   Length: 410
