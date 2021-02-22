@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
          if (Input.GetKeyDown(KeyCode.C))
         {
             isDashing = true;
-            Debug.Log("Dashing!");
             teleDash();
         }
 

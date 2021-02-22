@@ -1597,6 +1597,24 @@ Transform:
   m_Father: {fileID: 356783045}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &587747665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 794961281, guid: afc19573045fdac4081c14462eb0761d,
+    type: 3}
+  m_PrefabInstance: {fileID: 909408034}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &587747669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587747665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89244e284184ed24a972a6fde8bbb2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600261875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,14 +1963,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 248097926, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
-      propertyPath: hp
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 248097926, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -2107,88 +2117,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 909408034}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &799412022 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 799412024, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799412021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ab8f75c0150d324aa4a281f2abe41fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &799412023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799412021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Chapi (player)/Dash
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
---- !u!114 &799412024 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 799412022, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799412021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &799412029 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1313611698, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799412021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d42b0c440fd1474faec89d4349b5abc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &799412037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799412021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Chapi (player)/Seedball throw
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1001 &909408034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2196,82 +2124,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1991750744755194796, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 4.57
-      objectReference: {fileID: 0}
-    - target: {fileID: -1991750744755194796, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 4.95
-      objectReference: {fileID: 0}
-    - target: {fileID: -1991750744755194796, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 7155084975486981349, guid: 8fab90519edbf4ffca8e5c621c5aed67,
-        type: 3}
-    - target: {fileID: -1991750744755194796, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: dash
-      value: 
-      objectReference: {fileID: 799412023}
-    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: shoot
-      value: 
-      objectReference: {fileID: 799412037}
-    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: footstepsEmmiter
-      value: 
-      objectReference: {fileID: 799412024}
-    - target: {fileID: 300265745222436763, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: dashSpeed
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2296967874140875719, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: hp
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2296967874140875719, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: flashingDelta
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2296967874140875719, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: invincibilityDuration
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: animationM
-      value: 
-      objectReference: {fileID: 799412022}
-    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: collisionM
-      value: 
-      objectReference: {fileID: 799412029}
-    - target: {fileID: 3914081930741100285, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
+    - target: {fileID: 53445872, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: maxComboCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: attackDuration
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: attackFrameWindow
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
@@ -2329,8 +2200,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3914081930741100285, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afc19573045fdac4081c14462eb0761d, type: 3}
 --- !u!1 &918876859
 GameObject:
@@ -4310,72 +4180,6 @@ Transform:
   m_Father: {fileID: 1186219482}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1891081414 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1277005037702263609, guid: f9eb6b163ddc68e46a8b952be557d269,
-    type: 3}
-  m_PrefabInstance: {fileID: 771073703}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1891081424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891081414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db06a791034450040b14f7067c9e05c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  crawl: {fileID: 1891081425}
-  hurt: {fileID: 1891081426}
---- !u!114 &1891081425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891081414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Trashbag/Trashbag move
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
---- !u!114 &1891081426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891081414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Trashbag/Death
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &1895033584
 GameObject:
   m_ObjectHideFlags: 0

@@ -46,32 +46,14 @@ public class Player : MonoBehaviour
 
     //******************MOVEMENT FUNCTIONS **************//
 
-    public bool isMoving()
-    {
-        return movementM.isMoving();
-    }
+    public bool isMoving() => movementM.isMoving();
+    public bool isDashing() => movementM.isDash();
+    public bool isCollecting() => collisionM.isCollecting();
+    public bool isShooting() => attackM.isShooting();
 
-    public bool isDashing()
-    {
-        return movementM.isDash();
+    public int comboCount() => attackM.getComboCount();
+    public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
 
-    }
-
-    public bool isCollecting()
-    {
-        return collisionM.isCollecting();
-    }
-
-
-    public void setRendererEnabled(bool enabled)
-    {
-        renderer.enabled = enabled;
-    }
-    
-    public bool isShooting()
-    {
-        return attackM.isShooting();
-    }
 
 }
 

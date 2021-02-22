@@ -41,10 +41,6 @@ public class PlayerSound : MonoBehaviour
         {
             if (!footstepsEmmiter.IsPlaying())
                 footstepsEmmiter.Play();
-           // instance.setParameterByName("Walking", 1);
-            //Debug.Log("Trying to play footsteps");
-           
-           // instance.start();
         }
 
        

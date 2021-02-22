@@ -5,7 +5,7 @@ using UnityEngine;
 public class OilMonster : MonoBehaviour
 {
     WormChasePlayer movementM;
-    AnimationStateHandler animationM;
+    OilMonsterAnimation animationM;
     [SerializeField] GameObject target;
     EnemyCollision collisionM;
     // Start is called before the first frame update
@@ -13,7 +13,7 @@ public class OilMonster : MonoBehaviour
     {
         collisionM = GetComponent<EnemyCollision>();
         movementM = GetComponent<WormChasePlayer>();
-        animationM = GetComponent<AnimationStateHandler>();
+        animationM = GetComponent<OilMonsterAnimation>();
     }
 
     // Update is called once per frame

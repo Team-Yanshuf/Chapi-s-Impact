@@ -49,7 +49,6 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator becomeInvincible(float duration)
     {
-        Debug.Log("Chappi is invincible!");
         bool enabled = true;
         for (float i =0; i<duration; i+=flashingDelta)
         {
@@ -61,7 +60,6 @@ public class PlayerHealth : MonoBehaviour
         playerM.setRendererEnabled(true);
 
         isInvincible = false;
-        Debug.Log("NO LONGER INVINCIBLE!");
     }
 
 }
