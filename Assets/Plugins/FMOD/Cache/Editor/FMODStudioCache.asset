@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/chapis impact/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637491106526439317
+  lastModified: 637496181198787136
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1602
+    Value: 1758
   Exists: 1
 --- !u!114 &-8364343590484432570
 MonoBehaviour:
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: event:/UI/UI Passover
   guid: c8faebe219b7814caae26c6e0aa56cea
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
   Path: event:/Atmos/Island Atmos
   guid: 40225ba6a22fac499d3388ecec9711e5
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: -3553670536672707676}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -81,7 +81,7 @@ MonoBehaviour:
   Path: event:/UI/UI Atmos
   guid: 6bd3881513c6424992973a9004e6d7a0
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: -3553670536672707676}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
   Path: event:/SFX/Trashbag/Trashbag growl
   guid: 14fc35135e3eb4448c3b260df4eab149
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -210,7 +210,7 @@ MonoBehaviour:
   Path: event:/SFX/Trashbag/Trashbag move
   guid: 89e376fced269d41aa624ab890fe3888
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -218,6 +218,65 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &-3840781083098306526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/chapis impact/Build/Desktop/Music Bank.bank
+  Name: Music Bank
+  lastModified: 637496181199332711
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3777489085990421885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Plastic Enemies Theme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Plastic Enemies Theme
+  guid: 434804f67a12ca469884e9daaaffe82e
+  Banks:
+  - {fileID: -3840781083098306526}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 123125
+--- !u!114 &-3553670536672707676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/chapis impact/Build/Desktop/Atmos Bank.bank
+  Name: Atmos Bank
+  lastModified: 637496181200060797
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2783972489720698006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,7 +312,7 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Potion
   guid: 76f1155d306b674c850cd7915e8a7a0a
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -299,7 +358,7 @@ MonoBehaviour:
   Path: event:/SFX/Objects/Tree Grow
   guid: ab5e44e43cc0834b862d75b35e67bf51
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -322,7 +381,7 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Chapis pickup
   guid: 0335b7b48f7aa048957a3f4a24a47533
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -345,7 +404,7 @@ MonoBehaviour:
   Path: event:/SFX/Trashbag/Death
   guid: c5244398968b31468f16bec1c1481d3f
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -388,7 +447,7 @@ MonoBehaviour:
   Path: event:/Atmos/wind ambience
   guid: 42c99b1f66570c428980d7e614e9620e
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: -3553670536672707676}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -434,6 +493,9 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -8973895242907070913}
   - {fileID: 4059384351911074103}
+  - {fileID: -3553670536672707676}
+  - {fileID: -3840781083098306526}
+  - {fileID: 9214654816647141636}
   EditorEvents:
   - {fileID: -608551928114449487}
   - {fileID: -8101863297964274558}
@@ -449,15 +511,15 @@ MonoBehaviour:
   - {fileID: -4030179996518992333}
   - {fileID: -1980086518578625815}
   - {fileID: 2911224136627849325}
-  - {fileID: -2138884722529458683}
   - {fileID: -8364343590484432570}
   - {fileID: -2605506713132617485}
+  - {fileID: -3777489085990421885}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4059384351911074103}
   StringsBanks:
   - {fileID: -8973895242907070913}
-  stringsBankWriteTime: 637491106526439317
+  stringsBankWriteTime: 637496181198787136
   cacheVersion: 5
 --- !u!114 &1047686458220645363
 MonoBehaviour:
@@ -474,7 +536,7 @@ MonoBehaviour:
   Path: event:/UI/UI Button
   guid: 32386c3373103f49b022e6c3064ff3a1
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -497,7 +559,7 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Seedball throw
   guid: acf6c7300ecfeb489f9f81e33ee794f7
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -505,6 +567,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2005
+--- !u!114 &3671979750746842944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4059384351911074103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/chapis impact/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637491106526389717
+  lastModified: 637496181198752412
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -558,14 +640,14 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Chapi staff atk
   guid: b15c6749b8ea984e926b7cfbfb75d6cd
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 580
+  Length: 600
 --- !u!114 &5772179401412758567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,14 +686,14 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Slash
   guid: 8189a3f9ebd58b4aa1dd664e342b9610
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 600
+  Length: 0
 --- !u!114 &7323312794746227214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -627,7 +709,7 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Dash
   guid: 2fbd15276fccf84bb56a1a0388022d5e
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -690,12 +772,12 @@ MonoBehaviour:
   Path: event:/SFX/Chapi (player)/Chapis Footsteps
   guid: a88744eb15bd2243b19ba2ee5fe1acd6
   Banks:
-  - {fileID: 4059384351911074103}
+  - {fileID: 9214654816647141636}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6132876784952333519}
+  - {fileID: 3671979750746842944}
   MinDistance: 0
   MaxDistance: 0
   Length: 410
@@ -739,3 +821,21 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &9214654816647141636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/chapis impact/Build/Desktop/SFX Bank.bank
+  Name: SFX Bank
+  lastModified: 637496181200530146
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
