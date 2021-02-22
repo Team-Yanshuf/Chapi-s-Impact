@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    Animator m_Animator;
+    Animator animator;
     Player playerM;
     Vector3 movement;
+
+    //Will be in charge of storing the last faced direction.
+    float prevX, prevZ;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        m_Animator = gameObject.GetComponent<Animator>();
+        animator = gameObject.GetComponent<Animator>();
         playerM = GetComponent<Player>();
+        prevZ = 0;
+        prevX = 0;
     }
 
     // Update is called once per frame
@@ -26,12 +31,23 @@ public class PlayerAnimation : MonoBehaviour
     {
         playerM.getMovementAxes(ref movement.x, ref movement.z);
 
-        m_Animator.SetFloat("Speed", movement.magnitude);
+        animator.SetFloat("Speed", movement.magnitude);
 
-        m_Animator.SetFloat("Vertical", movement.z);
-        m_Animator.SetFloat("Horizontal", movement.x);
+        if (movement.magnitude!=0)
+        {
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.z);
+            prevX = movement.x;
+            prevZ = movement.z;
+        }
 
-        m_Animator.SetBool("IsDashing", playerM.isDashing());
-        m_Animator.SetInteger("Attacking", playerM.comboCount());
+        {
+            animator.SetFloat("Horizontal", prevX);
+            animator.SetFloat("Vertical", prevZ);
+        }
+
+
+        animator.SetBool("IsDashing", playerM.isDashing());
+        animator.SetInteger("Attacking", playerM.comboCount());
     }
 }

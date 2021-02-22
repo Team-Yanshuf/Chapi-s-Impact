@@ -35,7 +35,7 @@ public class PlayerAttacking : MonoBehaviour
 	{
 	   if (Input.GetKeyDown(KeyCode.Space))
 		{
-			staff.attack();
+			staff.requestNextAttack();
 		}
 	}
 
