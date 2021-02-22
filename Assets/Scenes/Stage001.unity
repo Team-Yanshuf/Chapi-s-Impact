@@ -2134,7 +2134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: attackDuration
-      value: 0.5
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: attackFrameWindow
