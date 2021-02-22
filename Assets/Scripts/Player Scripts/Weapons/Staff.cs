@@ -34,12 +34,13 @@ public class Staff : MonoBehaviour, IWeapon
          */
        // Debug.Log("startTime: " + (attackStartTime+attackDuration)  + "\trealTime: " + Time.realtimeSinceStartup);
 
-         if (currentComboCount < maxComboCount) 
+         if (currentComboCount++ <= maxComboCount) 
         {
-            Debug.Log("Attack number: " + currentComboCount);
+
             simulateAttack();
-            currentComboCount++;
-            if (currentComboCount >= maxComboCount)
+           // currentComboCount++;
+            Debug.Log("Attack number: " + currentComboCount);
+            if (currentComboCount > maxComboCount)
                 currentComboCount = 0;
         }
 
@@ -48,6 +49,7 @@ public class Staff : MonoBehaviour, IWeapon
     void simulateAttack()
     {    hitbox.enabled = true;    }
 
+    //turnOff is only called by the timer!
     void turnOff()
     {
         hitbox.enabled = false;

@@ -8,6 +8,8 @@ public class PlayerAnimation : MonoBehaviour
     Player playerM;
     Vector3 movement;
 
+    float prevX=0, prevZ = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,8 +30,19 @@ public class PlayerAnimation : MonoBehaviour
 
         m_Animator.SetFloat("Speed", movement.magnitude);
 
-        m_Animator.SetFloat("Vertical", movement.z);
-        m_Animator.SetFloat("Horizontal", movement.x);
+        if (movement.magnitude!=0)
+        {
+            m_Animator.SetFloat("Vertical", movement.z);
+            m_Animator.SetFloat("Horizontal", movement.x);
+            prevX = movement.x;
+            prevZ = movement.z;
+        }
+        else
+        {
+            m_Animator.SetFloat("Vertical", prevZ);
+            m_Animator.SetFloat("Horizontal", prevX);
+        }
+
 
         m_Animator.SetBool("IsDashing", playerM.isDashing());
         m_Animator.SetInteger("Attacking", playerM.comboCount());
