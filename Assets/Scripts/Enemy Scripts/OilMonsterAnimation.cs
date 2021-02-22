@@ -8,6 +8,8 @@ public class OilMonsterAnimation : MonoBehaviour
     OilMonster monsterM;
     Animator animator;
     SpriteRenderer render;
+    [SerializeField] float relativeStart;
+    [SerializeField] float relativeEnd;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +26,11 @@ public class OilMonsterAnimation : MonoBehaviour
 
     public bool isInActiveCrawl()
     {
-        float length, start = 0.3f, end = 0.7f;
+        float length;
         AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
         length = state.normalizedTime % 1;
 
-        if (state.IsName("Walk") && length > start && length < end)
+        if (state.IsName("Walk") && length > relativeStart && length < relativeEnd)
         { 
             return true;
         }
