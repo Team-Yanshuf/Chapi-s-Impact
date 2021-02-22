@@ -32,5 +32,6 @@ public class PlayerAnimation : MonoBehaviour
         m_Animator.SetFloat("Horizontal", movement.x);
 
         m_Animator.SetBool("IsDashing", playerM.isDashing());
+        m_Animator.SetInteger("Attacking", playerM.comboCount());
     }
 }

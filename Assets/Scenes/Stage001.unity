@@ -2134,11 +2134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: attackDuration
-      value: 1
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: attackFrameWindow
-      value: 0.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
