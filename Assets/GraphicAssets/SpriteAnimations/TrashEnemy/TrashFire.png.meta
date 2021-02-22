@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 0f46406b9d939422fbb72abfb6e8c7b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4811999179452510249
+    second: TrashEnemyJFires_00000
+  - first:
+      213: -1048212584410309686
+    second: TrashEnemyJFires_00001
+  - first:
+      213: 1818650005058946419
+    second: TrashEnemyJFires_00002
+  - first:
+      213: -7284538134371524877
+    second: TrashEnemyJFires_00003
+  - first:
+      213: 4731959985110894552
+    second: TrashEnemyJFires_00004
+  - first:
+      213: -2144814811197204840
+    second: TrashEnemyJFires_00005
+  - first:
+      213: 9152240778407123841
+    second: TrashEnemyJFires_00006
+  - first:
+      213: -1533505022540581990
+    second: TrashEnemyJFires_00007
+  - first:
+      213: -6120827036730707510
+    second: TrashEnemyJFires_00008
+  - first:
+      213: -2659002559702971301
+    second: TrashEnemyJFires_00009
+  - first:
+      213: -8414178149884659093
+    second: TrashEnemyJFires_00010
+  - first:
+      213: 3099065101806013632
+    second: TrashEnemyJFires_00011
+  - first:
+      213: 7344385751058896869
+    second: TrashEnemyJFires_00012
+  - first:
+      213: -9215426489146970363
+    second: TrashEnemyJFires_00013
+  - first:
+      213: 7675375290690938558
+    second: TrashEnemyJFires_00014
+  - first:
+      213: -9014431022927265926
+    second: TrashEnemyJFires_00015
+  - first:
+      213: -7912093656372164149
+    second: TrashEnemyJFires_00016
+  - first:
+      213: 2570940429840844003
+    second: TrashEnemyJFires_00017
+  - first:
+      213: 6561378377609944093
+    second: TrashEnemyJFires_00018
+  - first:
+      213: 6281207337273645620
+    second: TrashEnemyJFires_00019
+  - first:
+      213: -2267659975490871968
+    second: TrashEnemyJFires_00020
+  - first:
+      213: -5639187570344171623
+    second: TrashEnemyJFires_00021
+  - first:
+      213: 3349364613507383574
+    second: TrashEnemyJFires_00022
+  - first:
+      213: 3349234400065357122
+    second: TrashEnemyJFires_00023
+  - first:
+      213: -7768385809872544773
+    second: TrashEnemyJFires_00024
+  - first:
+      213: -693240361243427865
+    second: TrashEnemyJFires_00025
+  - first:
+      213: -725813809689005871
+    second: TrashEnemyJFires_00026
+  - first:
+      213: 6593643567824814825
+    second: TrashEnemyJFires_00027
+  - first:
+      213: 8929982474941126880
+    second: TrashEnemyJFires_00028
+  - first:
+      213: 2161007175945224279
+    second: TrashEnemyJFires_00029
+  - first:
+      213: -6294580940175458545
+    second: TrashEnemyJFires_00030
+  - first:
+      213: 8968650607453453509
+    second: TrashEnemyJFires_00031
+  - first:
+      213: 3323848821630830659
+    second: TrashEnemyJFires_00032
+  - first:
+      213: -4383915921115780816
+    second: TrashEnemyJFires_00033
+  - first:
+      213: -351344113105062510
+    second: TrashEnemyJFires_00034
+  - first:
+      213: -8593736762638564047
+    second: TrashEnemyJFires_00035
+  - first:
+      213: 2213850053814115008
+    second: TrashEnemyJFires_00036
+  - first:
+      213: 5786831236475338788
+    second: TrashEnemyJFires_00037
+  - first:
+      213: 8732302019972824069
+    second: TrashEnemyJFires_00038
+  - first:
+      213: -2595635469323417106
+    second: TrashEnemyJFires_00039
+  - first:
+      213: 6394385856373368619
+    second: TrashEnemyJFires_00040
+  - first:
+      213: 6961863368130587687
+    second: TrashEnemyJFires_00041
+  - first:
+      213: 153915154580708811
+    second: TrashEnemyJFires_00042
+  - first:
+      213: -8806461602461710423
+    second: TrashEnemyJFires_00043
+  - first:
+      213: 2784822464221289473
+    second: TrashEnemyJFires_00044
+  - first:
+      213: -6590278790846123690
+    second: TrashEnemyJFires_00045
+  - first:
+      213: -6481656279562694183
+    second: TrashEnemyJFires_00046
+  - first:
+      213: -5631675442966400569
+    second: TrashEnemyJFires_00047
+  - first:
+      213: 3866454961106076028
+    second: TrashEnemyJFires_00048
+  - first:
+      213: 3353382513483596107
+    second: TrashEnemyJFires_00049
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00000
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2809
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df0349cd38583db0800000000000000
+      internalID: -4811999179452510249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00001
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 2175
+        width: 213
+        height: 369
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb112945300471f0800000000000000
+      internalID: -1048212584410309686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00002
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1856
+        width: 213
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3750d424b842d3910800000000000000
+      internalID: 1818650005058946419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00003
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1563
+        width: 213
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.49586776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe9ff3792f18ea90800000000000000
+      internalID: -7284538134371524877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00004
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2182
+        width: 213
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7c5e3198c4ba140800000000000000
+      internalID: 4731959985110894552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00005
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1910
+        width: 213
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.5042017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896189dfa461c32e0800000000000000
+      internalID: -2144814811197204840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00006
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1819
+        width: 212
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5613208, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b1dcf4f7a430f70800000000000000
+      internalID: 9152240778407123841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00007
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1502
+        width: 212
+        height: 352
+      alignment: 9
+      pivot: {x: 0.5613208, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93f03e8e45e7bae0800000000000000
+      internalID: -1533505022540581990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00008
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1467
+        width: 212
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5566038, y: 0.51428574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac13f085d347e0ba0800000000000000
+      internalID: -6120827036730707510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00009
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1448
+        width: 212
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5518868, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ccc0c8243591bd0800000000000000
+      internalID: -2659002559702971301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1152
+        width: 212
+        height: 346
+      alignment: 9
+      pivot: {x: 0.5471698, y: 0.5202312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a754b8d85da3b80800000000000000
+      internalID: -8414178149884659093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00011
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1189
+        width: 212
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5471698, y: 0.518732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc05f06a47120b20800000000000000
+      internalID: 3099065101806013632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1500
+        width: 212
+        height: 364
+      alignment: 9
+      pivot: {x: 0.5518868, y: 0.4945055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e75e49adef7ce560800000000000000
+      internalID: 7344385751058896869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1866
+        width: 212
+        height: 389
+      alignment: 9
+      pivot: {x: 0.5566038, y: 0.46272492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f6bacfe6a3c1080800000000000000
+      internalID: -9215426489146970363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00014
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1289
+        width: 211
+        height: 402
+      alignment: 9
+      pivot: {x: 0.5592417, y: 0.4477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6a1773929648a60800000000000000
+      internalID: 7675375290690938558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00015
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2544
+        width: 216
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.37037036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb822cebe46e280800000000000000
+      internalID: -9014431022927265926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3016
+        width: 256
+        height: 539
+      alignment: 9
+      pivot: {x: 0.59765625, y: 0.33395177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9c0565db8923290800000000000000
+      internalID: -7912093656372164149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3557
+        width: 274
+        height: 538
+      alignment: 9
+      pivot: {x: 0.63503647, y: 0.3345725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e48a5313b0dda320800000000000000
+      internalID: 2570940429840844003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00018
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3561
+        width: 274
+        height: 534
+      alignment: 9
+      pivot: {x: 0.66423357, y: 0.33707866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c9e5aeed2be0b50800000000000000
+      internalID: 6561378377609944093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00019
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 3569
+        width: 269
+        height: 526
+      alignment: 9
+      pivot: {x: 0.6802974, y: 0.34220532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ad5c24bc45b2750800000000000000
+      internalID: 6281207337273645620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00020
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 3071
+        width: 264
+        height: 519
+      alignment: 9
+      pivot: {x: 0.6515151, y: 0.3468208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dde715447a780e0800000000000000
+      internalID: -2267659975490871968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00021
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3581
+        width: 253
+        height: 514
+      alignment: 9
+      pivot: {x: 0.60474306, y: 0.35019454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99766df48c49db1b0800000000000000
+      internalID: -5639187570344171623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00022
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2546
+        width: 232
+        height: 523
+      alignment: 9
+      pivot: {x: 0.5560345, y: 0.34416825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6110f5bce555b7e20800000000000000
+      internalID: 3349364613507383574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00023
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2596
+        width: 233
+        height: 532
+      alignment: 9
+      pivot: {x: 0.57081544, y: 0.33834586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2450a6d11feda7e20800000000000000
+      internalID: 3349234400065357122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00024
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3044
+        width: 243
+        height: 535
+      alignment: 9
+      pivot: {x: 0.62139916, y: 0.3364486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb9c5cb346213490800000000000000
+      internalID: -7768385809872544773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00025
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 3558
+        width: 249
+        height: 537
+      alignment: 9
+      pivot: {x: 0.6546185, y: 0.33519554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb3f1c709d1166f0800000000000000
+      internalID: -693240361243427865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00026
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3023
+        width: 258
+        height: 536
+      alignment: 9
+      pivot: {x: 0.64341086, y: 0.33582088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0f9648f246de5f0800000000000000
+      internalID: -725813809689005871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00027
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 3032
+        width: 263
+        height: 535
+      alignment: 9
+      pivot: {x: 0.61977184, y: 0.3364486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2ccbbe3e3518b50800000000000000
+      internalID: 6593643567824814825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00028
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 3562
+        width: 265
+        height: 533
+      alignment: 9
+      pivot: {x: 0.61132073, y: 0.33771107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e854557fbbadeb70800000000000000
+      internalID: 8929982474941126880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00029
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 3592
+        width: 268
+        height: 503
+      alignment: 9
+      pivot: {x: 0.6268657, y: 0.35785288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7500947b3907dfd10800000000000000
+      internalID: 2161007175945224279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00030
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 3130
+        width: 240
+        height: 430
+      alignment: 9
+      pivot: {x: 0.62083334, y: 0.41860464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fb5ea2cf725a8a0800000000000000
+      internalID: -6294580940175458545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00031
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 3181
+        width: 213
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5915493, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccbad3a53c077c70800000000000000
+      internalID: 8968650607453453509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00032
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3180
+        width: 213
+        height: 376
+      alignment: 9
+      pivot: {x: 0.5915493, y: 0.4787234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348086c84eea02e20800000000000000
+      internalID: 3323848821630830659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00033
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1798
+        width: 212
+        height: 382
+      alignment: 9
+      pivot: {x: 0.5943396, y: 0.4712042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039e6bc52b33923c0800000000000000
+      internalID: -4383915921115780816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00034
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2641
+        width: 214
+        height: 380
+      alignment: 9
+      pivot: {x: 0.58411217, y: 0.47368422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295b2700466cf1bf0800000000000000
+      internalID: -351344113105062510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2257
+        width: 213
+        height: 379
+      alignment: 9
+      pivot: {x: 0.57746476, y: 0.47493404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13586b922f9ecb880800000000000000
+      internalID: -8593736762638564047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00036
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2638
+        width: 214
+        height: 376
+      alignment: 9
+      pivot: {x: 0.57009345, y: 0.4787234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cad19bf4ec29be10800000000000000
+      internalID: 2213850053814115008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00037
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2269
+        width: 214
+        height: 370
+      alignment: 9
+      pivot: {x: 0.56542057, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4204f318954fe4050800000000000000
+      internalID: 5786831236475338788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00038
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2808
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cf7e3eb6e5f2970800000000000000
+      internalID: 8732302019972824069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00039
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2437
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9c29cfa437afbd0800000000000000
+      internalID: -2595635469323417106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00040
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 2672
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27aae5be0c6db850800000000000000
+      internalID: 6394385856373368619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00041
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2436
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c6a3809d18d9060800000000000000
+      internalID: 6961863368130587687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00042
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 2300
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd15528401d22200800000000000000
+      internalID: 153915154580708811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00043
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2224
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a70729c4d929c580800000000000000
+      internalID: -8806461602461710423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00044
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 2065
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c107ec64da5a620800000000000000
+      internalID: 2784822464221289473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00045
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2064
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65173d44b50aa84a0800000000000000
+      internalID: -6590278790846123690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00046
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1928
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d15c7c74f78c06a0800000000000000
+      internalID: -6481656279562694183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00047
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1693
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c172b3c50548d1b0800000000000000
+      internalID: -5631675442966400569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00048
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1692
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7146c04d4868a530800000000000000
+      internalID: 3866454961106076028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJFires_00049
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1538
+        width: 212
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5660377, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41423801ab998e20800000000000000
+      internalID: 3353382513483596107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: a9114e01076c448188fb341f756864d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2021040749716194764
+    second: TrashEnemyJumpy_00000
+  - first:
+      213: 5560744204095380635
+    second: TrashEnemyJumpy_00001
+  - first:
+      213: -4090049796276548382
+    second: TrashEnemyJumpy_00002
+  - first:
+      213: 4659014437122432095
+    second: TrashEnemyJumpy_00003
+  - first:
+      213: -1763397706466223383
+    second: TrashEnemyJumpy_00004
+  - first:
+      213: -7696011101703216205
+    second: TrashEnemyJumpy_00005
+  - first:
+      213: 6840781202548707092
+    second: TrashEnemyJumpy_00006
+  - first:
+      213: -49818104257591630
+    second: TrashEnemyJumpy_00007
+  - first:
+      213: 109742305136238836
+    second: TrashEnemyJumpy_00008
+  - first:
+      213: -5418341158108710830
+    second: TrashEnemyJumpy_00009
+  - first:
+      213: 2857839482771850944
+    second: TrashEnemyJumpy_00010
+  - first:
+      213: -5406243751527438237
+    second: TrashEnemyJumpy_00011
+  - first:
+      213: -4265749086159184808
+    second: TrashEnemyJumpy_00012
+  - first:
+      213: 730899860961729998
+    second: TrashEnemyJumpy_00013
+  - first:
+      213: -7633571962345453083
+    second: TrashEnemyJumpy_00014
+  - first:
+      213: 6106950345969331946
+    second: TrashEnemyJumpy_00015
+  - first:
+      213: -7951227351022322524
+    second: TrashEnemyJumpy_00016
+  - first:
+      213: -3971730465805425514
+    second: TrashEnemyJumpy_00017
+  - first:
+      213: 787644527541961375
+    second: TrashEnemyJumpy_00018
+  - first:
+      213: 8843585358784052372
+    second: TrashEnemyJumpy_00019
+  - first:
+      213: -4815374629344124137
+    second: TrashEnemyJumpy_00020
+  - first:
+      213: 6661352064672465538
+    second: TrashEnemyJumpy_00021
+  - first:
+      213: 4218844687835248392
+    second: TrashEnemyJumpy_00022
+  - first:
+      213: 8041706275608670157
+    second: TrashEnemyJumpy_00023
+  - first:
+      213: -6133459555274774739
+    second: TrashEnemyJumpy_00024
+  - first:
+      213: -5268133946761395182
+    second: TrashEnemyJumpy_00025
+  - first:
+      213: -2681806792693133891
+    second: TrashEnemyJumpy_00026
+  - first:
+      213: -8755108006657708816
+    second: TrashEnemyJumpy_00027
+  - first:
+      213: 5981921094885808341
+    second: TrashEnemyJumpy_00028
+  - first:
+      213: 7559041041035471302
+    second: TrashEnemyJumpy_00029
+  - first:
+      213: -7820630496796077166
+    second: TrashEnemyJumpy_00030
+  - first:
+      213: -1791165147721165617
+    second: TrashEnemyJumpy_00031
+  - first:
+      213: -7755995575852638849
+    second: TrashEnemyJumpy_00032
+  - first:
+      213: 4016051096879800436
+    second: TrashEnemyJumpy_00033
+  - first:
+      213: -1484056188002049958
+    second: TrashEnemyJumpy_00034
+  - first:
+      213: 583547858083635
+    second: TrashEnemyJumpy_00035
+  - first:
+      213: -8768533296350513296
+    second: TrashEnemyJumpy_00036
+  - first:
+      213: -6031862547277806523
+    second: TrashEnemyJumpy_00037
+  - first:
+      213: -2207300582224195454
+    second: TrashEnemyJumpy_00038
+  - first:
+      213: 7714210275974852712
+    second: TrashEnemyJumpy_00039
+  - first:
+      213: 6495691032946252426
+    second: TrashEnemyJumpy_00040
+  - first:
+      213: 3456687843333364847
+    second: TrashEnemyJumpy_00041
+  - first:
+      213: -7688694936200680304
+    second: TrashEnemyJumpy_00042
+  - first:
+      213: 3174651818668431644
+    second: TrashEnemyJumpy_00043
+  - first:
+      213: -7447899322251794202
+    second: TrashEnemyJumpy_00044
+  - first:
+      213: 304138503207487967
+    second: TrashEnemyJumpy_00045
+  - first:
+      213: 314981784503954237
+    second: TrashEnemyJumpy_00046
+  - first:
+      213: 882598634764551037
+    second: TrashEnemyJumpy_00047
+  - first:
+      213: -3138885025542047439
+    second: TrashEnemyJumpy_00048
+  - first:
+      213: 3024735702502918452
+    second: TrashEnemyJumpy_00049
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00000
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3003
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab3946522d3f3e0800000000000000
+      internalID: -2021040749716194764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00001
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1876
+        width: 213
+        height: 367
+      alignment: 9
+      pivot: {x: 0.5586854, y: 0.49046323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cdaeb346bbb2d40800000000000000
+      internalID: 5560744204095380635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00002
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 3354
+        width: 214
+        height: 361
+      alignment: 9
+      pivot: {x: 0.54672897, y: 0.49861497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec074b51693d37c0800000000000000
+      internalID: -4090049796276548382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00003
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 3742
+        width: 215
+        height: 353
+      alignment: 9
+      pivot: {x: 0.53023255, y: 0.509915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c591032f428a040800000000000000
+      internalID: 4659014437122432095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00004
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 3365
+        width: 214
+        height: 345
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea975cf0272787e0800000000000000
+      internalID: -1763397706466223383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00005
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 3758
+        width: 215
+        height: 337
+      alignment: 9
+      pivot: {x: 0.4976744, y: 0.5341246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3648f9da6423590800000000000000
+      internalID: -7696011101703216205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2764
+        width: 219
+        height: 330
+      alignment: 9
+      pivot: {x: 0.48401827, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fc51c72465fee50800000000000000
+      internalID: 6840781202548707092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00007
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3772
+        width: 224
+        height: 323
+      alignment: 9
+      pivot: {x: 0.4732143, y: 0.55727553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6c758b2b20f4ff0800000000000000
+      internalID: -49818104257591630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00008
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 3448
+        width: 228
+        height: 318
+      alignment: 9
+      pivot: {x: 0.46052632, y: 0.5660377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f06a7a8b02e58100800000000000000
+      internalID: 109742305136238836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3459
+        width: 231
+        height: 316
+      alignment: 9
+      pivot: {x: 0.44588745, y: 0.56962025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2583d0f9c6f2ec4b0800000000000000
+      internalID: -5418341158108710830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3777
+        width: 233
+        height: 318
+      alignment: 9
+      pivot: {x: 0.44206008, y: 0.5660377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6c3bb3ed519a720800000000000000
+      internalID: 2857839482771850944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00011
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3768
+        width: 232
+        height: 327
+      alignment: 9
+      pivot: {x: 0.4224138, y: 0.5504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368280593f929f4b0800000000000000
+      internalID: -5406243751527438237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00012
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3753
+        width: 229
+        height: 342
+      alignment: 9
+      pivot: {x: 0.3930131, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cd88a9ec30dc4c0800000000000000
+      internalID: -4265749086159184808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3096
+        width: 224
+        height: 361
+      alignment: 9
+      pivot: {x: 0.36160713, y: 0.49861497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd91031d8da42a00800000000000000
+      internalID: 730899860961729998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00014
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 3712
+        width: 222
+        height: 383
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.4699739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e98401aeba101690800000000000000
+      internalID: -7633571962345453083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00015
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3343
+        width: 221
+        height: 408
+      alignment: 9
+      pivot: {x: 0.3122172, y: 0.44117647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee6370dbfe30c450800000000000000
+      internalID: 6106950345969331946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00016
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3341
+        width: 221
+        height: 429
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.41958043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acb1f50ad097a190800000000000000
+      internalID: -7951227351022322524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00017
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2987
+        width: 220
+        height: 459
+      alignment: 9
+      pivot: {x: 0.33636364, y: 0.38562092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694221a3f2491e8c0800000000000000
+      internalID: -3971730465805425514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00018
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 3630
+        width: 214
+        height: 465
+      alignment: 9
+      pivot: {x: 0.39252338, y: 0.37634408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f924b6156864eea00800000000000000
+      internalID: 787644527541961375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2315
+        width: 216
+        height: 447
+      alignment: 9
+      pivot: {x: 0.42592594, y: 0.39597315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c3b2b470ababa70800000000000000
+      internalID: 8843585358784052372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00020
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2569
+        width: 217
+        height: 416
+      alignment: 9
+      pivot: {x: 0.4654378, y: 0.43028846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713e38d994a5c2db0800000000000000
+      internalID: -4815374629344124137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00021
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2952
+        width: 218
+        height: 389
+      alignment: 9
+      pivot: {x: 0.51834863, y: 0.46272492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2820e92d860e17c50800000000000000
+      internalID: 6661352064672465538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00022
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 3717
+        width: 216
+        height: 378
+      alignment: 9
+      pivot: {x: 0.5509259, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807b6f424e85c8a30800000000000000
+      internalID: 4218844687835248392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00023
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2979
+        width: 213
+        height: 384
+      alignment: 9
+      pivot: {x: 0.57276994, y: 0.46875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf2fa93041e99f60800000000000000
+      internalID: 8041706275608670157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00024
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 3375
+        width: 214
+        height: 381
+      alignment: 9
+      pivot: {x: 0.57009345, y: 0.47244096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d272f9be70391eaa0800000000000000
+      internalID: -6133459555274774739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00025
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 3361
+        width: 214
+        height: 379
+      alignment: 9
+      pivot: {x: 0.56542057, y: 0.47493404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2144c125614d3e6b0800000000000000
+      internalID: -5268133946761395182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00026
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 3254
+        width: 213
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.48128343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdcb4d4eee48cad0800000000000000
+      internalID: -2681806792693133891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00027
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 2989
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc2dfc87ab9f7680800000000000000
+      internalID: -8755108006657708816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00028
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2982
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8951fca8d040350800000000000000
+      internalID: 5981921094885808341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00029
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2882
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9a48df6cb17e860800000000000000
+      internalID: 7559041041035471302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00030
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2631
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29312e6aff9877390800000000000000
+      internalID: -7820630496796077166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00031
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 2617
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc41504c9c08427e0800000000000000
+      internalID: -1791165147721165617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00032
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2610
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d5dc5ed1b2d5490800000000000000
+      internalID: -7755995575852638849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00033
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2510
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470a655d131ebb730800000000000000
+      internalID: 4016051096879800436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00034
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 2259
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ea6782c2976be0800000000000000
+      internalID: -1484056188002049958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00035
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 2245
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f5ac2dbb2120000800000000000000
+      internalID: 583547858083635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00036
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2969
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077b7d5bc69ef4680800000000000000
+      internalID: -8768533296350513296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00037
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2607
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544068fa8f48a4ca0800000000000000
+      internalID: -6031862547277806523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00038
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2597
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2809304b0d71e51e0800000000000000
+      internalID: -2207300582224195454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00039
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2580
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8603626df516e0b60800000000000000
+      internalID: 7714210275974852712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00040
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2238
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a937d2494552a50800000000000000
+      internalID: 6495691032946252426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00041
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2235
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5633803, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cdb49774f98ff20800000000000000
+      internalID: 3456687843333364847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00042
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1866
+        width: 212
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5660377, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ce96521b44c4590800000000000000
+      internalID: -7688694936200680304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00043
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1863
+        width: 212
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5660377, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1997415201ae0c20800000000000000
+      internalID: 3174651818668431644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00044
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2225
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5680751, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e82f4ee60fb3a890800000000000000
+      internalID: -7447899322251794202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00045
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2208
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5680751, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd983367b54883400800000000000000
+      internalID: 304138503207487967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00046
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2197
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5680751, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ba310a34a0f5400800000000000000
+      internalID: 314981784503954237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1943
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5680751, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73c26838ce9f3c00800000000000000
+      internalID: 882598634764551037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00048
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 2138
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5680751, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139f5c523b07074d0800000000000000
+      internalID: -3138885025542047439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashEnemyJumpy_00049
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1887
+        width: 213
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5680751, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439c02f78150af920800000000000000
+      internalID: 3024735702502918452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
