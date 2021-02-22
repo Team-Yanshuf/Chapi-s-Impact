@@ -20,7 +20,7 @@ public interface ICollectible
 
 public interface IWeapon
 {
-    void attack();
+    void requestNextAttack();
     int getCurrentComboHit();
 }
 
