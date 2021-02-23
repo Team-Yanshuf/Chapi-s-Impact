@@ -82,13 +82,20 @@ public class Staff : MonoBehaviour, IWeapon
 
     private void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("Collision detected");
-        if (collision is IVulnrable)
-        {
-            Debug.Log("Enemy Detected");
-            IVulnrable enemy = collision as IVulnrable;
-            enemy.takeDamage();
-        }
+        if (collision.CompareTag("Enemy"))
+		{
+            IVulnrable enemy = collision.GetComponent<IVulnrable>();
+            if (enemy!=null)
+			{
+                enemy.takeDamage(damage);
+			}
+		}
+        //if (collision is IVulnrable)
+        //{
+        //    Debug.Log("Enemy Detected");
+        //    IVulnrable enemy = collision as IVulnrable;
+        //    enemy.takeDamage();
+        //}
     }
     
 
