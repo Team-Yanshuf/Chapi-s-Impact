@@ -33,7 +33,8 @@ public class PlayerAttacking : MonoBehaviour
 
 	void melee()
 	{
-	   if (Input.GetKeyDown(KeyCode.Space))
+	   //if (playerM.meleePressed())
+		 if (Input.GetKeyDown(KeyCode.Space))
 		{
 			staff.requestNextAttack();
 		}

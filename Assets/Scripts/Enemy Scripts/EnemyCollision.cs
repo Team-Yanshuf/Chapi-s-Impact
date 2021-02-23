@@ -20,6 +20,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     }
     public void takeDamage(float damage)
     {
+        Debug.Log("Enemy Hit!");
         hurt = true;
         hp -= damage;
             
