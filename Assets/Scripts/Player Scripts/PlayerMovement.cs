@@ -7,23 +7,19 @@ public class PlayerMovement : MonoBehaviour
     //Component References.
     Player playerM;
     Rigidbody rb;
-    SpriteRenderer renderer;
     Vector3 movement;
     [SerializeField] float groundRotation;
-
-    float horizontal, vertical;
-
     [SerializeField] float speed;
     [SerializeField] float dashSpeed;
     [SerializeField] float dashLength;
-    float dashStart;
+
+    float horizontal, vertical;
     bool isDashing;
 
     void Start()
     { 
         playerM = GetComponent<Player>();
         rb = GetComponent<Rigidbody>();
-        renderer = GetComponent<SpriteRenderer>();
         isDashing = false;
     }
 
@@ -44,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void move()
     {
+         //if (playerM.dashPressed())
          if (Input.GetKeyDown(KeyCode.C))
         {
             isDashing = true;
