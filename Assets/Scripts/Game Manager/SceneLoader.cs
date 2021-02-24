@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
 
     public  void moveToFirstLevel()
     {
-        SceneManager.LoadScene("Stage001");
+        SceneManager.LoadScene("Guy's Stage1");
     }
 
 
@@ -21,4 +21,9 @@ public class SceneLoader : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public string getCurrentScene()
+	{
+        return SceneManager.GetActiveScene().name;
+	}
 }

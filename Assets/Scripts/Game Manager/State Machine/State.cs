@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-public abstract class State 
+public abstract class State : MonoBehaviour
 {
     //Used so that each game state can communicate with the game manager.
     GameManager game;
@@ -9,7 +9,7 @@ public abstract class State
     public State()
     {
         game = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        game.currentState.enterState();
+        //game.currentState.enterState();
     }
     public abstract void tick();
 

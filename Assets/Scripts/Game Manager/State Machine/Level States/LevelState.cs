@@ -6,8 +6,8 @@ using UnityEngine;
 public abstract class LevelState : State
 {
     //CANT SERIALIZE A NON MONOBEHAVIOUR CLASS!!!
-    [SerializeField] int startingFogCount; 
-    [SerializeField] FogParticle fogPrefab;
+    int startingFogCount; 
+    FogParticle fogPrefab;
 
     //TODO: FIND A WAY TO CATCH A REFERENCE TO THE FOG PREFAB!!!
 
@@ -20,21 +20,23 @@ public abstract class LevelState : State
     
     public LevelState()
 	{
-        enterState();
+        startingFogCount = 100;
+       // enterState();
 	}
 
     public override void enterState()
 	{
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
         levelBoundries = levelM.getLevelBoundries();
-        initFog();
+        fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
+		StartCoroutine(initFog());
     }
     
     IEnumerator initFog()
 	{
         fogs = new List<FogParticle>();
 
-        for (int i=0; i<100; i++)
+        for (int i=0; i<startingFogCount; i++)
 		{
             float x = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
             float y = Random.Range(levelBoundries[2].y, levelBoundries[3].y);
@@ -46,8 +48,6 @@ public abstract class LevelState : State
             yield return null;
 		}
 	}
-
-
     IEnumerator clearFog()
 	{
         for (int i=0; i<currentFogCount/10; i++)

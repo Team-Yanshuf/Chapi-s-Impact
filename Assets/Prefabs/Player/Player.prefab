@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 794961282}
   - component: {fileID: 53445872}
   - component: {fileID: 53445873}
+  - component: {fileID: 587747669}
   m_Layer: 8
   m_Name: Weapon
   m_TagString: Untagged
@@ -41,7 +42,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 794961281}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 1.19
   m_Height: 5.29
   m_Direction: 1
@@ -58,8 +59,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac3ca218dc4e72a4692be70d0fddb510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  attackDuration: 3
+  damage: 25
+  framesPerSecond: 30
+  attackDurationInFrames:
+  - 10
+  - 11
+  - 12
+  maxComboCount: 3
+--- !u!114 &587747669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794961281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89244e284184ed24a972a6fde8bbb2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4502266292215735126
 GameObject:
   m_ObjectHideFlags: 0
