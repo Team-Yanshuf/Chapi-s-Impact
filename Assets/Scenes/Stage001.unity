@@ -796,7 +796,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321817560}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &321817562
 Camera:
   m_ObjectHideFlags: 0
@@ -889,6 +889,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1212857498758450026, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
       propertyPath: m_Name
@@ -957,7 +962,7 @@ PrefabInstance:
     - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
       propertyPath: cameraDistanceFromPlayer
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d397bcdba1ab86144b0d6c76ee6ec037, type: 3}
@@ -1691,24 +1696,6 @@ Transform:
   m_Father: {fileID: 356783045}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &587747665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 794961281, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &587747669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587747665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89244e284184ed24a972a6fde8bbb2f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &600261875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,12 +2107,12 @@ PrefabInstance:
     - target: {fileID: 5783989820183917845, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: relativeEnd
-      value: 0.95
+      value: 0.98
       objectReference: {fileID: 0}
     - target: {fileID: 5783989820183917845, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: relativeStart
-      value: 0.48
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7329348830272583309, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
@@ -2221,6 +2208,118 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 909408034}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &799412022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
+--- !u!114 &799412023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Seedball throw
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &799412024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Dash
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &799412025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Chapis Footsteps
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!1 &836466928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+    type: 3}
+  m_PrefabInstance: {fileID: 352975855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &836466929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836466928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1001 &909408034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2228,46 +2327,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 53445872, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: damage
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: maxComboCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDuration
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: framesPerSecond
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackFrameWindow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.data[0]
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.data[1]
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.data[2]
-      value: 12
-      objectReference: {fileID: 0}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: dash
+      value: 
+      objectReference: {fileID: 799412024}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: shoot
+      value: 
+      objectReference: {fileID: 799412023}
+    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: footstepsEmmiter
+      value: 
+      objectReference: {fileID: 799412025}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name
