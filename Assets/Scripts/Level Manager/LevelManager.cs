@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     void Awake()
     {
         levelBoundries = new Vector3[4];
+        initLevelBoundries();
     }
 
 
@@ -32,9 +33,15 @@ public class LevelManager : MonoBehaviour
     private void initLevelBoundries()
 	{
        Transform[] trans= transform.Find("LevelBoundries").GetComponentsInChildren<Transform>();
-        for(int i=0; i<trans.Length; i++)
+        Transform[] trans2 = new Transform[trans.Length - 1];
+        for (int i=0; i<trans2.Length;i++)
 		{
-            levelBoundries[i] = trans[i].position;
+            trans2[i] = trans[i+1];
+		}
+        for(int i=0; i<trans2.Length; i++)
+		{
+            Debug.Log(trans2[i].gameObject.name);
+            levelBoundries[i] = trans2[i].position;
 		}
         
 	}

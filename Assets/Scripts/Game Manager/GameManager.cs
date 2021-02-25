@@ -4,26 +4,29 @@ public class GameManager : MonoBehaviour
 {
 	GameManager manager;
 	SceneLoader sceneLoader;
-	public State currentState;
+	[SerializeField] public State currentState;
 
-	void setCurrentState(State state)
-	{
-		currentState.exitState();
-		this.currentState = state;
-		currentState.enterState();
-	}
+
 
 	// Start is called before the first frame update
 	private void Awake()
 	{
 		initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
+		chooseCurrentStateBasedOnScene();
 
-		//*******TEMP- REMOVE THiS************//
-		//if (sceneLoader.getCurrentScene().Equals("Guy's Stage1"))
-		{
-			moveToGameplay();
-		}
+	}
+
+	private void OnLevelWasLoaded(int level)
+	{
+		chooseCurrentStateBasedOnScene();
+	}
+
+	void setCurrentState(State state)
+	{
+		currentState.exitState();
+		this.currentState = state;
+		currentState.enterState();
 	}
 
 	// Update is called once per frame
@@ -69,4 +72,35 @@ public class GameManager : MonoBehaviour
 		setCurrentState(new PlayGameState());
 	}
 
+	public void moveToFirstLevel()
+	{
+		sceneLoader.moveToFirstLevel();
+	}
+
+	void moveToNextLevel()
+	{
+		//sceneLoader.moveToNextLevel();z
+	}
+
+	void chooseCurrentStateBasedOnScene()
+	{
+
+		string[] sceneNames = sceneLoader.getSceneListInBuild();
+		string scene = sceneLoader.getCurrentScene();
+		switch (scene)
+		{
+			case "Guy StartMenu":
+				{
+					currentState=new StartMenuState();
+					break;
+				}
+
+			case "Guy's Stage1":
+				{
+
+					setCurrentState(new PlayGameState());
+					break;
+				}
+		}
+	}
 }

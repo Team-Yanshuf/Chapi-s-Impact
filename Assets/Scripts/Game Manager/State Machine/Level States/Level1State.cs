@@ -5,17 +5,22 @@ using UnityEngine;
 public class Level1State : LevelState
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+	public Level1State()
+	{
+		enterState();
+	}
 	public override void exitState()
 	{
 
 	}
 
-    public override void tick()
+	public override void enterState()
+	{
+		base.enterState();
+
+	}
+	public override void tick()
 	{
 
 	}

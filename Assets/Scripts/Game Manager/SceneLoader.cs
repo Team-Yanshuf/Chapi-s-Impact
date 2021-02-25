@@ -26,4 +26,15 @@ public class SceneLoader : MonoBehaviour
 	{
         return SceneManager.GetActiveScene().name;
 	}
+
+    public string[] getSceneListInBuild()
+	{
+        int sceneCount = SceneManager.sceneCount;
+        string[] sceneNames = new string[sceneCount];
+        for (int i=0; i<sceneNames.Length; i++)
+		{
+            sceneNames[i]=SceneManager.GetSceneAt(i).name;
+		}
+        return sceneNames;
+	}
 }

@@ -16,6 +16,7 @@ public class PlayGameState : State
 	public PlayGameState()
 	{
 		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
 	}
 
 	override public void tick()
@@ -25,7 +26,8 @@ public class PlayGameState : State
 
 	override public void enterState()
 	{
-		setCurrentstate(new Level1State());
+		
+		currentState=new Level1State();
 		//Invoke UnityEvent for starting the game:
 		//Listeners of this event will:
 		//1.Switch to first game scene

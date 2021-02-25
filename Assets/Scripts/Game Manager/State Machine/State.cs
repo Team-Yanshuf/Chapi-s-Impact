@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
-
-public abstract class State : MonoBehaviour
+[System.Serializable]
+public abstract class State
 {
     //Used so that each game state can communicate with the game manager.
     GameManager game;

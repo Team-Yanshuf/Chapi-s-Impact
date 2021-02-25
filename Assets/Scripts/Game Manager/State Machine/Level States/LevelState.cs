@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System.Threading;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,35 +21,50 @@ public abstract class LevelState : State
     
     public LevelState()
 	{
-        startingFogCount = 100;
-       // enterState();
+        startingFogCount = 400;
+
 	}
 
     public override void enterState()
 	{
+        Debug.Log("Entered State on LevelState");
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
         levelBoundries = levelM.getLevelBoundries();
         fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
-		StartCoroutine(initFog());
+        //new Thread(new ThreadStart(initFog)).Start();
+        initFog();
     }
     
-    IEnumerator initFog()
+    void initFog()
 	{
         fogs = new List<FogParticle>();
 
         for (int i=0; i<startingFogCount; i++)
 		{
+            
             float x = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
-            float y = Random.Range(levelBoundries[2].y, levelBoundries[3].y);
+            float y = Random.Range(levelBoundries[2].y, levelBoundries[0].y);
+            if (i%10==0)
+			{
+                Debug.Log("X: " + x + "\tY:" + y);
+			}
             float z = levelBoundries[0].z;
 
             Vector3 position = new Vector3(x, y, z);
-            FogParticle particle = GameObject.Instantiate(fogPrefab,position,Quaternion.identity);
-            fogs.Add(particle);
-            yield return null;
+            instantiateParticle(position, Quaternion.identity);
+
+
+            
 		}
 	}
-    IEnumerator clearFog()
+
+	private void instantiateParticle(Vector3 position, Quaternion rotation)
+	{
+        FogParticle particle = GameObject.Instantiate(fogPrefab, position, rotation);
+        fogs.Add(particle);
+    }
+
+	IEnumerator clearFog()
 	{
         for (int i=0; i<currentFogCount/10; i++)
 		{
