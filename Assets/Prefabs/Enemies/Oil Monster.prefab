@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 8469913828133326880}
   m_Layer: 0
   m_Name: Oil Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,6 +194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7b589098ca3504eb76bfb8c40d064d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  relativeStart: 0.6
+  relativeEnd: 1
 --- !u!114 &1891081424
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1691,24 +1691,6 @@ Transform:
   m_Father: {fileID: 356783045}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &587747665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 794961281, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &587747669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587747665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89244e284184ed24a972a6fde8bbb2f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &600261875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,46 +2210,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 53445872, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: damage
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: maxComboCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDuration
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: framesPerSecond
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackFrameWindow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.data[0]
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.data[1]
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: attackDurationInFrames.Array.data[2]
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name

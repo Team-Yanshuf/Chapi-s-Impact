@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,23 +6,27 @@ public class LevelManager : MonoBehaviour
 {
     LevelSpawner spawner;
     Vector3[] levelBoundries;
-    // Start is called before the first frame update
+    int enemyCount;
     void Awake()
     {
         levelBoundries = new Vector3[4];
+        initLevelBoundries();
+        updateCurrentEnemyCount();
     }
 
 
 
-    int getCurrentEnemyCount()
+    private int updateCurrentEnemyCount()
 	{
-        return 0;
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        return enemies.Length;
 	}
 
-    int getInitialEnemyCount()
+    public int getCurrentEnemyCount()
 	{
-        return 0;
+        return enemyCount;
 	}
+
 
     public Vector3[] getLevelBoundries()
 	{
@@ -32,10 +36,13 @@ public class LevelManager : MonoBehaviour
     private void initLevelBoundries()
 	{
        Transform[] trans= transform.Find("LevelBoundries").GetComponentsInChildren<Transform>();
-        for(int i=0; i<trans.Length; i++)
-		{
-            levelBoundries[i] = trans[i].position;
-		}
+        Transform[] trans2 = new Transform[trans.Length - 1];
+
+        for (int i=0; i<trans2.Length;i++)
+		{   trans2[i] = trans[i+1];	}
+
+        for(int i=0; i<trans2.Length; i++)
+		{   levelBoundries[i] = trans2[i].position;	}
         
 	}
 

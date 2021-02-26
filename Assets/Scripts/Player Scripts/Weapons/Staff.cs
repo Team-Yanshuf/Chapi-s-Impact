@@ -1,44 +1,58 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 [RequireComponent(typeof(CapsuleCollider))]
 [RequireComponent(typeof(Timer))]
 public class Staff : MonoBehaviour, IWeapon
 {
-    Timer timer;
-    bool canHit;
+    Timer[] timers;
+
     [SerializeField] float damage;
     [SerializeField] float framesPerSecond;
     [SerializeField] float[] attackDurationInFrames;
     [SerializeField] int maxComboCount;
 
-    bool attackRequested = false;
-
-
-
-
-    int currentComboCount = 0;
-    float attackStartTime;
     CapsuleCollider hitbox;
-    // Start is called before the first frame update
-    void Start()
-    {
-        timer = GetComponent<Timer>();
-        hitbox = GetComponent<CapsuleCollider>();
-    }
 
-    // Update is called once per frame
+    int currentComboCount;
+    float attackStartTime;
+    bool attackRequested;
+    bool canHit;
+
+
+    // Start is called before the first frame update
+    void Awake()
+	{
+        timers = GetComponents<Timer>();
+        hitbox = GetComponent<CapsuleCollider>();
+
+        currentComboCount = 0;
+        attackRequested = false;
+	}
+
+    public int getCurrentComboHit() => currentComboCount;
+
+    public void requestNextAttack()
+    {
+        if (currentComboCount > 0)
+            attackRequested = true;
+
+        else
+            attack();
+    }
 
     public void attack()
     {
+
         /*
          * maxComboCounter defines how many hits the combo has.
          * if the currentComboCount is not maxed out and the maximum delay between
          * hits was not reached, attack again and reset delay to 0.
          * 
          */
-       // Debug.Log("startTime: " + (attackStartTime+attackDuration)  + "\trealTime: " + Time.realtimeSinceStartup);
 
-         if (currentComboCount <= maxComboCount) 
+        hitbox.enabled = false;
+
+        if (currentComboCount <= maxComboCount) 
         {
             currentComboCount++;
 
@@ -48,36 +62,29 @@ public class Staff : MonoBehaviour, IWeapon
                 return;
             }
 
-            Debug.Log("Attack number: " + currentComboCount);
             float animationLengthInSeconds = attackDurationInFrames[currentComboCount-1] / framesPerSecond;
-            timer.setParameters(animationLengthInSeconds, decideWhatsNext);
-            timer.fire();
+            timers[1].setParameters(animationLengthInSeconds - 0.1f, simulateAttack);
+            timers[1].fire();
 
-
-
-            simulateAttack();
+            timers[0].setParameters(animationLengthInSeconds, decideWhatsNext);
+            timers[0].fire();
 
             attackRequested = false;
         }
     }
 
-    void simulateAttack()
-    {    hitbox.enabled = true;    }
+    void simulateAttack() => hitbox.enabled = true;
 
     void decideWhatsNext()
     {
         if (attackRequested)
-        {
-            attack();
-        }
-
+        {   attack();   }
 
         else
         {
             hitbox.enabled = false;
             currentComboCount = 0;
         }
-
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -90,25 +97,7 @@ public class Staff : MonoBehaviour, IWeapon
                 enemy.takeDamage(damage);
 			}
 		}
-        //if (collision is IVulnrable)
-        //{
-        //    Debug.Log("Enemy Detected");
-        //    IVulnrable enemy = collision as IVulnrable;
-        //    enemy.takeDamage();
-        //}
     }
-    
-
-    public void requestNextAttack()
-    {
-        if (currentComboCount > 0)
-            attackRequested = true;
-
-        else
-            attack();
-    }
-
-    public int getCurrentComboHit() => currentComboCount;
     
     }
 
