@@ -25,7 +25,6 @@ public abstract class LevelState : State
 
     public override void enterState()
 	{
-        Debug.Log("Entered State on LevelState");
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
         levelBoundries = levelM.getLevelBoundries();
         fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
@@ -63,7 +62,6 @@ public abstract class LevelState : State
 	{
         for (int i=0; i<fogs.Count; i++)
 		{
-            Debug.Log("clear called");
             int indexToRemove = Random.Range(0, currentFogCount);
             Object.Destroy(fogs[i].gameObject);
             fogs.RemoveAt(i);

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -28,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         setMovementVector();
         move();
+        handleWeaponDirection();
     }
 
     private void setMovementVector()
@@ -81,6 +81,15 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+    void handleWeaponDirection()
+	{
+        if (movement.x != 0)
+        {
+            Transform[] weaponTransform = GetComponentsInChildren<Transform>();
+            weaponTransform[1].localScale = new Vector3(Mathf.Sign(movement.x), 1, 1);
+        }
+	}
 }
 
 

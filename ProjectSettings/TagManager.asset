@@ -8,6 +8,8 @@ TagManager:
   - Collectible
   - LevelManager
   - Enemy
+  - GameManager
+  - Weapon
   layers:
   - Default
   - TransparentFX

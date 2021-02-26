@@ -2005,16 +2005,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil Monster
       objectReference: {fileID: 0}
-    - target: {fileID: 5783989820183917845, guid: f9eb6b163ddc68e46a8b952be557d269,
-        type: 3}
-      propertyPath: relativeEnd
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783989820183917845, guid: f9eb6b163ddc68e46a8b952be557d269,
-        type: 3}
-      propertyPath: relativeStart
-      value: 0.6
-      objectReference: {fileID: 0}
     - target: {fileID: 7329348830272583309, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: target
@@ -2116,6 +2106,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 53445872, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name
@@ -4156,6 +4150,24 @@ Transform:
   m_Father: {fileID: 1186219482}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1870321952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 794961281, guid: afc19573045fdac4081c14462eb0761d,
+    type: 3}
+  m_PrefabInstance: {fileID: 909408034}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1870321957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870321952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89244e284184ed24a972a6fde8bbb2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1895033584
 GameObject:
   m_ObjectHideFlags: 0
