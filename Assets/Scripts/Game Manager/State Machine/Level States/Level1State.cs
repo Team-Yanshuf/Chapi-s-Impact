@@ -25,6 +25,4 @@ public class Level1State : LevelState
 	{
 
 	}
-	// Update is called once per frame
-  }
 }
