@@ -2005,6 +2005,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 5783989820183917845, guid: f9eb6b163ddc68e46a8b952be557d269,
+        type: 3}
+      propertyPath: relativeEnd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5783989820183917845, guid: f9eb6b163ddc68e46a8b952be557d269,
+        type: 3}
+      propertyPath: relativeStart
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7329348830272583309, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: target

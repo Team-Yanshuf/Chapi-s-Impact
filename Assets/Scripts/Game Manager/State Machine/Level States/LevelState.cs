@@ -3,14 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Class implementing an abstract level state;
+//Class implementing an abstract level state.
 public abstract class LevelState : State
 {
-    //CANT SERIALIZE A NON MONOBEHAVIOUR CLASS!!!
     int startingFogCount; 
     FogParticle fogPrefab;
-
-    //TODO: FIND A WAY TO CATCH A REFERENCE TO THE FOG PREFAB!!!
 
     LevelManager levelM;
     int currentFogCount;
@@ -22,6 +19,7 @@ public abstract class LevelState : State
     public LevelState()
 	{
         startingFogCount = 400;
+        GameManagerEvents.enemyDefeated.AddListener(clearFog);
 
 	}
 
@@ -31,23 +29,20 @@ public abstract class LevelState : State
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
         levelBoundries = levelM.getLevelBoundries();
         fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
-        //new Thread(new ThreadStart(initFog)).Start();
+
         initFog();
     }
     
     void initFog()
 	{
         fogs = new List<FogParticle>();
-
+        
+        
         for (int i=0; i<startingFogCount; i++)
 		{
             
             float x = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
             float y = Random.Range(levelBoundries[2].y, levelBoundries[0].y);
-            if (i%10==0)
-			{
-                Debug.Log("X: " + x + "\tY:" + y);
-			}
             float z = levelBoundries[0].z;
 
             Vector3 position = new Vector3(x, y, z);
@@ -64,14 +59,14 @@ public abstract class LevelState : State
         fogs.Add(particle);
     }
 
-	IEnumerator clearFog()
+	void clearFog()
 	{
-        for (int i=0; i<currentFogCount/10; i++)
+        for (int i=0; i<fogs.Count; i++)
 		{
+            Debug.Log("clear called");
             int indexToRemove = Random.Range(0, currentFogCount);
-            GameObject.Destroy(fogs[indexToRemove]);
-            fogs.RemoveAt(indexToRemove);
-            yield return null;
+            Object.Destroy(fogs[i].gameObject);
+            fogs.RemoveAt(i);
 		}
 
 	}

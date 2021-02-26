@@ -30,6 +30,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     {
         if (hp<=0)
         {
+            GameManagerEvents.enemyDefeated?.Invoke();
             Destroy(this.gameObject);
         }
     }
