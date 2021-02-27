@@ -10,11 +10,6 @@ public class PlayGameState : State
 	State currentState;
 	GameManager manager;
 
-	public PlayGameState()
-	{
-		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-	}
-
 	override public void tick()
 	{
 		//Enable gameplay.

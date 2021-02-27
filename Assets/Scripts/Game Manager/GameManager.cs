@@ -1,18 +1,19 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
 	GameManager manager;
 	SceneLoader sceneLoader;
 	[SerializeField] public State currentState;
-
-
+	bool isChapiDead;
 
 	// Start is called before the first frame update
 	private void Awake()
 	{
 		initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
+		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
 		chooseCurrentStateBasedOnScene();
 
 	}
@@ -32,16 +33,13 @@ public class GameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		checkForPause();
 		currentState?.tick();
-	}
-
-
-	void checkLevelLoader()
-	{
-		sceneLoader.moveToFirstLevel();
-		Debug.Log(sceneLoader.getCurrentScene());
-		
+		if (isChapiDead)
+		{
+			isChapiDead = false;
+			currentState.exitState();
+			moveToMainMenu();
+		}
 	}
 
 	void checkForPause()
@@ -60,6 +58,7 @@ public class GameManager : MonoBehaviour
 			manager = this;
 			DontDestroyOnLoad(gameObject);
 		}
+
 		else
 		{
 			Destroy(this.gameObject);
@@ -79,27 +78,39 @@ public class GameManager : MonoBehaviour
 
 	void moveToNextLevel()
 	{
-		//sceneLoader.moveToNextLevel();z
+		sceneLoader.moveToNextLevel();
 	}
 
 	void chooseCurrentStateBasedOnScene()
 	{
 
-		string[] sceneNames = sceneLoader.getSceneListInBuild();
+		//string[] sceneNames = sceneLoader.getSceneListInBuild();
 		string scene = sceneLoader.getCurrentScene();
 		switch (scene)
 		{
 			case "Guy StartMenu":
 				{
-					currentState=new StartMenuState();
+					setCurrentState(new StartMenuState());
 					break;
 				}
 
-			case "Guy's Stage1":
+			case "Yinon'sStage001":
 				{
 					setCurrentState(new PlayGameState());
 					break;
 				}
+
+			//case "Guy's Stage1":
+			//	{
+			//		setCurrentState(new PlayGameState());
+			//		break;
+			//	}
 		}
+	}
+
+	void chapiDiedCallback() => isChapiDead = true;
+	public void moveToMainMenu()
+	{
+		sceneLoader.moveToMainMenu();
 	}
 }

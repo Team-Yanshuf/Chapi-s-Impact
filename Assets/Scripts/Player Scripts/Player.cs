@@ -5,18 +5,30 @@ public class Player : MonoBehaviour
 {
 
     //Component References.
-    [SerializeField] PlayerMovement movementM;
-    [SerializeField] PlayerAttacking attackM;
-    [SerializeField] PlayerInput inputM;
-    [SerializeField] PlayerHealth healthM;
-    [SerializeField] PlayerCollision collisionM;
-    [SerializeField] PlayerAnimation animationM;
+     PlayerMovement movementM;
+     PlayerAttacking attackM;
+     PlayerInput inputM;
+     PlayerHealth healthM;
+     PlayerCollision collisionM;
+     PlayerAnimation animationM;
+     PlayerPlanting plantingM;
 
     SpriteRenderer renderer;
 
-    // [SerializeField] int health;
+    bool planting = false;
 
-    private void Start()
+	// [SerializeField] int health;
+	private void Awake()
+	{
+        movementM = GetComponent<PlayerMovement>();
+        attackM = GetComponent<PlayerAttacking>();
+        inputM = GetComponent<PlayerInput>();
+        healthM = GetComponent<PlayerHealth>();
+        collisionM = GetComponent<PlayerCollision>();
+        animationM = GetComponent<PlayerAnimation>();
+        plantingM = GetComponent<PlayerPlanting>();
+	}
+	private void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
     }
@@ -30,6 +42,7 @@ public class Player : MonoBehaviour
     public void die()
     {
         Debug.Log("CHAPI IS DEAD!!!");
+        GameManagerEvents.chapiDied?.Invoke();
         Destroy(this.gameObject);
     }
 
@@ -52,22 +65,10 @@ public class Player : MonoBehaviour
     public bool isShooting() => attackM.isShooting();
     public int comboCount() => attackM.getComboCount();
     public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
+    public bool isPlanting() => planting;
+    public bool plantingPressed() => inputM.plantingPressed();
+    public void setPlanting(bool planting) => this.planting = planting;
 
+    public float getChapiDirection() => movementM.getChapiDirection();
 
 }
-
-
-    
-
-
-
-/* Implementation of the player manager as a state machine.
- * 
- * if isMoving, state is moving
- * 
- * if hurt, state is hurt.
- * 
- * if colliding, state is colliding.
- * 
- * 
- */

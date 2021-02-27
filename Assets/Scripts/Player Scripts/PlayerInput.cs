@@ -60,4 +60,13 @@ public class PlayerInput : MonoBehaviour
 	{
 		return Input.GetAxis("Dash") > 0.95f;
 	}
+
+	public bool plantingPressed()
+	{
+		if (Input.GetKeyDown(KeyCode.T))
+		{
+			return true;
+		}
+		return false;
+	}
 }

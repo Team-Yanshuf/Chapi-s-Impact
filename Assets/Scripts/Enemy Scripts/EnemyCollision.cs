@@ -7,6 +7,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     bool hurt = false;
     OilMonster monsterM;
     [SerializeField] float hp;
+    [SerializeField] int damage;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,6 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     }
     public void takeDamage(float damage)
     {
-        Debug.Log("Enemy Hit!");
         hurt = true;
         hp -= damage;
             
@@ -40,7 +40,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         if (collision.gameObject.CompareTag("Player"))
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
-            player?.takeDamage(15);
+            player?.takeDamage(damage);
 
         }
     }

@@ -1,19 +1,19 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public static int currentScene
-    { get; set; }
-
+    { get {   return SceneManager.GetActiveScene().buildIndex;	}  }
 
     public  void moveToMainMenu()
     {
-        SceneManager.LoadScene("StartMenu Experiment");
+        SceneManager.LoadScene("Guy StartMenu");
     }
 
     public  void moveToFirstLevel()
     {
-        SceneManager.LoadScene("Guy's Stage1");
+        SceneManager.LoadScene("Yinon'sStage001");
     }
 
 
@@ -36,5 +36,10 @@ public class SceneLoader : MonoBehaviour
             sceneNames[i]=SceneManager.GetSceneAt(i).name;
 		}
         return sceneNames;
+	}
+
+	internal void moveToNextLevel()
+	{
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 }
