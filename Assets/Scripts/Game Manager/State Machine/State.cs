@@ -9,7 +9,6 @@ public abstract class State
     public State()
     {
         game = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        //game.currentState.enterState();
     }
     public abstract void tick();
 

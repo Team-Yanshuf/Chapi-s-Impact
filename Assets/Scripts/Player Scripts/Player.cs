@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
     public void die()
     {
         Debug.Log("CHAPI IS DEAD!!!");
+        GameManagerEvents.chapiDied?.Invoke();
         Destroy(this.gameObject);
     }
 
