@@ -33,21 +33,27 @@ public class PlayerAnimation : MonoBehaviour
 
         animator.SetFloat("Speed", movement.magnitude);
 
-        if (movement.magnitude!=0)
+        if (movement.x!=0)
         {
             animator.SetFloat("Horizontal", movement.x);
-            animator.SetFloat("Vertical", movement.z);
+
             prevX = movement.x;
+
+        }
+        else
+            animator.SetFloat("Horizontal", prevX);
+        
+        if (movement.y!=0)
+        {
+            animator.SetFloat("Vertical", movement.z);
             prevZ = movement.z;
         }
 
-        {
-            animator.SetFloat("Horizontal", prevX);
+        else
             animator.SetFloat("Vertical", prevZ);
-        }
-
 
         animator.SetBool("IsDashing", playerM.isDashing());
         animator.SetInteger("Attacking", playerM.comboCount());
+        animator.SetBool("isPlanting", playerM.isPlanting());
     }
 }

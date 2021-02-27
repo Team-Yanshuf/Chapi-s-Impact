@@ -64,5 +64,6 @@ public class Player : MonoBehaviour
     public int comboCount() => attackM.getComboCount();
     public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
     public bool isPlanting() => plantingM.isPlanting();
+    public bool plantingPressed() => inputM.plantingPressed();
 
 }
