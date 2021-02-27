@@ -54,6 +54,6 @@ public class PlayerAnimation : MonoBehaviour
 
         animator.SetBool("IsDashing", playerM.isDashing());
         animator.SetInteger("Attacking", playerM.comboCount());
-        animator.SetBool("isPlanting", playerM.isPlanting());
+        animator.SetBool("IsPlanting", playerM.isPlanting());
     }
 }

@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float dashSpeed;
     [SerializeField] float dashLength;
 
+    float direction;
+
     float horizontal, vertical;
     bool isDashing;
 
@@ -20,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         playerM = GetComponent<Player>();
         rb = GetComponent<Rigidbody>();
         isDashing = false;
+        direction = 1;
     }
 
     // Update is called once per frame
@@ -70,7 +73,6 @@ public class PlayerMovement : MonoBehaviour
     void teleDash()
     {
         StartCoroutine(dash());
-        //rb.MovePosition(transform.position + movement * dashLength * Time.deltaTime);
 
     }
 
@@ -92,6 +94,31 @@ public class PlayerMovement : MonoBehaviour
             Transform[] weaponTransform = GetComponentsInChildren<Transform>();
             weaponTransform[1].localScale = new Vector3(Mathf.Sign(movement.x), 1, 1);
         }
+	}
+
+    public float getChapiDirection()
+	{
+        if (movement.x != 0)
+        {
+            direction = movement.x;
+            return sign(movement.x);
+
+        }
+        else
+		{
+            return sign(direction);
+        }
+	}
+
+    int sign(float num)
+	{
+        if (num == 0)
+            return 0;
+
+        if (num > 0)
+            return 1;
+        else
+            return -1;
 	}
 }
 
