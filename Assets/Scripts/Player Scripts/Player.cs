@@ -5,18 +5,28 @@ public class Player : MonoBehaviour
 {
 
     //Component References.
-    [SerializeField] PlayerMovement movementM;
-    [SerializeField] PlayerAttacking attackM;
-    [SerializeField] PlayerInput inputM;
-    [SerializeField] PlayerHealth healthM;
-    [SerializeField] PlayerCollision collisionM;
-    [SerializeField] PlayerAnimation animationM;
+     PlayerMovement movementM;
+     PlayerAttacking attackM;
+     PlayerInput inputM;
+     PlayerHealth healthM;
+     PlayerCollision collisionM;
+     PlayerAnimation animationM;
+     PlayerPlanting plantingM;
 
     SpriteRenderer renderer;
 
-    // [SerializeField] int health;
-
-    private void Start()
+	// [SerializeField] int health;
+	private void Awake()
+	{
+        movementM = GetComponent<PlayerMovement>();
+        attackM = GetComponent<PlayerAttacking>();
+        inputM = GetComponent<PlayerInput>();
+        healthM = GetComponent<PlayerHealth>();
+        collisionM = GetComponent<PlayerCollision>();
+        animationM = GetComponent<PlayerAnimation>();
+        plantingM = GetComponent<PlayerPlanting>();
+	}
+	private void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
     }
@@ -53,22 +63,6 @@ public class Player : MonoBehaviour
     public bool isShooting() => attackM.isShooting();
     public int comboCount() => attackM.getComboCount();
     public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
-
+    public bool isPlanting() => plantingM.isPlanting();
 
 }
-
-
-    
-
-
-
-/* Implementation of the player manager as a state machine.
- * 
- * if isMoving, state is moving
- * 
- * if hurt, state is hurt.
- * 
- * if colliding, state is colliding.
- * 
- * 
- */

@@ -26,7 +26,10 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         setMovementVector();
+
+        if (!playerM.isPlanting())
         move();
+
         handleWeaponDirection();
     }
 
