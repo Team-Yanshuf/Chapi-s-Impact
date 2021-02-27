@@ -1,6 +1,4 @@
-﻿using System.Xml.Serialization;
-using UnityEditor.Experimental.GraphView;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {

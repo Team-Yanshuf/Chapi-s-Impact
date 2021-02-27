@@ -14,7 +14,9 @@ public abstract class LevelState : State
 
     List<FogParticle> fogs;
     Vector3[] levelBoundries;
-    
+
+    int numberOfEnemies;
+    int fogDeclineRate;
     
     public LevelState()
 	{
@@ -31,32 +33,33 @@ public abstract class LevelState : State
 
         initFog();
     }
-    
-    void initFog()
+
+	public override void exitState()
+	{
+        GameManagerEvents.enemyDefeated.RemoveAllListeners();
+	}
+
+	void initFog()
 	{
         fogs = new List<FogParticle>();
-        
-        
+        GameObject fogContainer = new GameObject();
+        fogContainer.gameObject.name = "Fog Container";
         for (int i=0; i<startingFogCount; i++)
-		{
-            
+		{      
             float x = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
             float y = Random.Range(levelBoundries[2].y, levelBoundries[0].y);
-            float z = levelBoundries[0].z;
+            float z = Random.Range(levelBoundries[0].z, levelBoundries[2].z);
 
             Vector3 position = new Vector3(x, y, z);
-            instantiateParticle(position, Quaternion.identity);
+            FogParticle particle = GameObject.Instantiate(fogPrefab, position, Quaternion.identity);
+            fogs.Add(particle);
+            particle.transform.parent = fogContainer.transform;
 
-
-            
+    
 		}
 	}
 
-	private void instantiateParticle(Vector3 position, Quaternion rotation)
-	{
-        FogParticle particle = GameObject.Instantiate(fogPrefab, position, rotation);
-        fogs.Add(particle);
-    }
+
 
 	void clearFog()
 	{
@@ -68,9 +71,5 @@ public abstract class LevelState : State
 		}
 
 	}
-
-
-
-
 
 }

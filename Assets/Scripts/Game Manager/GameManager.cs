@@ -24,9 +24,9 @@ public class GameManager : MonoBehaviour
 
 	void setCurrentState(State state)
 	{
-		currentState.exitState();
+		currentState?.exitState();
 		this.currentState = state;
-		currentState.enterState();
+		currentState?.enterState();
 	}
 
 	// Update is called once per frame
@@ -97,7 +97,6 @@ public class GameManager : MonoBehaviour
 
 			case "Guy's Stage1":
 				{
-
 					setCurrentState(new PlayGameState());
 					break;
 				}

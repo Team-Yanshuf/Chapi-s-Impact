@@ -9,7 +9,11 @@ public class Level1State : LevelState
 
 	public Level1State()
 	{
-		enterState();
+		//enterState is called because Level1State is the
+		//first state to occupy GameplayState.currentState,
+		//so setCurrentState can't be called because there was no
+		//previous state.
+		//enterState();
 	}
 	public override void exitState()
 	{
