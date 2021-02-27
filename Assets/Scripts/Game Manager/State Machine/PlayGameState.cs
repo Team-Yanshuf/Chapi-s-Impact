@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditorInternal;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class PlayGameState : State
@@ -16,7 +13,6 @@ public class PlayGameState : State
 	public PlayGameState()
 	{
 		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-
 	}
 
 	override public void tick()
@@ -27,7 +23,7 @@ public class PlayGameState : State
 	override public void enterState()
 	{
 		
-		currentState=new Level1State();
+		setCurrentState(new Level1State());
 		//Invoke UnityEvent for starting the game:
 		//Listeners of this event will:
 		//1.Switch to first game scene
@@ -42,10 +38,10 @@ public class PlayGameState : State
 		//1.Switch to menu scene?
 	}
 
-	public void setCurrentstate(State nextState)
+	public void setCurrentState(State nextState)
 	{
-		currentState.exitState();
+		currentState?.exitState();
 		currentState = nextState;
-		currentState.enterState();
+		currentState?.enterState();
 	}
 }
