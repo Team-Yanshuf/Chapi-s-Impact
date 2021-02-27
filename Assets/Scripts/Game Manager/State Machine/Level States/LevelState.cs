@@ -31,6 +31,7 @@ public abstract class LevelState : State
         fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
      
         initialFogCount = levelM.getInitialFogCount();
+        Debug.Log(initialFogCount);
 	}
 
     public override void enterState()
@@ -42,6 +43,7 @@ public abstract class LevelState : State
 
 	public override void exitState()
 	{
+        Debug.Log("exit called");
         GameManagerEvents.enemyDefeated.RemoveAllListeners();
         foreach (FogParticle fog in fogs)
         {

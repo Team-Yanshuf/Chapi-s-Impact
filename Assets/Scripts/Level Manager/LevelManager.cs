@@ -20,10 +20,6 @@ public class LevelManager : MonoBehaviour
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
     }
 
-	private void Update()
-	{
-		
-	}
 
 	public int getInitialFogCount() => initialFogCount;
 
