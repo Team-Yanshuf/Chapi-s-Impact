@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/FMOD/chapis impact/Metadata/AudioFile/{32c11b80-0677-4d5b-a98c-3943cf21cf74}.xml.meta
 guid: e6c9a8de430b70948825f5a99d8f8ef2
+=======
+guid: 6306dafc2f9d546448660121c6d276e7
+>>>>>>> main:Assets/FMOD/chapis impact/Metadata/AudioFile/{1d191774-56b4-4e0e-b883-30073b089971}.xml.meta
 TextScriptImporter:
   externalObjects: {}
   userData: 

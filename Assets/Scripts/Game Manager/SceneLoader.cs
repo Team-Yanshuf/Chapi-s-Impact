@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
 
     public  void moveToFirstLevel()
     {
-        SceneManager.LoadScene("Stage001");
+        SceneManager.LoadScene("Guy's Stage1");
     }
 
 
@@ -21,4 +21,20 @@ public class SceneLoader : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public string getCurrentScene()
+	{
+        return SceneManager.GetActiveScene().name;
+	}
+
+    public string[] getSceneListInBuild()
+	{
+        int sceneCount = SceneManager.sceneCount;
+        string[] sceneNames = new string[sceneCount];
+        for (int i=0; i<sceneNames.Length; i++)
+		{
+            sceneNames[i]=SceneManager.GetSceneAt(i).name;
+		}
+        return sceneNames;
+	}
 }

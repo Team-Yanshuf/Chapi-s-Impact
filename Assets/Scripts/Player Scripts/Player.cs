@@ -22,10 +22,10 @@ public class Player : MonoBehaviour
     }
 
     //*******************INPUT FUNCTIONS*****************//
-    public void getMovementAxes(ref float horizontal,ref float vertical)
-    {
-        inputM.getAxes(ref horizontal, ref vertical);
-    }
+    public void getMovementAxes(ref float horizontal,ref float vertical) => inputM.getMovementAxes(ref horizontal, ref vertical);
+
+    public bool dashPressed() => inputM.dashPressed();
+    public bool meleePressed() => inputM.meleePressed();
 
     public void die()
     {

@@ -23,6 +23,7 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/RunRight.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedBall.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedThrow.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Fog/Fog.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud1.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud2.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Credits.tpsheet
@@ -61,6 +62,7 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/RunRight.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedBall.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/SeedThrow.png
+- Assets/GraphicAssets/SpriteAnimations/Fog/Fog.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud1.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud2.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Credits.png
@@ -78,6 +80,7 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 

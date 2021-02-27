@@ -10,12 +10,14 @@ public class Timer : MonoBehaviour
 	float timeStarted;
 	float timerDuration;
 	Action action;
+	
 
 	public Timer(float timerDuration, Action action)
 	{
 		timeStarted = Time.realtimeSinceStartup;
 		this.timerDuration = timerDuration;
 		this.action = action;
+		
 	}
 
 	private void Update()

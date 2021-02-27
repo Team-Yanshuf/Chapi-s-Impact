@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,23 +6,19 @@ public class PlayerMovement : MonoBehaviour
     //Component References.
     Player playerM;
     Rigidbody rb;
-    SpriteRenderer renderer;
     Vector3 movement;
     [SerializeField] float groundRotation;
-
-    float horizontal, vertical;
-
     [SerializeField] float speed;
     [SerializeField] float dashSpeed;
     [SerializeField] float dashLength;
-    float dashStart;
+
+    float horizontal, vertical;
     bool isDashing;
 
     void Start()
     { 
         playerM = GetComponent<Player>();
         rb = GetComponent<Rigidbody>();
-        renderer = GetComponent<SpriteRenderer>();
         isDashing = false;
     }
 
@@ -32,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         setMovementVector();
         move();
+        handleWeaponDirection();
     }
 
     private void setMovementVector()
@@ -44,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void move()
     {
+         //if (playerM.dashPressed())
          if (Input.GetKeyDown(KeyCode.C))
         {
             isDashing = true;
@@ -84,6 +81,15 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+    void handleWeaponDirection()
+	{
+        if (movement.x != 0)
+        {
+            Transform[] weaponTransform = GetComponentsInChildren<Transform>();
+            weaponTransform[1].localScale = new Vector3(Mathf.Sign(movement.x), 1, 1);
+        }
+	}
 }
 
 
