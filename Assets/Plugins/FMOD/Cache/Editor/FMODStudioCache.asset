@@ -43,6 +43,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1758
   Exists: 1
+--- !u!114 &-8900487346808227979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Dash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Dash
+  guid: 2fbd15276fccf84bb56a1a0388022d5e
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 600
 --- !u!114 &-8364343590484432570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +287,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-5780636077667735484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Potion
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Potion
+  guid: 76f1155d306b674c850cd7915e8a7a0a
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3076
 --- !u!114 &-4585702693640576714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,6 +351,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &-3853288684645746681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Chapis pickup
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Chapis pickup
+  guid: 0335b7b48f7aa048957a3f4a24a47533
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &-3840781083098306526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +415,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 123125
+--- !u!114 &-3765067105046472676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Chapis Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Chapis Footsteps
+  guid: a88744eb15bd2243b19ba2ee5fe1acd6
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 402558391621557546}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 410
 --- !u!114 &-3553670536672707676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,6 +503,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 129832
+--- !u!114 &-2993516904428229948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Seedball throw
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Seedball throw
+  guid: acf6c7300ecfeb489f9f81e33ee794f7
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2005
 --- !u!114 &-2783972489720698006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +592,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3076
+--- !u!114 &-2588761293539679284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Atmos/wind ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Atmos/wind ambience
+  guid: 42c99b1f66570c428980d7e614e9620e
+  Banks:
+  - {fileID: 6882791984178948563}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 129832
 --- !u!114 &-2138884722529458683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +707,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-1677723717455202854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Objects/Tree Grow
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Objects/Tree Grow
+  guid: ab5e44e43cc0834b862d75b35e67bf51
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2540
 --- !u!114 &-1641263627348911388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,6 +753,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3033
+--- !u!114 &-1184644291148585054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Atmos/Island Atmos
+  m_EditorClassIdentifier: 
+  Path: event:/Atmos/Island Atmos
+  guid: 40225ba6a22fac499d3388ecec9711e5
+  Banks:
+  - {fileID: 6882791984178948563}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 309832
+--- !u!114 &-1171285801384112108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Trashbag/Trashbag move
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Trashbag/Trashbag move
+  guid: 89e376fced269d41aa624ab890fe3888
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1375
 --- !u!114 &-975764091470379851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,13 +895,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 9073873591273659510}
+  - {fileID: 6882791984178948563}
+  - {fileID: 3557738424292621823}
+  - {fileID: 2307116941968460175}
+  - {fileID: 5143941844690851076}
+  EditorEvents:
+  - {fileID: -1184644291148585054}
+  - {fileID: -2588761293539679284}
+  - {fileID: 7589355057496609858}
+  - {fileID: 4566421744922486185}
+  - {fileID: -3853288684645746681}
+  - {fileID: 8191972228415725222}
+  - {fileID: -8900487346808227979}
+  - {fileID: 186904713517860569}
+  - {fileID: -5780636077667735484}
+  - {fileID: 4884016208413301625}
+  - {fileID: -1171285801384112108}
+  - {fileID: -3765067105046472676}
+  - {fileID: -1677723717455202854}
+  - {fileID: -2993516904428229948}
+  - {fileID: 6891391095152069396}
+  - {fileID: 2174266646965879953}
+  - {fileID: 7393429886159370}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  stringsBankWriteTime: 0
+  MasterBanks:
+  - {fileID: 3557738424292621823}
+  StringsBanks:
+  - {fileID: 9073873591273659510}
+  stringsBankWriteTime: 637500415935044498
   cacheVersion: 5
+--- !u!114 &7393429886159370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Passover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI Passover
+  guid: c8faebe219b7814caae26c6e0aa56cea
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2604
+--- !u!114 &186904713517860569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Button
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI Button
+  guid: 32386c3373103f49b022e6c3064ff3a1
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 183
+--- !u!114 &402558391621557546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chapis Footsteps/Walking
+  m_EditorClassIdentifier: 
+  Name: Walking
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1047686458220645363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -806,6 +1104,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 600
+--- !u!114 &2174266646965879953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Trashbag/Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Trashbag/Death
+  guid: c5244398968b31468f16bec1c1481d3f
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3033
 --- !u!114 &2295140014291654278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,6 +1146,24 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1758
+  Exists: 1
+--- !u!114 &2307116941968460175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Music Bank.bank
+  Name: Music Bank
+  lastModified: 637500415935744513
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &2911224136627849325
 MonoBehaviour:
@@ -849,6 +1188,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2005
+--- !u!114 &3557738424292621823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Master.bank
+  Name: Master
+  lastModified: 637500415935034513
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3671979750746842944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -930,6 +1287,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &4566421744922486185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Plastic Enemies Theme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Plastic Enemies Theme
+  guid: 434804f67a12ca469884e9daaaffe82e
+  Banks:
+  - {fileID: 2307116941968460175}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 123125
 --- !u!114 &4707799788127312060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,6 +1333,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &4884016208413301625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Slash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Slash
+  guid: 8189a3f9ebd58b4aa1dd664e342b9610
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4906069047504871548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -976,6 +1379,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 600
+--- !u!114 &5143941844690851076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/SFX Bank.bank
+  Name: SFX Bank
+  lastModified: 637500415935804513
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5317106203871746811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,6 +1502,47 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &6882791984178948563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos Bank.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Atmos Bank.bank
+  Name: Atmos Bank
+  lastModified: 637500415934994512
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6891391095152069396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chapi (player)/Chapi staff atk
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chapi (player)/Chapi staff atk
+  guid: b15c6749b8ea984e926b7cfbfb75d6cd
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 600
 --- !u!114 &7127158276649561865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,6 +1589,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 600
+--- !u!114 &7589355057496609858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI Atmos
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI Atmos
+  guid: 6bd3881513c6424992973a9004e6d7a0
+  Banks:
+  - {fileID: 6882791984178948563}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 119832
+--- !u!114 &8191972228415725222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Trashbag/Trashbag growl
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Trashbag/Trashbag growl
+  guid: 14fc35135e3eb4448c3b260df4eab149
+  Banks:
+  - {fileID: 5143941844690851076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1750
 --- !u!114 &8250825318284360964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,6 +1789,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &9073873591273659510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637500415935044498
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1758
+  Exists: 1
 --- !u!114 &9161270048923816730
 MonoBehaviour:
   m_ObjectHideFlags: 0
