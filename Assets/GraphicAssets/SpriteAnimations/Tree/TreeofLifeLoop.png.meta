@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 3e731d89d84df4daa9ba3770db38ba79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6498898721177004563
+    second: TreeOfLifeLoop_00000
+  - first:
+      213: -715754166051613038
+    second: TreeOfLifeLoop_00001
+  - first:
+      213: 2751357090241015406
+    second: TreeOfLifeLoop_00002
+  - first:
+      213: 7863266146423837611
+    second: TreeOfLifeLoop_00003
+  - first:
+      213: -79818760153108054
+    second: TreeOfLifeLoop_00004
+  - first:
+      213: -6356349634483980025
+    second: TreeOfLifeLoop_00005
+  - first:
+      213: -5353663862127690063
+    second: TreeOfLifeLoop_00006
+  - first:
+      213: 782537811092243577
+    second: TreeOfLifeLoop_00007
+  - first:
+      213: -6335169443093345258
+    second: TreeOfLifeLoop_00008
+  - first:
+      213: -1561165935430385363
+    second: TreeOfLifeLoop_00009
+  - first:
+      213: 2075932778868245720
+    second: TreeOfLifeLoop_00010
+  - first:
+      213: 5957402025553950274
+    second: TreeOfLifeLoop_00011
+  - first:
+      213: 2087800747481722752
+    second: TreeOfLifeLoop_00012
+  - first:
+      213: -4484828655139014747
+    second: TreeOfLifeLoop_00013
+  - first:
+      213: -1653220547574085161
+    second: TreeOfLifeLoop_00014
+  - first:
+      213: -4772517421176885269
+    second: TreeOfLifeLoop_00015
+  - first:
+      213: 5772989612657483510
+    second: TreeOfLifeLoop_00016
+  - first:
+      213: 7833189726195198308
+    second: TreeOfLifeLoop_00017
+  - first:
+      213: -4421525709087092373
+    second: TreeOfLifeLoop_00018
+  - first:
+      213: -868096147958029180
+    second: TreeOfLifeLoop_00019
+  - first:
+      213: -514805356762727762
+    second: TreeOfLifeLoop_00020
+  - first:
+      213: -6772870546697034573
+    second: TreeOfLifeLoop_00021
+  - first:
+      213: 72352151869742801
+    second: TreeOfLifeLoop_00022
+  - first:
+      213: -8307896821564208534
+    second: TreeOfLifeLoop_00023
+  - first:
+      213: -3647888431276141085
+    second: TreeOfLifeLoop_00024
+  - first:
+      213: 7045079065128164666
+    second: TreeOfLifeLoop_00025
+  - first:
+      213: -7296925771725012328
+    second: TreeOfLifeLoop_00026
+  - first:
+      213: -4228946057413815645
+    second: TreeOfLifeLoop_00027
+  - first:
+      213: -2171506993201049769
+    second: TreeOfLifeLoop_00028
+  - first:
+      213: -1271313914465852303
+    second: TreeOfLifeLoop_00029
+  - first:
+      213: 437767673256142882
+    second: TreeOfLifeLoop_00030
+  - first:
+      213: -5517202377594104532
+    second: TreeOfLifeLoop_00031
+  - first:
+      213: -6939842720843207898
+    second: TreeOfLifeLoop_00032
+  - first:
+      213: 1280765020076702546
+    second: TreeOfLifeLoop_00033
+  - first:
+      213: 7467113874248303286
+    second: TreeOfLifeLoop_00034
+  - first:
+      213: 5239703310293271661
+    second: TreeOfLifeLoop_00035
+  - first:
+      213: 1384033479677579833
+    second: TreeOfLifeLoop_00036
+  - first:
+      213: -1976607563610798307
+    second: TreeOfLifeLoop_00037
+  - first:
+      213: 4017551394700308872
+    second: TreeOfLifeLoop_00038
+  - first:
+      213: 7536296520215893107
+    second: TreeOfLifeLoop_00039
+  - first:
+      213: 3517140642577488335
+    second: TreeOfLifeLoop_00040
+  - first:
+      213: -9177840463347000455
+    second: TreeOfLifeLoop_00041
+  - first:
+      213: -3974174385433734350
+    second: TreeOfLifeLoop_00042
+  - first:
+      213: -6476988986538268092
+    second: TreeOfLifeLoop_00043
+  - first:
+      213: 8680176185287477513
+    second: TreeOfLifeLoop_00044
+  - first:
+      213: 1289674045567415836
+    second: TreeOfLifeLoop_00045
+  - first:
+      213: -1126315883438537402
+    second: TreeOfLifeLoop_00046
+  - first:
+      213: 5269738486618731070
+    second: TreeOfLifeLoop_00047
+  - first:
+      213: 6297341094192794685
+    second: TreeOfLifeLoop_00048
+  - first:
+      213: -6406853913999307807
+    second: TreeOfLifeLoop_00049
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4995
+        width: 1036
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.5096525, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de51105bb064fc5a0800000000000000
+      internalID: -6498898721177004563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7127
+        width: 1037
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50916106, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296dcf1d0612116f0800000000000000
+      internalID: -715754166051613038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6061
+        width: 1037
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50916106, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e611e32b8ce2620800000000000000
+      internalID: 2751357090241015406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3929
+        width: 1036
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50868726, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba392f716eeef1d60800000000000000
+      internalID: 7863266146423837611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2863
+        width: 1035
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50821257, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa179a2b24d64eef0800000000000000
+      internalID: -79818760153108054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1797
+        width: 1034
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.5077369, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709f5605fa5b9c7a0800000000000000
+      internalID: -6356349634483980025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 731
+        width: 1034
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50676984, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be78031517f3b5b0800000000000000
+      internalID: -5353663862127690063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00007
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1797
+        width: 1032
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974077d3ef12cda00800000000000000
+      internalID: 782537811092243577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00008
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2863
+        width: 1030
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.5048544, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c0388e4f4f418a0800000000000000
+      internalID: -6335169443093345258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00009
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 732
+        width: 1030
+        height: 1063
+      alignment: 9
+      pivot: {x: 0.5038835, y: 0.53951085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d214b376adf955ae0800000000000000
+      internalID: -1561165935430385363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00010
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 732
+        width: 1028
+        height: 1063
+      alignment: 9
+      pivot: {x: 0.5029183, y: 0.53951085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d408061dd13fcc10800000000000000
+      internalID: 2075932778868245720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00011
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 4997
+        width: 1026
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.5019493, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f55d1491fca250800000000000000
+      internalID: 5957402025553950274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00012
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 3933
+        width: 1025
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.5004878, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f617bd7bb59fc10800000000000000
+      internalID: 2087800747481722752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00013
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 3933
+        width: 1023
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.49951124, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a732fb8910b2c1c0800000000000000
+      internalID: -4484828655139014747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00014
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 2869
+        width: 1021
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.49853086, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9487ecba49e09e0800000000000000
+      internalID: -1653220547574085161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00015
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 1805
+        width: 1020
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef636af0bc94cdb0800000000000000
+      internalID: -4772517421176885269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00016
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 7129
+        width: 1020
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe18725777cd1050800000000000000
+      internalID: 5772989612657483510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00017
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 5004
+        width: 1020
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469aa10dd8415bc60800000000000000
+      internalID: 7833189726195198308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00018
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 6067
+        width: 1020
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b615b983bc593a2c0800000000000000
+      internalID: -4421525709087092373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00019
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 6066
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484a31e1727e3f3f0800000000000000
+      internalID: -868096147958029180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00020
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 7130
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa70bd614b0bd8f0800000000000000
+      internalID: -514805356762727762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00021
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 6067
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4ea6a3f1ee102a0800000000000000
+      internalID: -6772870546697034573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00022
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 7130
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de5ee616eb010100800000000000000
+      internalID: 72352151869742801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00023
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 5004
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a8110abdb64bc80800000000000000
+      internalID: -8307896821564208534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00024
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 6067
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e557819cc8106dc0800000000000000
+      internalID: -3647888431276141085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00025
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 7130
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d5183551625c160800000000000000
+      internalID: 7045079065128164666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00026
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 6067
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89200ffdbac1cba90800000000000000
+      internalID: -7296925771725012328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00027
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 5004
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a29f8977f3cf45c0800000000000000
+      internalID: -4228946057413815645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00028
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 7130
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f89f215e14dd1e0800000000000000
+      internalID: -2171506993201049769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00029
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 6067
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17460420bb26b5ee0800000000000000
+      internalID: -1271313914465852303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00030
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 7130
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228e4922163431600800000000000000
+      internalID: 437767673256142882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00031
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 6066
+        width: 1021
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.496572, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2510914ba5fe63b0800000000000000
+      internalID: -5517202377594104532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00032
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 6067
+        width: 1020
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b6f0370d9b0bf90800000000000000
+      internalID: -6939842720843207898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00033
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 5004
+        width: 1020
+        height: 1061
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.5405278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bfa6efff036c110800000000000000
+      internalID: 1280765020076702546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00034
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 7129
+        width: 1020
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b206f3918480a760800000000000000
+      internalID: 7467113874248303286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00035
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 1805
+        width: 1020
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.4970588, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64087a466a27b840800000000000000
+      internalID: 5239703310293271661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00036
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 2869
+        width: 1021
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.49853086, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9321e69ed13153310800000000000000
+      internalID: 1384033479677579833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00037
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 3933
+        width: 1023
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.49951124, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17c0a6b4eda194e0800000000000000
+      internalID: -1976607563610798307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00038
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 3933
+        width: 1025
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.5004878, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881bcf325b531c730800000000000000
+      internalID: 4017551394700308872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00039
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 4997
+        width: 1026
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.5019493, y: 0.54001886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3741b7191cd469860800000000000000
+      internalID: 7536296520215893107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00040
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 732
+        width: 1028
+        height: 1063
+      alignment: 9
+      pivot: {x: 0.5029183, y: 0.53951085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc99be1a7c46fc030800000000000000
+      internalID: 3517140642577488335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00041
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 732
+        width: 1030
+        height: 1063
+      alignment: 9
+      pivot: {x: 0.5038835, y: 0.53951085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bdef099b2c1a080800000000000000
+      internalID: -9177840463347000455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00042
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2863
+        width: 1030
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.5048544, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23314c8d375e8d8c0800000000000000
+      internalID: -3974174385433734350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00043
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1797
+        width: 1032
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50581396, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ae44355dc1d16a0800000000000000
+      internalID: -6476988986538268092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 731
+        width: 1034
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50676984, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9098ddf304e267870800000000000000
+      internalID: 8680176185287477513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1797
+        width: 1034
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.5077369, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16361226b7d5e110800000000000000
+      internalID: 1289674045567415836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2863
+        width: 1035
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50821257, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64504c6eba58e50f0800000000000000
+      internalID: -1126315883438537402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3929
+        width: 1036
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50868726, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e323d1abb3fd12940800000000000000
+      internalID: 5269738486618731070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00048
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6061
+        width: 1037
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50916106, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cc4d44c56a46750800000000000000
+      internalID: 6297341094192794685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeOfLifeLoop_00049
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7127
+        width: 1037
+        height: 1064
+      alignment: 9
+      pivot: {x: 0.50916106, y: 0.53994364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb00486f484617a0800000000000000
+      internalID: -6406853913999307807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
