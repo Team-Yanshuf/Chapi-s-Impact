@@ -3,6 +3,7 @@ using UnityEngine.Events;
 public class GamePauseState : State
 {
     GameManager manager;
+
     public override void enterState()
     {
         GameManagerEvents.onPause();

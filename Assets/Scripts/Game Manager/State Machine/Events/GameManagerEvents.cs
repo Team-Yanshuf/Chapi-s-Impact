@@ -16,6 +16,7 @@ public class GameManagerEvents : MonoBehaviour
     public static UnityEvent pause = new UnityEvent();
     public static UnityEvent resume = new UnityEvent();
     public static UnityEvent enemyDefeated = new UnityEvent();
+    public static UnityEvent chapiDied = new UnityEvent(); 
 
     public static void onPause()
     { 
@@ -29,5 +30,10 @@ public class GameManagerEvents : MonoBehaviour
     public static void onEnemyDefeated()
 	{
         enemyDefeated?.Invoke();
+	}
+
+    public static void onChapiDied()
+	{
+        chapiDied?.Invoke();
 	}
 }
