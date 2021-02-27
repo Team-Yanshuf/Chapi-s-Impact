@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
 
     SpriteRenderer renderer;
 
+    bool planting = false;
+
 	// [SerializeField] int health;
 	private void Awake()
 	{
@@ -63,6 +65,10 @@ public class Player : MonoBehaviour
     public bool isShooting() => attackM.isShooting();
     public int comboCount() => attackM.getComboCount();
     public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
-    public bool isPlanting() => plantingM.isPlanting();
+    public bool isPlanting() => planting;
+    public bool plantingPressed() => inputM.plantingPressed();
+    public void setPlanting(bool planting) => this.planting = planting;
+
+    public float getChapiDirection() => movementM.getChapiDirection();
 
 }

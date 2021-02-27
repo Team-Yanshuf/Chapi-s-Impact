@@ -6,22 +6,50 @@ public class PlayerPlanting : MonoBehaviour
 {
     bool planting = false;
     [SerializeField] Tree tree;
+    Player playerM;
+
+    float direction;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerM = GetComponent<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (playerM.plantingPressed())
+		{
+            Debug.Log("Planting pressed");
+            playerM.setPlanting(true);
+
+            //CHANGE TO NOT HARDCODED VALUES!!!
+            Invoke("plant",0.4f);
+            Invoke("endPlanting", 1.33f);
+    
+        }
+        direction = playerM.getChapiDirection();
+
     }
 
-    public bool isPlanting() => planting;
+    public bool isPlanting()
+    {
+        return planting;
+    }
 
     void plant()
 	{
-        Instantiate(tree, transform.position + new Vector3(5, 0, 0), Quaternion.identity);
+        Vector3 offset = new Vector3(direction * 2, 2, -0.5f);
+        Instantiate(tree, transform.position + offset , Quaternion.identity);
 	}
+
+    void endPlanting()
+	{
+        playerM.setPlanting(false);
+	}
+
+
 }
