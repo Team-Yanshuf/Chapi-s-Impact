@@ -41,6 +41,7 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Well/Well.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.png
@@ -82,8 +83,10 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.png
+- Assets/GraphicAssets/SpriteAnimations/Well/Well.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
