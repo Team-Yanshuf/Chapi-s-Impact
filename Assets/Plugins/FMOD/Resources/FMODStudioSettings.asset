@@ -412,10 +412,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
+  HasSourceProject: 0
   HasPlatforms: 1
   sourceProjectPath: Assets/FMOD/chapis impact/chapis impact.fspro
-  sourceBankPath: Assets\FMOD\chapis impact\Build
+  sourceBankPath: Assets/FMOD Banks
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
