@@ -23,7 +23,8 @@ public abstract class LevelState : State
     
     public LevelState()
     { 
-        GameManagerEvents.enemyDefeated.AddListener(clearFog);
+        GameManagerEvents.enemyDefeated.AddListener(clearFogBy20Precent);
+        GameManagerEvents.treePlanted.AddListener(clear200FogParticles);
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
@@ -47,7 +48,7 @@ public abstract class LevelState : State
         {
             Object.Destroy(fog.gameObject);
         }
-        fogs.RemoveRange(0, fogs.Count);
+        fogs.Clear();
 
     }
 
@@ -55,6 +56,7 @@ public abstract class LevelState : State
 	{
         fogs = new List<FogParticle>();
         GameObject fogContainer = new GameObject();
+        fogContainer.tag = "FogContainer";
         fogContainer.gameObject.name = "Fog Container";
         for (int i=0; i<initialFogCount; i++)
 		{      
@@ -67,17 +69,32 @@ public abstract class LevelState : State
             fogs.Add(particle);
             particle.transform.parent = fogContainer.transform;
 		}
+
+     
 	}
 
-	void clearFog()
+	void clearFogBy20Precent()
 	{
-        for (int i=0; i<fogs.Count; i++)
+        int amount = (int) (fogs.Count * 0.2);
+        for (int i = 0; i < amount ; i++)
+        {
+            int indexToRemove = Random.Range(0, currentFogCount);
+            Object.Destroy(fogs[indexToRemove].gameObject);
+            fogs.RemoveAt(indexToRemove);
+        }
+
+    }
+
+    void clear200FogParticles()
+	{
+       for (int i=0; i<fogs.Count && i<200;i++)
 		{
             int indexToRemove = Random.Range(0, currentFogCount);
-            Object.Destroy(fogs[i].gameObject);
-            fogs.RemoveAt(i);
-		}
+            Object.Destroy(fogs[indexToRemove].gameObject);
+            fogs.RemoveAt(indexToRemove);
+        }
 
-	}
+    }
+
 
 }

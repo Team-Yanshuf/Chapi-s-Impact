@@ -89,13 +89,10 @@ public class Staff : MonoBehaviour, IWeapon
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy") && collision.isTrigger==false)
 		{
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
-            if (enemy!=null)
-			{
-                enemy.takeDamage(damage);
-			}
+            enemy?.takeDamage(damage);
 		}
     }
     

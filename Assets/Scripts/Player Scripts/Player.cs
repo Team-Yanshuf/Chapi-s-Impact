@@ -41,7 +41,6 @@ public class Player : MonoBehaviour
 
     public void die()
     {
-        Debug.Log("CHAPI IS DEAD!!!");
         GameManagerEvents.chapiDied?.Invoke();
         Destroy(this.gameObject);
     }
@@ -68,7 +67,7 @@ public class Player : MonoBehaviour
     public bool isPlanting() => planting;
     public bool plantingPressed() => inputM.plantingPressed();
     public void setPlanting(bool planting) => this.planting = planting;
-
+    public bool shootingPressed() => inputM.shootPressed();
     public float getChapiDirection() => movementM.getChapiDirection();
 
 }

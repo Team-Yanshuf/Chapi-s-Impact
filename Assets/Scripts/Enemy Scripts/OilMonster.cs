@@ -6,6 +6,7 @@ public class OilMonster : MonoBehaviour
 {
     WormChasePlayer movementM;
     OilMonsterAnimation animationM;
+    EnemyAgro agroM;
     [SerializeField] GameObject target;
     EnemyCollision collisionM;
     // Start is called before the first frame update
@@ -14,6 +15,7 @@ public class OilMonster : MonoBehaviour
         collisionM = GetComponent<EnemyCollision>();
         movementM = GetComponent<WormChasePlayer>();
         animationM = GetComponent<OilMonsterAnimation>();
+        agroM = GetComponent<EnemyAgro>();
     }
 
     // Update is called once per frame
@@ -50,4 +52,6 @@ public class OilMonster : MonoBehaviour
     {
         return collisionM.isHurt();
     }
+
+    public bool isAgroed() => agroM.isAgroed();
 }

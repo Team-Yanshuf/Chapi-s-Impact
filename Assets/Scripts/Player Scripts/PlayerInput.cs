@@ -6,6 +6,7 @@ public class PlayerInput : MonoBehaviour
 	Player playerM;
 	float horizontal, vertical;
 	float groundRotation;
+	public LayerMask layerToIgnore;
 
 	bool dashInUse = false, meleeInUse = false;
 
@@ -33,26 +34,24 @@ public class PlayerInput : MonoBehaviour
 		{
 			Debug.DrawRay(hit.point, hit.normal, Color.yellow,5f);
 			
-			return ((hit.point+hit.normal)-transform.position);
+			return ((hit.point+hit.normal*2)-transform.position);
 		}
-		return Camera.main.ScreenToWorldPoint(Input.mousePosition).normalized;
+		return Vector3.zero;
+		//return Camera.main.ScreenToWorldPoint(Input.mousePosition).normalized;
 
 	}
 
 	public bool meleePressed()
 	{
-		if (!meleeInUse)
-		{
-			meleeInUse = true;
-			return Input.GetAxis("Melee") > 0.95f;
+		if (Input.GetMouseButtonDown(0))
+			return true;
+		return false;
+	}
 
-		}
-
-		else if (Input.GetAxis("Melee") == 0)
-		{
-			meleeInUse = false;
-		}
-
+	public bool shootPressed()
+	{
+		if (Input.GetMouseButtonDown(1))
+			return true;
 		return false;
 	}
 
