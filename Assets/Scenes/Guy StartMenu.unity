@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Chapi Main Theme
+  Event: event:/UI/Chapi Main Theme
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -1816,9 +1816,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/UI/UI Passover
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
+  PlayEvent: 13
+  StopEvent: 14
+  AllowFadeout: 0
   TriggerOnce: 0
   Preload: 0
   Params: []
