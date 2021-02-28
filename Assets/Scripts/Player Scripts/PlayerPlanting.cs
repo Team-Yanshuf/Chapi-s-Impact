@@ -8,6 +8,7 @@ public class PlayerPlanting : MonoBehaviour
     [SerializeField] Tree tree;
     Player playerM;
 
+    bool plantLocked = false;
     float direction;
 
 
@@ -21,8 +22,9 @@ public class PlayerPlanting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerM.plantingPressed())
+        if (playerM.plantingPressed() && !plantLocked)
 		{
+            plantLocked = true;
             Debug.Log("Planting pressed");
             playerM.setPlanting(true);
 
@@ -49,6 +51,8 @@ public class PlayerPlanting : MonoBehaviour
     void endPlanting()
 	{
         playerM.setPlanting(false);
+        GameManagerEvents.treePlanted.Invoke();
+        plantLocked = false;
 	}
 
 

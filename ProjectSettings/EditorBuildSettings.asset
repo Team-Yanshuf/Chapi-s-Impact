@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
-    guid: 80e1fb6ba4d6b4f68977780f2e6de5d4
+    path: Assets/Scenes/Guy StartMenu.unity
+    guid: 796a442764397814eaea7219cd094297
   - enabled: 1
     path: Assets/Scenes/Yinon'sStage001.unity
     guid: 7c368099dd0224c74be45d4a7affe9d9
-  - enabled: 1
-    path: Assets/Scenes/Stage001.unity
-    guid: 69331c05e0ec744c68b887778a5b0899
   m_configObjects: {}
