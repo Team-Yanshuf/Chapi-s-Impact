@@ -38,6 +38,13 @@ public abstract class LevelState : State
         levelBoundries = levelM.getLevelBoundries();
         initFog();
 
+        ////PRECAUTION - IN CASE THERE ARE MULTIPLE FOG CONTAINERS
+        //GameObject[] fogies = GameObject.FindGameObjectsWithTag("FogContainer");
+        //for (int i = 1; i < fogies.Length; i++)
+        //{
+        //    GameObject.Destroy(fogies[i]);
+        //}
+
     }
 
 	public override void exitState()
@@ -55,6 +62,7 @@ public abstract class LevelState : State
 	{
         fogs = new List<FogParticle>();
         GameObject fogContainer = new GameObject();
+        fogContainer.tag = "FogContainer";
         fogContainer.gameObject.name = "Fog Container";
         for (int i=0; i<initialFogCount; i++)
 		{      
@@ -67,6 +75,8 @@ public abstract class LevelState : State
             fogs.Add(particle);
             particle.transform.parent = fogContainer.transform;
 		}
+
+     
 	}
 
 	void clearFog()

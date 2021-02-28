@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-	GameManager manager;
+	static GameManager manager;
 	SceneLoader sceneLoader;
 	[SerializeField] public State currentState;
 	bool isChapiDead;
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 
 	private void OnLevelWasLoaded(int level)
 	{
+	//	initGameManagerSingelton();
 		chooseCurrentStateBasedOnScene();
 	}
 
@@ -56,7 +57,7 @@ public class GameManager : MonoBehaviour
 		if (!manager)
 		{
 			manager = this;
-			DontDestroyOnLoad(gameObject);
+			DontDestroyOnLoad(this.gameObject);
 		}
 
 		else
