@@ -2668,6 +2668,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1212857498758450026, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
       propertyPath: m_Name
@@ -5496,6 +5501,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: hurt
+      value: 
+      objectReference: {fileID: 1201513514}
+    - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: crawl
+      value: 
+      objectReference: {fileID: 1201513515}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -5571,7 +5584,12 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 799412021}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8469913828133326880, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+    - {fileID: 5452827794893646954, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+    - {fileID: 4151909190513737630, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+    - {fileID: 1891081426, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+    - {fileID: 1891081425, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
 --- !u!1 &785526807
 GameObject:
@@ -8600,6 +8618,58 @@ Transform:
   m_Father: {fileID: 583379249}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1201513513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1277005037702263609, guid: f9eb6b163ddc68e46a8b952be557d269,
+    type: 3}
+  m_PrefabInstance: {fileID: 771073703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1201513514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201513513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Trashbag/Trashbag growl
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1201513515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201513513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/OilMonster/OilMonster Move
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1217917105
 GameObject:
   m_ObjectHideFlags: 0
@@ -10980,6 +11050,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.42, y: 26.08, z: 6.72}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1584045775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+    type: 3}
+  m_PrefabInstance: {fileID: 352975855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584045776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584045775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Music/Plastic Enemies Theme
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1585297197
 GameObject:
   m_ObjectHideFlags: 0
