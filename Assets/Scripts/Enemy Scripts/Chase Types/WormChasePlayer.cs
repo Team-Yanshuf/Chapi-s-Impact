@@ -18,6 +18,7 @@ public class WormChasePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (oilMonsterM.isAgroed())
         wormFollow();
     }
 

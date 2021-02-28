@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 
 public class OilMonsterAnimation : MonoBehaviour
 {
-    OilMonster monsterM;
+    OilMonster oilMonsterM;
     Animator animator;
     SpriteRenderer render;
     [SerializeField] float relativeStart;
@@ -13,7 +13,7 @@ public class OilMonsterAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        monsterM = GetComponent<OilMonster>();
+        oilMonsterM = GetComponent<OilMonster>();
         animator = GetComponent<Animator>();
         render = GetComponent<SpriteRenderer>();
     }
@@ -22,6 +22,7 @@ public class OilMonsterAnimation : MonoBehaviour
     void Update()
     {
         flipX();
+        setAnimationParameters();
     }
 
     public bool isInActiveCrawl()
@@ -39,13 +40,16 @@ public class OilMonsterAnimation : MonoBehaviour
 
     void flipX()
     {
-        float direction = Mathf.Sign(monsterM.getTargetPosition().x - transform.position.x);
+        float direction = Mathf.Sign(oilMonsterM.getTargetPosition().x - transform.position.x);
 
         if (direction == -1)
             render.flipX = true;
         else
             render.flipX = false;
-            
-
     }
+
+    void setAnimationParameters()
+	{
+        animator.SetBool("Agroed", oilMonsterM.isAgroed());
+	}
 }

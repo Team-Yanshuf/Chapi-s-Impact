@@ -27,6 +27,7 @@ public class LevelManager : MonoBehaviour
 
 	public int getInitialFogCount() => initialFogCount;
 
+ 
     private void updateCurrentEnemyCount()
 	{
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
