@@ -5,36 +5,39 @@ using UnityEngine;
 public class OilMonsterSounds : MonoBehaviour
 {
     OilMonster monsterM;
-    [SerializeField] FMODUnity.StudioEventEmitter crawl;
+    [SerializeField] FMODUnity.StudioEventEmitter move;
     [SerializeField] FMODUnity.StudioEventEmitter hurt;
-    // Start is called before the first frame update
+    [SerializeField] FMODUnity.StudioEventEmitter die;
+  
     void Start()
     {
         monsterM = GetComponent<OilMonster>();
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         playMove();
-        playHurt();
-        
+        playHurt(); 
     }   
     void playMove()
     {
-        if(monsterM.isCrawling() && !crawl.IsPlaying())
+        if (!move)
+            return;
+
+        if(monsterM.isCrawling() && !move.IsPlaying())
             {
-                crawl.Play();
-            }
-                
-        
+                move.Play();
+            } 
     }
     void playHurt()
     {
+        if (!hurt)
+            return;
+
         if (monsterM.isHurt() && !hurt.IsPlaying() )
         {
             hurt.Play();
         }
     }
+    public void playDie() => die?.Play();
 }
