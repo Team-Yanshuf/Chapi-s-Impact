@@ -37,6 +37,8 @@ public class PlayerSound : MonoBehaviour
         playFootSetps();
         playDash();
         playShooting();
+        playHurt();
+        playHit();
 
     }
 
@@ -80,11 +82,24 @@ public class PlayerSound : MonoBehaviour
     void playHurt()
 	{
         if (playerM.isHurt())
+		{
             hurt?.Play();
+            print("player hurt is playing");
+        }
+	}
+
+    void playHit()
+	{
+        if (playerM.isAttacking())
+		{
+            print("Player is attacking");
+            hit?.Play();
+		}
 	}
 
     void playDie()
 	{
+        print("PlayerDead");
         death?.Play();
 	}
 }

@@ -40,9 +40,13 @@ public class GameManager : MonoBehaviour
 		if (isChapiDead)
 		{
 			isChapiDead = false;
-			currentState.exitState();
+			currentState?.exitState();
 			moveToMainMenu();
 		}
+
+		//EXIT GAME
+		if (Input.GetKeyDown(KeyCode.Escape))
+			Application.Quit();
 	}
 
 	void checkForPause()

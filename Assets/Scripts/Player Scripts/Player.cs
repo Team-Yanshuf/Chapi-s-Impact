@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
 
 
     public int comboCount() => attackM.getComboCount();
+    public bool isAttacking() => attackM.isAttacking();
     public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
     public void setPlanting(bool planting) => this.planting = planting;
     public float getChapiDirection() => movementM.getChapiDirection();

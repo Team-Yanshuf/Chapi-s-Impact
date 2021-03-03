@@ -20,9 +20,10 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     }
     public void takeDamage(float damage)
     {
-        hurt = true;
         hp -= damage;
-            
+        if (hp <= 0)
+            return;
+        hurt = true;
     }
 
     void checkIfAlive()
@@ -40,7 +41,6 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
             player?.takeDamage(damage);
-
         }
     }
 
@@ -55,10 +55,4 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
 
         return false;
     }
-
-    void die()
-	{
-    
-	}
-
 }

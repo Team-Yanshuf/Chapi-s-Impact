@@ -8,7 +8,7 @@ public class OilMonsterSounds : MonoBehaviour
     [SerializeField] FMODUnity.StudioEventEmitter move;
     [SerializeField] FMODUnity.StudioEventEmitter hurt;
     [SerializeField] FMODUnity.StudioEventEmitter die;
-  
+
     void Start()
     {
         monsterM = GetComponent<OilMonster>();
@@ -17,27 +17,33 @@ public class OilMonsterSounds : MonoBehaviour
     void Update()
     {
         playMove();
-        playHurt(); 
-    }   
+        playHurt();
+    }
     void playMove()
     {
         if (!move)
             return;
 
-        if(monsterM.isCrawling() && !move.IsPlaying())
-            {
-                move.Play();
-            } 
+        if (monsterM.isCrawling() && !move.IsPlaying())
+        {
+            print("oil play move");
+            move.Play();
+        }
     }
     void playHurt()
     {
         if (!hurt)
             return;
 
-        if (monsterM.isHurt() && !hurt.IsPlaying() )
+        if (monsterM.isHurt() && !hurt.IsPlaying())
         {
+
             hurt.Play();
         }
     }
-    public void playDie() => die?.Play();
+    public void playDie()
+    {
+        print("playDie OIL");
+        die?.Play();
+    }
 }

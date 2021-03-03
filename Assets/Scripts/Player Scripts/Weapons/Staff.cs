@@ -17,7 +17,7 @@ public class Staff : MonoBehaviour, IWeapon
     float attackStartTime;
     bool attackRequested;
     bool canHit;
-
+    bool attacking;
 
     // Start is called before the first frame update
     void Awake()
@@ -27,7 +27,9 @@ public class Staff : MonoBehaviour, IWeapon
 
         currentComboCount = 0;
         attackRequested = false;
+        attacking = false;
 	}
+
 
     public int getCurrentComboHit() => currentComboCount;
 
@@ -65,6 +67,8 @@ public class Staff : MonoBehaviour, IWeapon
             float animationLengthInSeconds = attackDurationInFrames[currentComboCount-1] / framesPerSecond;
             timers[1].setParameters(animationLengthInSeconds - 0.1f, simulateAttack);
             timers[1].fire();
+            attacking = true;
+            
 
             timers[0].setParameters(animationLengthInSeconds, decideWhatsNext);
             timers[0].fire();
@@ -72,6 +76,16 @@ public class Staff : MonoBehaviour, IWeapon
             attackRequested = false;
         }
     }
+
+    public bool isAttacking()
+	{
+        if (attacking)
+		{
+            attacking = false;
+            return true;
+		}
+        return false;
+	}
 
     void simulateAttack() => hitbox.enabled = true;
 

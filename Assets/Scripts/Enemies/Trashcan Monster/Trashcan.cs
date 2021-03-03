@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Trashcan : MonoBehaviour
 {
-    [SerializeField] public GameObject target { get; }
+    public GameObject target; 
     TrashcanAttacking attackingM;
     TrashcanCollision collisionM;
     TrashcanMovement movementM;
     TrashcanSounds soundM;
+
+    [SerializeField] float maxHp;
     void Start()
     {
         attackingM = GetComponent<TrashcanAttacking>();
@@ -23,4 +25,16 @@ public class Trashcan : MonoBehaviour
         
     }
 
+    public bool isMoving() => movementM.isMoving();
+    public bool isAttacking() => attackingM.isAttacking();
+    public float getMaxHP() => maxHp;
+
+    public void die()
+	{
+        soundM.playDie();
+        Destroy(this.gameObject);
+	}
+
+    //PLACE HOLDER!!!
+    public bool isHurt() => false;
 }
