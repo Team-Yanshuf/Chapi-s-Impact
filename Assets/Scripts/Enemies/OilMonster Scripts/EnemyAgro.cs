@@ -5,18 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(SphereCollider))]
 public class EnemyAgro : MonoBehaviour
 {
+	[SerializeField] bool deAgroed;
     bool agroed = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
 	private void OnTriggerEnter(Collider other)
 	{
@@ -24,10 +15,12 @@ public class EnemyAgro : MonoBehaviour
         agroed = true;
 	}
 
-	//private void OnTriggerExit(Collider other)
-	//{
- //       agroed = false;
-	//}
+
+	private void OnTriggerExit(Collider other)
+	{
+		if (deAgroed)
+        agroed = false;
+	}
 
     public bool isAgroed() => agroed;
 }
