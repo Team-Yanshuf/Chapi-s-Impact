@@ -22,6 +22,7 @@ public interface IWeapon
 {
     void requestNextAttack();
     int getCurrentComboHit();
+    bool isAttacking();
 }
 
 

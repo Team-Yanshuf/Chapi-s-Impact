@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
      PlayerAnimation animationM;
      PlayerPlanting plantingM;
 
-    SpriteRenderer renderer;
+     SpriteRenderer renderer;
 
-    bool planting = false;
+     bool planting = false;
 
 	// [SerializeField] int health;
 	private void Awake()
@@ -62,12 +62,22 @@ public class Player : MonoBehaviour
     public bool isDashing() => movementM.isDash();
     public bool isCollecting() => collisionM.isCollecting();
     public bool isShooting() => attackM.isShooting();
-    public int comboCount() => attackM.getComboCount();
-    public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
+    public bool isHurt() => collisionM.isHurt();
     public bool isPlanting() => planting;
+    
+    //**********MIGHT NOT BE NECCECERY************//
+    public bool isDead() => healthM.isDead();
+    //**********MIGHT NOT BE NECCECERY************//
+
+
     public bool plantingPressed() => inputM.plantingPressed();
-    public void setPlanting(bool planting) => this.planting = planting;
     public bool shootingPressed() => inputM.shootPressed();
+
+
+    public int comboCount() => attackM.getComboCount();
+    public bool isAttacking() => attackM.isAttacking();
+    public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
+    public void setPlanting(bool planting) => this.planting = planting;
     public float getChapiDirection() => movementM.getChapiDirection();
 
 }

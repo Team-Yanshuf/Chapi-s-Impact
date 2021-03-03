@@ -43,7 +43,7 @@ public class PlayerAnimation : MonoBehaviour
         else
             animator.SetFloat("Horizontal", prevX);
         
-        if (movement.y!=0)
+        if (movement.z!=0)
         {
             animator.SetFloat("Vertical", movement.z);
             prevZ = movement.z;

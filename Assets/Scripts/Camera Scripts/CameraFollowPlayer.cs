@@ -5,7 +5,8 @@ using UnityEngine;
 public class CameraFollowPlayer : MonoBehaviour
 {
     [SerializeField] GameObject player;
-    [SerializeField] float cameraDistanceFromPlayer;
+    [SerializeField] float zOffset;
+    [SerializeField] float yOffset;
     Vector3 position;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class CameraFollowPlayer : MonoBehaviour
         if (!player)
             return;
 
-        position = player.transform.position - new Vector3(0, 0, cameraDistanceFromPlayer);
+        position = player.transform.position - new Vector3(0, yOffset, zOffset);
         transform.position = position;
     }
 }

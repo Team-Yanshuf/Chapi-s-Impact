@@ -19,11 +19,7 @@ public class GameManagerEvents : MonoBehaviour
     public static UnityEvent chapiDied = new UnityEvent();
     public static UnityEvent treePlanted = new UnityEvent();
 
-	private void Update()
-	{
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Application.Quit();
-	}
+
 	public static void onPause() => pause?.Invoke();
     public static void onResume() => resume?.Invoke();
     public static void onEnemyDefeated() => enemyDefeated?.Invoke();

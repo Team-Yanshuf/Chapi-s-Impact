@@ -7,8 +7,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 
     Player playerM;
     bool collecting;
-
-
+    bool hurt;
     private void Start()
     {
         playerM = GetComponent<Player>();
@@ -29,6 +28,17 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 
     public void takeDamage(float damage)
     {
+        hurt = true;
         playerM.takeDamage(damage);
     }
+
+    public bool isHurt()
+	{
+        if (hurt)
+		{
+            hurt = false;
+            return true;
+		}
+        return false;
+	}
 }

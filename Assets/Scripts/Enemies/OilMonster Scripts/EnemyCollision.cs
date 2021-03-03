@@ -9,7 +9,6 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     [SerializeField] float hp;
     [SerializeField] int damage;
 
-    // Start is called before the first frame update
     void Start()
     {
         monsterM= GetComponent<OilMonster>();       
@@ -21,9 +20,10 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     }
     public void takeDamage(float damage)
     {
-        hurt = true;
         hp -= damage;
-            
+        if (hp <= 0)
+            return;
+        hurt = true;
     }
 
     void checkIfAlive()
@@ -31,7 +31,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         if (hp<=0)
         {
             GameManagerEvents.enemyDefeated?.Invoke();
-            Destroy(this.gameObject);
+            monsterM.die();
         }
     }
 
@@ -41,7 +41,6 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
             player?.takeDamage(damage);
-
         }
     }
 
@@ -56,5 +55,4 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
 
         return false;
     }
-
 }

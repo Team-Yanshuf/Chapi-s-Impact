@@ -6,12 +6,14 @@ public class PlayerAttacking : MonoBehaviour
 	[SerializeField] Projectile projectile;
 	[SerializeField] float projectileSpeed;
 	bool shooting;
+	bool attacking;
 	Player playerM;
 	IWeapon staff;
 
 	void Start()
 	{
 		shooting = false;
+		attacking = false;
 		staff = GetComponentInChildren<Staff>();
 		playerM = GetComponent<Player>();
 	}
@@ -61,6 +63,5 @@ public class PlayerAttacking : MonoBehaviour
 		return false;
 	}
 
-
-
+	public bool isAttacking() => staff.isAttacking();
 }
