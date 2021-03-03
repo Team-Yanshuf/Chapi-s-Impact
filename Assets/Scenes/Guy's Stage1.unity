@@ -1031,7 +1031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 799412021}
-  cameraDistanceFromPlayer: 1
+  zOffset: 0
+  yOffset: 0
 --- !u!1001 &347178092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1188,6 +1189,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 799412021}
+    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: zOffset
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
       propertyPath: cameraDistanceFromPlayer

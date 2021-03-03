@@ -33,12 +33,17 @@ public class PlayerAnimation : MonoBehaviour
 
         animator.SetFloat("Speed", movement.magnitude);
 
+
+       /* 
+        * This setup does not take planting into account.
+        * meaning the planting while moving diagonally results
+        * in planting in the wrong direction.
+        * Fix this!
+        */
         if (movement.x!=0)
         {
             animator.SetFloat("Horizontal", movement.x);
-
             prevX = movement.x;
-
         }
         else
             animator.SetFloat("Horizontal", prevX);
@@ -47,6 +52,9 @@ public class PlayerAnimation : MonoBehaviour
         {
             animator.SetFloat("Vertical", movement.z);
             prevZ = movement.z;
+
+            if (movement.x==0)
+            animator.SetFloat("Horizontal", 0f);
         }
 
         else
@@ -55,5 +63,6 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetBool("IsDashing", playerM.isDashing());
         animator.SetInteger("Attacking", playerM.comboCount());
         animator.SetBool("IsPlanting", playerM.isPlanting());
+        animator.SetBool("IsHurt", playerM.isHurt());
     }
 }
