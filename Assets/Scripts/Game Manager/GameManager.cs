@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-	GameManager manager;
+	static GameManager manager;
 	SceneLoader sceneLoader;
 	[SerializeField] public State currentState;
 	bool isChapiDead;
@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 	// Start is called before the first frame update
 	private void Awake()
 	{
+
 		initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
 		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
@@ -20,6 +21,8 @@ public class GameManager : MonoBehaviour
 
 	private void OnLevelWasLoaded(int level)
 	{
+		isChapiDead = false;
+		//	initGameManagerSingelton();
 		chooseCurrentStateBasedOnScene();
 	}
 
@@ -37,9 +40,13 @@ public class GameManager : MonoBehaviour
 		if (isChapiDead)
 		{
 			isChapiDead = false;
-			currentState.exitState();
+			currentState?.exitState();
 			moveToMainMenu();
 		}
+
+		//EXIT GAME
+		if (Input.GetKeyDown(KeyCode.Escape))
+			Application.Quit();
 	}
 
 	void checkForPause()
@@ -56,7 +63,7 @@ public class GameManager : MonoBehaviour
 		if (!manager)
 		{
 			manager = this;
-			DontDestroyOnLoad(gameObject);
+			DontDestroyOnLoad(this.gameObject);
 		}
 
 		else

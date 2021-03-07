@@ -8,6 +8,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int hp;
     [SerializeField] float invincibilityDuration;
     [SerializeField] float flashingDelta;
+
+    bool dead = false;
     bool isInvincible;
     Player playerM;
 
@@ -43,9 +45,20 @@ public class PlayerHealth : MonoBehaviour
     {
         if (hp<=0)
         {
+            dead = true;
             playerM.die();
         }
     }
+
+    public bool isDead()
+	{
+        if (dead)
+		{
+            dead = false;
+            return true;
+		}
+        return false;
+	}
 
     IEnumerator becomeInvincible(float duration)
     {

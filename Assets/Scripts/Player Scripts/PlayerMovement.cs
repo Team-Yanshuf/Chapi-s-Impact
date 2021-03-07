@@ -38,6 +38,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void setMovementVector()
     {
+        if (playerM.isPlanting())
+		{
+            movement = Vector3.zero;
+            return;
+		}
+
         playerM.getMovementAxes(ref horizontal, ref vertical);
         movement = new Vector3(horizontal, vertical, 0);
         Quaternion rotation = Quaternion.Euler(groundRotation, 0, 0);

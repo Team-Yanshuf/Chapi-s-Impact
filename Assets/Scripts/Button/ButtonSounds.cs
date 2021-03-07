@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class ButtonSounds : MonoBehaviour
 {
-	[SerializeField] FMODUnity.StudioEventEmitter onOver;
-	[SerializeField] FMODUnity.StudioEventEmitter onClick;
+	[SerializeField] FMODUnity.StudioEventEmitter over;
+	[SerializeField] FMODUnity.StudioEventEmitter click;
 	
 	bool isOver = false;
 
 
-	private void OnMouseOver()
+	public void onOver()
 	{
-		if (!isOver)
+		//if (!isOver)
 		{
+			print("PlayOnOver");
 			isOver = true;
-			onOver.Play();
+			over.Play();
 		}
 	}
 
@@ -24,9 +25,10 @@ public class ButtonSounds : MonoBehaviour
 		isOver = false;
 	}
 
-	private void OnMouseDown()
+	public  void onClick()
 	{
-		onClick.Play();
+		print("Play On CLick");
+		click.Play();
 	}
 
 }

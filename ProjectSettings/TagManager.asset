@@ -10,6 +10,7 @@ TagManager:
   - GameManager
   - Enemy
   - Weapon
+  - FogContainer
   layers:
   - Default
   - TransparentFX

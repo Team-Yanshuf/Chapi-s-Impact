@@ -617,6 +617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511013122}
   - component: {fileID: 511013123}
+  - component: {fileID: 511013124}
   m_Layer: 0
   m_Name: Scenery
   m_TagString: Untagged
@@ -673,6 +674,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/UI/UI Atmos
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &511013124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511013121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/UI/Chapi Main Theme
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -1605,9 +1629,10 @@ GameObject:
   - component: {fileID: 1246673540}
   - component: {fileID: 1246673539}
   - component: {fileID: 1246673542}
-  - component: {fileID: 1246673545}
-  - component: {fileID: 1246673543}
   - component: {fileID: 1246673544}
+  - component: {fileID: 1246673543}
+  - component: {fileID: 1246673545}
+  - component: {fileID: 1246673546}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1784,7 +1809,7 @@ MonoBehaviour:
   Event: event:/UI/UI Passover
   PlayEvent: 0
   StopEvent: 0
-  AllowFadeout: 1
+  AllowFadeout: 0
   TriggerOnce: 0
   Preload: 0
   Params: []
@@ -1800,11 +1825,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246673537}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246673546}
+          m_MethodName: onOver
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1246673546}
+          m_MethodName: onClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1246673546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246673537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a98b29a9764bd8c4e874deb850b53ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onOver: {fileID: 1246673544}
-  onClick: {fileID: 1246673543}
+  over: {fileID: 1246673544}
+  click: {fileID: 1246673543}
 --- !u!114 &1261806363 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6667996722838390640, guid: f180da4d1c2a2a341b840976f442e133,
