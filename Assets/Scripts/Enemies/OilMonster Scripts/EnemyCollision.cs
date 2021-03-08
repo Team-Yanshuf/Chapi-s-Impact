@@ -20,10 +20,11 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     }
     public void takeDamage(float damage)
     {
+        hurt = true;
         hp -= damage;
         if (hp <= 0)
             return;
-        hurt = true;
+
     }
 
     void checkIfAlive()
@@ -49,10 +50,12 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     {
         if (hurt)
         {
-            hurt = false;
+            //hurt = false;
             return true;
         }
 
         return false;
     }
+
+    public void setNotHurt() => hurt = false;
 }

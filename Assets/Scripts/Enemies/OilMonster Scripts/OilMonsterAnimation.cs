@@ -51,6 +51,9 @@ public class OilMonsterAnimation : MonoBehaviour
     void setAnimationParameters()
 	{
         animator.SetBool("Agroed", oilMonsterM.isAgroed());
+
+        if (oilMonsterM.isHurt())
+            print("HURT!!");
         animator.SetBool("IsHurt", oilMonsterM.isHurt());
 	}
 }
