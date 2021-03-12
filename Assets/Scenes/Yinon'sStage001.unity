@@ -6219,6 +6219,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: attackDurationInFrames.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: attackDurationInFrames.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: hurt
       value: 
@@ -6243,6 +6251,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7137872134925363673, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
@@ -7210,7 +7228,7 @@ PrefabInstance:
     - target: {fileID: 6512095524973022686, guid: f180da4d1c2a2a341b840976f442e133,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f180da4d1c2a2a341b840976f442e133, type: 3}

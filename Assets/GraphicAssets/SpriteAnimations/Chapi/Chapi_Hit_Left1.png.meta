@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: cb6592acfdb6641bcb3c633a5faed61d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -244186358115324334
+    second: Cahpi_Hit1_Left_00000
+  - first:
+      213: -4422783662791018934
+    second: Cahpi_Hit1_Left_00001
+  - first:
+      213: 211061503301038507
+    second: Cahpi_Hit1_Left_00002
+  - first:
+      213: 3974024755298332399
+    second: Cahpi_Hit1_Left_00003
+  - first:
+      213: 438358909956533630
+    second: Cahpi_Hit1_Left_00004
+  - first:
+      213: -6288792681836145252
+    second: Cahpi_Hit1_Left_00005
+  - first:
+      213: 418102462830055321
+    second: Cahpi_Hit1_Left_00006
+  - first:
+      213: -2464347507271529635
+    second: Cahpi_Hit1_Left_00007
+  - first:
+      213: -686372936156935846
+    second: Cahpi_Hit1_Left_00008
+  - first:
+      213: 3335427409895105600
+    second: Cahpi_Hit1_Left_00009
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00000
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1691
+        width: 366
+        height: 356
+      alignment: 9
+      pivot: {x: 0.65847, y: 0.8230337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e2a811dc97c9cf0800000000000000
+      internalID: -244186358115324334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00001
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1691
+        width: 366
+        height: 356
+      alignment: 9
+      pivot: {x: 0.65847, y: 0.8230337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b0fc01bd1f92c0800000000000000
+      internalID: -4422783662791018934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 237
+        height: 460
+      alignment: 9
+      pivot: {x: 0.35021096, y: 0.6369565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1b40aa157dde200800000000000000
+      internalID: 211061503301038507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00003
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 851
+        width: 237
+        height: 461
+      alignment: 9
+      pivot: {x: 0.35021096, y: 0.6355748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee6a2ca572962730800000000000000
+      internalID: 3974024755298332399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00004
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1314
+        width: 365
+        height: 375
+      alignment: 9
+      pivot: {x: 0.038356163, y: 0.7813333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d26182b1d551600800000000000000
+      internalID: 438358909956533630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00005
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 937
+        width: 365
+        height: 375
+      alignment: 9
+      pivot: {x: 0.038356163, y: 0.7813333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9594151068b9b8a0800000000000000
+      internalID: -6288792681836145252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1566
+        width: 748
+        height: 481
+      alignment: 9
+      pivot: {x: 0.6737968, y: 0.6943867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f83b889f56dc500800000000000000
+      internalID: 418102462830055321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00007
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1566
+        width: 748
+        height: 481
+      alignment: 9
+      pivot: {x: 0.6737968, y: 0.6943867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b06f1bff0eccdd0800000000000000
+      internalID: -2464347507271529635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1130
+        width: 662
+        height: 434
+      alignment: 9
+      pivot: {x: 0.84592146, y: 0.65898615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a598cec73738976f0800000000000000
+      internalID: -686372936156935846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Hit1_Left_00009
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1130
+        width: 662
+        height: 434
+      alignment: 9
+      pivot: {x: 0.84592146, y: 0.65898615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04426e4be81d94e20800000000000000
+      internalID: 3335427409895105600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
