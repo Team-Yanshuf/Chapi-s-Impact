@@ -10,6 +10,10 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right3.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Left.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Right.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Right.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Back.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Front.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Left.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Right.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft 1.tpsheet
@@ -49,6 +53,9 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tree/Tree_Windy.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Right.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.tpsheet
@@ -62,6 +69,10 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right3.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Left.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Right.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Left.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Right.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Back.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Front.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Left.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Right.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.png
@@ -101,11 +112,21 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.png
+- Assets/GraphicAssets/SpriteAnimations/Tree/Tree_Windy.png
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Left.png
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Right.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.png
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

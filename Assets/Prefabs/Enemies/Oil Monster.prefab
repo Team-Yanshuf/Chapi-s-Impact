@@ -208,8 +208,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db06a791034450040b14f7067c9e05c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crawl: {fileID: 1201513515}
+  move: {fileID: 0}
   hurt: {fileID: 1201513514}
+  die: {fileID: 0}
 --- !u!114 &8230181735512484834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796861eb56790aa4aa71735ad1e4fc3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deAgroed: 0
 --- !u!135 &1201513526
 SphereCollider:
   m_ObjectHideFlags: 0
