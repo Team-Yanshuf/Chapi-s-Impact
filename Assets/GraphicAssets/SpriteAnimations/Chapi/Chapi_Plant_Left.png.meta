@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 72dcf5ba862e94c858dcbda532bb4927
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5053274631002781398
+    second: Cahpi_Plant_Left_00000
+  - first:
+      213: 6132154311085303424
+    second: Cahpi_Plant_Left_00001
+  - first:
+      213: 532311268035091419
+    second: Cahpi_Plant_Left_00002
+  - first:
+      213: -5906490687743914477
+    second: Cahpi_Plant_Left_00003
+  - first:
+      213: -236817605134931316
+    second: Cahpi_Plant_Left_00004
+  - first:
+      213: -8534714885797916944
+    second: Cahpi_Plant_Left_00005
+  - first:
+      213: 8519396043212700256
+    second: Cahpi_Plant_Left_00006
+  - first:
+      213: 6672415312603579003
+    second: Cahpi_Plant_Left_00007
+  - first:
+      213: 5041154952129310357
+    second: Cahpi_Plant_Left_00008
+  - first:
+      213: -2735590731228796933
+    second: Cahpi_Plant_Left_00009
+  - first:
+      213: -5295233147784100404
+    second: Cahpi_Plant_Left_00010
+  - first:
+      213: 5686284273610845255
+    second: Cahpi_Plant_Left_00011
+  - first:
+      213: 713607903628040391
+    second: Cahpi_Plant_Left_00012
+  - first:
+      213: 1391126318327710164
+    second: Cahpi_Plant_Left_00013
+  - first:
+      213: 4414159396855556444
+    second: Cahpi_Plant_Left_00014
+  - first:
+      213: 1248722317833211973
+    second: Cahpi_Plant_Left_00015
+  - first:
+      213: -7625542158130115006
+    second: Cahpi_Plant_Left_00016
+  - first:
+      213: 7956543125645315928
+    second: Cahpi_Plant_Left_00017
+  - first:
+      213: -2514174357950685790
+    second: Cahpi_Plant_Left_00018
+  - first:
+      213: -4434145422897381103
+    second: Cahpi_Plant_Left_00019
+  - first:
+      213: 5229504046928395277
+    second: Cahpi_Plant_Left_00020
+  - first:
+      213: -3927321368334814987
+    second: Cahpi_Plant_Left_00021
+  - first:
+      213: -4981482888051610835
+    second: Cahpi_Plant_Left_00022
+  - first:
+      213: -1364833576787941111
+    second: Cahpi_Plant_Left_00023
+  - first:
+      213: -3563633976773832678
+    second: Cahpi_Plant_Left_00024
+  - first:
+      213: 8994214491076465753
+    second: Cahpi_Plant_Left_00025
+  - first:
+      213: 4064275209497611691
+    second: Cahpi_Plant_Left_00026
+  - first:
+      213: 2970211107727376111
+    second: Cahpi_Plant_Left_00027
+  - first:
+      213: 8636652473840850331
+    second: Cahpi_Plant_Left_00028
+  - first:
+      213: 2096070837440306561
+    second: Cahpi_Plant_Left_00029
+  - first:
+      213: 3909038105252150371
+    second: Cahpi_Plant_Left_00030
+  - first:
+      213: -6217850179486760231
+    second: Cahpi_Plant_Left_00031
+  - first:
+      213: 6181275778074699116
+    second: Cahpi_Plant_Left_00032
+  - first:
+      213: 4937880738356858908
+    second: Cahpi_Plant_Left_00033
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00000
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1295
+        width: 366
+        height: 357
+      alignment: 9
+      pivot: {x: 0.6530055, y: 0.82633054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6f965e086d02640800000000000000
+      internalID: 5053274631002781398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00001
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1693
+        width: 378
+        height: 354
+      alignment: 9
+      pivot: {x: 0.66402113, y: 0.8305085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086ae1c3bd9c91550800000000000000
+      internalID: 6132154311085303424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00002
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1693
+        width: 378
+        height: 354
+      alignment: 9
+      pivot: {x: 0.66402113, y: 0.8305085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb5b292746236700800000000000000
+      internalID: 532311268035091419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00003
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 193
+        width: 300
+        height: 436
+      alignment: 9
+      pivot: {x: 0.57666665, y: 0.6788991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e0fdf630ee70ea0800000000000000
+      internalID: -5906490687743914477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00004
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 635
+        width: 300
+        height: 436
+      alignment: 9
+      pivot: {x: 0.57666665, y: 0.6788991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8aaf5194a7a6bcf0800000000000000
+      internalID: -236817605134931316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00005
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 631
+        width: 334
+        height: 440
+      alignment: 9
+      pivot: {x: 0.17664671, y: 0.5295454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fec6ccb70a9e8980800000000000000
+      internalID: -8534714885797916944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00006
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1607
+        width: 333
+        height: 440
+      alignment: 9
+      pivot: {x: 0.17717718, y: 0.5295454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06abf884099fa3670800000000000000
+      internalID: 8519396043212700256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00007
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 258
+        width: 352
+        height: 375
+      alignment: 9
+      pivot: {x: 0.66477275, y: 0.8293333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b720d95ff5e299c50800000000000000
+      internalID: 6672415312603579003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00008
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 834
+        width: 352
+        height: 375
+      alignment: 9
+      pivot: {x: 0.66477275, y: 0.8293333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e6e5348b7c5f540800000000000000
+      internalID: 5041154952129310357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00009
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1417
+        width: 243
+        height: 274
+      alignment: 9
+      pivot: {x: 0.42798355, y: 1.1094891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7a14649ba390ad0800000000000000
+      internalID: -2735590731228796933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00010
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1417
+        width: 243
+        height: 274
+      alignment: 9
+      pivot: {x: 0.42798355, y: 1.1094891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc58477e18d8386b0800000000000000
+      internalID: -5295233147784100404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00011
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2
+        width: 186
+        height: 254
+      alignment: 9
+      pivot: {x: 0.2795699, y: 1.1574804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ce67c6b6db9ee40800000000000000
+      internalID: 5686284273610845255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00012
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2
+        width: 186
+        height: 254
+      alignment: 9
+      pivot: {x: 0.2795699, y: 1.1574804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c819a48b9e37e900800000000000000
+      internalID: 713607903628040391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00013
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1ce9914064e4310800000000000000
+      internalID: 1391126318327710164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00014
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59278f859e324d30800000000000000
+      internalID: 4414159396855556444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00015
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5401d81055a545110800000000000000
+      internalID: 1248722317833211973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00016
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e83ec1fc1ac2690800000000000000
+      internalID: -7625542158130115006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00017
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f4a2431d15b6e60800000000000000
+      internalID: 7956543125645315928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00018
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad14fafdbbdb1dd0800000000000000
+      internalID: -2514174357950685790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00019
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11107c12b30c672c0800000000000000
+      internalID: -4434145422897381103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00020
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c72ac393ee29840800000000000000
+      internalID: 5229504046928395277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00021
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1786
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.2616279, y: 1.1264368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f03a99f50a5f79c0800000000000000
+      internalID: -3927321368334814987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00022
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 10
+        width: 171
+        height: 246
+      alignment: 9
+      pivot: {x: 0.25730994, y: 1.195122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b2ff2d4b73edab0800000000000000
+      internalID: -4981482888051610835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00023
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 10
+        width: 171
+        height: 246
+      alignment: 9
+      pivot: {x: 0.25730994, y: 1.195122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9096706d7132f0de0800000000000000
+      internalID: -1364833576787941111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00024
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1423
+        width: 225
+        height: 268
+      alignment: 9
+      pivot: {x: 0.33333334, y: 1.0820895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1012e077cd6b8ec0800000000000000
+      internalID: -3563633976773832678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1518
+        width: 469
+        height: 529
+      alignment: 9
+      pivot: {x: 0.6801706, y: 0.5482042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954984e1d6ed1dc70800000000000000
+      internalID: 8994214491076465753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 421
+        height: 443
+      alignment: 9
+      pivot: {x: 0.7577197, y: 0.4604966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad088305c4376830800000000000000
+      internalID: 4064275209497611691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00027
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1073
+        width: 421
+        height: 443
+      alignment: 9
+      pivot: {x: 0.7577197, y: 0.4604966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee7200044f483920800000000000000
+      internalID: 2970211107727376111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1057
+        width: 323
+        height: 459
+      alignment: 9
+      pivot: {x: 0.5727554, y: 0.59477127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9558cf7aad8bd770800000000000000
+      internalID: 8636652473840850331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 596
+        width: 323
+        height: 459
+      alignment: 9
+      pivot: {x: 0.5727554, y: 0.59477127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d5fa9325db61d10800000000000000
+      internalID: 2096070837440306561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00030
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1654
+        width: 293
+        height: 393
+      alignment: 9
+      pivot: {x: 0.5665529, y: 0.7480916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c350d1271bf3630800000000000000
+      internalID: 3909038105252150371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00031
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1211
+        width: 293
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5665529, y: 0.7461929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2c7119432c5b9a0800000000000000
+      internalID: -6217850179486760231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00032
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 479
+        width: 366
+        height: 353
+      alignment: 9
+      pivot: {x: 0.6530055, y: 0.8328612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c656ed2029d48c550800000000000000
+      internalID: 6181275778074699116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cahpi_Plant_Left_00033
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 940
+        width: 366
+        height: 353
+      alignment: 9
+      pivot: {x: 0.6530055, y: 0.8328612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1011099e50e68440800000000000000
+      internalID: 4937880738356858908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
