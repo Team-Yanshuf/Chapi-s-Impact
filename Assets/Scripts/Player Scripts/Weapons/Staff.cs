@@ -10,6 +10,7 @@ public class Staff : MonoBehaviour, IWeapon
     [SerializeField] float framesPerSecond;
     [SerializeField] float[] attackDurationInFrames;
     [SerializeField] int maxComboCount;
+    [SerializeField] float pushbackForce;
 
     CapsuleCollider hitbox;
 
@@ -18,6 +19,7 @@ public class Staff : MonoBehaviour, IWeapon
     bool attackRequested;
     bool canHit;
     bool attacking;
+    int direction;
 
     // Start is called before the first frame update
     void Awake()
@@ -106,9 +108,15 @@ public class Staff : MonoBehaviour, IWeapon
         if (collision.CompareTag("Enemy") && collision.isTrigger==false)
 		{
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
-            enemy?.takeDamage(damage);
+            Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
+            enemy?.takeDamage(pushback*pushbackForce, damage);
 		}
     }
+
+    public void getChapiDirection()
+	{
+
+	}
     
     }
 

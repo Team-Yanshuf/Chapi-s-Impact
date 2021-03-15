@@ -32,8 +32,8 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
 		}
 	}
 
-    public void takeDamage(float damage)
-	{
+    public void takeDamage(Vector3 pushback, float damage = 0)
+    {
         hp -= damage;
             hurt = true;
 	}

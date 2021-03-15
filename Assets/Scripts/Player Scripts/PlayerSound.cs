@@ -92,7 +92,6 @@ public class PlayerSound : MonoBehaviour
 	{
         if (playerM.isAttacking())
 		{
-            print("Player is attacking");
             hit?.Play();
 		}
 	}

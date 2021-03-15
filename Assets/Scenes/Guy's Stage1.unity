@@ -1779,6 +1779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 248097926, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: pushbackForce
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -2447,6 +2451,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: move
+      value: 
+      objectReference: {fileID: 1456059087}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -2618,6 +2626,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
+      propertyPath: pushbackForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2730129491112203859, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: tree
@@ -4295,6 +4307,18 @@ Transform:
   m_Father: {fileID: 1186219482}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1456059087 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269,
+    type: 3}
+  m_PrefabInstance: {fileID: 771073703}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1534147570
 GameObject:
   m_ObjectHideFlags: 0
