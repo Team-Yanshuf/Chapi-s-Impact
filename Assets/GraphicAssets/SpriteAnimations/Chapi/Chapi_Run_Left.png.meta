@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 7aab1fa3fdbe540b4a3b12266c993cc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9099606458063388595
+    second: Chapi_Run_Left_00000
+  - first:
+      213: 4624932254140441642
+    second: Chapi_Run_Left_00001
+  - first:
+      213: -5002537308230620587
+    second: Chapi_Run_Left_00002
+  - first:
+      213: -4901500905877788812
+    second: Chapi_Run_Left_00003
+  - first:
+      213: 6624169737283723833
+    second: Chapi_Run_Left_00004
+  - first:
+      213: -534884073171959831
+    second: Chapi_Run_Left_00005
+  - first:
+      213: 1446921326629098191
+    second: Chapi_Run_Left_00006
+  - first:
+      213: -202151493097765285
+    second: Chapi_Run_Left_00007
+  - first:
+      213: 6946017708870825513
+    second: Chapi_Run_Left_00008
+  - first:
+      213: -2091524233066245933
+    second: Chapi_Run_Left_00009
+  - first:
+      213: -5613429830391989031
+    second: Chapi_Run_Left_00010
+  - first:
+      213: -6976685218669047245
+    second: Chapi_Run_Left_00011
+  - first:
+      213: 1380340842985497598
+    second: Chapi_Run_Left_00012
+  - first:
+      213: 507461514339604884
+    second: Chapi_Run_Left_00013
+  - first:
+      213: 6435615492132246975
+    second: Chapi_Run_Left_00014
+  - first:
+      213: 6941270980896900291
+    second: Chapi_Run_Left_00015
+  - first:
+      213: -103218214132746250
+    second: Chapi_Run_Left_00016
+  - first:
+      213: 3850750101709235468
+    second: Chapi_Run_Left_00017
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00000
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 631
+        width: 400
+        height: 305
+      alignment: 9
+      pivot: {x: 0.69, y: 0.9311475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40084f5324b7b180800000000000000
+      internalID: -9099606458063388595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00001
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1042
+        width: 399
+        height: 304
+      alignment: 9
+      pivot: {x: 0.6917293, y: 0.93421054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24a946916f0f2040800000000000000
+      internalID: 4624932254140441642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00002
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1738
+        width: 398
+        height: 309
+      alignment: 9
+      pivot: {x: 0.6934673, y: 0.9611651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a664f92da639ab0800000000000000
+      internalID: -5002537308230620587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00003
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 150
+        width: 398
+        height: 308
+      alignment: 9
+      pivot: {x: 0.6934673, y: 0.96428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47726e635ee5afbb0800000000000000
+      internalID: -4901500905877788812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00004
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1691
+        width: 367
+        height: 356
+      alignment: 9
+      pivot: {x: 0.6702997, y: 0.8455056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93260ba9747cdeb50800000000000000
+      internalID: 6624169737283723833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00005
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1691
+        width: 368
+        height: 356
+      alignment: 9
+      pivot: {x: 0.66847825, y: 0.8455056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef3296f4c5b398f0800000000000000
+      internalID: -534884073171959831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 400
+        width: 344
+        height: 396
+      alignment: 9
+      pivot: {x: 0.64534885, y: 0.75252527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc21aabc74f741410800000000000000
+      internalID: 1446921326629098191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00007
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1651
+        width: 345
+        height: 396
+      alignment: 9
+      pivot: {x: 0.6434783, y: 0.75252527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56c71fb940d13df0800000000000000
+      internalID: -202151493097765285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 798
+        width: 341
+        height: 405
+      alignment: 9
+      pivot: {x: 0.6363636, y: 0.7037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92671dcfd46356060800000000000000
+      internalID: 6946017708870825513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00009
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1220
+        width: 341
+        height: 405
+      alignment: 9
+      pivot: {x: 0.6363636, y: 0.7037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d017f89ac969f2e0800000000000000
+      internalID: -2091524233066245933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1627
+        width: 317
+        height: 420
+      alignment: 9
+      pivot: {x: 0.61198735, y: 0.68095237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc77eb7f471912b0800000000000000
+      internalID: -5613429830391989031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1205
+        width: 316
+        height: 420
+      alignment: 9
+      pivot: {x: 0.613924, y: 0.68095237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3325387f1c5dd2f90800000000000000
+      internalID: -6976685218669047245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 373
+        height: 388
+      alignment: 9
+      pivot: {x: 0.67292225, y: 0.76804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef32d1feea4f72310800000000000000
+      internalID: 1380340842985497598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00013
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 830
+        width: 372
+        height: 388
+      alignment: 9
+      pivot: {x: 0.6747312, y: 0.76804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499d4630f8dda0700800000000000000
+      internalID: 507461514339604884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00014
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 460
+        width: 374
+        height: 368
+      alignment: 9
+      pivot: {x: 0.6737968, y: 0.79347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb51b875136ef4950800000000000000
+      internalID: 6435615492132246975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00015
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1281
+        width: 374
+        height: 368
+      alignment: 9
+      pivot: {x: 0.6737968, y: 0.79347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c446124e29545060800000000000000
+      internalID: 6941270980896900291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00016
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1348
+        width: 391
+        height: 341
+      alignment: 9
+      pivot: {x: 0.685422, y: 0.8416422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f77444c49b419ef0800000000000000
+      internalID: -103218214132746250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Run_Left_00017
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 938
+        width: 392
+        height: 341
+      alignment: 9
+      pivot: {x: 0.68367344, y: 0.8416422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05ad2bb0dc907530800000000000000
+      internalID: 3850750101709235468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
