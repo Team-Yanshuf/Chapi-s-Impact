@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,7 +23,9 @@ public class OilMonster : MonoBehaviour
         soundM = GetComponent<OilMonsterSounds>();
     }
 
-    public Vector3 getTargetPosition()
+    internal void pushback(Vector3 pushback) => movementM.pushback(pushback);
+
+	public Vector3 getTargetPosition()
     {
         if (target)
             return target.transform.position;

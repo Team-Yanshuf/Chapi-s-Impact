@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
      SpriteRenderer renderer;
 
+    int treesToPlant = 0;
      bool planting = false;
 
 	// [SerializeField] int health;
@@ -45,9 +46,10 @@ public class Player : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    public void takeDamage(float damage)
+    public void takeDamage(Vector3 pushback, float damage)
 	{
         healthM.lowerHealthBy(damage);
+        movementM.applyPushback(pushback);
 	}
 
 	public Vector3 getDirectionToMouseNormalized()
@@ -61,7 +63,13 @@ public class Player : MonoBehaviour
     public bool isMoving() => movementM.isMoving();
     public bool isDashing() => movementM.isDash();
     public bool isCollecting() => collisionM.isCollecting();
-    public bool isShooting() => attackM.isShooting();
+
+	internal void grantPlantPremission()
+	{
+        treesToPlant++;
+	}
+
+	public bool isShooting() => attackM.isShooting();
     public bool isHurt() => collisionM.isHurt();
     public bool isPlanting() => planting;
     
@@ -77,7 +85,12 @@ public class Player : MonoBehaviour
     public int comboCount() => attackM.getComboCount();
     public bool isAttacking() => attackM.isAttacking();
     public void setRendererEnabled(bool enabled) => renderer.enabled = enabled;
-    public void setPlanting(bool planting) => this.planting = planting;
+    public void setPlanting(bool planting)
+    {
+        treesToPlant--;
+        this.planting = planting;
+    }
     public float getChapiDirection() => movementM.getChapiDirection();
+    public int getHowManyTreesCanPlant() => treesToPlant;
 
 }

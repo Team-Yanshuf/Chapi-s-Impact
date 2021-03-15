@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -66,7 +67,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public bool isMoving()
+	internal void applyPushback(Vector3 pushback)
+	{
+        rb.AddForce(pushback, ForceMode.Impulse);
+	}
+
+	public bool isMoving()
     {
         return movement.magnitude != 0;
     }
@@ -127,7 +133,4 @@ public class PlayerMovement : MonoBehaviour
             return -1;
 	}
 }
-
-
-
 //TODO:change the sorting layer dynamically according to player position.

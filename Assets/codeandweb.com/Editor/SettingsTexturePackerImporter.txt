@@ -2,27 +2,41 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft 1.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashLeft.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleLeft.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantLeft.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunBack.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunFront.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunLeft.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/Hit.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/HitsRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/idle left.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/IdleRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/runLeft.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/RunRight.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/SeedBall.tpsheet
-- Assets/GraphicAssets/SpriteAnimations/Chapi/SeedThrow.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Left1.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Left2.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Left3.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right1.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right2.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right3.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Right.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Right.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Back.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Front.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Right.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft 1.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiDashLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiDashRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiIdleLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiIdleRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiPlantLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiPlantRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunBack.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunFront.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/Hit.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/HitsRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/idle left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/runLeft.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/RunRight.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedBall.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedThrow.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Fog/Fog.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud1.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud2.tpsheet
@@ -39,32 +53,49 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tree/Tree_Windy.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Left.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Right.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiComboHitRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiDashRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiIdleRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiPlantRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunBack.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunFront.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiRunRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/Hit.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/HitsRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/idle left.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/IdleRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/runLeft.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/RunRight.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/SeedBall.png
-- Assets/GraphicAssets/SpriteAnimations/Chapi/SeedThrow.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Left1.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Left2.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Left3.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right1.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right2.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_Right3.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Left.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_Right.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Left.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_Right.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Back.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Front.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Left.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Right.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiDashLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiDashRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiIdleLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiIdleRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiPlantLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiPlantRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunBack.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunFront.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiRunRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/Hit.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/HitsRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/idle left.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/runLeft.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/RunRight.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedBall.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedThrow.png
 - Assets/GraphicAssets/SpriteAnimations/Fog/Fog.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud1.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud2.png
@@ -81,11 +112,31 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.png
+- Assets/GraphicAssets/SpriteAnimations/Tree/Tree_Windy.png
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Left.png
+- Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Right.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.png
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

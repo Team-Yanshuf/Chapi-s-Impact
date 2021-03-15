@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +19,7 @@ public class WormChasePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (oilMonsterM.isAgroed())
+        if (oilMonsterM.isAgroed() && !oilMonsterM.isHurt())
         wormFollow();
     }
 
@@ -28,7 +29,12 @@ public class WormChasePlayer : MonoBehaviour
         rb.MovePosition(transform.position + direction * speed * Time.deltaTime);
     }
 
-    void wormFollow()
+	internal void pushback(Vector3 pushback)
+	{
+        rb.AddForce(pushback,ForceMode.Impulse);
+	}
+
+	void wormFollow()
     {
         if (oilMonsterM.isCrawling())
             follow();

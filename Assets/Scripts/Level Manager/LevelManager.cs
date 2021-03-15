@@ -5,15 +5,21 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    //KEEP TRACK OF HOW MANY TREES WERE PLANTED USING THE TREEPLANTED EVENT!!!
     [SerializeField] int initialFogCount;
     GameManager manager;
     LevelSpawner spawner;
+    Player player;
     Vector3[] levelBoundries;
-    int enemyCount;
-
+    int startingEnemyCount;
+    int enemiesRequiredToPlant = 3;
+   public  int enemiesRemainingToPlant = 3;
+    int treesRequiredToBeat;
+    int treesPlanted;
     void Awake()
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         levelBoundries = new Vector3[4];
         initLevelBoundries();
         updateCurrentEnemyCount();
@@ -22,7 +28,7 @@ public class LevelManager : MonoBehaviour
 
 	private void Update()
 	{
-		
+		//if (treesRequiredToBeat==treesPlanted)
 	}
 
 	public int getInitialFogCount() => initialFogCount;
@@ -30,13 +36,14 @@ public class LevelManager : MonoBehaviour
  
     private void updateCurrentEnemyCount()
 	{
+        checkAndApprovePlanting();
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        enemyCount = enemies.Length;
+        startingEnemyCount = enemies.Length;
 	}
 
     public int getCurrentEnemyCount()
 	{
-        return enemyCount;
+        return startingEnemyCount;
 	}
 
     public Vector3[] getLevelBoundries()
@@ -60,4 +67,15 @@ public class LevelManager : MonoBehaviour
 	{
         manager.moveToMainMenu();
 	}
+    
+    void checkAndApprovePlanting()
+	{
+        enemiesRemainingToPlant--;
+        if (enemiesRemainingToPlant==0)
+		{
+            player.grantPlantPremission();
+            enemiesRemainingToPlant = enemiesRequiredToPlant;
+		}
+ 
+    }
 }
