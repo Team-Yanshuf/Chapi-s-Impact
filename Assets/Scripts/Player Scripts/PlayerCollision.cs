@@ -29,7 +29,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
     public void takeDamage(Vector3 pushback, float damage = 0)
     {
         hurt = true;
-        playerM.takeDamage(damage);
+        playerM.takeDamage(pushback,damage);
     }
 
     public bool isHurt()

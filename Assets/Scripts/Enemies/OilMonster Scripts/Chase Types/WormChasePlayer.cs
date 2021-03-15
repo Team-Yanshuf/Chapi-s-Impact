@@ -31,7 +31,7 @@ public class WormChasePlayer : MonoBehaviour
 
 	internal void pushback(Vector3 pushback)
 	{
-        rb.AddForce(pushback);
+        rb.AddForce(pushback,ForceMode.Impulse);
 	}
 
 	void wormFollow()

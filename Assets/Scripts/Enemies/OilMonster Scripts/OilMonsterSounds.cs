@@ -43,7 +43,6 @@ public class OilMonsterSounds : MonoBehaviour
     }
     public void playDie()
     {
-        print("playDie OIL");
         die?.Play();
     }
 }

@@ -46,9 +46,10 @@ public class Player : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    public void takeDamage(float damage)
+    public void takeDamage(Vector3 pushback, float damage)
 	{
         healthM.lowerHealthBy(damage);
+        movementM.applyPushback(pushback);
 	}
 
 	public Vector3 getDirectionToMouseNormalized()
