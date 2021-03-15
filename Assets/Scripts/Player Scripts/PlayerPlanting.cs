@@ -10,6 +10,7 @@ public class PlayerPlanting : MonoBehaviour
 
     bool plantLocked = false;
     float direction;
+    int treesToPlant = 0;
 
 
 
@@ -22,7 +23,7 @@ public class PlayerPlanting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerM.plantingPressed() && !plantLocked)
+        if (playerM.plantingPressed() && !plantLocked && playerM.getHowManyTreesCanPlant()>0)
 		{
             plantLocked = true;
             Debug.Log("Planting pressed");
