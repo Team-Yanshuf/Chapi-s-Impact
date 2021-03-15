@@ -8,6 +8,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     OilMonster monsterM;
     [SerializeField] float hp;
     [SerializeField] int damage;
+    [SerializeField] float pushbackForce;
 
     void Start()
     {
@@ -43,7 +44,8 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         if (collision.gameObject.CompareTag("Player"))
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
-            player?.takeDamage(Vector3.forward, damage);
+            float sign= Mathf.Sign(collision.transform.position.x-transform.position.x);
+            player?.takeDamage(transform.right*sign*pushbackForce, damage);
         }
     }
 
