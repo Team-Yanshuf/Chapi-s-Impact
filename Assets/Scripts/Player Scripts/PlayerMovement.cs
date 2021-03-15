@@ -127,7 +127,4 @@ public class PlayerMovement : MonoBehaviour
             return -1;
 	}
 }
-
-
-
 //TODO:change the sorting layer dynamically according to player position.
