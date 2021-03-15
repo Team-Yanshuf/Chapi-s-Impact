@@ -26,7 +26,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
             collecting = true;
     }
 
-    public void takeDamage(float damage)
+    public void takeDamage(Vector3 pushback, float damage = 0)
     {
         hurt = true;
         playerM.takeDamage(damage);

@@ -57,7 +57,7 @@ public class Projectile : MonoBehaviour
         if(vuln!=null)
         {
             IVulnrable other = collision as IVulnrable;
-            vuln.takeDamage(damage);
+            vuln.takeDamage(Vector3.forward, damage);
         }
         Destroy(this.gameObject);
     }

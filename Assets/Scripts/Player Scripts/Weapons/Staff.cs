@@ -106,7 +106,7 @@ public class Staff : MonoBehaviour, IWeapon
         if (collision.CompareTag("Enemy") && collision.isTrigger==false)
 		{
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
-            enemy?.takeDamage(damage);
+            enemy?.takeDamage(Vector3.forward*5000, damage);
 		}
     }
     

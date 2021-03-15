@@ -18,12 +18,14 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
     {
         checkIfAlive();
     }
-    public void takeDamage(float damage)
+    public void takeDamage(Vector3 pushback, float damage = 0)
     {
         hurt = true;
         hp -= damage;
         if (hp <= 0)
             return;
+
+        monsterM.pushback(pushback);
 
     }
 
@@ -41,7 +43,7 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         if (collision.gameObject.CompareTag("Player"))
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
-            player?.takeDamage(damage);
+            player?.takeDamage(Vector3.forward, damage);
         }
     }
 
