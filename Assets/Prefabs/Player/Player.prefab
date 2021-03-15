@@ -67,6 +67,7 @@ MonoBehaviour:
   - 10
   - 10
   maxComboCount: 3
+  pushbackForce: 8
 --- !u!114 &587747669
 MonoBehaviour:
   m_ObjectHideFlags: 0
