@@ -3657,6 +3657,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962552944}
     m_Modifications:
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: Event
+      value: event:/SFX/OilMonster/OilMonster Moves
+      objectReference: {fileID: 0}
     - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
       propertyPath: move
       value: 
@@ -4598,6 +4602,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962552944}
     m_Modifications:
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: Event
+      value: event:/SFX/OilMonster/OilMonster Moves
+      objectReference: {fileID: 0}
     - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
       propertyPath: move
       value: 
@@ -5474,10 +5482,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962552944}
     m_Modifications:
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: Event
+      value: event:/SFX/OilMonster/OilMonster Move
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: AllowFadeout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
       propertyPath: move
       value: 
       objectReference: {fileID: 670451231}
+    - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -11468,7 +11516,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584045775}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -14424,6 +14472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962552944}
     m_Modifications:
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: Event
+      value: event:/SFX/OilMonster/OilMonster Moves
+      objectReference: {fileID: 0}
     - target: {fileID: 1891081424, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
       propertyPath: move
       value: 
