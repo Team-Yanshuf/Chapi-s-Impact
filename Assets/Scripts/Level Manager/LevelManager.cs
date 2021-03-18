@@ -28,7 +28,7 @@ public class LevelManager : MonoBehaviour
 
 	private void Update()
 	{
-		//if (treesRequiredToBeat==treesPlanted)
+        displayHP();
 	}
 
 	public int getInitialFogCount() => initialFogCount;
@@ -78,4 +78,6 @@ public class LevelManager : MonoBehaviour
 		}
  
     }
+
+    void displayHP() => print(player.getHP());
 }
