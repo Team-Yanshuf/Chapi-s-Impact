@@ -26,7 +26,6 @@ public class OilMonsterSounds : MonoBehaviour
 
         if (monsterM.isCrawling() && !move.IsPlaying())
         {
-            print("oil play move");
             move.Play();
         }
     }
