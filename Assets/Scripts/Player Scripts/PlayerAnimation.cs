@@ -29,7 +29,8 @@ public class PlayerAnimation : MonoBehaviour
 
     void ChapisAnimation()
     {
-        playerM.getMovementAxes(ref movement.x, ref movement.z);
+        //playerM.getMovementAxes(ref movement.x, ref movement.z);
+        movement = playerM.getActualMovement();
 
         animator.SetFloat("Speed", movement.magnitude);
 

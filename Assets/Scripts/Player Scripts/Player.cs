@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
 
     //*******************INPUT FUNCTIONS*****************//
     public void getMovementAxes(ref float horizontal,ref float vertical) => inputM.getMovementAxes(ref horizontal, ref vertical);
-
+    public Vector3 getActualMovement() => movementM.getActualMovement();
     public bool dashPressed() => inputM.dashPressed();
     public bool meleePressed() => inputM.meleePressed();
 
