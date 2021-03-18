@@ -56,13 +56,13 @@ public class PlayerMovement : MonoBehaviour
          //if (playerM.dashPressed())
          if (Input.GetKeyDown(KeyCode.C))
         {
-            isDashing = true;
+            //isDashing = true;
             teleDash();
         }
 
         else
         {
-            isDashing = false;
+            //isDashing = false;
             rb.MovePosition(transform.position + movement * speed *  Time.deltaTime);
         }
     }
@@ -90,12 +90,18 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator dash()
     {
+        if (movement.magnitude == 0)
+            yield break;
+
+
+        isDashing = true;
         for (int i=0; i<5; i++)
         { 
             rb.MovePosition(transform.position + movement * dashSpeed * Time.deltaTime);
             yield return null;
 
         }
+        isDashing = false;
 
     }
 
