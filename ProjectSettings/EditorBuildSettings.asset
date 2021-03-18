@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Guy StartMenu.unity
     guid: 796a442764397814eaea7219cd094297
   - enabled: 1
+    path: Assets/Scenes/Guy's Stage1.unity
+    guid: 6c00d3708b1e4c84c83eee4e322163ba
+  - enabled: 1
     path: Assets/Scenes/Yinon'sStage001.unity
     guid: 7c368099dd0224c74be45d4a7affe9d9
   m_configObjects: {}
