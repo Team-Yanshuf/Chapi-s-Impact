@@ -2618,7 +2618,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: pushbackForce
-      value: 20
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2730129491112203859, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}

@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     {
         setMovementVector();
 
-        if (!playerM.isPlanting())
+        if (!playerM.isPlanting() && !playerM.isAttacking())
         move();
 
         handleWeaponDirection();
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void setMovementVector()
     {
-        if (playerM.isPlanting())
+        if (playerM.isPlanting() || playerM.isAttacking())
 		{
             movement = Vector3.zero;
             return;
@@ -76,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
     {
         return movement.magnitude != 0;
     }
-
+    public Vector3 getActualMovement() => movement;
     public bool isDash()
     {
         return isDashing;
