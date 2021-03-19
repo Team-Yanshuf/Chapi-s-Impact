@@ -57,6 +57,8 @@ public class Player : MonoBehaviour
         return inputM.getMouseAimDirectionNormalized();
     }
 
+    public int getHP() => healthM.getHP();
+
 
     //******************MOVEMENT FUNCTIONS **************//
 
