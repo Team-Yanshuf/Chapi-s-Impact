@@ -40,8 +40,25 @@ public abstract class LevelState : State
 	{
         levelBoundries = levelM.getLevelBoundries();
         initFog();
+        getRidOfDuplicateFogContiners();
+        initFogList();
 
     }
+
+	private void initFogList()
+	{
+        fogs.AddRange(GameObject.FindGameObjectWithTag("FogContainer").GetComponentsInChildren<FogParticle>());
+	}
+
+	private void getRidOfDuplicateFogContiners()
+	{
+		GameObject[] containers = GameObject.FindGameObjectsWithTag("FogContainer");
+        if (containers.Length>1)
+            for (int i=1; i<containers.Length; i++)
+			{
+                GameObject.Destroy(containers[i].gameObject);
+			}
+	}
 
 	public override void exitState()
 	{
@@ -77,7 +94,7 @@ public abstract class LevelState : State
             while (pos != fogBoundries.ClosestPoint(pos))
                 pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
             FogParticle particle = GameObject.Instantiate(fogPrefab, pos, Quaternion.identity);
-            fogs.Add(particle);
+           // fogs.Add(particle);
             particle.transform.parent = fogContainer.transform;
 		}
 
