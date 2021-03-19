@@ -95,7 +95,7 @@ public abstract class LevelState : State
                 pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
             FogParticle particle = GameObject.Instantiate(fogPrefab, pos, Quaternion.identity);
            // fogs.Add(particle);
-            particle.transform.parent = fogContainer.transform;
+           particle.transform.parent = fogContainer.transform;
 		}
 
      
