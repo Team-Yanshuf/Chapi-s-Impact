@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerPlanting : MonoBehaviour
 {
     bool planting = false;
-    [SerializeField] Tree tree;
+    Tree tree;
     Player playerM;
-
     bool plantLocked = false;
     float direction;
     int treesToPlant = 0;
@@ -18,6 +17,7 @@ public class PlayerPlanting : MonoBehaviour
     void Start()
     {
         playerM = GetComponent<Player>();
+        tree = Resources.Load<Tree>("TreeOfLife");
     }
 
     // Update is called once per frame

@@ -62,7 +62,7 @@ public class PlayerInput : MonoBehaviour
 
 	public bool plantingPressed()
 	{
-		if (Input.GetKeyDown(KeyCode.T))
+		if (Input.GetMouseButtonDown(1))
 		{
 			return true;
 		}
