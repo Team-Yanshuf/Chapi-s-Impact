@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Timer))]
 public class DestroyUIComponent : MonoBehaviour
 {
     Timer timer;

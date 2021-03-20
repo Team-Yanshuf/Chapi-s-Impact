@@ -8,7 +8,7 @@ public class HealthBar : MonoBehaviour
     int health;
     Player player;
     Image image;
-    public float interpolator;
+    float interpolator;
     Vector3 target;
     Vector3 initial;
     void Start()
