@@ -20,7 +20,7 @@ public class LevelManager : MonoBehaviour
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        levelBoundries = new Vector3[4];
+        levelBoundries = new Vector3[8];
         initLevelBoundries();
         updateCurrentEnemyCount();
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
@@ -28,7 +28,7 @@ public class LevelManager : MonoBehaviour
 
 	private void Update()
 	{
-		//if (treesRequiredToBeat==treesPlanted)
+        displayHP();
 	}
 
 	public int getInitialFogCount() => initialFogCount;
@@ -78,4 +78,6 @@ public class LevelManager : MonoBehaviour
 		}
  
     }
+
+    void displayHP() => print(player.getHP());
 }

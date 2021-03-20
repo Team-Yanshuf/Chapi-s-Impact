@@ -26,7 +26,6 @@ public class PlayerPlanting : MonoBehaviour
         if (playerM.plantingPressed() && !plantLocked && playerM.getHowManyTreesCanPlant()>0)
 		{
             plantLocked = true;
-            Debug.Log("Planting pressed");
             playerM.setPlanting(true);
 
             //CHANGE TO NOT HARDCODED VALUES!!!
@@ -35,8 +34,15 @@ public class PlayerPlanting : MonoBehaviour
     
         }
         direction = playerM.getChapiDirection();
+        adjustDirectionToFitTreePivot();
 
     }
+
+    void adjustDirectionToFitTreePivot()
+	{
+        if (direction < 0)
+            direction *= 4;
+	}
 
     public bool isPlanting()
     {
@@ -45,7 +51,8 @@ public class PlayerPlanting : MonoBehaviour
 
     void plant()
 	{
-        Vector3 offset = new Vector3(direction * 2, 2, -0.5f);
+        Vector3 offset = new Vector3(direction , 0, -0.5f);
+        print("position: " + transform.position + "\tposition+offset: " + (transform.position + offset));
         Instantiate(tree, transform.position + offset , Quaternion.identity);
 	}
 

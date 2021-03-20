@@ -10,6 +10,7 @@ public abstract class LevelState : State
     FogParticle fogPrefab;
     bool chapiDied = false;
 
+    BoxCollider fogBoundries;
     protected LevelManager levelM;
     int currentFogCount;
 
@@ -28,7 +29,8 @@ public abstract class LevelState : State
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
-        levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+        fogBoundries = levelM.GetComponentInChildren<BoxCollider>();
+
         fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
      
         initialFogCount = levelM.getInitialFogCount();
@@ -38,8 +40,25 @@ public abstract class LevelState : State
 	{
         levelBoundries = levelM.getLevelBoundries();
         initFog();
+        getRidOfDuplicateFogContiners();
+        initFogList();
 
     }
+
+	private void initFogList()
+	{
+        fogs.AddRange(GameObject.FindGameObjectWithTag("FogContainer").GetComponentsInChildren<FogParticle>());
+	}
+
+	private void getRidOfDuplicateFogContiners()
+	{
+		GameObject[] containers = GameObject.FindGameObjectsWithTag("FogContainer");
+        if (containers.Length>1)
+            for (int i=1; i<containers.Length; i++)
+			{
+                GameObject.Destroy(containers[i].gameObject);
+			}
+	}
 
 	public override void exitState()
 	{
@@ -59,15 +78,24 @@ public abstract class LevelState : State
         fogContainer.tag = "FogContainer";
         fogContainer.gameObject.name = "Fog Container";
         for (int i=0; i<initialFogCount; i++)
-		{      
-            float x = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
-            float y = Random.Range(levelBoundries[2].y, levelBoundries[0].y);
-            float z = Random.Range(levelBoundries[0].z, levelBoundries[2].z);
+		{
+            //float xFront = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
+            //float yFront = Random.Range(levelBoundries[2].y, levelBoundries[0].y);
+            //float zFront = Random.Range(levelBoundries[0].z, levelBoundries[2].z);
 
-            Vector3 position = new Vector3(x, y, z);
-            FogParticle particle = GameObject.Instantiate(fogPrefab, position, Quaternion.identity);
-            fogs.Add(particle);
-            particle.transform.parent = fogContainer.transform;
+            //float xBack = Random.Range(levelBoundries[4].x, levelBoundries[5].x);
+            //float yBack = Random.Range(levelBoundries[6].y, levelBoundries[4].y);
+            //float zBack = Random.Range(levelBoundries[4].z, levelBoundries[6].z);
+
+
+            //Vector3 pos = new Vector3(Random.Range(xBack, xFront), Random.Range(yBack, yFront), Random.Range(zBack, zFront));
+            //Vector3 position = new Vector3(xFront, yFront, zFront);
+            Vector3 pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
+            while (pos != fogBoundries.ClosestPoint(pos))
+                pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
+            FogParticle particle = GameObject.Instantiate(fogPrefab, pos, Quaternion.identity);
+           // fogs.Add(particle);
+           particle.transform.parent = fogContainer.transform;
 		}
 
      
@@ -94,7 +122,16 @@ public abstract class LevelState : State
             fogs.RemoveAt(indexToRemove);
         }
 
+
     }
+    Vector3 getRandomPointInsideFogCollider(Bounds bounds)
+	{
+        Vector3 point = new Vector3(Random.Range(bounds.min.x, bounds.max.x),
+                                    Random.Range(bounds.min.y, bounds.max.y),
+                                    Random.Range(bounds.min.z, bounds.max.z));
+        point = levelM.transform.Find("LevelBoundries").transform.TransformPoint(point);
+        return point;
+	}
 
 
 }

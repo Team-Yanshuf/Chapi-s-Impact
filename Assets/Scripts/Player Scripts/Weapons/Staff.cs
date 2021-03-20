@@ -69,6 +69,7 @@ public class Staff : MonoBehaviour, IWeapon
             float animationLengthInSeconds = attackDurationInFrames[currentComboCount-1] / framesPerSecond;
             timers[1].setParameters(animationLengthInSeconds - 0.1f, simulateAttack);
             timers[1].fire();
+
             attacking = true;
             
 
@@ -82,10 +83,7 @@ public class Staff : MonoBehaviour, IWeapon
     public bool isAttacking()
 	{
         if (attacking)
-		{
-            attacking = false;
             return true;
-		}
         return false;
 	}
 
@@ -93,30 +91,27 @@ public class Staff : MonoBehaviour, IWeapon
 
     void decideWhatsNext()
     {
-        if (attackRequested)
+        
+        if (attackRequested && currentComboCount<maxComboCount)
         {   attack();   }
 
         else
         {
             hitbox.enabled = false;
             currentComboCount = 0;
+            attacking = false;
         }
     }
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("Enemy") && collision.isTrigger==false)
+        if (collision.CompareTag("Enemy") && !collision.isTrigger)
 		{
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
             Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
             enemy?.takeDamage(pushback*pushbackForce, damage);
 		}
     }
-
-    public void getChapiDirection()
-	{
-
-	}
     
     }
 

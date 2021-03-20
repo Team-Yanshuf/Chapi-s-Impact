@@ -674,6 +674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6512095524973022686, guid: f180da4d1c2a2a341b840976f442e133,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f180da4d1c2a2a341b840976f442e133, type: 3}
 --- !u!1 &264475744
@@ -1094,21 +1099,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2906594792322061540, guid: 496f78124dcc4b449a24af40bcff0d21,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6816824357731097411, guid: 496f78124dcc4b449a24af40bcff0d21,
-        type: 3}
-      propertyPath: initialFogCount
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 8947447368014888576, guid: 496f78124dcc4b449a24af40bcff0d21,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9167614121016147255, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
@@ -2628,7 +2618,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 53445873, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: pushbackForce
-      value: 20
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2730129491112203859, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
