@@ -115,8 +115,6 @@ GameObject:
   - component: {fileID: 799412035}
   - component: {fileID: 799412024}
   - component: {fileID: 799412023}
-  - component: {fileID: 799412037}
-  - component: {fileID: 7847739552277521565}
   - component: {fileID: 3289436153799137456}
   - component: {fileID: 2730129491112203859}
   - component: {fileID: 7656728200576168922}
@@ -228,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footsteps: {fileID: 0}
-  dash: {fileID: 7847739552277521565}
+  dash: {fileID: 0}
   shoot: {fileID: 3289436153799137456}
   hurt: {fileID: 7656728200576168922}
   hit: {fileID: 0}
@@ -402,52 +400,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &799412037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4502266292215735126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Chapi (player)/Seedball throw
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
---- !u!114 &7847739552277521565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4502266292215735126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/SFX/Chapi (player)/Dash
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!114 &3289436153799137456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,7 +435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bd5e88b55b0d845bcd831220d4fe41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tree: {fileID: 12033561, guid: 60a139d74848c4f0a87386729117d548, type: 3}
 --- !u!114 &7656728200576168922
 MonoBehaviour:
   m_ObjectHideFlags: 0
