@@ -107,6 +107,12 @@ public class GameManager : MonoBehaviour
 					break;
 				}
 
+			case "Guy's Stage1":
+				{
+					setCurrentState(new PlayGameState());
+					break;
+				}
+
 			//case "Guy's Stage1":
 			//	{
 			//		setCurrentState(new PlayGameState());

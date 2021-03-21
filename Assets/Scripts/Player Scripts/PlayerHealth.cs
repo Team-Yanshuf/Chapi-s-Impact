@@ -75,4 +75,6 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = false;
     }
 
+    public int getHP() => hp;
+
 }
