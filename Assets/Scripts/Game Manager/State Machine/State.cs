@@ -1,6 +1,5 @@
 ﻿
 using UnityEngine;
-[System.Serializable]
 public abstract class State
 {
     //Used so that each game state can communicate with the game manager.
@@ -15,4 +14,9 @@ public abstract class State
     public abstract void enterState();
 
     public abstract void exitState();
+
+	public override string ToString()
+	{
+        return this.GetType().Name;
+	}
 }

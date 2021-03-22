@@ -7,6 +7,7 @@ public class PlayerAnimation : MonoBehaviour
     Animator animator;
     Player playerM;
     Vector3 movement;
+    GameObject aura;
 
     //Will be in charge of storing the last faced direction.
     float prevX, prevZ;
@@ -17,6 +18,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator = gameObject.GetComponent<Animator>();
         playerM = GetComponent<Player>();
+        aura = transform.Find("Aura").gameObject;
         prevZ = 0;
         prevX = 0;
     }
@@ -65,5 +67,15 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetInteger("Attacking", playerM.comboCount());
         animator.SetBool("IsPlanting", playerM.isPlanting());
         animator.SetBool("IsHurt", playerM.isHurt());
+
+        manageAura();
     }
+
+    void manageAura()
+	{
+        if (playerM.getHowManyTreesCanPlant() > 0)
+            aura.SetActive(true);
+        else
+            aura.SetActive(false);
+	}
 }

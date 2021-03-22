@@ -24,11 +24,13 @@ public class PlayerSound : MonoBehaviour
     [SerializeField]  FMODUnity.StudioEventEmitter hurt;
     [SerializeField] FMODUnity.StudioEventEmitter hit;
     [SerializeField] FMODUnity.StudioEventEmitter death;
-    
+
+    int attackNumber;
     void Start()
     {
         GameManagerEvents.chapiDied?.AddListener(playDie);
         playerM = GetComponent<Player>();
+        attackNumber = -1;
     }
 
     // Update is called once per frame
@@ -90,15 +92,19 @@ public class PlayerSound : MonoBehaviour
 
     void playHit()
 	{
-        if (playerM.isAttacking())
+        if (playerM.isAttacking()&& attackNumber!=playerM.comboCount())
 		{
             hit?.Play();
+            attackNumber = playerM.comboCount();
+		}
+        else if (!playerM.isAttacking())
+		{
+            attackNumber = -1;
 		}
 	}
 
     void playDie()
 	{
-        print("PlayerDead");
         death?.Play();
 	}
 }
