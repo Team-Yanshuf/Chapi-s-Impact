@@ -44,6 +44,8 @@ public class GameManager : MonoBehaviour
 			moveToMainMenu();
 		}
 
+		print(currentState);
+
 		//EXIT GAME
 		if (Input.GetKeyDown(KeyCode.Escape))
 			Application.Quit();

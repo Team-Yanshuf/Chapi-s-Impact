@@ -28,7 +28,7 @@ public class LevelManager : MonoBehaviour
 
 	private void Update()
 	{
-        displayHP();
+        //displayHP();
 	}
 
 	public int getInitialFogCount() => initialFogCount;
