@@ -44,6 +44,7 @@ public class PlayerSound : MonoBehaviour
         playShooting();
         playHurt();
         playHit();
+        playAura();
 
     }
 
