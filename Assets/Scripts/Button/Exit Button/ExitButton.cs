@@ -16,7 +16,7 @@ public class ExitButton : MonoBehaviour
         
     }
     
-    void quit()
+    public void quit()
 	{
         Application.Quit();
 	}
