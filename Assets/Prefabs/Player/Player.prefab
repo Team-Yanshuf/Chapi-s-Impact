@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundRotation: 40
   speed: 13
-  dashSpeed: 200
+  dashSpeed: 10
   dashLength: 100
 --- !u!114 &4558363665204712372
 MonoBehaviour:

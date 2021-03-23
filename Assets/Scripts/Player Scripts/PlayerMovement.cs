@@ -95,11 +95,10 @@ public class PlayerMovement : MonoBehaviour
 
 
         isDashing = true;
-        for (int i=0; i<5; i++)
+        for (int i=0; i<3; i++)
         { 
-            rb.MovePosition(transform.position + movement * dashSpeed * Time.deltaTime);
+            rb.MovePosition(transform.position + movement * dashSpeed);
             yield return null;
-
         }
         isDashing = false;
 
