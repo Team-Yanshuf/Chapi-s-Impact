@@ -52,7 +52,6 @@ public class PlayerPlanting : MonoBehaviour
     void plant()
 	{
         Vector3 offset = new Vector3(direction , 0, -0.5f);
-        print("position: " + transform.position + "\tposition+offset: " + (transform.position + offset));
         Instantiate(tree, transform.position + offset , Quaternion.identity);
 	}
 

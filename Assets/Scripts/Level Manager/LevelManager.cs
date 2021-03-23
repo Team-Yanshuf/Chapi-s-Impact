@@ -15,7 +15,11 @@ public class LevelManager : MonoBehaviour
     int enemiesRequiredToPlant = 3;
    public  int enemiesRemainingToPlant = 3;
     int treesRequiredToBeat;
+    int currentEnemyCount;
     int treesPlanted;
+
+    bool beatenLevel = false;
+
     void Awake()
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
@@ -24,11 +28,15 @@ public class LevelManager : MonoBehaviour
         initLevelBoundries();
         updateCurrentEnemyCount();
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
+        GameManagerEvents.treePlanted.AddListener(updateTreesRequiered);
+        treesRequiredToBeat = 1;
     }
 
 	private void Update()
 	{
         //displayHP();
+        checkForLevelBeaten();
+        updateEnemyCount();
 	}
 
 	public int getInitialFogCount() => initialFogCount;
@@ -39,7 +47,14 @@ public class LevelManager : MonoBehaviour
         checkAndApprovePlanting();
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         startingEnemyCount = enemies.Length;
+        currentEnemyCount = enemies.Length;
 	}
+
+    void updateEnemyCount()
+	{
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        currentEnemyCount = enemies.Length;
+    }
 
     public int getCurrentEnemyCount()
 	{
@@ -71,6 +86,7 @@ public class LevelManager : MonoBehaviour
     void checkAndApprovePlanting()
 	{
         enemiesRemainingToPlant--;
+        currentEnemyCount--;
         if (enemiesRemainingToPlant==0)
 		{
             player.grantPlantPremission();
@@ -80,4 +96,21 @@ public class LevelManager : MonoBehaviour
     }
 
     void displayHP() => print(player.getHP());
+
+    void updateTreesRequiered()
+	{
+        treesRequiredToBeat--;
+	}
+
+    void checkForLevelBeaten()
+	{
+
+        print("Trees: " + treesRequiredToBeat + "\tEnemies: " + currentEnemyCount);
+        if (currentEnemyCount<=0 && treesRequiredToBeat<=0 && !beatenLevel)
+		{
+            beatenLevel = true;
+            print("Beaten!");
+            manager.beatLevel();
+		}
+	}
 }
