@@ -14,7 +14,6 @@ public class ButtonSounds : MonoBehaviour
 	{
 		//if (!isOver)
 		{
-			print("PlayOnOver");
 			isOver = true;
 			over.Play();
 		}
@@ -27,7 +26,6 @@ public class ButtonSounds : MonoBehaviour
 
 	public  void onClick()
 	{
-		print("Play On CLick");
 		click.Play();
 	}
 
