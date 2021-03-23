@@ -118,6 +118,9 @@ GameObject:
   - component: {fileID: 3289436153799137456}
   - component: {fileID: 2730129491112203859}
   - component: {fileID: 7656728200576168922}
+  - component: {fileID: 1916570906561111038}
+  - component: {fileID: -2718733723628292280}
+  - component: {fileID: -5604806707562319039}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -226,12 +229,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55ce462419adb9c4d999ac8a260d26fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footsteps: {fileID: 0}
-  dash: {fileID: 0}
+  footsteps: {fileID: 1916570906561111038}
+  dash: {fileID: 799412023}
   shoot: {fileID: 3289436153799137456}
   hurt: {fileID: 7656728200576168922}
-  hit: {fileID: 0}
+  hit: {fileID: -5604806707562319039}
   death: {fileID: 0}
+  aura: {fileID: -2718733723628292280}
 --- !u!114 &1313611698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,6 +454,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/SFX/Chapi (player)/Chapi Hurt
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1916570906561111038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502266292215735126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Chapis Footsteps
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &-2718733723628292280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502266292215735126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Ready to plant
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &-5604806707562319039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502266292215735126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Chapi (player)/Chapi staff atk
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
