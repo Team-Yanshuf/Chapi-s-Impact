@@ -24,13 +24,16 @@ public class PlayerSound : MonoBehaviour
     [SerializeField]  FMODUnity.StudioEventEmitter hurt;
     [SerializeField] FMODUnity.StudioEventEmitter hit;
     [SerializeField] FMODUnity.StudioEventEmitter death;
+    [SerializeField] FMODUnity.StudioEventEmitter aura;
 
+    bool plant;
     int attackNumber;
     void Start()
     {
         GameManagerEvents.chapiDied?.AddListener(playDie);
         playerM = GetComponent<Player>();
         attackNumber = -1;
+        plant = false;
     }
 
     // Update is called once per frame
@@ -41,6 +44,7 @@ public class PlayerSound : MonoBehaviour
         playShooting();
         playHurt();
         playHit();
+        playAura();
 
     }
 
@@ -106,5 +110,17 @@ public class PlayerSound : MonoBehaviour
     void playDie()
 	{
         death?.Play();
+	}
+
+    void playAura()
+	{
+        if (playerM.getHowManyTreesCanPlant() > 0 && !plant)
+        {
+            plant = true;
+            aura.Play();
+        }
+
+        else if (playerM.getHowManyTreesCanPlant() == 0)
+            plant = false;
 	}
 }
