@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 	[SerializeField] public State currentState;
 	bool isChapiDead;
 
+	Timer timer;
+
 	// Start is called before the first frame update
 	private void Awake()
 	{
@@ -16,6 +18,7 @@ public class GameManager : MonoBehaviour
 		sceneLoader = GetComponent<SceneLoader>();
 		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
 		chooseCurrentStateBasedOnScene();
+		timer = GetComponent<Timer>();
 
 	}
 
@@ -44,7 +47,6 @@ public class GameManager : MonoBehaviour
 			moveToMainMenu();
 		}
 
-		print(currentState);
 
 		//EXIT GAME
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -128,4 +130,16 @@ public class GameManager : MonoBehaviour
 	{
 		sceneLoader.moveToMainMenu();
 	}
+
+	internal void beatLevel()
+	{
+		timer.setParameters(1, sceneLoader.moveToWinScene);
+		timer.fire();
+	}
+
+	void moveWin()
+	{
+		sceneLoader.moveToWinScene();
+	}
+
 }
