@@ -105,7 +105,6 @@ public class PlayerSound : MonoBehaviour
 
     void playDie()
 	{
-        print("PlayerDead");
         death?.Play();
 	}
 }
