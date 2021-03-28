@@ -69,3 +69,4 @@ fmod_editor.log
 #But not source file with postfix. which is everything but a folder
 !*.*.meta
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
+.vsconfig

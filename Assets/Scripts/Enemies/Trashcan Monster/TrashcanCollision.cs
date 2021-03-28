@@ -35,6 +35,7 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
 
     public void takeDamage(Vector3 pushback, float damage = 0)
     {
+        print("trashcan hurt" + "\t" + damage);
         hp -= damage;
             hurt = true;
 	}
@@ -57,6 +58,12 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
         {
             grounded = true;
             trashM.invokeLandEvent();
+        }
+
+        else if (collision.gameObject.CompareTag("Player"))
+        {
+            IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
+            player.takeDamage(Vector3.zero,10);
         }
     }
 

@@ -1,11 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+ enum Selection
+{
+    RunTowardsPlayer,
+    RunAwayFromPlayer
+}
 
 public class TrashcanMovement : MonoBehaviour
 {
     [SerializeField] float jumpHeight;
     [SerializeField] float jumpDistance;
+    [SerializeField] Selection selection;
     Trashcan trashM;
     Rigidbody rb;
     Vector3 direction;
@@ -23,7 +31,6 @@ public class TrashcanMovement : MonoBehaviour
     void Update()
     {
         updateDirection();
-       // jumpMove();
     }
 
 
@@ -31,7 +38,7 @@ public class TrashcanMovement : MonoBehaviour
     //jumpMove is called by the jumping animation itself, inside the editor.
     void jumpMove()
 	{
-        if (trashM.isGrounded())
+        if (trashM.isGrounded()) // && !trashM.isAttacking())
 		{
             //print((-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime);
             rb.AddForce((-Physics.gravity.normalized*jumpHeight + direction*jumpDistance)*Time.fixedDeltaTime, ForceMode.Impulse);
@@ -45,10 +52,30 @@ public class TrashcanMovement : MonoBehaviour
         if (trashM.target == null)
             return;
 
-        direction = (trashM.target.transform.position - transform.position).normalized;
+        switch(selection)
+        {
+            case Selection.RunTowardsPlayer:
+                {
+                    direction = (trashM.target.transform.position - transform.position).normalized;
+                    break;
+                }
+
+            case Selection.RunAwayFromPlayer:
+                {
+                    direction = (transform.position - trashM.target.transform.position).normalized;
+                    break;
+                }
+
+        }
+
 	}
 
     public bool isMoving() => movement.magnitude != 0;
 
     public float getLookDirection() => direction.x;
+
+    internal void approveJump()
+    {
+        
+    }
 }

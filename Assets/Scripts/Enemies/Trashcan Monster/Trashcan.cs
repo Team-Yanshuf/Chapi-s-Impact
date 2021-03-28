@@ -8,21 +8,22 @@ public class Trashcan : MonoBehaviour
     TrashcanCollision collisionM;
     TrashcanMovement movementM;
     TrashcanSounds soundM;
-    TrashcanEvents eventM;
+    //TrashcanEvents eventM;
+
+    int landCounter;
 
     [SerializeField] float maxHp;
     void Start()
     {
-        eventM = GetComponent<TrashcanEvents>();
+        //eventM = GetComponent<TrashcanEvents>();
         attackingM = GetComponent<TrashcanAttacking>();
         collisionM = GetComponent<TrashcanCollision>();
         movementM = GetComponent<TrashcanMovement>();
         soundM = GetComponent<TrashcanSounds>();
 
+        TrashcanEvents.land.AddListener(incrementLandCounter);
 
-        if (eventM == null)
-            print("NULLLL!!");
-
+        landCounter = 0;
     }
 
     public bool isMoving() => movementM.isMoving();
@@ -42,6 +43,18 @@ public class Trashcan : MonoBehaviour
     public bool isHurt() => false;
 
 
+    public void incrementLandCounter() => landCounter++;
+    public bool canAttackBasedOnLands()
+    {
+        if (landCounter>=2)
+        {
+            landCounter = 0;
+            return true;
+        }
+        return false;
+    }
+        //=> landCounter;
+
 
     //****Event Functions*****
 
@@ -51,21 +64,13 @@ public class Trashcan : MonoBehaviour
     public void addLandEventListener(UnityAction call) => TrashcanEvents.land.AddListener(call);
 
 
+    void decideNextAction()
+    {
+        if (canAttackBasedOnLands())
+            attackingM.approveAttack();
 
-
-    //public void invokeJumpEvent() => eventM.invokeJumpEvent();
-    //public void addJumpEventListener(UnityAction action)
-    //{
-    //    if (eventM==null)
-    //    {
-    //        print("eventM is null");
-    //        return;
-    //    }
-    //    eventM.addJumpListener(action);
-    //}
-    ////=> eventM.jump.AddListener(action);
-    //public void invokeLandEvent() => eventM.invokeLandEvent();
-    //public void addLandEventListener(UnityAction action) => eventM.addLandListener(action);
-
+        else
+            movementM.approveJump();
+    }
 
 }

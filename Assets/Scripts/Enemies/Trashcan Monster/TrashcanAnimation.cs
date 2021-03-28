@@ -22,7 +22,7 @@ public class TrashcanAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enableAnimation)
+       // if (enableAnimation)
             setParameters();
 
         setLookDirection();
@@ -31,8 +31,8 @@ public class TrashcanAnimation : MonoBehaviour
 
     void setParameters()
 	{
-        animator.SetBool("IsAttacking", trashM.isAttacking());
-        animator.SetBool("isMoving", trashM.isMoving());
+        animator.SetBool("Attacking", trashM.isAttacking());
+        //animator.SetBool("isMoving", trashM.isMoving());
 	}
 
 
