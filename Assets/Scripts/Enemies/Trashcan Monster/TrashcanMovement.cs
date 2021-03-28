@@ -33,7 +33,7 @@ public class TrashcanMovement : MonoBehaviour
 	{
         if (trashM.isGrounded())
 		{
-            print((-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime);
+            //print((-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime);
             rb.AddForce((-Physics.gravity.normalized*jumpHeight + direction*jumpDistance)*Time.fixedDeltaTime, ForceMode.Impulse);
 		}
 	}
