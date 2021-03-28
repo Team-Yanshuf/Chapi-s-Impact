@@ -6,6 +6,7 @@ public class TrashcanAnimation : MonoBehaviour
 {
     Trashcan trashM;
     Animator animator;
+    SpriteRenderer renderer;
 
     [SerializeField] bool enableAnimation;
 
@@ -13,36 +14,48 @@ public class TrashcanAnimation : MonoBehaviour
     {
         trashM = GetComponent<Trashcan>();
         animator = GetComponent<Animator>();
+        renderer = GetComponent<SpriteRenderer>();
+        trashM.addJumpEventListener(haltAnimation);
+        trashM.addLandEventListener(resumeAnimation);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (enableAnimation)
+       // if (enableAnimation)
             setParameters();
-        invokeJumpEvent();
+
+        setLookDirection();
 
     }
 
     void setParameters()
 	{
-        animator.SetBool("IsAttacking", trashM.isAttacking());
-        animator.SetBool("isMoving", trashM.isMoving());
+        animator.SetBool("Attacking", trashM.isAttacking());
+        //animator.SetBool("isMoving", trashM.isMoving());
 	}
 
-    void invokeJumpEvent()
-	{
 
-        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-        float normalized = state.normalizedTime % 1;
-        if (state.IsName("TrashJump"))
-        {
-            if (normalized>(14f / 39f) && normalized< (16f/39f) )
-			{
-                TrashcanEvents.onJump();
-            }
+    void setLookDirection()
+    {
+        float direction = trashM.getLookDirection();
 
-		}
-	}
+        if (direction > 0)
+            renderer.flipX = false;
+
+        else if (direction < 0)
+            renderer.flipX = true;
+
+    }
+
+    void haltAnimation()
+    { 
+        animator.speed = 0;
+    }
+
+    void resumeAnimation()
+    {
+        animator.speed = 1;
+    }
 
 }

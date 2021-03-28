@@ -29,14 +29,14 @@ public class HealthBar : MonoBehaviour
 
 	private void triggerFlaskReduction()
 	{
-        if (health != player.getHP())
+        if (health != player?.getHP())
             StartCoroutine(updateFlask());
 	}
 
     IEnumerator updateFlask()
 	{
-        int difference = health - player.getHP();
-        health = player.getHP();
+        int difference = health - (int)player?.getHP();
+        health = (int)player?.getHP();
         for (int i=0; i<difference; i++)
 		{
             

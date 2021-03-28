@@ -105,11 +105,11 @@ public class LevelManager : MonoBehaviour
     void checkForLevelBeaten()
 	{
 
-        print("Trees: " + treesRequiredToBeat + "\tEnemies: " + currentEnemyCount);
+        //print("Trees: " + treesRequiredToBeat + "\tEnemies: " + currentEnemyCount);
         if (currentEnemyCount<=0 && treesRequiredToBeat<=0 && !beatenLevel)
 		{
             beatenLevel = true;
-            print("Beaten!");
+           // print("Beaten!");
             manager.beatLevel();
 		}
 	}
