@@ -8,25 +8,17 @@ public class TrashcanAttacking : MonoBehaviour
     Trashcan enemyM;
     bool attacking = false;
 
-    [SerializeField] CigaretteParticle cig;
-    // Start is called before the first frame update
+    [SerializeField] CigaretteParticle particle;
+
+    [Header("Range of particles to spawn")]
+    [SerializeField] int min;
+    [SerializeField] int max;
+
     void Start()
     {
         enemyM= GetComponent<Trashcan>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //if (enemyM.canAttackBasedOnLands())
-        //{
-        //   // attack();
-        //    attacking = true;
-        //}
-    }
-
     public bool isAttacking() => attacking;
-
 
     void attack()
     {
@@ -35,13 +27,15 @@ public class TrashcanAttacking : MonoBehaviour
 
     IEnumerator spawnCigaretteParticles()
     {
-        int amount = Random.Range(3, 9);
+        int amount = Random.Range(min, max);
 
-        for (int i=1; i<amount*2; i++)
+        Vector3 offset = new Vector3(0, 3, 0);
+        Vector3 spawnPosition = transform.position + offset;
+        for (int i=0; i<amount*3; i++)
         {
             print(i);
-            if (i%2==0)
-            Instantiate<CigaretteParticle>(cig, transform.position + new Vector3(0, 2, 0), Quaternion.identity);
+            if (i%3==0)
+            Instantiate<CigaretteParticle>(particle, spawnPosition , Quaternion.identity);
             yield return null;
         }
         attacking = false;

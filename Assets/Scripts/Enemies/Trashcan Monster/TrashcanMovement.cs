@@ -5,15 +5,16 @@ using UnityEngine;
 
  enum Selection
 {
-    RunTowardsPlayer,
-    RunAwayFromPlayer
+    TowardsPlayer,
+    AwayFromPlayer
 }
 
 public class TrashcanMovement : MonoBehaviour
 {
+    [SerializeField] Selection movementDirection;
     [SerializeField] float jumpHeight;
     [SerializeField] float jumpDistance;
-    [SerializeField] Selection selection;
+    
     Trashcan trashM;
     Rigidbody rb;
     Vector3 direction;
@@ -52,15 +53,15 @@ public class TrashcanMovement : MonoBehaviour
         if (trashM.target == null)
             return;
 
-        switch(selection)
+        switch(movementDirection)
         {
-            case Selection.RunTowardsPlayer:
+            case Selection.TowardsPlayer:
                 {
                     direction = (trashM.target.transform.position - transform.position).normalized;
                     break;
                 }
 
-            case Selection.RunAwayFromPlayer:
+            case Selection.AwayFromPlayer:
                 {
                     direction = (transform.position - trashM.target.transform.position).normalized;
                     break;

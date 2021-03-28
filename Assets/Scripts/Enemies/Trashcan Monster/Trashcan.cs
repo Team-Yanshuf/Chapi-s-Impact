@@ -8,7 +8,8 @@ public class Trashcan : MonoBehaviour
     TrashcanCollision collisionM;
     TrashcanMovement movementM;
     TrashcanSounds soundM;
-    //TrashcanEvents eventM;
+    //TrashcanEvents eventM
+
 
     int landCounter;
 
