@@ -7,6 +7,7 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
     Trashcan trashM;
     bool hurt;
     float hp;
+    bool grounded;
 
 
     // Start is called before the first frame update
@@ -49,4 +50,15 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
 		}
         return false;
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            grounded = true;
+            trashM.invokeLandEvent();
+        }
+    }
+
+    public bool isGrounded() => grounded;
 }

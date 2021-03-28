@@ -5,6 +5,7 @@ using UnityEngine;
 public class TrashcanMovement : MonoBehaviour
 {
     [SerializeField] float jumpHeight;
+    [SerializeField] float jumpDistance;
     Trashcan trashM;
     Rigidbody rb;
     Vector3 direction;
@@ -14,25 +15,26 @@ public class TrashcanMovement : MonoBehaviour
     {
         trashM = GetComponent<Trashcan>();
         rb = GetComponent<Rigidbody>();
-        TrashcanEvents.jump.AddListener(jumpMove);
+        //TrashcanEvents.jump.AddListener(jumpMove);
+        trashM.addJumpEventListener(jumpMove);
     }
 
     // Update is called once per frame
     void Update()
     {
         updateDirection();
+       // jumpMove();
     }
 
 
 
+    //jumpMove is called by the jumping animation itself, inside the editor.
     void jumpMove()
 	{
-        if (rb.velocity==Vector3.zero)
+        if (trashM.isGrounded())
 		{
-            Debug.Log(-Physics.gravity + direction * jumpHeight);
-
-
-            rb.AddForce((-Physics.gravity.normalized * jumpHeight + direction)*Time.deltaTime , ForceMode.VelocityChange);
+            print((-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime);
+            rb.AddForce((-Physics.gravity.normalized*jumpHeight + direction*jumpDistance)*Time.fixedDeltaTime, ForceMode.Impulse);
 		}
 	}
 
@@ -40,8 +42,13 @@ public class TrashcanMovement : MonoBehaviour
 
     void updateDirection()
 	{
+        if (trashM.target == null)
+            return;
+
         direction = (trashM.target.transform.position - transform.position).normalized;
 	}
 
     public bool isMoving() => movement.magnitude != 0;
+
+    public float getLookDirection() => direction.x;
 }
