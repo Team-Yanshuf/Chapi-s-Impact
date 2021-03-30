@@ -33,7 +33,6 @@ public class TrashcanAttacking : MonoBehaviour
         Vector3 spawnPosition = transform.position + offset;
         for (int i=0; i<amount*3; i++)
         {
-            print(i);
             if (i%3==0)
             Instantiate<CigaretteParticle>(particle, spawnPosition , Quaternion.identity);
             yield return null;
