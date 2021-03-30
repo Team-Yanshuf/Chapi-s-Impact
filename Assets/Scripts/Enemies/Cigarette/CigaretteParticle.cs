@@ -19,9 +19,11 @@ public class CigaretteParticle : MonoBehaviour
 	Vector3 generateRandomVector()
     {
 		System.Random rand = new System.Random();
-		return new Vector3(rand.Next(-5, 5), rand.Next(-5, 5), rand.Next(-5, 5));
+		
+    if (min == 0 && max == 0)
+			return new Vector3(rand.Next(-5, 5), rand.Next(-5, 5), rand.Next(-5, 5));
+
+    else
+			return new Vector3(rand.Next(min, max), rand.Next(min, max), rand.Next(min, max));
     }
-
-
-
 }
