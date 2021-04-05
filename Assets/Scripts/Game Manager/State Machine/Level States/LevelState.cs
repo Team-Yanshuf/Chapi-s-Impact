@@ -40,8 +40,8 @@ public abstract class LevelState : State
 	{
         levelBoundries = levelM.getLevelBoundries();
         initFog();
-        getRidOfDuplicateFogContiners();
-        initFogList();
+        //getRidOfDuplicateFogContiners();
+        //initFogList();
 
     }
 
@@ -73,30 +73,27 @@ public abstract class LevelState : State
 
 	void initFog()
 	{
-        fogs = new List<FogParticle>();
-        GameObject fogContainer = new GameObject();
-        fogContainer.tag = "FogContainer";
-        fogContainer.gameObject.name = "Fog Container";
-        for (int i=0; i<initialFogCount; i++)
-		{
-            //float xFront = Random.Range(levelBoundries[0].x, levelBoundries[1].x);
-            //float yFront = Random.Range(levelBoundries[2].y, levelBoundries[0].y);
-            //float zFront = Random.Range(levelBoundries[0].z, levelBoundries[2].z);
+        //fogs = new List<FogParticle>();
+        //GameObject fogContainer = new GameObject();
+        //fogContainer.tag = "FogContainer";
+        //fogContainer.gameObject.name = "Fog Container";
 
-            //float xBack = Random.Range(levelBoundries[4].x, levelBoundries[5].x);
-            //float yBack = Random.Range(levelBoundries[6].y, levelBoundries[4].y);
-            //float zBack = Random.Range(levelBoundries[4].z, levelBoundries[6].z);
+        FogContainer pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
+        pollution.setBounds(fogBoundries);
+        pollution.setFogCount(1000);
+        pollution.setFogTransform(levelM.transform.Find("LevelBoundries").transform);
+        pollution.initFog();
 
+  //      for (int i=0; i<initialFogCount; i++)
+		//{
 
-            //Vector3 pos = new Vector3(Random.Range(xBack, xFront), Random.Range(yBack, yFront), Random.Range(zBack, zFront));
-            //Vector3 position = new Vector3(xFront, yFront, zFront);
-            Vector3 pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
-            while (pos != fogBoundries.ClosestPoint(pos))
-                pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
-            FogParticle particle = GameObject.Instantiate(fogPrefab, pos, Quaternion.identity);
-           // fogs.Add(particle);
-           particle.transform.parent = fogContainer.transform;
-		}
+  //          Vector3 pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
+  //          while (pos != fogBoundries.ClosestPoint(pos))
+  //              pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
+  //          FogParticle particle = GameObject.Instantiate(fogPrefab, pos, Quaternion.identity);
+  //         // fogs.Add(particle);
+  //         particle.transform.parent = fogContainer.transform;
+		//}
 
      
 	}
