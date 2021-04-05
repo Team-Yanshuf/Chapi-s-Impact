@@ -60,12 +60,12 @@ public abstract class LevelState : State
 
 	void clearFogBy20Precent()
 	{
-        pollution.dwindleFogByPrecentage(20);
+        pollution.dwindleByPrecentage(20);
     }
 
     void clear200FogParticles()
 	{
-        pollution.dwindleFogByAmount(200);
+        pollution.dwindleByAmout(200);
     }
 
 

@@ -61,7 +61,12 @@ public class FogContainer : MonoBehaviour
     {
         this.fogAmount = count;
     }
-    public void dwindleFogByPrecentage(int precent)
+    
+    public void dwindleByPrecentage(int precent)
+    {
+        StartCoroutine(dwindleFogByPrecentage(precent));
+    }
+    public IEnumerator dwindleFogByPrecentage(int precent)
     {
 
         int amount = (pollution.Count * precent) / 100;
@@ -69,10 +74,16 @@ public class FogContainer : MonoBehaviour
         {
             Destroy(pollution[0]);
             pollution.RemoveAt(0);
+            yield return null;
         }
 
     }
-    public void dwindleFogByAmount(int amount)
+
+    public void dwindleByAmout(int amount)
+    {
+        StartCoroutine(dwindleFogByAmount(amount));
+    }
+    public IEnumerator dwindleFogByAmount(int amount)
     {
         if (amount>=pollution.Count)
         {
@@ -89,6 +100,7 @@ public class FogContainer : MonoBehaviour
             {
                 Destroy(pollution[0]);
                 pollution.RemoveAt(0);
+                yield return null;
             }
 
 
