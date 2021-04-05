@@ -7,20 +7,17 @@ using UnityEngine;
 public abstract class LevelState : State
 {
     int initialFogCount; 
-    FogParticle fogPrefab;
+    FogContainer pollution;
     bool chapiDied = false;
 
     BoxCollider fogBoundries;
     protected LevelManager levelM;
-    int currentFogCount;
 
    protected List<FogParticle> fogs;
-   Vector3[] levelBoundries;
 
    protected Player player;
 
     protected int numberOfEnemies;
-    int fogDeclineRate;
     
     public LevelState()
     { 
@@ -30,35 +27,16 @@ public abstract class LevelState : State
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         levelM = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
         fogBoundries = levelM.GetComponentInChildren<BoxCollider>();
-
-        fogPrefab = Resources.Load<FogParticle>("FogParticle/FogParticle");
      
         initialFogCount = levelM.getInitialFogCount();
 	}
 
     public override void enterState()
 	{
-        levelBoundries = levelM.getLevelBoundries();
         initFog();
-        //getRidOfDuplicateFogContiners();
-        //initFogList();
-
     }
 
-	private void initFogList()
-	{
-        fogs.AddRange(GameObject.FindGameObjectWithTag("FogContainer").GetComponentsInChildren<FogParticle>());
-	}
-
-	private void getRidOfDuplicateFogContiners()
-	{
-		GameObject[] containers = GameObject.FindGameObjectsWithTag("FogContainer");
-        if (containers.Length>1)
-            for (int i=1; i<containers.Length; i++)
-			{
-                GameObject.Destroy(containers[i].gameObject);
-			}
-	}
+    
 
 	public override void exitState()
 	{
@@ -73,62 +51,24 @@ public abstract class LevelState : State
 
 	void initFog()
 	{
-        //fogs = new List<FogParticle>();
-        //GameObject fogContainer = new GameObject();
-        //fogContainer.tag = "FogContainer";
-        //fogContainer.gameObject.name = "Fog Container";
-
-        FogContainer pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
+        pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
         pollution.setBounds(fogBoundries);
-        pollution.setFogCount(1000);
+        pollution.setFogCount(initialFogCount);
         pollution.setFogTransform(levelM.transform.Find("LevelBoundries").transform);
         pollution.initFog();
-
-  //      for (int i=0; i<initialFogCount; i++)
-		//{
-
-  //          Vector3 pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
-  //          while (pos != fogBoundries.ClosestPoint(pos))
-  //              pos = getRandomPointInsideFogCollider(fogBoundries.bounds);
-  //          FogParticle particle = GameObject.Instantiate(fogPrefab, pos, Quaternion.identity);
-  //         // fogs.Add(particle);
-  //         particle.transform.parent = fogContainer.transform;
-		//}
-
-     
 	}
 
 	void clearFogBy20Precent()
 	{
-        int amount = (int) (fogs.Count * 0.2);
-        for (int i = 0; i < amount ; i++)
-        {
-            int indexToRemove = Random.Range(0, currentFogCount);
-            Object.Destroy(fogs[indexToRemove].gameObject);
-            fogs.RemoveAt(indexToRemove);
-        }
-
+        pollution.dwindleFogByPrecentage(20);
     }
 
     void clear200FogParticles()
 	{
-       for (int i=0; i<fogs.Count && i<200;i++)
-		{
-            int indexToRemove = Random.Range(0, currentFogCount);
-            Object.Destroy(fogs[indexToRemove].gameObject);
-            fogs.RemoveAt(indexToRemove);
-        }
-
-
+        pollution.dwindleFogByAmount(200);
     }
-    Vector3 getRandomPointInsideFogCollider(Bounds bounds)
-	{
-        Vector3 point = new Vector3(Random.Range(bounds.min.x, bounds.max.x),
-                                    Random.Range(bounds.min.y, bounds.max.y),
-                                    Random.Range(bounds.min.z, bounds.max.z));
-        point = levelM.transform.Find("LevelBoundries").transform.TransformPoint(point);
-        return point;
-	}
+
+
 
 
 

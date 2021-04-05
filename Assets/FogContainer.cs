@@ -64,10 +64,37 @@ public class FogContainer : MonoBehaviour
     public void dwindleFogByPrecentage(int precent)
     {
 
+        int amount = (pollution.Count * precent) / 100;
+        for (int i=0; i<amount; i++)
+        {
+            Destroy(pollution[0]);
+            pollution.RemoveAt(0);
+        }
+
     }
     public void dwindleFogByAmount(int amount)
     {
+        if (amount>=pollution.Count)
+        {
+            foreach (GameObject particle in pollution)
+            {
+                Destroy(particle);
+            }
+            pollution.Clear();
+        }
 
+        else
+        {
+            for (int i=0; i<amount; i++)
+            {
+                Destroy(pollution[0]);
+                pollution.RemoveAt(0);
+            }
+
+
+
+
+        }
     }
     public void setBounds(BoxCollider collider)
     {

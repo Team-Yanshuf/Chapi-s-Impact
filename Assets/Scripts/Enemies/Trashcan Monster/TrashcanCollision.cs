@@ -35,7 +35,6 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
 
     public void takeDamage(Vector3 pushback, float damage = 0)
     {
-        print("trashcan hurt" + "\t" + damage);
         hp -= damage;
         hurt = true;
 	}
