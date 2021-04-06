@@ -34,7 +34,7 @@ public class TrashcanAttacking : MonoBehaviour
         for (int i=0; i<amount*3; i++)
         {
             if (i%3==0)
-            Instantiate<CigaretteParticle>(particle, spawnPosition , Quaternion.identity);
+            Instantiate<CigaretteParticle>(particle, spawnPosition , Quaternion.identity).transform.SetParent(this.transform);
             yield return null;
         }
         attacking = false;
