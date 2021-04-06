@@ -68,50 +68,55 @@ public class FogContainer : MonoBehaviour
     
     public void dwindleByPrecentage(int precent)
     {
-        StartCoroutine(dwindleFogByPrecentage(precent));
-    }
-    public IEnumerator dwindleFogByPrecentage(int precent)
-    {
+        StartCoroutine(dwindleFogByPrecentage());
 
-        int amount = (pollution.Count * precent) / 100;
-        for (int i=0; i<amount; i++)
+         IEnumerator dwindleFogByPrecentage()
         {
-            Destroy(pollution[0]);
-            pollution.RemoveAt(0);
-            yield return null;
+            int amount = (pollution.Count * precent) / 100;
+            for (int i = 0; i < amount;)
+            {
+                for (int j = 0; j < 7; j++, i++)
+                {
+                    Destroy(pollution[0]);
+                    pollution.RemoveAt(0);
+                }
+                yield return null;
+            }
         }
-
     }
+
 
     public void dwindleByAmout(int amount)
     {
-        StartCoroutine(dwindleFogByAmount(amount));
-    }
-    public IEnumerator dwindleFogByAmount(int amount)
-    {
-        if (amount>=pollution.Count)
-        {
-            foreach (GameObject particle in pollution)
-            {
-                Destroy(particle);
-            }
-            pollution.Clear();
-        }
+        StartCoroutine(dwindleFogByAmount());
 
-        else
+        IEnumerator dwindleFogByAmount()
         {
-            for (int i=0; i<amount; i++)
+            if (amount >= pollution.Count)
             {
-                Destroy(pollution[0]);
-                pollution.RemoveAt(0);
-                yield return null;
+                foreach (GameObject particle in pollution)
+                {
+                    Destroy(particle);
+                }
+                pollution.Clear();
             }
 
-
-
-
+            else
+            {
+                for (int i = 0; i < amount;)
+                {
+                    for (int j=0; j<7; j++, i++)
+                    {
+                        Destroy(pollution[0]);
+                        pollution.RemoveAt(0);
+                    }
+                    yield return null;
+                }
+            }
         }
     }
+
+
     public void setBounds(BoxCollider collider)
     {
         this.collider = collider;
