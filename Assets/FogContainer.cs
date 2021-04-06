@@ -56,11 +56,9 @@ public class FogContainer : MonoBehaviour
                 FogParticle fog = Instantiate(Resources.Load<FogParticle>("FogPArticle/FogParticle"), point, Quaternion.identity); ;
                 pollution.Add(fog.gameObject);
                 fog.transform.SetParent(this.transform);
-               
             }
             yield return null;
         }
-
     }
 
     public void setFogCount(int count)
