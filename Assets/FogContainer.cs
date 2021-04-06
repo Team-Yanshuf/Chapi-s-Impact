@@ -48,11 +48,17 @@ public class FogContainer : MonoBehaviour
             yield break;
         }
 
-        for (int i=0; i<fogAmount; i++)
+        for (int i=0; i<fogAmount;)
         {
-            Vector3 point = generateRandomPointInsideBounds();
-            FogParticle fog = Instantiate(Resources.Load<FogParticle>("FogPArticle/FogParticle"), point, Quaternion.identity); ;
-            pollution.Add(fog.gameObject);
+            for (int j=0; j<10; j++,i++)
+            {
+                Vector3 point = generateRandomPointInsideBounds();
+                FogParticle fog = Instantiate(Resources.Load<FogParticle>("FogPArticle/FogParticle"), point, Quaternion.identity); ;
+                pollution.Add(fog.gameObject);
+                fog.transform.SetParent(this.transform);
+               
+            }
+            yield return null;
         }
 
     }
