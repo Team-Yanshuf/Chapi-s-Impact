@@ -2,10 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+    public struct PollutionContainerInfo
+{
+    public float initialFogCount { get; set; }
+    public float remainingFogAmount { get; set; }
+    public float remainingFogPrecentage { get; set; }
+    public PollutionContainerInfo(float initial, float remainingAmount, float remainingPrecentage)
+    {
+        this.initialFogCount = initial;
+        this.remainingFogAmount = remainingAmount;
+        this.remainingFogPrecentage = remainingPrecentage;
+    }
+
+}
 public class FogContainer : MonoBehaviour
 {
-    GameObject particle;
-    FogParticle partic;
+    PollutionContainerInfo info;
+    FogParticle particle;
     BoxCollider collider;
     List<GameObject> pollution;
     int fogAmount;
@@ -15,28 +29,34 @@ public class FogContainer : MonoBehaviour
     {
         this.fogTransform = transform;
     }
-
     void Start()
     {
-        particle = Resources.Load<GameObject>("FogParticle/FogParticle");
-        partic = Resources.Load<FogParticle>("FogParticle/FogParticle");
-        if (!partic)
-        {
-            print("partic is null");
-        }
-        if (!particle)
-            print("particle is null");
+        particle = Resources.Load<FogParticle>("FogParticle/FogParticle");
         pollution = new List<GameObject>();
+        info = new PollutionContainerInfo(0, 0, 0);
     }
+    private void Update()
+    {
+        updateFogInfo();
+    }
+
+    public PollutionContainerInfo getPollutionStatus() => info;
+
+    void updateFogInfo()
+    {
+        info.remainingFogAmount = fogAmount;
+        info.remainingFogPrecentage = (pollution.Count / fogAmount) * 100f;
+        info.remainingFogAmount = pollution.Count;
+    }
+
 
     public void initFog()
     {
         StartCoroutine(initFogCoroutine());
     }
-
     public IEnumerator initFogCoroutine()
     {
-        while (partic == null)
+        while (particle == null)
         {
             yield return null;
             print("coroutine partic is null");
@@ -60,12 +80,10 @@ public class FogContainer : MonoBehaviour
             yield return null;
         }
     }
-
     public void setFogCount(int count)
     {
         this.fogAmount = count;
     }
-    
     public void dwindleByPrecentage(int precent)
     {
         StartCoroutine(dwindleFogByPrecentage());
@@ -84,8 +102,6 @@ public class FogContainer : MonoBehaviour
             }
         }
     }
-
-
     public void dwindleByAmout(int amount)
     {
         StartCoroutine(dwindleFogByAmount());
@@ -115,8 +131,6 @@ public class FogContainer : MonoBehaviour
             }
         }
     }
-
-
     public void setBounds(BoxCollider collider)
     {
         this.collider = collider;
