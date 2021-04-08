@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-    public struct PollutionContainerInfo
+public struct PollutionContainerInfo
 {
     public float initialFogCount { get; set; }
     public float remainingFogAmount { get; set; }
@@ -15,7 +15,12 @@ using UnityEngine;
         this.remainingFogPrecentage = remainingPrecentage;
     }
 
+    public override string ToString()
+    {
+        return ($"initialFogCount: {initialFogCount}, remaining amount: {remainingFogAmount} , remaining precent: {remainingFogPrecentage}");
+    }
 }
+
 public class FogContainer : MonoBehaviour
 {
     PollutionContainerInfo info;
@@ -39,17 +44,13 @@ public class FogContainer : MonoBehaviour
     {
         updateFogInfo();
     }
-
     public PollutionContainerInfo getPollutionStatus() => info;
-
     void updateFogInfo()
     {
         info.remainingFogAmount = fogAmount;
         info.remainingFogPrecentage = (pollution.Count / fogAmount) * 100f;
         info.remainingFogAmount = pollution.Count;
     }
-
-
     public void initFog()
     {
         StartCoroutine(initFogCoroutine());
