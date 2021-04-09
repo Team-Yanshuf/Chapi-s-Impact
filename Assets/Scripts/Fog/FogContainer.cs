@@ -60,7 +60,7 @@ public class FogContainer : MonoBehaviour
         while (particle == null)
         {
             yield return null;
-            print("coroutine partic is null");
+           // print("coroutine partic is null");
         }
 
         if (fogAmount==0)

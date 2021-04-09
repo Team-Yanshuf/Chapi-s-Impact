@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 	private void Awake()
 	{
 
-		initGameManagerSingelton();
+		//initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
 		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
 		chooseCurrentStateBasedOnScene();
@@ -22,11 +22,16 @@ public class GameManager : MonoBehaviour
 
 	}
 
+	private void Start()
+	{
+		initGameManagerSingelton();
+	}
+
 	private void OnLevelWasLoaded(int level)
 	{
 		isChapiDead = false;
 		//	initGameManagerSingelton();
-		chooseCurrentStateBasedOnScene();
+		//chooseCurrentStateBasedOnScene();
 	}
 
 	void setCurrentState(State state)
@@ -77,10 +82,10 @@ public class GameManager : MonoBehaviour
 	}
 
 
-	void moveToGameplay()
-	{
-		setCurrentState(new PlayGameState());
-	}
+	//void moveToGameplay()
+	//{
+	//	setCurrentState(new PlayGameState());
+	//}
 
 	public void moveToFirstLevel()
 	{
@@ -107,6 +112,7 @@ public class GameManager : MonoBehaviour
 
 			case "Yinon'sStage001":
 				{
+					print("Chose yinon stage");
 					setCurrentState(new PlayGameState());
 					break;
 				}

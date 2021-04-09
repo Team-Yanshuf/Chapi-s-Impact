@@ -51,6 +51,7 @@ public abstract class LevelState : State
 
 	void initFog()
 	{
+       // Debug.Log("initFog called");
         pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
         pollution.setBounds(fogBoundries);
         pollution.setFogCount(initialFogCount);
