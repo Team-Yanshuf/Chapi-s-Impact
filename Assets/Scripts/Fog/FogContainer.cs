@@ -5,10 +5,10 @@ using UnityEngine;
 
 public struct PollutionContainerInfo
 {
-    public float initialFogCount { get; set; }
-    public float remainingFogAmount { get; set; }
+    public int initialFogCount { get; set; }
+    public int remainingFogAmount { get; set; }
     public float remainingFogPrecentage { get; set; }
-    public PollutionContainerInfo(float initial, float remainingAmount, float remainingPrecentage)
+    public PollutionContainerInfo(int initial, int remainingAmount, float remainingPrecentage)
     {
         this.initialFogCount = initial;
         this.remainingFogAmount = remainingAmount;
@@ -47,8 +47,8 @@ public class FogContainer : MonoBehaviour
     public PollutionContainerInfo getPollutionStatus() => info;
     void updateFogInfo()
     {
-        info.remainingFogAmount = fogAmount;
-        info.remainingFogPrecentage = (pollution.Count / fogAmount) * 100f;
+        info.initialFogCount = fogAmount;
+        info.remainingFogPrecentage = (float) (100*pollution.Count / fogAmount);
         info.remainingFogAmount = pollution.Count;
     }
     public void initFog()

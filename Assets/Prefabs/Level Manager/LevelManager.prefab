@@ -102,8 +102,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 84.517136, y: 44.03484, z: 5.9012017}
-  m_Center: {x: -1.7630882, y: 2.7099397, z: -2.6109667}
+  m_Size: {x: 172.85547, y: 76.12066, z: 14.868539}
+  m_Center: {x: 42.406067, y: 1.3891709, z: -7.094663}
 --- !u!1 &4586121870938324905
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 6816824357731097411}
   - component: {fileID: 7265489389581004559}
   - component: {fileID: 1569854392827043182}
+  - component: {fileID: 2793120470201981413}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: LevelManager
@@ -307,7 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4146f27322d04a44d9ee6abdbc26d71b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialFogCount: 800
   enemiesRemainingToPlant: 3
 --- !u!114 &7265489389581004559
 MonoBehaviour:
@@ -333,3 +333,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c451b0dde2b6ab44b4ab702c6f184df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2793120470201981413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9167614121016147255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b96521cff18e54983d36b7cf236f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialFogCount: 1400
