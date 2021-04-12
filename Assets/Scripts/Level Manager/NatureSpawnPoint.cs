@@ -7,14 +7,15 @@ public enum NatureType
 	BUSH,
 	GRASS,
 	TREE,
-	DEER
+	WATERPLANT
 }
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class NatureSpawnPoint : MonoBehaviour
 {
-
+	[Header("Is this spawn point active?")]
     [SerializeField] bool active; //Should this spawnpoint be used?
+	[Header("What type of nature should grow here?")]
 	[SerializeField] NatureType type;
 
 	[Header("Make the sprite appear when fog reaches this %")]
@@ -74,6 +75,11 @@ public class NatureSpawnPoint : MonoBehaviour
 			case NatureType.GRASS:
 				{
 					sprite = Resources.Load<Sprite>("Nature/Grass");
+					break;
+				}
+			case NatureType.WATERPLANT:
+				{
+					sprite = Resources.Load<Sprite>("Nature/Water Plant");
 					break;
 				}
 		}
