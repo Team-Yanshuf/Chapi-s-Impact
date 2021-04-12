@@ -2,10 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public struct PollutionContainerInfo
+{
+    public int initialFogCount { get; set; }
+    public int remainingFogAmount { get; set; }
+    public float remainingFogPrecentage { get; set; }
+
+    public bool finishedLoading { get; set; }
+    public PollutionContainerInfo(int initial, int remainingAmount, float remainingPrecentage, bool finishedLoading)
+    {
+        this.initialFogCount = initial;
+        this.remainingFogAmount = remainingAmount;
+        this.remainingFogPrecentage = remainingPrecentage;
+        this.finishedLoading = finishedLoading;
+    }
+
+    public override string ToString()
+    {
+        return ($"initialFogCount: {initialFogCount}, remaining amount: {remainingFogAmount} , remaining precent: {remainingFogPrecentage}");
+    }
+}
+
 public class FogContainer : MonoBehaviour
 {
-    GameObject particle;
-    FogParticle partic;
+    PollutionContainerInfo info;
+    FogParticle particle;
     BoxCollider collider;
     List<GameObject> pollution;
     int fogAmount;
@@ -15,31 +37,39 @@ public class FogContainer : MonoBehaviour
     {
         this.fogTransform = transform;
     }
-
     void Start()
     {
-        particle = Resources.Load<GameObject>("FogParticle/FogParticle");
-        partic = Resources.Load<FogParticle>("FogParticle/FogParticle");
-        if (!partic)
-        {
-            print("partic is null");
-        }
-        if (!particle)
-            print("particle is null");
+        particle = Resources.Load<FogParticle>("FogParticle/FogParticle");
         pollution = new List<GameObject>();
+        info = new PollutionContainerInfo(0, 0, 0, false);
     }
+    private void Update()
+    {
+        updateFogInfo();
+    }
+    public PollutionContainerInfo getPollutionStatus() => info;
+    void updateFogInfo()
+    {
+        info.initialFogCount = fogAmount;
+        info.remainingFogPrecentage = (float) (100*pollution.Count / fogAmount);
+        info.remainingFogAmount = pollution.Count;
 
+        if (!info.finishedLoading)
+		{
+            if (info.initialFogCount == info.remainingFogAmount)
+                info.finishedLoading = true;
+		}
+    }
     public void initFog()
     {
         StartCoroutine(initFogCoroutine());
     }
-
     public IEnumerator initFogCoroutine()
     {
-        while (partic == null)
+        while (particle == null)
         {
             yield return null;
-            print("coroutine partic is null");
+           // print("coroutine partic is null");
         }
 
         if (fogAmount==0)
@@ -60,12 +90,10 @@ public class FogContainer : MonoBehaviour
             yield return null;
         }
     }
-
     public void setFogCount(int count)
     {
         this.fogAmount = count;
     }
-    
     public void dwindleByPrecentage(int precent)
     {
         StartCoroutine(dwindleFogByPrecentage());
@@ -75,7 +103,7 @@ public class FogContainer : MonoBehaviour
             int amount = (pollution.Count * precent) / 100;
             for (int i = 0; i < amount;)
             {
-                for (int j = 0; j < 7; j++, i++)
+                for (int j = 0; j < 2 && i<amount; j++, i++)
                 {
                     Destroy(pollution[0]);
                     pollution.RemoveAt(0);
@@ -84,8 +112,6 @@ public class FogContainer : MonoBehaviour
             }
         }
     }
-
-
     public void dwindleByAmout(int amount)
     {
         StartCoroutine(dwindleFogByAmount());
@@ -105,7 +131,7 @@ public class FogContainer : MonoBehaviour
             {
                 for (int i = 0; i < amount;)
                 {
-                    for (int j=0; j<7; j++, i++)
+                    for (int j=0; j<2 && i<amount; j++, i++)
                     {
                         Destroy(pollution[0]);
                         pollution.RemoveAt(0);
@@ -115,8 +141,6 @@ public class FogContainer : MonoBehaviour
             }
         }
     }
-
-
     public void setBounds(BoxCollider collider)
     {
         this.collider = collider;
