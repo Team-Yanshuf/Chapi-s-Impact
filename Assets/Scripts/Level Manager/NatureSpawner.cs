@@ -5,35 +5,61 @@ using UnityEngine;
 public class NatureSpawner : MonoBehaviour
 {
     LevelManager levelM;
+    List<GameObject> spawnPoints;
 
     PollutionContainerInfo pollutionInfo;
     // Start is called before the first frame update
     void Start()
     {
         levelM = GetComponent<LevelManager>();
-        StartCoroutine(setPollutionInfo());
+        spawnPoints = getSpawnPointList();
+        StartCoroutine(setPollutionInfoCoroutine());
+    }
+
+    void Update()
+    {
+        foreach (GameObject obj in spawnPoints)
+           {
+                NatureSpawnPoint point = obj.GetComponent<NatureSpawnPoint>();
+                if (point.isActive())
+                {
+                    point.setFogDone(pollutionInfo.finishedLoading);
+                    point.setFogState(pollutionInfo.remainingFogPrecentage);
+                }
+
+            }
+        setPollutionInfo();
     }
 
 
-    IEnumerator setPollutionInfo()
+    void setPollutionInfo()
+	{
+        pollutionInfo=levelM.getPollutionInfo();
+	}
+    IEnumerator setPollutionInfoCoroutine()
 	{
        yield return new WaitForSeconds(2);
         pollutionInfo = levelM.getPollutionInfo();
-
-        while(true)
-		{
-            print(levelM.getPollutionInfo());
-            yield return null;
-        }
-
-        //yield break;
-
-    }        
-
-    // Update is called once per frame
-    void Update()
-    {
-       // if (pollutionInfo!=null)
-
     }
+
+ 
+
+    List<GameObject> getSpawnPointList()
+	{
+        List<GameObject> list = new List<GameObject>();
+        Transform trans= transform.Find("NatureSpawnPoints");
+
+        foreach (Transform t in trans)
+		{
+            list.Add(t.gameObject);
+		}
+
+        return list;
+
+	}
+
+
+
+
+
 }
