@@ -20,6 +20,8 @@ GameObject:
   - component: {fileID: 7453915747397556108}
   - component: {fileID: 1453942804}
   - component: {fileID: 1453942805}
+  - component: {fileID: 73700855}
+  - component: {fileID: 73700856}
   m_Layer: 11
   m_Name: TrashEnemy
   m_TagString: Enemy
@@ -180,8 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76637556210a1f04c9f975c28244c212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  move: {fileID: 0}
-  attack: {fileID: 0}
+  move: {fileID: 73700855}
+  attack: {fileID: 73700856}
   hurt: {fileID: 0}
   die: {fileID: 0}
 --- !u!54 &8839672869497663377
@@ -238,3 +240,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 878e07e88e1bd4b429b3dd2eb4e887cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &73700855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361951183966181104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/GarbageCan/Jump
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &73700856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361951183966181104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/GarbageCan/Shoot
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
