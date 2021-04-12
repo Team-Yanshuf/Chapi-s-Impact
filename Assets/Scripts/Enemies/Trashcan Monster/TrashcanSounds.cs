@@ -19,7 +19,9 @@ public class TrashcanSounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        playMove();
+        playAttack();
+        playHurt();
     }
 
     public void playDie() => die?.Play();
