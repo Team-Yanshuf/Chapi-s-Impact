@@ -33,16 +33,16 @@ public class TrashcanSounds : MonoBehaviour
         if (trashM.isMoving())
 		{
             if (!moving)
-			{
+            {
+                print("Trashcan playing move!");
                 move?.Play();
                 moving = true;
             }
+        }
 
-            else
-			{
-                moving = false;
-			}
-
+        else
+        {
+            moving = false;
         }
     }
 
