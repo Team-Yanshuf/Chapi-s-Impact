@@ -9,6 +9,7 @@ public struct PollutionContainerInfo
     public int remainingFogAmount { get; set; }
     public float remainingFogPrecentage { get; set; }
 
+    public static PollutionContainerInfo zero = new PollutionContainerInfo(0,0,0,false);
     public bool finishedLoading { get; set; }
     public PollutionContainerInfo(int initial, int remainingAmount, float remainingPrecentage, bool finishedLoading)
     {
@@ -18,6 +19,14 @@ public struct PollutionContainerInfo
         this.finishedLoading = finishedLoading;
     }
 
+    public bool equals(PollutionContainerInfo info)
+	{
+        if (this.initialFogCount != info.initialFogCount || remainingFogAmount != info.remainingFogAmount || remainingFogPrecentage != info.remainingFogPrecentage || finishedLoading!=info.finishedLoading )
+		{
+            return false;
+		}
+        return true;
+	}
     public override string ToString()
     {
         return ($"initialFogCount: {initialFogCount}, remaining amount: {remainingFogAmount} , remaining precent: {remainingFogPrecentage}");
