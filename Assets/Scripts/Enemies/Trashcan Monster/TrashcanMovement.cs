@@ -81,8 +81,6 @@ public class TrashcanMovement : MonoBehaviour
 
     public bool isMoving()
     {
-        print(movement);
-
         if (moving)
 		{
             moving = false;

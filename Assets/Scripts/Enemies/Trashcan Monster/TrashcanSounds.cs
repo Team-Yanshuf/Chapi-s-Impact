@@ -34,7 +34,6 @@ public class TrashcanSounds : MonoBehaviour
 		{
             if (!moving)
             {
-                print("Trashcan playing move!");
                 move?.Play();
                 moving = true;
             }

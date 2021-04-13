@@ -26,13 +26,16 @@ public class NatureSpawner : MonoBehaviour
                     point.setFogDone(pollutionInfo.finishedLoading);
                     point.setFogState(pollutionInfo.remainingFogPrecentage);
                 }
-
             }
-        setPollutionInfo();
     }
 
+	private void LateUpdate()
+	{
+        setPollutionInfo();
+	}
 
-    void setPollutionInfo()
+
+	void setPollutionInfo()
 	{
         pollutionInfo=levelM.getPollutionInfo();
 	}
