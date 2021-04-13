@@ -10,6 +10,9 @@ public class TrashcanSounds : MonoBehaviour
     [SerializeField] FMODUnity.StudioEventEmitter attack;
     [SerializeField] FMODUnity.StudioEventEmitter hurt;
     [SerializeField] FMODUnity.StudioEventEmitter die;
+
+    bool attacking;
+    bool moving;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,13 +31,39 @@ public class TrashcanSounds : MonoBehaviour
     void playMove()
 	{
         if (trashM.isMoving())
-            move?.Play();
-	}
+		{
+            if (!moving)
+			{
+                move?.Play();
+                moving = true;
+            }
+
+            else
+			{
+                moving = false;
+			}
+
+        }
+    }
 
     void playAttack()
 	{
         if (trashM.isAttacking())
-            attack?.Play();
+		{
+            if (!attacking)
+			{
+                attack?.Play();
+                attacking = true;
+            }
+        }
+
+        else
+		{
+            attacking = false;
+		}
+
+
+
 	}
 
     void playHurt()

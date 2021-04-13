@@ -19,6 +19,8 @@ public class TrashcanMovement : MonoBehaviour
     Rigidbody rb;
     Vector3 direction;
     Vector3 movement;
+
+    bool moving;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,11 +43,17 @@ public class TrashcanMovement : MonoBehaviour
 	{
         if (trashM.isGrounded()) // && !trashM.isAttacking())
 		{
-            //print((-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime);
-            rb.AddForce((-Physics.gravity.normalized*jumpHeight + direction*jumpDistance)*Time.fixedDeltaTime, ForceMode.Impulse);
+            movement = (-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime;
+            rb.AddForce(movement, ForceMode.Impulse);
+            resetMovementVector();
+            moving = true;
 		}
 	}
 
+    void resetMovementVector()
+	{
+        movement = Vector3.zero;	
+    }
 
 
     void updateDirection()
@@ -71,8 +79,18 @@ public class TrashcanMovement : MonoBehaviour
 
 	}
 
-    public bool isMoving() => movement.magnitude != 0;
+    public bool isMoving()
+    {
+        print(movement);
 
+        if (moving)
+		{
+            moving = false;
+            return true;
+        }
+        return false;
+
+    }
     public float getLookDirection() => direction.x;
 
     internal void approveJump()
