@@ -2,6 +2,11 @@
 using System.Collections;
 using UnityEngine;
 
+
+struct PlayerMovementInfo
+{
+
+}
 public class PlayerMovement : MonoBehaviour
 {
     //Component References.
@@ -13,9 +18,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float dashSpeed;
     [SerializeField] float dashLength;
 
-    float direction;
-
-    float horizontal, vertical;
+    float direction, horizontal, vertical;
     bool isDashing;
 
     void Start()
@@ -25,8 +28,6 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         direction = 1;
     }
-
-    // Update is called once per frame
     void Update()
     {
         setMovementVector();
@@ -36,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
 
         handleWeaponDirection();
     }
-
     private void setMovementVector()
     {
         if (playerM.isPlanting() || playerM.isAttacking())
@@ -50,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
         Quaternion rotation = Quaternion.Euler(groundRotation, 0, 0);
         movement = rotation * movement;
     }
-
     void move()
     {
          //if (playerM.dashPressed())
@@ -66,12 +65,10 @@ public class PlayerMovement : MonoBehaviour
             rb.MovePosition(transform.position + movement * speed *  Time.deltaTime);
         }
     }
-
 	internal void applyPushback(Vector3 pushback)
 	{
         rb.AddForce(pushback, ForceMode.Impulse);
 	}
-
 	public bool isMoving()
     {
         return movement.magnitude != 0;
@@ -81,13 +78,11 @@ public class PlayerMovement : MonoBehaviour
     {
         return isDashing;
     }
-
     void teleDash()
     {
         StartCoroutine(dash());
 
     }
-
     IEnumerator dash()
     {
         if (movement.magnitude == 0)
@@ -103,7 +98,6 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
 
     }
-
     void handleWeaponDirection()
 	{
         if (movement.x != 0)
@@ -112,7 +106,6 @@ public class PlayerMovement : MonoBehaviour
             weaponTransform[1].localScale = new Vector3(Mathf.Sign(movement.x), 1, 1);
         }
 	}
-
     public float getChapiDirection()
 	{
         if (movement.x != 0)
@@ -126,7 +119,6 @@ public class PlayerMovement : MonoBehaviour
             return sign(direction);
         }
 	}
-
     int sign(float num)
 	{
         if (num == 0)
@@ -138,4 +130,3 @@ public class PlayerMovement : MonoBehaviour
             return -1;
 	}
 }
-//TODO:change the sorting layer dynamically according to player position.

@@ -1,5 +1,6 @@
 ﻿using UnityEngine.Events;
 using UnityEngine;
+using System;
 
 public class Trashcan : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Trashcan : MonoBehaviour
     TrashcanCollision collisionM;
     TrashcanMovement movementM;
     TrashcanSounds soundM;
+    TrashcanHealth healthM;
     //TrashcanEvents eventM
 
 
@@ -21,13 +23,18 @@ public class Trashcan : MonoBehaviour
         collisionM = GetComponent<TrashcanCollision>();
         movementM = GetComponent<TrashcanMovement>();
         soundM = GetComponent<TrashcanSounds>();
-
+        healthM = GetComponent<TrashcanHealth>();
         TrashcanEvents.land.AddListener(incrementLandCounter);
 
         landCounter = 0;
     }
 
-    public bool isMoving() => movementM.isMoving();
+	internal void takeDamage(float damage)
+	{
+        healthM.reductHP(damage);
+	}
+
+	public bool isMoving() => movementM.isMoving();
     public bool isAttacking() => attackingM.isAttacking();
     public float getMaxHP() => maxHp;
 

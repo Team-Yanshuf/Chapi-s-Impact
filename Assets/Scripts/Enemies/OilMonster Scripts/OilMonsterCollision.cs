@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCollision : MonoBehaviour, IVulnrable
+public class OilMonsterCollision : MonoBehaviour, IVulnrable
 {
     bool hurt = false;
     OilMonster monsterM;
@@ -15,29 +15,14 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         monsterM= GetComponent<OilMonster>();       
     }
 
-    private void Update()
-    {
-        checkIfAlive();
-    }
     public void takeDamage(Vector3 pushback, float damage = 0)
     {
         hurt = true;
-        hp -= damage;
-        if (hp <= 0)
-            return;
-
+        monsterM.takeDamage(damage);
         monsterM.pushback(pushback);
-
     }
 
-    void checkIfAlive()
-    {
-        if (hp<=0)
-        {
-            GameManagerEvents.enemyDefeated?.Invoke();
-            monsterM.die();
-        }
-    }
+  
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -49,17 +34,15 @@ public class EnemyCollision : MonoBehaviour, IVulnrable
         }
     }
 
-
     public bool isHurt()
     {
         if (hurt)
         {
-            //hurt = false;
             return true;
         }
-
         return false;
     }
 
+    //This is called by the hurt animation.
     public void setNotHurt() => hurt = false;
 }

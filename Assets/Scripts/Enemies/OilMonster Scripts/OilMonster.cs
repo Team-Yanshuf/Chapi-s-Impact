@@ -11,20 +11,17 @@ public class OilMonster : MonoBehaviour
     OilMonsterSounds soundM;
     WormChasePlayer movementM;
     EnemyAgro agroM;
-
-    EnemyCollision collisionM;
+    OilMonsterHealth healthM;
+    OilMonsterCollision collisionM;
  
     void Awake()
     {
-        collisionM = GetComponent<EnemyCollision>();
-        movementM = GetComponent<WormChasePlayer>();
-        animationM = GetComponent<OilMonsterAnimation>();
-        agroM = GetComponent<EnemyAgro>();
-        soundM = GetComponent<OilMonsterSounds>();
+        initializeComponents();
+
+        healthM.initHP(100);
     }
 
     internal void pushback(Vector3 pushback) => movementM.pushback(pushback);
-
 	public Vector3 getTargetPosition()
     {
         if (target)
@@ -32,7 +29,12 @@ public class OilMonster : MonoBehaviour
         return transform.position;
     }
 
-    public bool isCrawling()
+	internal void takeDamage(float damage)
+	{
+        healthM.reductHP(damage);
+	}
+
+	public bool isCrawling()
     {
         if (!animationM)
         {
@@ -44,10 +46,18 @@ public class OilMonster : MonoBehaviour
     }
     public bool isHurt() => collisionM.isHurt();
     public bool isAgroed() => agroM.isAgroed();
-
     public void die()
 	{
         soundM.playDie();
         Destroy(this.gameObject);
 	}
+    void initializeComponents()
+	{
+        collisionM = GetComponent<OilMonsterCollision>();
+        movementM = GetComponent<WormChasePlayer>();
+        animationM = GetComponent<OilMonsterAnimation>();
+        agroM = GetComponent<EnemyAgro>();
+        soundM = GetComponent<OilMonsterSounds>();
+        healthM = GetComponent<OilMonsterHealth>();
+    }
 }
