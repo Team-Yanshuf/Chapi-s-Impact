@@ -25,7 +25,11 @@ public interface IWeapon
     bool isAttacking();
 }
 
-
+public interface IHealthManager
+{
+    float getCurrentHP();
+    float getMaxHP();
+}
 
 
 

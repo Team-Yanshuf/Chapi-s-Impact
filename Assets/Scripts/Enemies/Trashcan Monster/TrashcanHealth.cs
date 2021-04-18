@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrashcanHealth : MonoBehaviour
+public class TrashcanHealth : MonoBehaviour, IHealthManager
 {
     Trashcan trashM;
     EnemyHealthbar bar;
@@ -12,7 +12,8 @@ public class TrashcanHealth : MonoBehaviour
         trashM = GetComponent<Trashcan>();
         hp = trashM.getMaxHP();
         bar = GetComponentInChildren<EnemyHealthbar>();
-        bar.setCurrentAndMaxHealth(hp);
+        Canvas k = GetComponent < Canvas > ();
+        bar?.initBar(hp);
     }
 
     // Update is called once per frame
@@ -36,4 +37,14 @@ public class TrashcanHealth : MonoBehaviour
             trashM.die();
         }
     }
+
+	public float getCurrentHP()
+	{
+        return hp;
+	}
+
+	public float getMaxHP()
+	{
+        return hp;
+	}
 }
