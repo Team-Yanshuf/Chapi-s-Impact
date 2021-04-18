@@ -8,9 +8,13 @@ public class NatureSpawner : MonoBehaviour
     List<GameObject> spawnPoints;
 
     PollutionContainerInfo pollutionInfo;
-    // Start is called before the first frame update
     void Start()
     {
+
+    }
+
+    public void altStart()
+	{
         levelM = GetComponent<LevelManager>();
         spawnPoints = getSpawnPointList();
         StartCoroutine(setPollutionInfoCoroutine());
