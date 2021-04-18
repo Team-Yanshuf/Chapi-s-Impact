@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    //KEEP TRACK OF HOW MANY TREES WERE PLANTED USING THE TREEPLANTED EVENT!!!
     GameManager manager;
     LevelManager levelM;
     FogManager fogM;
     LevelSpawner spawner;
-    NatureSpawner natureSpawner;
+    NatureSpawner natureM;
     Player player;
 
     int startingEnemyCount;
@@ -27,20 +26,21 @@ public class LevelManager : MonoBehaviour
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         levelM = GetComponent<LevelManager>();
-        natureSpawner = GetComponent<NatureSpawner>();
+        natureM = GetComponent<NatureSpawner>();
         fogM = GetComponent<FogManager>();
         updateCurrentEnemyCount();
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
         GameManagerEvents.treePlanted.AddListener(updateTreesRequiered);
         treesRequiredToBeat = 1;
-
-        fogM.initFog();
     }
 
 	private void Start()
 	{
-
-	}
+        fogM.altStart();
+        fogM.initFog();
+        natureM.altStart();
+        
+    }
 
 	private void Update()
 	{
