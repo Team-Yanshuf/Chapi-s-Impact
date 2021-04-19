@@ -38,11 +38,11 @@ public class EnemyWaveManager : MonoBehaviour
     {
 
         waves = new List<SpawnWave>(GetComponentsInChildren<SpawnWave>());
-        randomizedNumberOfSpawnWaves = Random.Range(0, waves.Count + 1);
+        randomizedNumberOfSpawnWaves = Random.Range(1, waves.Count + 1);
         int count = waves.Count;
         for (int i = 0; i < count - randomizedNumberOfSpawnWaves; i++)
         {
-            waves.RemoveAt(Random.Range(0, waves.Count));
+            waves.RemoveAt(Random.Range(1, waves.Count));
         }
         canUpdateRun = true;
         print(waves.Count);
@@ -50,6 +50,11 @@ public class EnemyWaveManager : MonoBehaviour
 
     public void activateNextWave()
     {
+        if (waves.Count == 0)
+        {
+            print("No waves.");
+            return;
+        }
         currentWave = waves[0];
         currentWave.initSelf();
     }
