@@ -13,7 +13,7 @@ public class FogManager : MonoBehaviour
 
     }
 
-    public void altStart()
+    public void initSelf()
 	{
         levelM = GetComponent<LevelManager>();
         fogBoundries = GetComponentInChildren<BoxCollider>();
