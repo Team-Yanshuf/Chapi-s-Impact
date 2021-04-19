@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     FogManager fogM;
     LevelSpawner spawner;
     NatureSpawner natureM;
+    EnemyWaveManager waveM;
     Player player;
 
     int startingEnemyCount;
@@ -25,6 +26,7 @@ public class LevelManager : MonoBehaviour
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        waveM = GetComponent<EnemyWaveManager>();
         levelM = GetComponent<LevelManager>();
         natureM = GetComponent<NatureSpawner>();
         fogM = GetComponent<FogManager>();
@@ -36,10 +38,12 @@ public class LevelManager : MonoBehaviour
 
 	private void Start()
 	{
-        fogM.altStart();
+        fogM.initSelf();
         fogM.initFog();
-        natureM.altStart();
-        
+        natureM.initSelf();
+
+
+        waveM.initSelf();
     }
 
 	private void Update()

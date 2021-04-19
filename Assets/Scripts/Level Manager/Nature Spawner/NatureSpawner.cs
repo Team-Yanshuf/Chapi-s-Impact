@@ -13,7 +13,7 @@ public class NatureSpawner : MonoBehaviour
 
     }
 
-    public void altStart()
+    public void initSelf()
 	{
         levelM = GetComponent<LevelManager>();
         spawnPoints = getSpawnPointList();
