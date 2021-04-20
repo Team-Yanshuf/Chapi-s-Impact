@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class LevelManager : MonoBehaviour
 {
     GameManager manager;
@@ -16,7 +17,7 @@ public class LevelManager : MonoBehaviour
     int startingEnemyCount;
     int enemiesRequiredToPlant = 3;
     public  int enemiesRemainingToPlant = 3;
-    int treesRequiredToBeat;
+    [SerializeField] int treesRequiredToBeat;
     int currentEnemyCount;
     int treesPlanted;
 
@@ -48,7 +49,6 @@ public class LevelManager : MonoBehaviour
 
 	private void Update()
 	{
-        //displayHP();
         checkForLevelBeaten();
         updateEnemyCount();
 	}
@@ -62,6 +62,11 @@ public class LevelManager : MonoBehaviour
 	}
     void updateEnemyCount()
 	{
+
+
+
+
+
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         currentEnemyCount = enemies.Length;
     }

@@ -5,19 +5,30 @@ using UnityEngine;
 
 public struct SpawnWaveInfo
 {
-    public bool isDone;
+    public bool isDone { get; set; }
+    public int remainingEnemies { get; set; }
+    public int maxEnemies { get; set; }
 
+    public SpawnWaveInfo(bool isDone, int maxEnemies, int remainingEnemies)
+	{
+        this.isDone = isDone;
+        this.remainingEnemies = remainingEnemies;
+        this.maxEnemies = maxEnemies;
+	}
 }
 public class SpawnWave : MonoBehaviour
 {
-    
     List<GameObject> enemies;
-    bool waveDone = false;
+    SpawnWaveInfo waveInfo;
+    bool initDone = false;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (initDone)
+		{
+            checkIfWaveIsDone();
+        }
+
     }
 
     public void initSelf()
@@ -33,21 +44,25 @@ public class SpawnWave : MonoBehaviour
 		{
             enemy.GetComponent<EnemySpawnPoint>().initSelf();
 		}
+
+        waveInfo = new SpawnWaveInfo(false, enemies.Count, enemies.Count);
+
+        initDone = true;
 	}
 
     public void checkIfWaveIsDone()
 	{
         foreach (GameObject enemy in enemies)
-		{
+        {
             if (enemy.GetComponent<EnemySpawnPoint>().GetSpawnPointInfo().isAlive == true)
-                waveDone= false;
+			{
+                waveInfo.isDone = false;
+                return;
+            }
 
 		}
-
-        waveDone = true;
+        waveInfo.isDone = true;
 	}
 
-    public bool isWaveDone() => waveDone;
-
-
+    public bool isWaveDone() => waveInfo.isDone;
 }

@@ -3,13 +3,18 @@ using UnityEngine;
 
     public struct SpawnwaveManagerInfo
 {
-    public int numberOfWaves { get; set; }
-    public int numberOfEnemiesInCurrentWave { get; set; }
-    
+    public int totalNumberOfWaves { get; set; }
+    public int remainingNumberOfWaves { get; set; }
+
+    public SpawnwaveManagerInfo(int total, int remainingWaves)
+	{
+        this.totalNumberOfWaves = total;
+        this.remainingNumberOfWaves = remainingWaves;
+	}
 }
 public class EnemyWaveManager : MonoBehaviour
 {
-
+    SpawnwaveManagerInfo waveManagerInfo;
     int randomizedNumberOfSpawnWaves;
     int currentWaveIndex;
     SpawnWave currentWave;
@@ -32,30 +37,34 @@ public class EnemyWaveManager : MonoBehaviour
     {
         initWaves();
         activateNextWave();
+        waveManagerInfo = new SpawnwaveManagerInfo(waves.Count, waves.Count);
     }
 
     void initWaves()
     {
-
         waves = new List<SpawnWave>(GetComponentsInChildren<SpawnWave>());
         randomizedNumberOfSpawnWaves = Random.Range(1, waves.Count + 1);
         int count = waves.Count;
+        
         for (int i = 0; i < count - randomizedNumberOfSpawnWaves; i++)
         {
             waves.RemoveAt(Random.Range(1, waves.Count));
         }
+
+        currentWaveIndex = -1;
         canUpdateRun = true;
-        print(waves.Count);
     }
 
     public void activateNextWave()
     {
-        if (waves.Count == 0)
+        currentWaveIndex++;
+        if (waves.Count<=currentWaveIndex )
         {
             print("No waves.");
             return;
         }
-        currentWave = waves[0];
+
+        currentWave = waves[currentWaveIndex];
         currentWave.initSelf();
     }
 }
