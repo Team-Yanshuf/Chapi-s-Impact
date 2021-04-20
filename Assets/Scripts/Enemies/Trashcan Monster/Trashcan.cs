@@ -18,7 +18,7 @@ public class Trashcan : MonoBehaviour
     [SerializeField] float maxHp;
     void Start()
     {
-        //eventM = GetComponent<TrashcanEvents>();
+        target = GameObject.FindGameObjectWithTag("Player");
         attackingM = GetComponent<TrashcanAttacking>();
         collisionM = GetComponent<TrashcanCollision>();
         movementM = GetComponent<TrashcanMovement>();
