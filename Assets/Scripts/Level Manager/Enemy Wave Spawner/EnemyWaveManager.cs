@@ -25,10 +25,12 @@ public class EnemyWaveManager : MonoBehaviour
     {
         if (canUpdateRun)
         {
-            if (currentWave.isWaveDone() && waves.Count>1)
+            if (currentWave.isWaveDone() && currentWaveIndex<waveManagerInfo.totalNumberOfWaves)
 			{
                 activateNextWave();
 			}
+
+            updateWaveManagerInfo();
         }
 
     }
@@ -67,4 +69,8 @@ public class EnemyWaveManager : MonoBehaviour
         currentWave = waves[currentWaveIndex];
         currentWave.initSelf();
     }
+
+    void updateWaveManagerInfo() => waveManagerInfo.remainingNumberOfWaves = waveManagerInfo.totalNumberOfWaves - currentWaveIndex;
+
+    public SpawnwaveManagerInfo getSpawnWaveManagerInfo() => waveManagerInfo;
 }

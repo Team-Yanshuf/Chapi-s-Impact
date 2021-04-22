@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
 
     int startingEnemyCount;
     int enemiesRequiredToPlant = 3;
-    public  int enemiesRemainingToPlant = 3;
+    public int enemiesRemainingToPlant = 3;
     [SerializeField] int treesRequiredToBeat;
     int currentEnemyCount;
     int treesPlanted;
@@ -37,31 +37,36 @@ public class LevelManager : MonoBehaviour
         treesRequiredToBeat = 1;
     }
 
-	private void Start()
-	{
+    private void Start()
+    {
         fogM.initSelf();
         fogM.initFog();
         natureM.initSelf();
-
-
         waveM.initSelf();
+
+        //Invoke("initWaves", 2f) ;
     }
 
-	private void Update()
-	{
+    //   void initWaves()
+    //{
+    //       waveM.initSelf();
+    //}
+
+    private void Update()
+    {
         checkForLevelBeaten();
         updateEnemyCount();
-	}
+    }
 
     private void updateCurrentEnemyCount()
-	{
+    {
         checkAndApprovePlanting();
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         startingEnemyCount = enemies.Length;
         currentEnemyCount = enemies.Length;
-	}
+    }
     void updateEnemyCount()
-	{
+    {
 
 
 
@@ -71,37 +76,38 @@ public class LevelManager : MonoBehaviour
         currentEnemyCount = enemies.Length;
     }
     public int getCurrentEnemyCount()
-	{
+    {
         return startingEnemyCount;
-	}
-	internal void requestMoveToMainMenu()
-	{
+    }
+    internal void requestMoveToMainMenu()
+    {
         manager.moveToMainMenu();
-	}
+    }
     void checkAndApprovePlanting()
-	{
+    {
         enemiesRemainingToPlant--;
         currentEnemyCount--;
-        if (enemiesRemainingToPlant==0)
-		{
+        if (enemiesRemainingToPlant == 0)
+        {
             player.grantPlantPremission();
             enemiesRemainingToPlant = enemiesRequiredToPlant;
-		}
- 
+        }
+
     }
     void displayHP() => print(player.getHP());
     void updateTreesRequiered()
-	{
+    {
         treesRequiredToBeat--;
-	}
+    }
     void checkForLevelBeaten()
-	{
-        if (currentEnemyCount<=0 && treesRequiredToBeat<=0 && !beatenLevel)
-		{
+    {
+        print($"remaining waves: {waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves} \t trees: {treesRequiredToBeat}");
+        if (waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves <= 0 && treesRequiredToBeat <= 0 && !beatenLevel)
+        {
             beatenLevel = true;
             manager.beatLevel();
-		}
-	}
+        }
+    }
 
     public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
 
