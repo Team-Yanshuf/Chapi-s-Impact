@@ -16,6 +16,7 @@ public class OilMonster : MonoBehaviour
  
     void Awake()
     {
+        target = GameObject.FindGameObjectWithTag("Player");
         initializeComponents();
 
         healthM.initHP(100);
