@@ -6,7 +6,8 @@ using UnityEngine;
 public enum EnemyType
 {
     OIL_MONSTER,
-    TRASHCAN
+    TRASHCAN,
+    NONE
 }
 
 public struct SpawnPointInfo
@@ -50,6 +51,12 @@ public class EnemySpawnPoint : MonoBehaviour
             case EnemyType.TRASHCAN:
 				{
                     return (GameObject)Instantiate(Resources.Load("Enemies/TrashEnemy"),transform.position,Quaternion.identity);
+				}
+
+            case EnemyType.NONE:
+				{
+                    //No enemy chosen.
+                    break;
 				}
 		}
 

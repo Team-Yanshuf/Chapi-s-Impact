@@ -1,126 +1,161 @@
 ﻿using UnityEngine;
 
 public class PlayerSound : MonoBehaviour
-
 {
-    /*
-     * Sounds exist for:
-     * footsteps
-     * dash
-     * shooting
-     * taking damage (hurt)
-     * hitting
-     * dying
-     * 
-     * 
-    */
-
     Player playerM;
 
-    
-    [SerializeField]  FMODUnity.StudioEventEmitter footsteps;
-    [SerializeField]  FMODUnity.StudioEventEmitter dash;
-    [SerializeField]  FMODUnity.StudioEventEmitter shoot;
-    [SerializeField]  FMODUnity.StudioEventEmitter hurt;
-    [SerializeField] FMODUnity.StudioEventEmitter hit;
-    [SerializeField] FMODUnity.StudioEventEmitter death;
-    [SerializeField] FMODUnity.StudioEventEmitter aura;
+    [FMODUnity.EventRef] [SerializeField] string Sfootsteps;
+    [Range(0f, 10f)] [SerializeField] float footstepsVolume;
+    FMOD.Studio.EventInstance footsteps;
+
+    [FMODUnity.EventRef] [SerializeField] string Sdash;
+    [Range(0f, 10f)] [SerializeField] float dashVolume;
+    FMOD.Studio.EventInstance dash;
+
+    [FMODUnity.EventRef] [SerializeField] string Sshoot;
+    [Range(0f, 10f)] [SerializeField] float shootVolume;
+    FMOD.Studio.EventInstance shoot;
+
+    [FMODUnity.EventRef] [SerializeField] string Shurt;
+    [Range(0f, 10f)] [SerializeField] float hurtVolume;
+    FMOD.Studio.EventInstance hurt;
+
+    [FMODUnity.EventRef] [SerializeField] string Shit;
+    [Range(0f, 10f)] [SerializeField] float hitVolume;
+    FMOD.Studio.EventInstance hit;
+
+    [FMODUnity.EventRef] [SerializeField] string Sdeath;
+    [Range(0f, 10f)] [SerializeField] float deathVolume;
+    FMOD.Studio.EventInstance death;
+
+    [FMODUnity.EventRef] [SerializeField] string Saura;
+    [Range(0f, 10f)] [SerializeField] float auraVolume;
+    FMOD.Studio.EventInstance aura;
 
     bool plant;
     int attackNumber;
+
+    bool finishedInitializing = false;
+    void initSelf()
+	{
+        footsteps = FMODUnity.RuntimeManager.CreateInstance(Sfootsteps);
+
+
+		dash = FMODUnity.RuntimeManager.CreateInstance(Sdash);
+
+
+		hit = FMODUnity.RuntimeManager.CreateInstance(Shit);
+
+
+		aura = FMODUnity.RuntimeManager.CreateInstance(Saura);
+
+        //shoot = FMODUnity.RuntimeManager.CreateInstance(Sshoot);
+        //death = FMODUnity.RuntimeManager.CreateInstance(Sdeath);
+    }
+
+    void setVolumes()
+	{
+        footsteps.setVolume(footstepsVolume);
+        dash.setVolume(dashVolume);
+        hit.setVolume(hitVolume);
+        aura.setVolume(auraVolume);
+    }
+
     void Start()
     {
+        initSelf();
         GameManagerEvents.chapiDied?.AddListener(playDie);
         playerM = GetComponent<Player>();
         attackNumber = -1;
         plant = false;
+        finishedInitializing = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        playFootSetps();
-        playDash();
-        playShooting();
-        playHurt();
-        playHit();
-        playAura();
+        if (finishedInitializing)
+		{
+            playFootSetps();
+            playDash();
+            playShooting();
+            playHurt();
+            playHit();
+            playAura();
+
+            setVolumes();
+        }
 
     }
 
     void playFootSetps()
     {
-        if (!footsteps)
-            return;
 
-       if  (playerM.isMoving())
-        {
-            if (!footsteps.IsPlaying())
-                footsteps.Play();
-        }
+        if (playerM.isMoving())
+		{
+            if (!footsteps.isPlaying())
+			{
+                footsteps.start();
+			}
+		}
     }
 
     void playDash()
     {
-        if (!dash)
-            return;
-
-        if (playerM.isDashing()  && !dash.IsPlaying())
-        {
-            dash.Play();
-        }
-    }
+		if (playerM.isDashing() && !dash.isPlaying())
+		{
+			dash.start();
+		}
+	}
     void playCollect()
     {             
     }
 
     void playShooting()
     {
-        if (!shoot)
-            return;
 
-        if (playerM.isShooting() && !shoot.IsPlaying())
-        {
-            shoot.Play();
-        }
-    }
+		if (playerM.isShooting() && !shoot.isPlaying())
+		{
+			shoot.start();
+		}
+	}
 
     void playHurt()
 	{
-        if (playerM.isHurt())
+		if (playerM.isHurt())
 		{
-            hurt?.Play();
-            print("player hurt is playing");
-        }
+			hurt.start();
+			print("player hurt is playing");
+		}
 	}
 
     void playHit()
 	{
-        if (playerM.isAttacking()&& attackNumber!=playerM.comboCount())
+		if (playerM.isAttacking() && attackNumber != playerM.comboCount())
 		{
-            hit?.Play();
-            attackNumber = playerM.comboCount();
+			hit.start();
+			attackNumber = playerM.comboCount();
 		}
-        else if (!playerM.isAttacking())
+		else if (!playerM.isAttacking())
 		{
-            attackNumber = -1;
+			attackNumber = -1;
 		}
 	}
 
     void playDie()
 	{
-        death?.Play();
+        //death?.Play();
 	}
 
     void playAura()
 	{
-        if (playerM.getHowManyTreesCanPlant() > 0 && !plant)
-        {
-            plant = true;
-            aura.Play();
-        }
+		if (playerM.getHowManyTreesCanPlant() > 0 && !plant)
+		{
+			plant = true;
+			aura.start();
+		}
 
-        else if (playerM.getHowManyTreesCanPlant() == 0)
-            plant = false;
+		else if (playerM.getHowManyTreesCanPlant() == 0)
+			plant = false;
 	}
 }
