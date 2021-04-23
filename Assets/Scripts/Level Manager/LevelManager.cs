@@ -43,14 +43,7 @@ public class LevelManager : MonoBehaviour
         fogM.initFog();
         natureM.initSelf();
         waveM.initSelf();
-
-        //Invoke("initWaves", 2f) ;
     }
-
-    //   void initWaves()
-    //{
-    //       waveM.initSelf();
-    //}
 
     private void Update()
     {
@@ -58,6 +51,9 @@ public class LevelManager : MonoBehaviour
         updateEnemyCount();
     }
 
+
+    //Used to check if chapi can plant or not.
+    //Consider: Moving Planting logic into j
     private void updateCurrentEnemyCount()
     {
         checkAndApprovePlanting();
@@ -75,14 +71,10 @@ public class LevelManager : MonoBehaviour
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         currentEnemyCount = enemies.Length;
     }
-    public int getCurrentEnemyCount()
-    {
-        return startingEnemyCount;
-    }
-    internal void requestMoveToMainMenu()
-    {
-        manager.moveToMainMenu();
-    }
+    //internal void requestMoveToMainMenu()
+    //{
+    //    manager.moveToMainMenu();
+    //}
     void checkAndApprovePlanting()
     {
         enemiesRemainingToPlant--;
@@ -94,14 +86,13 @@ public class LevelManager : MonoBehaviour
         }
 
     }
-    void displayHP() => print(player.getHP());
     void updateTreesRequiered()
     {
         treesRequiredToBeat--;
     }
     void checkForLevelBeaten()
     {
-        print($"remaining waves: {waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves} \t trees: {treesRequiredToBeat}");
+        //print($"remaining waves: {waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves} \t trees: {treesRequiredToBeat}");
         if (waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves <= 0 && treesRequiredToBeat <= 0 && !beatenLevel)
         {
             beatenLevel = true;
