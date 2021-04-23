@@ -34,7 +34,7 @@ public class LevelManager : MonoBehaviour
         updateCurrentEnemyCount();
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
         GameManagerEvents.treePlanted.AddListener(updateTreesRequiered);
-        treesRequiredToBeat = 1;
+        //treesRequiredToBeat = 1;
     }
 
     private void Start()
