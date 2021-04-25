@@ -3,12 +3,19 @@ using System.Collections;
 using UnityEngine;
 
 
-struct PlayerMovementInfo
+public struct PlayerMovementInfo
 {
+    public bool isDashing { get; }
 
+    public PlayerMovementInfo(bool isDashing)
+	{
+        this.isDashing = isDashing;
+	}
 }
 public class PlayerMovement : MonoBehaviour
 {
+    PlayerMovementInfo info;
+
     //Component References.
     Player playerM;
     Rigidbody rb;
@@ -52,17 +59,15 @@ public class PlayerMovement : MonoBehaviour
     }
     void move()
     {
-         //if (playerM.dashPressed())
          if (Input.GetKeyDown(KeyCode.C))
         {
-            //isDashing = true;
-            teleDash();
+            dash();
         }
 
         else
         {
             //isDashing = false;
-            rb.MovePosition(transform.position + movement * speed *  Time.deltaTime);
+            rb.MovePosition(transform.position + movement * speed * Time.deltaTime *60f);
         }
     }
 	internal void applyPushback(Vector3 pushback)
@@ -78,26 +83,25 @@ public class PlayerMovement : MonoBehaviour
     {
         return isDashing;
     }
-    void teleDash()
+    void dash()
     {
-        StartCoroutine(dash());
+        StartCoroutine(dashCoroutine());
+        IEnumerator dashCoroutine()
+        {
+            if (movement.magnitude == 0)
+                yield break;
 
-    }
-    IEnumerator dash()
-    {
-        if (movement.magnitude == 0)
-            yield break;
-
-
-        isDashing = true;
-        for (int i=0; i<3; i++)
-        { 
-            rb.MovePosition(transform.position + movement * dashSpeed);
-            yield return null;
+            Vector3 currentMovement = movement;
+            isDashing = true;
+            for (int i = 0; i < dashLength; i++)
+            {
+                rb.MovePosition(transform.position + (currentMovement * (dashSpeed / dashLength)) * Time.deltaTime * 60f);
+                yield return null;
+            }
+            isDashing = false;
         }
-        isDashing = false;
-
     }
+
     void handleWeaponDirection()
 	{
         if (movement.x != 0)
@@ -129,4 +133,12 @@ public class PlayerMovement : MonoBehaviour
         else
             return -1;
 	}
+
+
+    public PlayerMovementInfo  getMovementInfo()
+	{
+        info = new PlayerMovementInfo(isDashing);
+        return info;
+	}
+
 }

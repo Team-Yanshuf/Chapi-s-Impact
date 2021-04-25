@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 1201513526}
   - component: {fileID: 1201513514}
   - component: {fileID: 1201513515}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Oil Monster
   m_TagString: Enemy
   m_Icon: {fileID: 0}

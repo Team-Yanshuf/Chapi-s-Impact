@@ -13,8 +13,11 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
         playerM = GetComponent<Player>();
     }
 
-
-    public bool isCollecting()
+	private void Update()
+	{
+        changeCollisionLayerDuringDash();
+	}
+	public bool isCollecting()
     {
         bool temp = collecting;
         collecting = false;
@@ -40,5 +43,22 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
             return true;
 		}
         return false;
+	}
+
+
+    void changeCollisionLayerDuringDash()
+	{
+        if (playerM.getMovementInfo().isDashing)
+		{
+            print("Dashing");
+            gameObject.layer = LayerMask.NameToLayer("PlayerDash");
+
+        }
+
+
+		else
+		{
+			gameObject.layer = LayerMask.NameToLayer("Player");
+		}
 	}
 }

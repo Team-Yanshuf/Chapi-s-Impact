@@ -25,6 +25,8 @@ TagManager:
   - Projectile
   - Particles
   - Enemies
+  - PlayerDash
+  - None
   - Ground
   - 
   - 
