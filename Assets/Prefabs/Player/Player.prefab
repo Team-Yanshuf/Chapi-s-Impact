@@ -162,9 +162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundRotation: 40
-  speed: 13
-  dashSpeed: 10
-  dashLength: 100
+  speed: 0.5
+  dashSpeed: 15
+  dashLength: 10
 --- !u!114 &4558363665204712372
 MonoBehaviour:
   m_ObjectHideFlags: 0

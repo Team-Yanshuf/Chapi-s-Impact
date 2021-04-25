@@ -4,30 +4,37 @@ public class PlayerSound : MonoBehaviour
 {
     Player playerM;
 
+    [Header("Footstep sfx")]
     [FMODUnity.EventRef] [SerializeField] string Sfootsteps;
     [Range(0f, 10f)] [SerializeField] float footstepsVolume;
     FMOD.Studio.EventInstance footsteps;
 
+    [Header("Dash sfx")]
     [FMODUnity.EventRef] [SerializeField] string Sdash;
     [Range(0f, 10f)] [SerializeField] float dashVolume;
     FMOD.Studio.EventInstance dash;
 
+    [Header("Shooting sfx")]
     [FMODUnity.EventRef] [SerializeField] string Sshoot;
     [Range(0f, 10f)] [SerializeField] float shootVolume;
     FMOD.Studio.EventInstance shoot;
 
+    [Header("Hurt sfx")]
     [FMODUnity.EventRef] [SerializeField] string Shurt;
     [Range(0f, 10f)] [SerializeField] float hurtVolume;
     FMOD.Studio.EventInstance hurt;
 
+    [Header("Hit sfx")]
     [FMODUnity.EventRef] [SerializeField] string Shit;
     [Range(0f, 10f)] [SerializeField] float hitVolume;
     FMOD.Studio.EventInstance hit;
 
+    [Header("Death sfx")]
     [FMODUnity.EventRef] [SerializeField] string Sdeath;
     [Range(0f, 10f)] [SerializeField] float deathVolume;
     FMOD.Studio.EventInstance death;
 
+    [Header("Aura sfx")]
     [FMODUnity.EventRef] [SerializeField] string Saura;
     [Range(0f, 10f)] [SerializeField] float auraVolume;
     FMOD.Studio.EventInstance aura;
