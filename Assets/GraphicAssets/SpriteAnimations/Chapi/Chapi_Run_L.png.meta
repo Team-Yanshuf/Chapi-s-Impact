@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: cdb295303c20641519f2364e66bdad0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6491533770844618313
+    second: ChapiRunL_00000
+  - first:
+      213: 5866961340175236878
+    second: ChapiRunL_00001
+  - first:
+      213: -33169040498465963
+    second: ChapiRunL_00002
+  - first:
+      213: -2643988064360132407
+    second: ChapiRunL_00003
+  - first:
+      213: -4425873087729127578
+    second: ChapiRunL_00004
+  - first:
+      213: -7599229385910142072
+    second: ChapiRunL_00005
+  - first:
+      213: -1298904828634770665
+    second: ChapiRunL_00006
+  - first:
+      213: 7749399066546618689
+    second: ChapiRunL_00007
+  - first:
+      213: -2425685435352653568
+    second: ChapiRunL_00008
+  - first:
+      213: 251166195654760658
+    second: ChapiRunL_00009
+  - first:
+      213: 1540272872218481491
+    second: ChapiRunL_00010
+  - first:
+      213: 5177198522070030528
+    second: ChapiRunL_00011
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChapiRunL_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 748
+        width: 269
+        height: 335
+      alignment: 9
+      pivot: {x: 0.73977697, y: 0.49850747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e35aa229f861a50800000000000000
+      internalID: 6491533770844618313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 748
+        width: 269
+        height: 335
+      alignment: 9
+      pivot: {x: 0.73977697, y: 0.49850747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f38102142ab6150800000000000000
+      internalID: 5866961340175236878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00002
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1089
+        width: 276
+        height: 327
+      alignment: 9
+      pivot: {x: 0.7463768, y: 0.5321101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5536c83fee82a8ff0800000000000000
+      internalID: -33169040498465963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00003
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1418
+        width: 279
+        height: 311
+      alignment: 9
+      pivot: {x: 0.75268817, y: 0.5659164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c011792ddaae4bd0800000000000000
+      internalID: -2643988064360132407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1414
+        width: 279
+        height: 316
+      alignment: 9
+      pivot: {x: 0.75268817, y: 0.5601266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fa1f040e32492c0800000000000000
+      internalID: -4425873087729127578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1732
+        width: 286
+        height: 315
+      alignment: 9
+      pivot: {x: 0.74125874, y: 0.552381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bbd1ec22d1a8690800000000000000
+      internalID: -7599229385910142072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00006
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1732
+        width: 286
+        height: 315
+      alignment: 9
+      pivot: {x: 0.74125874, y: 0.5492064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7135f24b0fc59fde0800000000000000
+      internalID: -1298904828634770665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00007
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1731
+        width: 281
+        height: 316
+      alignment: 9
+      pivot: {x: 0.75088966, y: 0.556962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141414894656b8b60800000000000000
+      internalID: 7749399066546618689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00008
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1415
+        width: 279
+        height: 315
+      alignment: 9
+      pivot: {x: 0.74910396, y: 0.5619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00167f8c2fb365ed0800000000000000
+      internalID: -2425685435352653568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00009
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1418
+        width: 279
+        height: 311
+      alignment: 9
+      pivot: {x: 0.75268817, y: 0.5659164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8969ff2525c7300800000000000000
+      internalID: 251166195654760658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1085
+        width: 274
+        height: 327
+      alignment: 9
+      pivot: {x: 0.7481752, y: 0.52905196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353d0cd3406206510800000000000000
+      internalID: 1540272872218481491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunL_00011
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1079
+        width: 275
+        height: 334
+      alignment: 9
+      pivot: {x: 0.7309091, y: 0.505988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c859a730aa19d740800000000000000
+      internalID: 5177198522070030528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
