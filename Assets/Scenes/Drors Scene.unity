@@ -2483,6 +2483,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3917868220920842120, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917868220920842120, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: attenuationObject
+      value: 
+      objectReference: {fileID: 799412021}
     - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
       propertyPath: player
@@ -3430,6 +3440,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962552944}
     m_Modifications:
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201513515, guid: f9eb6b163ddc68e46a8b952be557d269, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
       propertyPath: m_RootOrder
@@ -5590,18 +5612,20 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &799412027 stripped
+--- !u!114 &799412038
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 799412023, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799412021}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1 &803165150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5954,7 +5978,7 @@ PrefabInstance:
     - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: dash
       value: 
-      objectReference: {fileID: 799412027}
+      objectReference: {fileID: 0}
     - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: footsteps
       value: 
@@ -10963,7 +10987,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584045775}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -12249,6 +12273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: initialFogCount
       value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816824357731097411, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: treesRequiredToBeat
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8947447368014888576, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
@@ -13858,16 +13887,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 288350130768254655, guid: f9eb6b163ddc68e46a8b952be557d269,
         type: 3}
