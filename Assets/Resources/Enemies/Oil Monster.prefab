@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db06a791034450040b14f7067c9e05c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  move: {fileID: 1201513515}
+  move: {fileID: 0}
   hurt: {fileID: 1201513514}
   die: {fileID: 0}
 --- !u!212 &771073705
@@ -305,6 +305,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 288350130768254655}
     m_Modifications:
+    - target: {fileID: 6309938986442563169, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.8815145
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938986442563169, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.43926728
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938986442563169, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1231627
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938986442563169, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000012418
+      objectReference: {fileID: 0}
     - target: {fileID: 6309938986905019962, guid: 49d63bfd26ef6d8448be01df95e20936,
         type: 3}
       propertyPath: m_Pivot.x
@@ -414,6 +434,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Healthbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938987117002746, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.9009535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938987117002746, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5840563
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938987117002746, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9746292
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309938987117002746, guid: 49d63bfd26ef6d8448be01df95e20936,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000012418
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49d63bfd26ef6d8448be01df95e20936, type: 3}

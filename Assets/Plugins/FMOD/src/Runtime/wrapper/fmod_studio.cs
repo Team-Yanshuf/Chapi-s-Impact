@@ -1130,6 +1130,13 @@ namespace FMOD.Studio
 
     public struct EventInstance
     {
+        public bool isPlaying()
+		{
+            PLAYBACK_STATE playbackState;
+            this.getPlaybackState(out playbackState);
+            return (playbackState == PLAYBACK_STATE.PLAYING);
+        }
+
         public RESULT getDescription(out EventDescription description)
         {
             return FMOD_Studio_EventInstance_GetDescription(this.handle, out description.handle);

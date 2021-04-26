@@ -30,48 +30,77 @@ public class PlayerAnimation : MonoBehaviour
     }
 
     void ChapisAnimation()
-    {
-        //playerM.getMovementAxes(ref movement.x, ref movement.z);
-        movement = playerM.getActualMovement();
+	{
+		//playerM.getMovementAxes(ref movement.x, ref movement.z);
 
-        animator.SetFloat("Speed", movement.magnitude);
+		playerM.getMovementAxes(ref movement.x, ref movement.z);
+
+		animator.SetFloat("Speed", movement.magnitude);
 
 
-       /* 
-        * This setup does not take planting into account.
-        * meaning the planting while moving diagonally results
-        * in planting in the wrong direction.
-        * Fix this!
-        */
-        if (movement.x!=0)
-        {
-            animator.SetFloat("Horizontal", movement.x);
-            prevX = movement.x;
-        }
-        else
-            animator.SetFloat("Horizontal", prevX);
-        
-        if (movement.z!=0)
-        {
-            animator.SetFloat("Vertical", movement.z);
-            prevZ = movement.z;
+		/* 
+		 * This setup does not take planting into account.
+		 * meaning the planting while moving diagonally results
+		 * in planting in the wrong direction.
+		 * Fix this!
+		 */
+		altLookDirection();
 
-            if (movement.x==0)
-            animator.SetFloat("Horizontal", 0f);
-        }
+		animator.SetBool("IsDashing", playerM.isDashing());
+		animator.SetInteger("Attacking", playerM.comboCount());
+		animator.SetBool("IsPlanting", playerM.isPlanting());
+		animator.SetBool("IsHurt", playerM.isHurt());
 
-        else
-            animator.SetFloat("Vertical", prevZ);
+		manageAura();
+	}
 
-        animator.SetBool("IsDashing", playerM.isDashing());
-        animator.SetInteger("Attacking", playerM.comboCount());
-        animator.SetBool("IsPlanting", playerM.isPlanting());
-        animator.SetBool("IsHurt", playerM.isHurt());
+	private void setLookDirection()
+	{
+		if (movement.x != 0)
+		{
+			animator.SetFloat("Horizontal", movement.x);
+			prevX = movement.x;
+		}
+		else
+			animator.SetFloat("Horizontal", prevX);
 
-        manageAura();
-    }
+		if (movement.z != 0)
+		{
+			animator.SetFloat("Vertical", movement.z);
+			prevZ = movement.z;
 
-    void manageAura()
+			if (movement.x == 0)
+				animator.SetFloat("Horizontal", 0f);
+		}
+
+		else
+			animator.SetFloat("Vertical", prevZ);
+	}
+
+
+	void altLookDirection()
+	{
+		if (movement.magnitude!=0)
+		{
+			prevX = movement.x;
+			prevZ = movement.z;
+			animator.SetFloat("Horizontal", prevX);
+			animator.SetFloat("Vertical", prevZ);
+		}
+		//if (movement.x>movement.z)
+		//{
+		//	prevX = movement.x;
+		//	animator.SetFloat("Horizontal", prevX);
+		//}
+
+		//else if (movement.x<=movement.z)
+		//{
+		//	prevZ = movement.y;
+		//	animator.SetFloat("Vertical", prevZ);
+		//}
+	}
+
+	void manageAura()
 	{
         if (playerM.getHowManyTreesCanPlant() > 0)
             aura.SetActive(true);

@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
 	// Start is called before the first frame update
 	private void Awake()
 	{
+
+
+
 		//initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
 		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
@@ -24,6 +27,10 @@ public class GameManager : MonoBehaviour
 	private void Start()
 	{
 		initGameManagerSingelton();
+		//******************Set target frame rate to 60*******************//
+		QualitySettings.vSyncCount = 0;
+		Application.targetFrameRate = 100;
+		//******************Set target frame rate to 60*******************//
 	}
 
 	private void OnLevelWasLoaded(int level)
