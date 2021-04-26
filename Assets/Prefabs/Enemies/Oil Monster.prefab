@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db06a791034450040b14f7067c9e05c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  move: {fileID: 0}
+  move: {fileID: 1201513515}
   hurt: {fileID: 1201513514}
   die: {fileID: 0}
 --- !u!212 &771073705
