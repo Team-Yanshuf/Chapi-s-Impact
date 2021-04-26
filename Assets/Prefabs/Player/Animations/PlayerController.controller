@@ -162,8 +162,24 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 45593f3c26314454a8cbafc5ca9280ca, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.33333334
     m_Position: {x: 1, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 677a1fb7a39674f928fb2142053c4325, type: 2}
+    m_Threshold: 0.6666667
+    m_Position: {x: 0, y: 1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: f070aab3271ec457c97bb0bd5b6ce96a, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Speed
@@ -362,8 +378,24 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 7c669ac266c924b45a130094b82da299, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.33333334
     m_Position: {x: 1, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 81783fbc31f9440a096d56567a62e5cf, type: 2}
+    m_Threshold: 0.6666667
+    m_Position: {x: 0, y: 1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 2c38a660dcf22476dbd1d140f09d65c6, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Speed
@@ -767,8 +799,24 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f3bb232a2a7e346ceaf1d138e5c70143, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.33333334
     m_Position: {x: 1, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 9276d6ee0b14b4f258e0101e89bdec56, type: 2}
+    m_Threshold: 0.6666667
+    m_Position: {x: 0, y: 1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: a7cef729b6d934b928046d8ad7b32f82, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Speed
@@ -824,8 +872,24 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 77b11a930ccf243ed9bc7e7d76998d06, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.33333334
     m_Position: {x: 1, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 37803a4f6e2a9482483be00ddba4027f, type: 2}
+    m_Threshold: 0.6666667
+    m_Position: {x: 0, y: -1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: e7460fc1407a14988be4e07d0ea7a680, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 1}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Speed
@@ -1132,10 +1196,10 @@ AnimatorStateMachine:
     m_Position: {x: -150, y: 430, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4418469210721330040}
-    m_Position: {x: 210, y: 320, z: 0}
+    m_Position: {x: 250, y: 310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9075054770021053586}
-    m_Position: {x: 150, y: 90, z: 0}
+    m_Position: {x: 210, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4418673614709926449}
     m_Position: {x: -510, y: 300, z: 0}
@@ -1147,7 +1211,7 @@ AnimatorStateMachine:
     m_Position: {x: 560, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1487372359751555161}
-    m_Position: {x: 490, y: 320, z: 0}
+    m_Position: {x: 560, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2534381984444162825}
     m_Position: {x: -50, y: 200, z: 0}
