@@ -104,11 +104,36 @@ public class PlayerMovement : MonoBehaviour
 
     void handleWeaponDirection()
 	{
+        Transform[] weaponTransform = GetComponentsInChildren<Transform>();
         if (movement.x != 0)
         {
-            Transform[] weaponTransform = GetComponentsInChildren<Transform>();
-            weaponTransform[1].localScale = new Vector3(Mathf.Sign(movement.x), 1, 1);
+            print($"{weaponTransform[1].rotation}");
+            if (movement.x<0)
+			{
+                Quaternion val1= new Quaternion(0, (float)(Math.Floor(movement.x)), 0,0);
+                Quaternion val2 = Quaternion.Euler(0, 180, 0);
+                weaponTransform[1].rotation = val1;
+ 
+			}
+
+            else
+			{
+                weaponTransform[1].rotation = Quaternion.Euler(0, 0, 0);
+			}
         }
+
+        else if (movement.z!=0)
+		{
+            if (movement.z>0)
+			{
+                weaponTransform[1].rotation = Quaternion.Euler(0, -90, 40);
+			}
+
+            else
+			{
+                weaponTransform[1].rotation = Quaternion.Euler(0, 90, -40);
+			}
+		}
 	}
     public float getChapiDirection()
 	{
