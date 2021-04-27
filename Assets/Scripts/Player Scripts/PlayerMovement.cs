@@ -107,7 +107,6 @@ public class PlayerMovement : MonoBehaviour
         Transform[] weaponTransform = GetComponentsInChildren<Transform>();
         if (movement.x != 0)
         {
-            print($"{weaponTransform[1].rotation}");
             if (movement.x<0)
 			{
                 Quaternion val1= new Quaternion(0, (float)(Math.Floor(movement.x)), 0,0);
