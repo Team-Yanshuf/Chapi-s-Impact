@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 3b27133790cd84017adef384daf3ba18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7046406991207454608
+    second: Chapi_IdleF_00000
+  - first:
+      213: -6807675055669440682
+    second: Chapi_IdleF_00001
+  - first:
+      213: -5279700951593313998
+    second: Chapi_IdleF_00002
+  - first:
+      213: 7243864800310124395
+    second: Chapi_IdleF_00003
+  - first:
+      213: -930420331225507499
+    second: Chapi_IdleF_00004
+  - first:
+      213: 8652164014452161618
+    second: Chapi_IdleF_00005
+  - first:
+      213: 237220596652874179
+    second: Chapi_IdleF_00006
+  - first:
+      213: 5066259340529599170
+    second: Chapi_IdleF_00007
+  - first:
+      213: -4849053434712278372
+    second: Chapi_IdleF_00008
+  - first:
+      213: -6630327376095557673
+    second: Chapi_IdleF_00009
+  - first:
+      213: 1413100470289666910
+    second: Chapi_IdleF_00010
+  - first:
+      213: -863271438583855512
+    second: Chapi_IdleF_00011
+  - first:
+      213: 2807693856196356130
+    second: Chapi_IdleF_00012
+  - first:
+      213: -1287160565618160031
+    second: Chapi_IdleF_00013
+  - first:
+      213: -6938347686073142575
+    second: Chapi_IdleF_00014
+  - first:
+      213: -1606661788687227301
+    second: Chapi_IdleF_00015
+  - first:
+      213: 3659290509380298085
+    second: Chapi_IdleF_00016
+  - first:
+      213: 2446086786183789381
+    second: Chapi_IdleF_00017
+  - first:
+      213: 4797489986160588181
+    second: Chapi_IdleF_00018
+  - first:
+      213: 6191522945281478687
+    second: Chapi_IdleF_00019
+  - first:
+      213: -7222441672036497250
+    second: Chapi_IdleF_00020
+  - first:
+      213: -1541814284437740263
+    second: Chapi_IdleF_00021
+  - first:
+      213: -7537492346923150996
+    second: Chapi_IdleF_00022
+  - first:
+      213: -5767294502184854604
+    second: Chapi_IdleF_00023
+  - first:
+      213: -1862096736378859479
+    second: Chapi_IdleF_00024
+  - first:
+      213: 5181142232853185120
+    second: Chapi_IdleF_00025
+  - first:
+      213: -7078867493050565163
+    second: Chapi_IdleF_00026
+  - first:
+      213: -1012801875807986765
+    second: Chapi_IdleF_00027
+  - first:
+      213: -9068124425712302527
+    second: Chapi_IdleF_00028
+  - first:
+      213: 7044576775685237381
+    second: Chapi_IdleF_00029
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapi_IdleF_00000
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2593
+        width: 441
+        height: 499
+      alignment: 9
+      pivot: {x: 0.7913832, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078204acc22263e90800000000000000
+      internalID: -7046406991207454608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 437
+        height: 499
+      alignment: 9
+      pivot: {x: 0.79405034, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f09800b974681a0800000000000000
+      internalID: -6807675055669440682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00002
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 586
+        width: 437
+        height: 501
+      alignment: 9
+      pivot: {x: 0.7963387, y: 0.51696604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2391df325fbbab6b0800000000000000
+      internalID: -5279700951593313998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3090
+        width: 442
+        height: 502
+      alignment: 9
+      pivot: {x: 0.7918552, y: 0.51593626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fd07ff7a0678460800000000000000
+      internalID: 7243864800310124395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00004
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1590
+        width: 439
+        height: 498
+      alignment: 9
+      pivot: {x: 0.79498863, y: 0.5200803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559908963ab7613f0800000000000000
+      internalID: -930420331225507499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1078
+        width: 438
+        height: 500
+      alignment: 9
+      pivot: {x: 0.79680365, y: 0.518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cb6db7459a21870800000000000000
+      internalID: 8652164014452161618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2587
+        width: 441
+        height: 501
+      alignment: 9
+      pivot: {x: 0.7936508, y: 0.5189621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c996e430e6ca4300800000000000000
+      internalID: 237220596652874179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00007
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2086
+        width: 440
+        height: 502
+      alignment: 9
+      pivot: {x: 0.79545456, y: 0.5179283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2854c2708fe4640800000000000000
+      internalID: 5066259340529599170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00008
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 3598
+        width: 445
+        height: 497
+      alignment: 9
+      pivot: {x: 0.78651685, y: 0.52112675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a361fa793b4bcb0800000000000000
+      internalID: -4849053434712278372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00009
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 2090
+        width: 440
+        height: 501
+      alignment: 9
+      pivot: {x: 0.79318184, y: 0.52095807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c64361685cf3a0800000000000000
+      internalID: -6630327376095557673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2083
+        width: 440
+        height: 502
+      alignment: 9
+      pivot: {x: 0.79545456, y: 0.5199203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e539d8b04675c9310800000000000000
+      internalID: 1413100470289666910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00011
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 3598
+        width: 445
+        height: 497
+      alignment: 9
+      pivot: {x: 0.78651685, y: 0.5231388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866087e433b0504f0800000000000000
+      internalID: -863271438583855512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00012
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 599
+        width: 438
+        height: 496
+      alignment: 9
+      pivot: {x: 0.79223746, y: 0.5221774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22861a8bfaee6f620800000000000000
+      internalID: 2807693856196356130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00013
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2597
+        width: 442
+        height: 497
+      alignment: 9
+      pivot: {x: 0.7963801, y: 0.52112675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e40750946132ee0800000000000000
+      internalID: -1287160565618160031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00014
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3596
+        width: 445
+        height: 499
+      alignment: 9
+      pivot: {x: 0.78651685, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2f47b5a8906bf90800000000000000
+      internalID: -6938347686073142575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00015
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 2100
+        width: 441
+        height: 495
+      alignment: 9
+      pivot: {x: 0.7913832, y: 0.52323234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56aa1b9d9df3b9e0800000000000000
+      internalID: -1606661788687227301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00016
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3596
+        width: 445
+        height: 499
+      alignment: 9
+      pivot: {x: 0.78651685, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565229d945968c230800000000000000
+      internalID: 3659290509380298085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00017
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1089
+        width: 439
+        height: 497
+      alignment: 9
+      pivot: {x: 0.79498863, y: 0.52112675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bf24cd8fe32f120800000000000000
+      internalID: 2446086786183789381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00018
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1588
+        width: 440
+        height: 496
+      alignment: 9
+      pivot: {x: 0.7909091, y: 0.5221774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595789669bb149240800000000000000
+      internalID: 4797489986160588181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1580
+        width: 439
+        height: 501
+      alignment: 9
+      pivot: {x: 0.79726654, y: 0.5189621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10de2c8055bce550800000000000000
+      internalID: 6191522945281478687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00020
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1597
+        width: 440
+        height: 501
+      alignment: 9
+      pivot: {x: 0.79545456, y: 0.52095807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98494fb09bb4cb90800000000000000
+      internalID: -7222441672036497250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00021
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3095
+        width: 444
+        height: 499
+      alignment: 9
+      pivot: {x: 0.786036, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9152772c3106a9ae0800000000000000
+      internalID: -1541814284437740263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00022
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1090
+        width: 438
+        height: 498
+      alignment: 9
+      pivot: {x: 0.79680365, y: 0.52208835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c619b6455a2756790800000000000000
+      internalID: -7537492346923150996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00023
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2590
+        width: 441
+        height: 503
+      alignment: 9
+      pivot: {x: 0.7936508, y: 0.5188867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb553ae43476ffa0800000000000000
+      internalID: -5767294502184854604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00024
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 3096
+        width: 444
+        height: 500
+      alignment: 9
+      pivot: {x: 0.786036, y: 0.518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92059b252e08826e0800000000000000
+      internalID: -1862096736378859479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00025
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1097
+        width: 439
+        height: 498
+      alignment: 9
+      pivot: {x: 0.79498863, y: 0.5200803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0620dffe86d17e740800000000000000
+      internalID: 5181142232853185120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00026
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3094
+        width: 442
+        height: 502
+      alignment: 9
+      pivot: {x: 0.7918552, y: 0.51593626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd39a0458fc2cd90800000000000000
+      internalID: -7078867493050565163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3594
+        width: 445
+        height: 501
+      alignment: 9
+      pivot: {x: 0.78651685, y: 0.51696604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb9d9c5f0ec1f1f0800000000000000
+      internalID: -1012801875807986765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 437
+        height: 499
+      alignment: 9
+      pivot: {x: 0.79405034, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146006a31ec872280800000000000000
+      internalID: -9068124425712302527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleF_00029
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2593
+        width: 441
+        height: 499
+      alignment: 9
+      pivot: {x: 0.7913832, y: 0.5190381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a6fa3f04d53c160800000000000000
+      internalID: 7044576775685237381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -37,6 +37,7 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Left.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_R.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Right.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/IdleF3d.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft 1.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitRight.tpsheet
@@ -120,6 +121,7 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Left.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_R.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_Right.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/IdleF3d.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitLeft.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/ChapiComboHitRight.png
@@ -203,6 +205,7 @@ normalmapFileNames:
 - 
 - 
 - 
+- Assets/GraphicAssets/SpriteAnimations/Chapi/IdleF3d_n.png
 - 
 - 
 - 
