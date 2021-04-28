@@ -1,0 +1,2972 @@
+fileFormatVersion: 2
+guid: f28cb8b70d51741ac8b45ec08e32b20c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5043621865516657138
+    second: Water Ripple Wave_00000
+  - first:
+      213: 3891487481866906933
+    second: Water Ripple Wave_00001
+  - first:
+      213: 7398895529781631304
+    second: Water Ripple Wave_00002
+  - first:
+      213: 8062297838454463846
+    second: Water Ripple Wave_00003
+  - first:
+      213: -8443887392625459392
+    second: Water Ripple Wave_00004
+  - first:
+      213: 2908972973023216370
+    second: Water Ripple Wave_00005
+  - first:
+      213: 2187945453293263305
+    second: Water Ripple Wave_00006
+  - first:
+      213: 7827075542372519384
+    second: Water Ripple Wave_00007
+  - first:
+      213: -8703886400142502740
+    second: Water Ripple Wave_00008
+  - first:
+      213: -161399706248279903
+    second: Water Ripple Wave_00009
+  - first:
+      213: 6631854762105920383
+    second: Water Ripple Wave_00010
+  - first:
+      213: 7321626855965857320
+    second: Water Ripple Wave_00011
+  - first:
+      213: -5560052275296141018
+    second: Water Ripple Wave_00012
+  - first:
+      213: -5680673271765412391
+    second: Water Ripple Wave_00013
+  - first:
+      213: -8830801432236286226
+    second: Water Ripple Wave_00014
+  - first:
+      213: 9030545292029685723
+    second: Water Ripple Wave_00015
+  - first:
+      213: 1633976504680636172
+    second: Water Ripple Wave_00016
+  - first:
+      213: 1783194630523761910
+    second: Water Ripple Wave_00017
+  - first:
+      213: -8855669790380638909
+    second: Water Ripple Wave_00018
+  - first:
+      213: 2584547370635336115
+    second: Water Ripple Wave_00019
+  - first:
+      213: 2729090248957070085
+    second: Water Ripple Wave_00020
+  - first:
+      213: 2934287323689270571
+    second: Water Ripple Wave_00021
+  - first:
+      213: -2069221826784672278
+    second: Water Ripple Wave_00022
+  - first:
+      213: -3174172617384250420
+    second: Water Ripple Wave_00023
+  - first:
+      213: 3303860354549310212
+    second: Water Ripple Wave_00024
+  - first:
+      213: -6317462315984414279
+    second: Water Ripple Wave_00025
+  - first:
+      213: 742847265664719600
+    second: Water Ripple Wave_00026
+  - first:
+      213: 6661840882524056509
+    second: Water Ripple Wave_00027
+  - first:
+      213: -6406008134153047885
+    second: Water Ripple Wave_00028
+  - first:
+      213: 6868582878754078525
+    second: Water Ripple Wave_00029
+  - first:
+      213: -6297055139377329593
+    second: Water Ripple Wave_00030
+  - first:
+      213: -1587281000924726390
+    second: Water Ripple Wave_00031
+  - first:
+      213: 1889992334130750317
+    second: Water Ripple Wave_00032
+  - first:
+      213: -270762412573061293
+    second: Water Ripple Wave_00033
+  - first:
+      213: -3193450298267610957
+    second: Water Ripple Wave_00034
+  - first:
+      213: 5979912437720733852
+    second: Water Ripple Wave_00035
+  - first:
+      213: 1784155267304685740
+    second: Water Ripple Wave_00036
+  - first:
+      213: 2230502948623440365
+    second: Water Ripple Wave_00037
+  - first:
+      213: -3010728704873962991
+    second: Water Ripple Wave_00038
+  - first:
+      213: 1479149722923191984
+    second: Water Ripple Wave_00039
+  - first:
+      213: 1155012969208369864
+    second: Water Ripple Wave_00040
+  - first:
+      213: 3228218860222984190
+    second: Water Ripple Wave_00041
+  - first:
+      213: -3556377613934534303
+    second: Water Ripple Wave_00042
+  - first:
+      213: 4092979142403258971
+    second: Water Ripple Wave_00043
+  - first:
+      213: 8253269379347869191
+    second: Water Ripple Wave_00044
+  - first:
+      213: 5558684270755737569
+    second: Water Ripple Wave_00045
+  - first:
+      213: -7479400858894276013
+    second: Water Ripple Wave_00046
+  - first:
+      213: -3441148749997607933
+    second: Water Ripple Wave_00047
+  - first:
+      213: 1271608862875804048
+    second: Water Ripple Wave_00048
+  - first:
+      213: 7987901926598964331
+    second: Water Ripple Wave_00049
+  - first:
+      213: 5679392185645714603
+    second: Water Ripple Wave_00050
+  - first:
+      213: 1358648193477659020
+    second: Water Ripple Wave_00051
+  - first:
+      213: 4407980280871976720
+    second: Water Ripple Wave_00052
+  - first:
+      213: -2272451963461685735
+    second: Water Ripple Wave_00053
+  - first:
+      213: -7744042139714455013
+    second: Water Ripple Wave_00054
+  - first:
+      213: 7204288456507562574
+    second: Water Ripple Wave_00055
+  - first:
+      213: -1547918131739491653
+    second: Water Ripple Wave_00056
+  - first:
+      213: 5355160221860245689
+    second: Water Ripple Wave_00057
+  - first:
+      213: -7813274797748745234
+    second: Water Ripple Wave_00058
+  - first:
+      213: -226234018763237720
+    second: Water Ripple Wave_00059
+  - first:
+      213: 282812844767748882
+    second: Water Ripple Wave_00060
+  - first:
+      213: -7117100418457392442
+    second: Water Ripple Wave_00061
+  - first:
+      213: -3938377681129680333
+    second: Water Ripple Wave_00062
+  - first:
+      213: -5440445172644637275
+    second: Water Ripple Wave_00063
+  - first:
+      213: 3175085685958382526
+    second: Water Ripple Wave_00064
+  - first:
+      213: 5504858336644055807
+    second: Water Ripple Wave_00065
+  - first:
+      213: -4376466359458849542
+    second: Water Ripple Wave_00066
+  - first:
+      213: -1292816183138791855
+    second: Water Ripple Wave_00067
+  - first:
+      213: -6443447780078273577
+    second: Water Ripple Wave_00068
+  - first:
+      213: -357680143233189099
+    second: Water Ripple Wave_00069
+  - first:
+      213: 6987517377121167206
+    second: Water Ripple Wave_00070
+  - first:
+      213: -8682918245527793323
+    second: Water Ripple Wave_00071
+  - first:
+      213: 6080432304935750829
+    second: Water Ripple Wave_00072
+  - first:
+      213: 8477641855939271155
+    second: Water Ripple Wave_00073
+  - first:
+      213: 9109309243085528907
+    second: Water Ripple Wave_00074
+  - first:
+      213: 8754182271025423044
+    second: Water Ripple Wave_00075
+  - first:
+      213: -8947716698062854439
+    second: Water Ripple Wave_00076
+  - first:
+      213: -4342061147626774988
+    second: Water Ripple Wave_00077
+  - first:
+      213: 4489797002161191916
+    second: Water Ripple Wave_00078
+  - first:
+      213: 333752762750330381
+    second: Water Ripple Wave_00079
+  - first:
+      213: -8006393773942218249
+    second: Water Ripple Wave_00080
+  - first:
+      213: 4713943678409121711
+    second: Water Ripple Wave_00081
+  - first:
+      213: 6644798615941412621
+    second: Water Ripple Wave_00082
+  - first:
+      213: -5426530294211675146
+    second: Water Ripple Wave_00083
+  - first:
+      213: 237456180299781604
+    second: Water Ripple Wave_00084
+  - first:
+      213: 6655404112913050687
+    second: Water Ripple Wave_00085
+  - first:
+      213: -8350957328002590220
+    second: Water Ripple Wave_00086
+  - first:
+      213: 1030073742907821076
+    second: Water Ripple Wave_00087
+  - first:
+      213: -4294729290208054456
+    second: Water Ripple Wave_00088
+  - first:
+      213: -8875308732324488880
+    second: Water Ripple Wave_00089
+  - first:
+      213: -697781242382890736
+    second: Water Ripple Wave_00090
+  - first:
+      213: -6425427622394508036
+    second: Water Ripple Wave_00091
+  - first:
+      213: -7420884162901365873
+    second: Water Ripple Wave_00092
+  - first:
+      213: -3171229791681791789
+    second: Water Ripple Wave_00093
+  - first:
+      213: 5245692072288565359
+    second: Water Ripple Wave_00094
+  - first:
+      213: 7452953167999521643
+    second: Water Ripple Wave_00095
+  - first:
+      213: 1598291475168821227
+    second: Water Ripple Wave_00096
+  - first:
+      213: 1663006340064479829
+    second: Water Ripple Wave_00097
+  - first:
+      213: 4463465259113629590
+    second: Water Ripple Wave_00098
+  - first:
+      213: -8558971706660032286
+    second: Water Ripple Wave_00099
+  - first:
+      213: 8494073750727709886
+    second: Water Ripple Wave_00100
+  - first:
+      213: -2166576160666517623
+    second: Water Ripple Wave_00101
+  - first:
+      213: -3614485428064663597
+    second: Water Ripple Wave_00102
+  - first:
+      213: 5955595795759595956
+    second: Water Ripple Wave_00103
+  - first:
+      213: -4695189250328131052
+    second: Water Ripple Wave_00104
+  - first:
+      213: -2292265325268109491
+    second: Water Ripple Wave_00105
+  - first:
+      213: 4532414593504411544
+    second: Water Ripple Wave_00106
+  - first:
+      213: -2267820478083845341
+    second: Water Ripple Wave_00107
+  - first:
+      213: -1613994248162990977
+    second: Water Ripple Wave_00108
+  - first:
+      213: 3157244116999055447
+    second: Water Ripple Wave_00109
+  - first:
+      213: -2769685423781168719
+    second: Water Ripple Wave_00110
+  - first:
+      213: 9095051161991990721
+    second: Water Ripple Wave_00111
+  - first:
+      213: 8649242597704778738
+    second: Water Ripple Wave_00112
+  - first:
+      213: -3843913492280133700
+    second: Water Ripple Wave_00113
+  - first:
+      213: -147998945336289319
+    second: Water Ripple Wave_00114
+  - first:
+      213: -5059631913248440405
+    second: Water Ripple Wave_00115
+  - first:
+      213: -4690653490911292191
+    second: Water Ripple Wave_00116
+  - first:
+      213: 7410586720870208109
+    second: Water Ripple Wave_00117
+  - first:
+      213: -7424238335119734888
+    second: Water Ripple Wave_00118
+  - first:
+      213: 4898769841166325787
+    second: Water Ripple Wave_00119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Ripple Wave_00000
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 129
+        width: 377
+        height: 350
+      alignment: 9
+      pivot: {x: 0.77453583, y: 0.5371429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9638b4d5b8ef540800000000000000
+      internalID: 5043621865516657138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00001
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 1712
+        width: 370
+        height: 335
+      alignment: 9
+      pivot: {x: 0.75405407, y: 0.5164179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d6e8c2f37510630800000000000000
+      internalID: 3891487481866906933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00002
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2
+        width: 368
+        height: 351
+      alignment: 9
+      pivot: {x: 0.7418478, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8491cd688482ea660800000000000000
+      internalID: 7398895529781631304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00003
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 1347
+        width: 366
+        height: 345
+      alignment: 9
+      pivot: {x: 0.7431694, y: 0.5246377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d5a7e0b2903ef60800000000000000
+      internalID: 8062297838454463846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00004
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 541
+        width: 372
+        height: 350
+      alignment: 9
+      pivot: {x: 0.7096774, y: 0.5057143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ff82f672941da80800000000000000
+      internalID: -8443887392625459392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00005
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 1704
+        width: 378
+        height: 343
+      alignment: 9
+      pivot: {x: 0.6984127, y: 0.51895046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2c24ea18fbe5820800000000000000
+      internalID: 2908972973023216370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00006
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 481
+        width: 369
+        height: 366
+      alignment: 9
+      pivot: {x: 0.6693767, y: 0.510929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9d97b2cc42d5e10800000000000000
+      internalID: 2187945453293263305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00007
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 1694
+        width: 369
+        height: 353
+      alignment: 9
+      pivot: {x: 0.65582657, y: 0.5127479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd03457cbb5f9c60800000000000000
+      internalID: 7827075542372519384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00008
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1295
+        width: 360
+        height: 364
+      alignment: 9
+      pivot: {x: 0.6472222, y: 0.5302198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4172a2f65953780800000000000000
+      internalID: -8703886400142502740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00009
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1
+        width: 381
+        height: 359
+      alignment: 9
+      pivot: {x: 0.61942255, y: 0.51810586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8083282d792cdf0800000000000000
+      internalID: -161399706248279903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00010
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1
+        width: 373
+        height: 395
+      alignment: 9
+      pivot: {x: 0.6032172, y: 0.5392405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b5e41e4c4190c50800000000000000
+      internalID: 6631854762105920383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00011
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 893
+        width: 362
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5718232, y: 0.5136612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8261ec775d4ab9560800000000000000
+      internalID: 7321626855965857320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00012
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 51
+        width: 362
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5469613, y: 0.5226667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6210f5ef9e9b6d2b0800000000000000
+      internalID: -5560052275296141018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00013
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 849
+        width: 371
+        height: 391
+      alignment: 9
+      pivot: {x: 0.5336927, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5dd5fb1c13a21b0800000000000000
+      internalID: -5680673271765412391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00014
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 1661
+        width: 363
+        height: 386
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.5103627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee9b8d82e0b27580800000000000000
+      internalID: -8830801432236286226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00015
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 1261
+        width: 361
+        height: 387
+      alignment: 9
+      pivot: {x: 0.4903047, y: 0.50904393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf6183e811f25d70800000000000000
+      internalID: 9030545292029685723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00016
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 1650
+        width: 367
+        height: 397
+      alignment: 9
+      pivot: {x: 0.45776567, y: 0.5163728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fd2dc49fc0da610800000000000000
+      internalID: 1633976504680636172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00017
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1638
+        width: 353
+        height: 409
+      alignment: 9
+      pivot: {x: 0.4305949, y: 0.50855744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4b0c5911e2fb810800000000000000
+      internalID: 1783194630523761910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00018
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 746
+        width: 359
+        height: 422
+      alignment: 9
+      pivot: {x: 0.3983287, y: 0.54028434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d3438be375a1580800000000000000
+      internalID: -8855669790380638909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00019
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1192
+        width: 374
+        height: 421
+      alignment: 9
+      pivot: {x: 0.39839572, y: 0.5344418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b993ebd3282ed320800000000000000
+      internalID: 2584547370635336115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00020
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1627
+        width: 361
+        height: 420
+      alignment: 9
+      pivot: {x: 0.36565098, y: 0.5190476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b81114f1dafd520800000000000000
+      internalID: 2729090248957070085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00021
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 398
+        width: 357
+        height: 403
+      alignment: 9
+      pivot: {x: 0.32492998, y: 0.5012407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d3e6d36cea8b820800000000000000
+      internalID: 2934287323689270571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00022
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1242
+        width: 355
+        height: 399
+      alignment: 9
+      pivot: {x: 0.30140844, y: 0.49874687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5c30536b5a843e0800000000000000
+      internalID: -2069221826784672278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00023
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1214
+        width: 363
+        height: 411
+      alignment: 9
+      pivot: {x: 0.28650138, y: 0.4890511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc33a0d62d213f3d0800000000000000
+      internalID: -3174172617384250420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00024
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 231
+        width: 374
+        height: 422
+      alignment: 9
+      pivot: {x: 0.29144385, y: 0.49052134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4036864ec7ba9dd20800000000000000
+      internalID: 3303860354549310212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 622
+        width: 356
+        height: 460
+      alignment: 9
+      pivot: {x: 0.23033708, y: 0.5173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b915d5be7dd358a0800000000000000
+      internalID: -6317462315984414279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1565
+        width: 369
+        height: 482
+      alignment: 9
+      pivot: {x: 0.24932249, y: 0.5414938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fad05007af1f4a00800000000000000
+      internalID: 742847265664719600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00027
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 362
+        width: 354
+        height: 412
+      alignment: 9
+      pivot: {x: 0.17514125, y: 0.47087377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb65099cfc937c50800000000000000
+      internalID: 6661840882524056509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00028
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1605
+        width: 350
+        height: 442
+      alignment: 9
+      pivot: {x: 0.14571428, y: 0.54524887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b07b8fda894917a0800000000000000
+      internalID: -6406008134153047885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00029
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1643
+        width: 362
+        height: 404
+      alignment: 9
+      pivot: {x: 0.14917128, y: 0.48267326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f7776acbb125f50800000000000000
+      internalID: 6868582878754078525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 182
+        width: 358
+        height: 438
+      alignment: 9
+      pivot: {x: 0.11452514, y: 0.47488585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74acd56c6bd5c98a0800000000000000
+      internalID: -6297055139377329593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00031
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1170
+        width: 345
+        height: 433
+      alignment: 9
+      pivot: {x: 0.057971016, y: 0.52424943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bb725e658d8f9e0800000000000000
+      internalID: -1587281000924726390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00032
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 824
+        width: 343
+        height: 401
+      alignment: 9
+      pivot: {x: 0.04956268, y: 0.49127182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d632318a30a9a3a10800000000000000
+      internalID: 1889992334130750317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00033
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 803
+        width: 352
+        height: 409
+      alignment: 9
+      pivot: {x: 0.039772727, y: 0.48410758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f0e04350f0e3cf0800000000000000
+      internalID: -270762412573061293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00034
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1615
+        width: 350
+        height: 432
+      alignment: 9
+      pivot: {x: 0.011428571, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0d4e39fd59ea3d0800000000000000
+      internalID: -3193450298267610957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00035
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 355
+        width: 351
+        height: 416
+      alignment: 9
+      pivot: {x: -0.014245015, y: 0.47115386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98d84eddaaecf250800000000000000
+      internalID: 5979912437720733852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00036
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 655
+        width: 349
+        height: 435
+      alignment: 9
+      pivot: {x: -0.037249282, y: 0.5011494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca086d343c792c810800000000000000
+      internalID: 1784155267304685740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00037
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 223
+        width: 332
+        height: 430
+      alignment: 9
+      pivot: {x: -0.11746988, y: 0.5488372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de959233d9654fe10800000000000000
+      internalID: 2230502948623440365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00038
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 473
+        width: 318
+        height: 374
+      alignment: 9
+      pivot: {x: -0.19496855, y: 0.5213904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1126ae6c13eb736d0800000000000000
+      internalID: -3010728704873962991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1084
+        width: 345
+        height: 479
+      alignment: 9
+      pivot: {x: -0.11304348, y: 0.5344468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be447c06def68410800000000000000
+      internalID: 1479149722923191984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00040
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1227
+        width: 342
+        height: 409
+      alignment: 9
+      pivot: {x: -0.15204678, y: 0.46943766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c252ac0d2e670010800000000000000
+      internalID: 1155012969208369864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00041
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 428
+        width: 320
+        height: 394
+      alignment: 9
+      pivot: {x: -0.246875, y: 0.50507617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effaec413ffeccc20800000000000000
+      internalID: 3228218860222984190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00042
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1117
+        width: 328
+        height: 446
+      alignment: 9
+      pivot: {x: -0.24390244, y: 0.58744395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161e742176535aec0800000000000000
+      internalID: -3556377613934534303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00043
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 776
+        width: 334
+        height: 414
+      alignment: 9
+      pivot: {x: -0.23053892, y: 0.47342995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a770038de2dc830800000000000000
+      internalID: 4092979142403258971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00044
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 101
+        width: 307
+        height: 370
+      alignment: 9
+      pivot: {x: -0.33876222, y: 0.48108107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e63a7d5c0898270800000000000000
+      internalID: 8253269379347869191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00045
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 773
+        width: 311
+        height: 417
+      alignment: 9
+      pivot: {x: -0.34083602, y: 0.56594723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef62f0a4e9642d40800000000000000
+      internalID: 5558684270755737569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00046
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 945
+        width: 310
+        height: 348
+      alignment: 9
+      pivot: {x: -0.38064516, y: 0.44827586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aead0eb84d33890800000000000000
+      internalID: -7479400858894276013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00047
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 1376
+        width: 300
+        height: 334
+      alignment: 9
+      pivot: {x: -0.41666666, y: 0.4281437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304fc11a1759e30d0800000000000000
+      internalID: -3441148749997607933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00048
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 1740
+        width: 51
+        height: 307
+      alignment: 9
+      pivot: {x: -2.745098, y: 0.43322477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09163f40689a5a110800000000000000
+      internalID: 1271608862875804048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00049
+      rect:
+        serializedVersion: 2
+        x: 3945
+        y: 1442
+        width: 48
+        height: 268
+      alignment: 9
+      pivot: {x: -3.2916667, y: 0.4738806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64f6930b7abade60800000000000000
+      internalID: 7987901926598964331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00050
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 1476
+        width: 50
+        height: 262
+      alignment: 9
+      pivot: {x: -3.14, y: 0.4427481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacca852a1141de40800000000000000
+      internalID: 5679392185645714603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00051
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 77
+        width: 43
+        height: 103
+      alignment: 9
+      pivot: {x: -3.9302325, y: -0.36893204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8946f26553ead210800000000000000
+      internalID: 1358648193477659020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00052
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 51
+        height: 160
+      alignment: 9
+      pivot: {x: -3.1568627, y: -0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ffc4206ba4c2d30800000000000000
+      internalID: 4407980280871976720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00053
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 24
+        height: 78
+      alignment: 9
+      pivot: {x: -7.5833335, y: -0.65384614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e2abcaaf0a670e0800000000000000
+      internalID: -2272451963461685735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00054
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 81
+        width: 30
+        height: 99
+      alignment: 9
+      pivot: {x: -6.233333, y: -0.2020202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1af9a024b2a78490800000000000000
+      internalID: -7744042139714455013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00055
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 85
+        width: 39
+        height: 95
+      alignment: 9
+      pivot: {x: -4.5384617, y: -0.70526314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a94956e26caf360800000000000000
+      internalID: 7204288456507562574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00056
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 93
+        width: 19
+        height: 87
+      alignment: 9
+      pivot: {x: -10.263158, y: -0.7241379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2084019a0b48ae0800000000000000
+      internalID: -1547918131739491653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00057
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 32
+        width: 47
+        height: 148
+      alignment: 9
+      pivot: {x: -3.787234, y: -0.10810811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0384359d9515a40800000000000000
+      internalID: 5355160221860245689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00058
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1092
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: -8.782609, y: -3.4347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb8cabc7fba19390800000000000000
+      internalID: -7813274797748745234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00059
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 21
+        width: 19
+        height: 54
+      alignment: 9
+      pivot: {x: -10.473684, y: -1.2407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6128bcb514cdcf0800000000000000
+      internalID: -226234018763237720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00060
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213ac4ea8c0cce300800000000000000
+      internalID: 282812844767748882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00061
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca201f90eafa3d90800000000000000
+      internalID: -7117100418457392442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00062
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33250fc8d521859c0800000000000000
+      internalID: -3938377681129680333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00063
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a51780b0f7af74b0800000000000000
+      internalID: -5440445172644637275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00064
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb31afaeb9b201c20800000000000000
+      internalID: 3175085685958382526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00065
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2448ebd7f256c40800000000000000
+      internalID: 5504858336644055807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00066
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc1209980ba343c0800000000000000
+      internalID: -4376466359458849542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00067
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ec224f78efe0ee0800000000000000
+      internalID: -1292816183138791855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00068
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbb7a302664496a0800000000000000
+      internalID: -6443447780078273577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00069
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bff570ec3490bf0800000000000000
+      internalID: -357680143233189099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00070
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6672d257806a8f060800000000000000
+      internalID: 6987517377121167206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00071
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551de891cd3108780800000000000000
+      internalID: -8682918245527793323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00072
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac418047f8026450800000000000000
+      internalID: 6080432304935750829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00073
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f95e3cf952a6a570800000000000000
+      internalID: 8477641855939271155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00074
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f9b4f4e74ca6e70800000000000000
+      internalID: 9109309243085528907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00075
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c22e73d46a1d7970800000000000000
+      internalID: 8754182271025423044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00076
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6e125f11353d380800000000000000
+      internalID: -8947716698062854439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00077
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e5ea63466edb3c0800000000000000
+      internalID: -4342061147626774988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00078
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb7e63e596fe4e30800000000000000
+      internalID: 4489797002161191916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00079
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06e9829e5ab1a400800000000000000
+      internalID: 333752762750330381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00080
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f16644484393e090800000000000000
+      internalID: -8006393773942218249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00081
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf16caccca4b6140800000000000000
+      internalID: 4713943678409121711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00082
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07f133b221173c50800000000000000
+      internalID: 6644798615941412621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00083
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbfd9ac27711b4b0800000000000000
+      internalID: -5426530294211675146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00084
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e55d7c432d9b4300800000000000000
+      internalID: 237456180299781604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00085
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c2bd267cebc5c50800000000000000
+      internalID: 6655404112913050687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00086
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9d5f13e807b1c80800000000000000
+      internalID: -8350957328002590220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00087
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c4a729c9e8b4e00800000000000000
+      internalID: 1030073742907821076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00088
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843feaa077e0664c0800000000000000
+      internalID: -4294729290208054456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00089
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05950e93bb194d480800000000000000
+      internalID: -8875308732324488880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00090
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01946d438abf056f0800000000000000
+      internalID: -697781242382890736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00091
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc413dee9b44d6a0800000000000000
+      internalID: -6425427622394508036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00092
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b21fedb29b30990800000000000000
+      internalID: -7420884162901365873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00093
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8bbad6e478df3d0800000000000000
+      internalID: -3171229791681791789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00094
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68b7d995217cc840800000000000000
+      internalID: 5245692072288565359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00095
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63db3a3b653e6760800000000000000
+      internalID: 7452953167999521643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00096
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beff8f8e0a54e2610800000000000000
+      internalID: 1598291475168821227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00097
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a04ce847f241710800000000000000
+      internalID: 1663006340064479829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00098
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697c3c4310a61fd30800000000000000
+      internalID: 4463465259113629590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00099
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0f8e5849c683980800000000000000
+      internalID: -8558971706660032286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00100
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45810a21301e570800000000000000
+      internalID: 8494073750727709886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00101
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f74acf576cee1e0800000000000000
+      internalID: -2166576160666517623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00102
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7416e47a4c6ddc0800000000000000
+      internalID: -3614485428064663597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00103
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b18f0872d686a250800000000000000
+      internalID: 5955595795759595956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00104
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a85f4c04657deb0800000000000000
+      internalID: -4695189250328131052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00105
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47f274e4dc3030e0800000000000000
+      internalID: -2292265325268109491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00106
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f70ac1f0f56ee30800000000000000
+      internalID: 4532414593504411544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00107
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323b4756a451780e0800000000000000
+      internalID: -2267820478083845341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00108
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74a8b858c0f999e0800000000000000
+      internalID: -1613994248162990977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00109
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758abeeebc8c0db20800000000000000
+      internalID: 3157244116999055447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00110
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b932ff08c91099d0800000000000000
+      internalID: -2769685423781168719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00111
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd498c18dc183e70800000000000000
+      internalID: 9095051161991990721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00112
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3ce542158480870800000000000000
+      internalID: 8649242597704778738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00113
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7bf417b0da7aac0800000000000000
+      internalID: -3843913492280133700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00114
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7191c4eb332fdf0800000000000000
+      internalID: -147998945336289319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00115
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafb89cf49398c9b0800000000000000
+      internalID: -5059631913248440405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00116
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e459cd808377eeb0800000000000000
+      internalID: -4690653490911292191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00117
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6212b21c51b7d660800000000000000
+      internalID: 7410586720870208109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00118
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897c95bc19ec7f890800000000000000
+      internalID: -7424238335119734888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Ripple Wave_00119
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1089
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 960, y: -539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b189d1b373debf340800000000000000
+      internalID: 4898769841166325787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
