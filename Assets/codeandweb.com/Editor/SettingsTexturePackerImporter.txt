@@ -80,6 +80,8 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Right.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Water/WaterRipple01.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Water/WaterStand.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
@@ -161,9 +163,13 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Right.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeGrowth.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeofLifeLoop.png
+- Assets/GraphicAssets/SpriteAnimations/Water/WaterRipple01.png
+- Assets/GraphicAssets/SpriteAnimations/Water/WaterStand.png
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
 - 
 - 
 - 

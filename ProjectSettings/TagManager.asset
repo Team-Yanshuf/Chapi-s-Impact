@@ -45,9 +45,13 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
   m_SortingLayers:
+  - name: Sky
+    uniqueID: 137034269
+    locked: 0
+  - name: Sea level
+    uniqueID: 1575412969
+    locked: 0
   - name: Background001
     uniqueID: 3641623555
     locked: 0
