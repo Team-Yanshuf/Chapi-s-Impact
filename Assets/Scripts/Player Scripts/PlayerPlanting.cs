@@ -11,6 +11,8 @@ public class PlayerPlanting : MonoBehaviour
     float direction;
     int treesToPlant = 0;
 
+    [SerializeField] float zOffset;
+
 
 
     // Start is called before the first frame update
@@ -34,7 +36,7 @@ public class PlayerPlanting : MonoBehaviour
     
         }
         direction = playerM.getChapiDirection();
-        adjustDirectionToFitTreePivot();
+        //adjustDirectionToFitTreePivot();
 
     }
 
@@ -51,7 +53,7 @@ public class PlayerPlanting : MonoBehaviour
 
     void plant()
 	{
-        Vector3 offset = new Vector3(direction , 0, -0.5f);
+        Vector3 offset = new Vector3(direction, 0, zOffset) ;
         Instantiate(tree, transform.position + offset , Quaternion.identity);
 	}
 
