@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
-    [SerializeField] GameObject player;
+    GameObject player;
     [SerializeField] float zOffset;
     [SerializeField] float yOffset;
     Vector3 position;
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         position = Vector3.zero;
     }
 
