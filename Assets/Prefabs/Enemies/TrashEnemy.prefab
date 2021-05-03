@@ -258,9 +258,9 @@ MonoBehaviour:
   Event: event:/SFX/GarbageCan/GarbageJump
   PlayEvent: 3
   StopEvent: 4
-  AllowFadeout: 1
+  AllowFadeout: 0
   TriggerOnce: 0
-  Preload: 0
+  Preload: 1
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 3
