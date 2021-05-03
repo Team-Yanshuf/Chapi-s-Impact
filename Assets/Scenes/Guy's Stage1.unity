@@ -988,16 +988,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3917868220920842120, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
-      propertyPath: attenuationObject
-      value: 
-      objectReference: {fileID: 799412021}
-    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 799412021}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d397bcdba1ab86144b0d6c76ee6ec037, type: 3}
 --- !u!1 &356783044
@@ -2053,12 +2043,6 @@ Transform:
   m_Father: {fileID: 1186219482}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &799412021 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
-    type: 3}
-  m_PrefabInstance: {fileID: 909408034}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &909408034
 PrefabInstance:
   m_ObjectHideFlags: 0
