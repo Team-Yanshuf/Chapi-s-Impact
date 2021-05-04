@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8780d7b2c5d064fefb1e959949380ff9
+guid: 1c077e3582b294d589ef979e6e2eb5d2
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -108,12 +108,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00000
       rect:
         serializedVersion: 2
-        x: 707
-        y: 1155
-        width: 264
-        height: 325
+        x: 303
+        y: 771
+        width: 139
+        height: 252
       alignment: 9
-      pivot: {x: 0.81060606, y: 0.52}
+      pivot: {x: 0.4028777, y: 0.6111111}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,12 +129,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00001
       rect:
         serializedVersion: 2
-        x: 707
-        y: 1155
-        width: 264
-        height: 325
+        x: 303
+        y: 771
+        width: 139
+        height: 252
       alignment: 9
-      pivot: {x: 0.81060606, y: 0.52}
+      pivot: {x: 0.4028777, y: 0.6111111}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,12 +150,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00002
       rect:
         serializedVersion: 2
-        x: 793
-        y: 1482
-        width: 162
-        height: 297
+        x: 1
+        y: 251
+        width: 131
+        height: 241
       alignment: 9
-      pivot: {x: 0.49382716, y: 0.56902355}
+      pivot: {x: 0.35114503, y: 0.6390042}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00003
       rect:
         serializedVersion: 2
-        x: 793
-        y: 1781
-        width: 214
+        x: 1
+        y: 494
+        width: 135
         height: 266
       alignment: 9
-      pivot: {x: 0.30373833, y: 0.60150373}
+      pivot: {x: 0.22962964, y: 0.5451128}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00004
       rect:
         serializedVersion: 2
-        x: 670
-        y: 864
-        width: 231
-        height: 289
+        x: 157
+        y: 482
+        width: 137
+        height: 290
       alignment: 9
-      pivot: {x: 0.21212122, y: 0.52249134}
+      pivot: {x: 0.11678832, y: 0.46896553}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00005
       rect:
         serializedVersion: 2
-        x: 670
-        y: 864
-        width: 231
-        height: 289
+        x: 157
+        y: 482
+        width: 137
+        height: 290
       alignment: 9
-      pivot: {x: 0.21212122, y: 0.52249134}
+      pivot: {x: 0.11678832, y: 0.46896553}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,11 +235,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1036
-        width: 667
-        height: 334
+        y: 762
+        width: 154
+        height: 261
       alignment: 9
-      pivot: {x: 0.76911545, y: 0.5808383}
+      pivot: {x: 0.59090906, y: 0.49042144}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,11 +256,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1372
-        width: 704
-        height: 332
+        y: 762
+        width: 154
+        height: 261
       alignment: 9
-      pivot: {x: 0.78125, y: 0.58433735}
+      pivot: {x: 0.59090906, y: 0.49042144}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00008
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1706
-        width: 790
-        height: 341
+        x: 157
+        y: 774
+        width: 144
+        height: 249
       alignment: 9
-      pivot: {x: 0.6962025, y: 0.59530795}
+      pivot: {x: 0.4513889, y: 0.6064257}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: Chapi_Hit_L2_00009
       rect:
         serializedVersion: 2
-        x: 1
-        y: 748
-        width: 586
-        height: 286
+        x: 157
+        y: 774
+        width: 144
+        height: 249
       alignment: 9
-      pivot: {x: 0.5904437, y: 0.7097902}
+      pivot: {x: 0.4513889, y: 0.6064257}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

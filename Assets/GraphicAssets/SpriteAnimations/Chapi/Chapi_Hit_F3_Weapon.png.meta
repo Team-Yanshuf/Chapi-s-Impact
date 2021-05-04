@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 16b4d6667790344659ebd6718ef1bbe8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6989985325965052618
+    second: Chapi_Hit_F6_00000
+  - first:
+      213: 3085115081864551142
+    second: Chapi_Hit_F6_00001
+  - first:
+      213: -8677574057793981170
+    second: Chapi_Hit_F6_00002
+  - first:
+      213: -5607427437133848261
+    second: Chapi_Hit_F6_00003
+  - first:
+      213: 734871422034859595
+    second: Chapi_Hit_F6_00004
+  - first:
+      213: -1804708630244960734
+    second: Chapi_Hit_F6_00005
+  - first:
+      213: -3226905968166536411
+    second: Chapi_Hit_F6_00006
+  - first:
+      213: 6357619038887595580
+    second: Chapi_Hit_F6_00007
+  - first:
+      213: 8843433365687181435
+    second: Chapi_Hit_F6_00008
+  - first:
+      213: 7160124580151911936
+    second: Chapi_Hit_F6_00009
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00000
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1732
+        width: 183
+        height: 315
+      alignment: 9
+      pivot: {x: 0.95628417, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635f8ac61659efe90800000000000000
+      internalID: -6989985325965052618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00001
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1732
+        width: 183
+        height: 315
+      alignment: 9
+      pivot: {x: 0.95628417, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea9cb142d780da20800000000000000
+      internalID: 3085115081864551142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00002
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1205
+        width: 278
+        height: 253
+      alignment: 9
+      pivot: {x: 0.9244604, y: 0.5731225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e057b05ce50139780800000000000000
+      internalID: -8677574057793981170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00003
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1310
+        width: 246
+        height: 148
+      alignment: 9
+      pivot: {x: 0.8495935, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31abd1947a6e22b0800000000000000
+      internalID: -5607427437133848261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00004
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1571
+        width: 157
+        height: 159
+      alignment: 9
+      pivot: {x: 0.7197452, y: 0.9119497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4659f13aa9c23a00800000000000000
+      internalID: 734871422034859595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00005
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1571
+        width: 157
+        height: 159
+      alignment: 9
+      pivot: {x: 0.7197452, y: 0.9119497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226da23001364f6e0800000000000000
+      internalID: -1804708630244960734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 888
+        width: 304
+        height: 608
+      alignment: 9
+      pivot: {x: 0.86513156, y: 0.47203946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b78db6e1ab733d0800000000000000
+      internalID: -3226905968166536411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00007
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1460
+        width: 312
+        height: 587
+      alignment: 9
+      pivot: {x: 0.84294873, y: 0.48892674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ec72ee4dcca3850800000000000000
+      internalID: 6357619038887595580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1498
+        width: 466
+        height: 549
+      alignment: 9
+      pivot: {x: 0.62017167, y: 0.4863388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b702f94aacf2aba70800000000000000
+      internalID: 8843433365687181435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Hit_F6_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1498
+        width: 466
+        height: 549
+      alignment: 9
+      pivot: {x: 0.62017167, y: 0.4863388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0066f73ae5fdd5360800000000000000
+      internalID: 7160124580151911936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

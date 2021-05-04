@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0636a88e1a4da41b2881affa74985277
+guid: 1ade8dfcf3c01488a974168ce05d39d4
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -108,12 +108,12 @@ TextureImporter:
       name: Chapi_Hit_B3_00000
       rect:
         serializedVersion: 2
-        x: 656
-        y: 963
-        width: 283
-        height: 332
+        x: 283
+        y: 494
+        width: 139
+        height: 259
       alignment: 9
-      pivot: {x: 0.28975266, y: 0.5090361}
+      pivot: {x: 0.31654677, y: 0.5907336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,12 +129,12 @@ TextureImporter:
       name: Chapi_Hit_B3_00001
       rect:
         serializedVersion: 2
-        x: 656
-        y: 963
-        width: 283
-        height: 332
+        x: 283
+        y: 494
+        width: 139
+        height: 259
       alignment: 9
-      pivot: {x: 0.28975266, y: 0.5090361}
+      pivot: {x: 0.31654677, y: 0.5907336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,12 +150,12 @@ TextureImporter:
       name: Chapi_Hit_B3_00002
       rect:
         serializedVersion: 2
-        x: 499
-        y: 1770
-        width: 345
-        height: 277
+        x: 142
+        y: 504
+        width: 139
+        height: 248
       alignment: 9
-      pivot: {x: 0.23768117, y: 0.6101083}
+      pivot: {x: 0.31654677, y: 0.6169355}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: Chapi_Hit_B3_00003
       rect:
         serializedVersion: 2
-        x: 345
-        y: 1054
-        width: 309
+        x: 1
+        y: 509
+        width: 139
         height: 241
       alignment: 9
-      pivot: {x: 0.26537216, y: 0.70124483}
+      pivot: {x: 0.31654677, y: 0.6348548}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,11 +193,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 924
-        width: 287
+        y: 273
+        width: 139
         height: 234
       alignment: 9
-      pivot: {x: 0.2857143, y: 0.7222222}
+      pivot: {x: 0.31654677, y: 0.65384614}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,11 +214,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 924
-        width: 287
+        y: 273
+        width: 139
         height: 234
       alignment: 9
-      pivot: {x: 0.2857143, y: 0.7222222}
+      pivot: {x: 0.31654677, y: 0.65384614}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Chapi_Hit_B3_00006
       rect:
         serializedVersion: 2
-        x: 499
-        y: 1297
-        width: 342
-        height: 471
+        x: 283
+        y: 755
+        width: 139
+        height: 268
       alignment: 9
-      pivot: {x: 0.65789473, y: 0.2760085}
+      pivot: {x: 0.4676259, y: 0.42910448}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: Chapi_Hit_B3_00007
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1160
-        width: 342
-        height: 469
+        x: 142
+        y: 754
+        width: 139
+        height: 269
       alignment: 9
-      pivot: {x: 0.65789473, y: 0.27292112}
+      pivot: {x: 0.46043167, y: 0.4163569}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,11 +277,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1631
-        width: 496
-        height: 416
+        y: 752
+        width: 139
+        height: 271
       alignment: 9
-      pivot: {x: 0.5342742, y: 0.30048078}
+      pivot: {x: 0.4532374, y: 0.40590405}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,11 +298,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1631
-        width: 496
-        height: 416
+        y: 752
+        width: 139
+        height: 271
       alignment: 9
-      pivot: {x: 0.5342742, y: 0.30048078}
+      pivot: {x: 0.4532374, y: 0.40590405}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
