@@ -2748,7 +2748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee42b28fd8151a49a69a55c9eec070d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 799412021}
   zOffset: 0
   yOffset: 0
 --- !u!114 &726012268
