@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: fff17e6871f204e509f8f6f98852f388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8896174099269208529
+    second: ChapiRunB Weapon_00000
+  - first:
+      213: 1296120643077844204
+    second: ChapiRunB Weapon_00001
+  - first:
+      213: -5019217560528596315
+    second: ChapiRunB Weapon_00002
+  - first:
+      213: 8219855670340120761
+    second: ChapiRunB Weapon_00003
+  - first:
+      213: -5055990970427572792
+    second: ChapiRunB Weapon_00004
+  - first:
+      213: 3823178588899653029
+    second: ChapiRunB Weapon_00005
+  - first:
+      213: 444912813185093705
+    second: ChapiRunB Weapon_00006
+  - first:
+      213: 1617817304056953441
+    second: ChapiRunB Weapon_00007
+  - first:
+      213: -737949928313434697
+    second: ChapiRunB Weapon_00008
+  - first:
+      213: 3386348834815442961
+    second: ChapiRunB Weapon_00009
+  - first:
+      213: -6132386388945046218
+    second: ChapiRunB Weapon_00010
+  - first:
+      213: -1406709409552219864
+    second: ChapiRunB Weapon_00011
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00000
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 363
+        width: 184
+        height: 327
+      alignment: 9
+      pivot: {x: -0.11413044, y: 0.45259938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2637096ac07a8480800000000000000
+      internalID: -8896174099269208529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00001
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 363
+        width: 184
+        height: 327
+      alignment: 9
+      pivot: {x: -0.11413044, y: 0.45259938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceca4b49bdebcf110800000000000000
+      internalID: 1296120643077844204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00002
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 690
+        width: 185
+        height: 333
+      alignment: 9
+      pivot: {x: -0.075675674, y: 0.43543544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a25a4eb838285ab0800000000000000
+      internalID: -5019217560528596315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 185
+        height: 337
+      alignment: 9
+      pivot: {x: -0.043243244, y: 0.421365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b07a977e2bc21270800000000000000
+      internalID: 8219855670340120761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00004
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 686
+        width: 185
+        height: 337
+      alignment: 9
+      pivot: {x: -0.010810811, y: 0.40356082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdf41c000385d9b0800000000000000
+      internalID: -5055990970427572792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 685
+        width: 185
+        height: 338
+      alignment: 9
+      pivot: {x: 0.021621622, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a53e38aba8ae0530800000000000000
+      internalID: 3823178588899653029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00006
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 347
+        width: 185
+        height: 337
+      alignment: 9
+      pivot: {x: 0.054054055, y: 0.36498517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940dae9a8d5ac2600800000000000000
+      internalID: 444912813185093705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 345
+        width: 185
+        height: 338
+      alignment: 9
+      pivot: {x: 0.021621622, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a7bc73444a37610800000000000000
+      internalID: 1617817304056953441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00008
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 8
+        width: 185
+        height: 337
+      alignment: 9
+      pivot: {x: -0.010810811, y: 0.40356082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd4ad4337642c5f0800000000000000
+      internalID: -737949928313434697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 185
+        height: 337
+      alignment: 9
+      pivot: {x: -0.043243244, y: 0.421365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1108bb8d25abefe20800000000000000
+      internalID: 3386348834815442961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00010
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 688
+        width: 185
+        height: 335
+      alignment: 9
+      pivot: {x: -0.06486487, y: 0.43283582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6357d7de11365eaa0800000000000000
+      internalID: -6132386388945046218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapiRunB Weapon_00011
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 692
+        width: 184
+        height: 331
+      alignment: 9
+      pivot: {x: -0.092391305, y: 0.4410876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821c07dbe3d5a7ce0800000000000000
+      internalID: -1406709409552219864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: a6011d74204e446e7804b2d3f1ac1d39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2850521910353729332
+    second: Chapi_IdleR Weapon_00000
+  - first:
+      213: 358893654997914253
+    second: Chapi_IdleR Weapon_00001
+  - first:
+      213: -4967007013244606264
+    second: Chapi_IdleR Weapon_00002
+  - first:
+      213: -2587994072881958267
+    second: Chapi_IdleR Weapon_00003
+  - first:
+      213: -6431666499589518995
+    second: Chapi_IdleR Weapon_00004
+  - first:
+      213: 5002511213538898132
+    second: Chapi_IdleR Weapon_00005
+  - first:
+      213: 1128042848349932309
+    second: Chapi_IdleR Weapon_00006
+  - first:
+      213: 5355740011230036605
+    second: Chapi_IdleR Weapon_00007
+  - first:
+      213: 5192755514493862325
+    second: Chapi_IdleR Weapon_00008
+  - first:
+      213: -7265192533285586774
+    second: Chapi_IdleR Weapon_00009
+  - first:
+      213: 4732859392500001298
+    second: Chapi_IdleR Weapon_00010
+  - first:
+      213: -3512208391089392393
+    second: Chapi_IdleR Weapon_00011
+  - first:
+      213: 6819602040590905796
+    second: Chapi_IdleR Weapon_00012
+  - first:
+      213: -8459915783300308396
+    second: Chapi_IdleR Weapon_00013
+  - first:
+      213: 4381354846581105396
+    second: Chapi_IdleR Weapon_00014
+  - first:
+      213: -3839592116959213572
+    second: Chapi_IdleR Weapon_00015
+  - first:
+      213: -8336749503805044571
+    second: Chapi_IdleR Weapon_00016
+  - first:
+      213: -118221390957112311
+    second: Chapi_IdleR Weapon_00017
+  - first:
+      213: 4923278259696190692
+    second: Chapi_IdleR Weapon_00018
+  - first:
+      213: 5858245337361574095
+    second: Chapi_IdleR Weapon_00019
+  - first:
+      213: -1596942958453394962
+    second: Chapi_IdleR Weapon_00020
+  - first:
+      213: 1771400870741621097
+    second: Chapi_IdleR Weapon_00021
+  - first:
+      213: 4216582065016517651
+    second: Chapi_IdleR Weapon_00022
+  - first:
+      213: -7525512127030939219
+    second: Chapi_IdleR Weapon_00023
+  - first:
+      213: -2425850942600345073
+    second: Chapi_IdleR Weapon_00024
+  - first:
+      213: -5330349525554204960
+    second: Chapi_IdleR Weapon_00025
+  - first:
+      213: 4250942078934681998
+    second: Chapi_IdleR Weapon_00026
+  - first:
+      213: 9050854664798559664
+    second: Chapi_IdleR Weapon_00027
+  - first:
+      213: 1433451009768602103
+    second: Chapi_IdleR Weapon_00028
+  - first:
+      213: 7736381661340322767
+    second: Chapi_IdleR Weapon_00029
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1096
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e5ecdc69e078d0800000000000000
+      internalID: -2850521910353729332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00001
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1096
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82da42b0eb0bf400800000000000000
+      internalID: 358893654997914253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00002
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1096
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c86ea21075a11bb0800000000000000
+      internalID: -4967007013244606264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1731
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582fd0d3a19951cd0800000000000000
+      internalID: -2587994072881958267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00004
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1731
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69cf2225612eb6a0800000000000000
+      internalID: -6431666499589518995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00005
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1731
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0f4ebb17d7c6540800000000000000
+      internalID: 5002511213538898132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00006
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1731
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b41537efc97af00800000000000000
+      internalID: 1128042848349932309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00007
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1096
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7286be0a29635a40800000000000000
+      internalID: 5355740011230036605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00008
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1096
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b18bd6c0af501840800000000000000
+      internalID: 5192755514493862325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 779
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa831b432e9dc2b90800000000000000
+      internalID: -7265192533285586774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 462
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a65ddaa8e7ea140800000000000000
+      internalID: 4732859392500001298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f478f7a311224fc0800000000000000
+      internalID: -3512208391089392393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00012
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 779
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c133f29ce714ae50800000000000000
+      internalID: 6819602040590905796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00013
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 462
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4522aaaea67589a80800000000000000
+      internalID: -8459915783300308396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00014
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1731
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46518987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f227610503bdcc30800000000000000
+      internalID: 4381354846581105396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1413
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46518987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7814a005707bac0800000000000000
+      internalID: -3839592116959213572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00016
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 145
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8494c0f7aed4c80800000000000000
+      internalID: -8336749503805044571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00017
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 779
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9041623754efb5ef0800000000000000
+      internalID: -118221390957112311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00018
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 779
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e448971e7ff25440800000000000000
+      internalID: 4923278259696190692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00019
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 779
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46349207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc86684981bac4150800000000000000
+      internalID: 5858245337361574095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00020
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 462
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1f2da17d486d9e0800000000000000
+      internalID: -1596942958453394962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00021
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 145
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9693f57e4b7459810800000000000000
+      internalID: 1771400870741621097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00022
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 462
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.46031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b7973c0f448a30800000000000000
+      internalID: 4216582065016517651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00023
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1413
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da13d63a792009790800000000000000
+      internalID: -7525512127030939219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00024
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1413
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a8240ab65a55ed0800000000000000
+      internalID: -2425850942600345073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00025
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1413
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee6ba0195bc606b0800000000000000
+      internalID: -5330349525554204960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00026
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1413
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45886075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8989af5c416efa30800000000000000
+      internalID: 4250942078934681998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00027
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 462
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd51093d581b9d70800000000000000
+      internalID: 9050854664798559664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00028
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 145
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9be204914a4e310800000000000000
+      internalID: 1433451009768602103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_IdleR Weapon_00029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1096
+        width: 182
+        height: 315
+      alignment: 9
+      pivot: {x: -0.2912088, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb4903c1262d5b60800000000000000
+      internalID: 7736381661340322767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
