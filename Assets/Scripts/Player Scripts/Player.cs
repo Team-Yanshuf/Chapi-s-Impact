@@ -1,22 +1,37 @@
 ﻿using System;
 using UnityEngine;
 
+public struct PlayerInfo
+{
+    
+    public bool isMoving {get; set;}
+    public bool isPlanting { get; set; }
+    public bool isAttacking { get; set; }
+
+    public int attackNumber { get; set; }
+
+    public float horizontal { get; set; }
+    public float vertical { get; set; }
+    public Vector3 movement { get; set; }
+    public float speed { get; set; }
+}
 public class Player : MonoBehaviour
 {
 
     //Component References.
-     PlayerMovement movementM;
-     PlayerAttacking attackM;
-     PlayerInput inputM;
-     PlayerHealth healthM;
-     PlayerCollision collisionM;
-     PlayerAnimation animationM;
-     PlayerPlanting plantingM;
+    PlayerMovement movementM;
+    PlayerAttacking attackM;
+    PlayerInput inputM;
+    PlayerHealth healthM;
+    PlayerCollision collisionM;
+    PlayerAnimation animationM;
+    PlayerPlanting plantingM;
+    WeaponManager weaponM;
 
-     SpriteRenderer renderer;
+    SpriteRenderer renderer;
 
     int treesToPlant = 0;
-     bool planting = false;
+    bool planting = false;
 
 	// [SerializeField] int health;
 	private void Awake()
@@ -28,10 +43,13 @@ public class Player : MonoBehaviour
         collisionM = GetComponent<PlayerCollision>();
         animationM = GetComponent<PlayerAnimation>();
         plantingM = GetComponent<PlayerPlanting>();
+        weaponM = GetComponentInChildren<WeaponManager>();
+
 	}
 	private void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
+        weaponM.initSelf();
     }
 
     //*******************INPUT FUNCTIONS*****************//
@@ -95,4 +113,22 @@ public class Player : MonoBehaviour
     public float getChapiDirection() => movementM.getChapiDirection();
     public int getHowManyTreesCanPlant() => treesToPlant;
 
+
+    public PlayerInfo getPlayerInfo()
+	{
+        PlayerInfo info = new PlayerInfo();
+        Vector3 movement = new Vector3();
+        getMovementAxes(ref movement.x, ref movement.z); ;
+
+        info.isAttacking = isAttacking();
+        info.attackNumber = comboCount();
+        info.isPlanting = isPlanting();
+        info.isMoving = isMoving();
+        info.horizontal = movement.x;
+        info.vertical = movement.z;
+        info.movement = movement;
+        info.speed = movement.magnitude;
+
+        return info;
+	}
 }

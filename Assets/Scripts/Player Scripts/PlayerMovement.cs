@@ -104,20 +104,20 @@ public class PlayerMovement : MonoBehaviour
 
     void handleWeaponDirection()
 	{
-        Transform[] weaponTransform = GetComponentsInChildren<Transform>();
+        Transform weapon = GetComponentInChildren<CapsuleCollider>().gameObject.transform;
         if (movement.x != 0)
         {
             if (movement.x<0)
 			{
                 Quaternion val1= new Quaternion(0, (float)(Math.Floor(movement.x)), 0,0);
                 Quaternion val2 = Quaternion.Euler(0, 180, 0);
-                weaponTransform[1].rotation = val1;
+                weapon.rotation = val1;
  
 			}
 
             else
 			{
-                weaponTransform[1].rotation = Quaternion.Euler(0, 0, 0);
+                weapon.rotation = Quaternion.Euler(0, 0, 0);
 			}
         }
 
@@ -125,12 +125,12 @@ public class PlayerMovement : MonoBehaviour
 		{
             if (movement.z>0)
 			{
-                weaponTransform[1].rotation = Quaternion.Euler(0, -90, 40);
+                weapon.rotation = Quaternion.Euler(0, -90, 40);
 			}
 
             else
 			{
-                weaponTransform[1].rotation = Quaternion.Euler(0, 90, -40);
+                weapon.rotation = Quaternion.Euler(0, 90, -40);
 			}
 		}
 	}
