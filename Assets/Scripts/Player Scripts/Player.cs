@@ -117,8 +117,8 @@ public class Player : MonoBehaviour
     public PlayerInfo getPlayerInfo()
 	{
         PlayerInfo info = new PlayerInfo();
-        Vector3 movement = new Vector3();
-        getMovementAxes(ref movement.x, ref movement.z); ;
+        Vector3 movement = getActualMovement();
+        //getMovementAxes(ref movement.x, ref movement.z); ;
 
         info.isAttacking = isAttacking();
         info.attackNumber = comboCount();
