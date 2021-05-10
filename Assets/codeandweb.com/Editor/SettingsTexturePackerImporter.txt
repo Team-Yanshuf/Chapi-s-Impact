@@ -99,6 +99,7 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/RunRight.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedBall.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedThrow.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Fog/Clouds001.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Fog/Fog.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud1.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud2.tpsheet
@@ -223,6 +224,7 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/RunRight.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedBall.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/SeedThrow.png
+- Assets/GraphicAssets/SpriteAnimations/Fog/Clouds001.png
 - Assets/GraphicAssets/SpriteAnimations/Fog/Fog.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud1.png
 - Assets/GraphicAssets/SpriteAnimations/GameMenu/Cloud2.png
@@ -342,6 +344,7 @@ normalmapFileNames:
 - 
 - 
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleF3d_n.png
+- 
 - 
 - 
 - 
