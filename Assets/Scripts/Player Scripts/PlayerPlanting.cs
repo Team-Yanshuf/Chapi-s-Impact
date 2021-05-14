@@ -13,10 +13,14 @@ public class PlayerPlanting : MonoBehaviour
     int frameCount;
     bool activateFrameCount;
 
-    [Header("Timing of planting events in frames")]
-    [SerializeField] int framesUntilPlanting;
-    [SerializeField] int framesUntilEnding;
+    [Header("Set tree position offsets")]
+    [SerializeField] float xOffset;
+    [SerializeField] float yOffset;
     [SerializeField] float zOffset;
+    [Header("Timing of planting events in frames")]
+    [SerializeField] int secondsUntilPlanting;
+    [SerializeField] int secondsUntilEnding;
+
 
 
 
@@ -35,28 +39,28 @@ public class PlayerPlanting : MonoBehaviour
 		{
             plantLocked = true;
             playerM.setPlanting(true);
-            //Get a consistent amount of real time regardless of frameRate;
-            //CHANGE TO NOT HARDCODED VALUES!!!
-            //Invoke("plant",0.4f);
-            //Invoke("endPlanting", 1.33f);
-            activateFrameCount = true;
+			//Get a consistent amount of real time regardless of frameRate;
+			//CHANGE TO NOT HARDCODED VALUES!!!
+			Invoke("plant", secondsUntilPlanting);
+			Invoke("endPlanting", secondsUntilEnding);
+			activateFrameCount = true;
         }
         direction = playerM.getChapiDirection();
         //adjustDirectionToFitTreePivot();
-        if (activateFrameCount)
-		{
-            frameCount++;
-            if (frameCount == framesUntilPlanting)
-                plant();
+  //      if (activateFrameCount)
+		//{
+  //          frameCount++;
+  //          if (frameCount == framesUntilPlanting)
+  //              plant();
 
-            else if (frameCount == framesUntilEnding)
-			{
-                endPlanting();
-                activateFrameCount = false;
-                frameCount = 0;
-            }
+  //          else if (frameCount == framesUntilEnding)
+		//	{
+  //              endPlanting();
+  //              activateFrameCount = false;
+  //              frameCount = 0;
+  //          }
 
-		}
+		//}
     }
 
     void adjustDirectionToFitTreePivot()
@@ -72,7 +76,7 @@ public class PlayerPlanting : MonoBehaviour
 
     void plant()
 	{
-        Vector3 offset = new Vector3(direction, 0, zOffset) ;
+        Vector3 offset = new Vector3(direction, yOffset, zOffset) ;
         Instantiate(tree, transform.position + offset , Quaternion.identity);
 	}
 
