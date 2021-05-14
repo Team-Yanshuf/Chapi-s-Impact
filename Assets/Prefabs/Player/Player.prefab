@@ -1,5 +1,78 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &597714142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597714145}
+  - component: {fileID: 597714144}
+  m_Layer: 0
+  m_Name: Sprite Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597714145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597714142}
+  m_LocalRotation: {x: 0.3420201, y: -0, z: -0, w: 0.9396927}
+  m_LocalPosition: {x: 0.22, y: -1.7923076, z: -0.21}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.8897171}
+  m_Children: []
+  m_Father: {fileID: 7137872134925363673}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
+--- !u!114 &597714144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597714142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 2
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.9622642, g: 0.6811889, b: 0.14070843, a: 1}
+  m_Intensity: 8
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 1dfa2a08e9e4e65d03c40ed975412867434d2029db73470a81a0aa64000000005f1e6bf175ed07359301bf36
+  m_LightCookieSprite: {fileID: 21300000, guid: f5859ae249227451a98b4ade47ef58cb,
+    type: 3}
+  m_UseNormalMap: 0
+  m_LightOrder: 1
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 1
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &921452895
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,6 +173,7 @@ Transform:
   m_Children:
   - {fileID: 972477886176344879}
   - {fileID: 7917499048738579748}
+  - {fileID: 597714145}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,7 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundRotation: 40
-  speed: 0.2
+  speed: 0.3
   dashSpeed: 15
   dashLength: 10
 --- !u!114 &4558363665204712372
@@ -272,7 +346,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3065801621829862455, guid: a9ef36e928cb94aa9b7b10cca077cc29,
+  m_Sprite: {fileID: -930420331225507499, guid: c7742f31c0be440758c695679989b46e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -446,6 +520,12 @@ PrefabInstance:
       propertyPath: framesPerSecond
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 8286185333049113404, guid: d8d385796bf1f4463a7736abfd297f49,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1356088380259301228, guid: e69be4abed51b4c17a4fa79ff91e9a16,
+        type: 3}
     - target: {fileID: 8286185333049113405, guid: d8d385796bf1f4463a7736abfd297f49,
         type: 3}
       propertyPath: m_RootOrder
