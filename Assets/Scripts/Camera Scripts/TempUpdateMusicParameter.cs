@@ -18,7 +18,7 @@ public class TempUpdateMusicParameter : MonoBehaviour
         if (levelM.getPollutionInfo().finishedLoading)
 		{
             float val =  100f / levelM.getPollutionInfo().remainingFogPrecentage- 1f;
-            print(val);
+            //print(val);
             emitter.SetParameter("Nature Revive", val);
         }
 
