@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:9b0097ab8804379fa57e110e6a0a9d35:342a15897958386322c62fcce81cbb52:282f6aec00b654e6e32518103c4b2771$
+#
+:format=40300
+:texture=Rock01.png
+:size=1024x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+01RockStage1;1;1584;648;463; 0.5061728395061729;0.5302375809935205; 0;0;0;0
+01RockStage2;1;1119;648;463; 0.5061728395061729;0.5302375809935205; 0;0;0;0
+01RockStage3;1;654;648;463; 0.5061728395061729;0.5302375809935205; 0;0;0;0
+01RockStage4;1;189;648;463; 0.5061728395061729;0.5302375809935205; 0;0;0;0
