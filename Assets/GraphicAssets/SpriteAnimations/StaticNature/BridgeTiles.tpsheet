@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:30997e71f51b2d6d523d16ba379fbd77:1d2e01089f63cbc6a23bd0f115503242:40702a0707351367a1318d415ec439dc$
+#
+:format=40300
+:texture=BridgeTiles.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+BridgeStage1;1;1246;801;801; 0.5;0.5; 0;0;0;0
+BridgeStage2;1;443;801;801; 0.5;0.5; 0;0;0;0
+BridgeStage3;804;1246;801;801; 0.5;0.5; 0;0;0;0
+BridgeStage4;804;735;788;509; 0.5019035532994924;0.4842829076620825; 0;0;0;0

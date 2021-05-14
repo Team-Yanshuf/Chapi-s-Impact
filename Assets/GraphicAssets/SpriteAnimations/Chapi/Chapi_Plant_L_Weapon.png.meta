@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: e22fe043465c44bdb80c63437fdd0c06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3209230136917439988
+    second: Chapi_Plant_L Weapon_00000
+  - first:
+      213: -6788904787228080891
+    second: Chapi_Plant_L Weapon_00001
+  - first:
+      213: 7790930909730595187
+    second: Chapi_Plant_L Weapon_00002
+  - first:
+      213: -8717900647562530881
+    second: Chapi_Plant_L Weapon_00003
+  - first:
+      213: 355963551345576734
+    second: Chapi_Plant_L Weapon_00004
+  - first:
+      213: -1220887484432022992
+    second: Chapi_Plant_L Weapon_00005
+  - first:
+      213: -2771426421816265320
+    second: Chapi_Plant_L Weapon_00006
+  - first:
+      213: -1913907063144220791
+    second: Chapi_Plant_L Weapon_00007
+  - first:
+      213: -682891389137271900
+    second: Chapi_Plant_L Weapon_00008
+  - first:
+      213: -8792407505902670685
+    second: Chapi_Plant_L Weapon_00009
+  - first:
+      213: -2671465543648048998
+    second: Chapi_Plant_L Weapon_00010
+  - first:
+      213: -1808651490296322823
+    second: Chapi_Plant_L Weapon_00011
+  - first:
+      213: 7333448420000141574
+    second: Chapi_Plant_L Weapon_00012
+  - first:
+      213: 1157556071326183827
+    second: Chapi_Plant_L Weapon_00013
+  - first:
+      213: 5433404234748634130
+    second: Chapi_Plant_L Weapon_00014
+  - first:
+      213: 1618765445906497755
+    second: Chapi_Plant_L Weapon_00015
+  - first:
+      213: -3153139956856995332
+    second: Chapi_Plant_L Weapon_00016
+  - first:
+      213: -1842003140529694743
+    second: Chapi_Plant_L Weapon_00017
+  - first:
+      213: 3508632662568068077
+    second: Chapi_Plant_L Weapon_00018
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00000
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 544
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: 1, y: 0.4556962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f531796ec9798c20800000000000000
+      internalID: 3209230136917439988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00001
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 707
+        width: 182
+        height: 316
+      alignment: 9
+      pivot: {x: 1, y: 0.48734176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505425fa017f8c1a0800000000000000
+      internalID: -6788904787228080891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00002
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 374
+        width: 180
+        height: 331
+      alignment: 9
+      pivot: {x: 0.41111112, y: 0.24169184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3716a106262fe1c60800000000000000
+      internalID: 7790930909730595187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00003
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 476
+        width: 269
+        height: 260
+      alignment: 9
+      pivot: {x: 0.21189591, y: -0.0038461538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf23eaec8bc30780800000000000000
+      internalID: -8717900647562530881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00004
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 476
+        width: 269
+        height: 260
+      alignment: 9
+      pivot: {x: 0.21189591, y: -0.0038461538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b80f6c6f2a0f400800000000000000
+      internalID: 355963551345576734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1202
+        width: 508
+        height: 417
+      alignment: 9
+      pivot: {x: 0.9488189, y: 0.41007194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03285bb2d498e0fe0800000000000000
+      internalID: -1220887484432022992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1621
+        width: 571
+        height: 426
+      alignment: 9
+      pivot: {x: 0.95446587, y: 0.4225352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895728e5a5ae989d0800000000000000
+      internalID: -2771426421816265320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00007
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 862
+        width: 185
+        height: 338
+      alignment: 9
+      pivot: {x: 1.2864865, y: 0.50591713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9877d289aaf6075e0800000000000000
+      internalID: -1913907063144220791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00008
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 862
+        width: 185
+        height: 338
+      alignment: 9
+      pivot: {x: 1.2864865, y: 0.50591713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3cc4256e1e586f0800000000000000
+      internalID: -682891389137271900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 807
+        width: 311
+        height: 393
+      alignment: 9
+      pivot: {x: 0.94212216, y: 0.4707379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac613225f71bf580800000000000000
+      internalID: -8792407505902670685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00010
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1586
+        width: 360
+        height: 461
+      alignment: 9
+      pivot: {x: 0.85, y: 0.43383947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a988929fd3c0dead0800000000000000
+      internalID: -2671465543648048998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00011
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 486
+        height: 559
+      alignment: 9
+      pivot: {x: 0.7613169, y: 0.35957065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4286e5d0166e6e0800000000000000
+      internalID: -1808651490296322823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00012
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 486
+        height: 559
+      alignment: 9
+      pivot: {x: 0.7613169, y: 0.35957065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60112c4db74a5c560800000000000000
+      internalID: 7333448420000141574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00013
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 486
+        height: 559
+      alignment: 9
+      pivot: {x: 0.7613169, y: 0.35957065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3917ef62d17701010800000000000000
+      internalID: 1157556071326183827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00014
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 486
+        height: 559
+      alignment: 9
+      pivot: {x: 0.7613169, y: 0.35957065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214ab453d54576b40800000000000000
+      internalID: 5433404234748634130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00015
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 486
+        height: 559
+      alignment: 9
+      pivot: {x: 0.7613169, y: 0.35957065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd00fe1b892077610800000000000000
+      internalID: 1618765445906497755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00016
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 486
+        height: 559
+      alignment: 9
+      pivot: {x: 0.7613169, y: 0.35957065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1c2705aebcd34d0800000000000000
+      internalID: -3153139956856995332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00017
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 738
+        width: 303
+        height: 285
+      alignment: 9
+      pivot: {x: 1.0264026, y: 0.15438597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7d29d27e3ef66e0800000000000000
+      internalID: -1842003140529694743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_L Weapon_00018
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 738
+        width: 303
+        height: 285
+      alignment: 9
+      pivot: {x: 1.0264026, y: 0.15438597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3e3bb21da21b030800000000000000
+      internalID: 3508632662568068077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

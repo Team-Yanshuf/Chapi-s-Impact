@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:badf99f5a2727731b132e1bb324c375d:9ea1bcabd31ccfa037c2c375e2d7f00c:a8b51ea803f0a81592db6ee01bf17896$
+#
+:format=40300
+:texture=Tree05.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+05TreeStage1;1;47;244;364; 0.6926229508196722;0.7953296703296704; 0;0;0;0
+05TreeStage2;510;101;264;419; 0.678030303030303;0.7147971360381862; 0;0;0;0
+05TreeStage3;510;522;375;501; 0.6453333333333333;0.6177644710578842; 0;0;0;0
+05TreeStage4;1;413;507;610; 0.5207100591715976;0.5286885245901639; 0;0;0;0

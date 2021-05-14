@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 07ec7f49241ac410ab45f4df683ca5e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7819948687964400802
+    second: Chapi_Plant_B_00000
+  - first:
+      213: -7510813746882379231
+    second: Chapi_Plant_B_00001
+  - first:
+      213: 190982893745282602
+    second: Chapi_Plant_B_00002
+  - first:
+      213: 306834827374256291
+    second: Chapi_Plant_B_00003
+  - first:
+      213: 849716756711661763
+    second: Chapi_Plant_B_00004
+  - first:
+      213: -8188582313355502958
+    second: Chapi_Plant_B_00005
+  - first:
+      213: -3493433100819705904
+    second: Chapi_Plant_B_00006
+  - first:
+      213: 6933593477203228842
+    second: Chapi_Plant_B_00007
+  - first:
+      213: 8843089883371313077
+    second: Chapi_Plant_B_00008
+  - first:
+      213: -5606695888162997395
+    second: Chapi_Plant_B_00009
+  - first:
+      213: 8007648255552190294
+    second: Chapi_Plant_B_00010
+  - first:
+      213: 441134420926846948
+    second: Chapi_Plant_B_00011
+  - first:
+      213: 7982789441955688866
+    second: Chapi_Plant_B_00012
+  - first:
+      213: -1187489468627887847
+    second: Chapi_Plant_B_00013
+  - first:
+      213: 1298037991641475565
+    second: Chapi_Plant_B_00014
+  - first:
+      213: -1794716669750978924
+    second: Chapi_Plant_B_00015
+  - first:
+      213: 8634904842375416249
+    second: Chapi_Plant_B_00016
+  - first:
+      213: -8901797206635475811
+    second: Chapi_Plant_B_00017
+  - first:
+      213: -8135013037160730999
+    second: Chapi_Plant_B_00018
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00000
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 764
+        width: 139
+        height: 259
+      alignment: 9
+      pivot: {x: 0.29496402, y: 0.5907336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e539914a916f97390800000000000000
+      internalID: -7819948687964400802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00001
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 26
+        width: 139
+        height: 238
+      alignment: 9
+      pivot: {x: 0.29496402, y: 0.64285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12284f2f0ba34c790800000000000000
+      internalID: -7510813746882379231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 169
+        height: 293
+      alignment: 9
+      pivot: {x: 0.591716, y: 0.43686005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e1dd31ee186a200800000000000000
+      internalID: 190982893745282602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 191
+        height: 300
+      alignment: 9
+      pivot: {x: 0.58115184, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a06c5a56a8124400800000000000000
+      internalID: 306834827374256291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 191
+        height: 300
+      alignment: 9
+      pivot: {x: 0.58115184, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0ee7363eccacb00800000000000000
+      internalID: 849716756711661763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00005
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 773
+        width: 190
+        height: 250
+      alignment: 9
+      pivot: {x: 0.14736842, y: 0.636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a166e55cf4c5e80800000000000000
+      internalID: -8188582313355502958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00006
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 500
+        width: 181
+        height: 260
+      alignment: 9
+      pivot: {x: 0.16574585, y: 0.6076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfcc039a15d48fc0800000000000000
+      internalID: -3493433100819705904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00007
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 471
+        width: 139
+        height: 272
+      alignment: 9
+      pivot: {x: 0.26618704, y: 0.5882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8f9a12882193060800000000000000
+      internalID: 6933593477203228842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00008
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 512
+        width: 139
+        height: 259
+      alignment: 9
+      pivot: {x: 0.29496402, y: 0.5907336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7923f6567f8ba70800000000000000
+      internalID: 8843089883371313077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00009
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 257
+        width: 139
+        height: 253
+      alignment: 9
+      pivot: {x: 0.29496402, y: 0.60474306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bb6669bc30132b0800000000000000
+      internalID: -5606695888162997395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00010
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 6
+        width: 139
+        height: 249
+      alignment: 9
+      pivot: {x: 0.29496402, y: 0.61445785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657f67e79a1e02f60800000000000000
+      internalID: 8007648255552190294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00011
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 266
+        width: 139
+        height: 244
+      alignment: 9
+      pivot: {x: 0.29496402, y: 0.6270492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7da892b693f1600800000000000000
+      internalID: 441134420926846948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00012
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 762
+        width: 149
+        height: 261
+      alignment: 9
+      pivot: {x: 0.22147651, y: 0.52873564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1f18ce3b098ce60800000000000000
+      internalID: 7982789441955688866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00013
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 418
+        width: 214
+        height: 278
+      alignment: 9
+      pivot: {x: 0.1635514, y: 0.44604316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919daefae90358fe0800000000000000
+      internalID: -1187489468627887847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00014
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 138
+        width: 197
+        height: 278
+      alignment: 9
+      pivot: {x: 0.09137056, y: 0.2769784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de960c41dae830210800000000000000
+      internalID: 1298037991641475565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00015
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 745
+        width: 214
+        height: 278
+      alignment: 9
+      pivot: {x: 0.004672897, y: 0.11151079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496550b92b2e717e0800000000000000
+      internalID: -1794716669750978924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00016
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 104
+        width: 229
+        height: 290
+      alignment: 9
+      pivot: {x: 0.069869, y: 0.3137931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b94617543855d770800000000000000
+      internalID: 8634904842375416249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 698
+        width: 268
+        height: 325
+      alignment: 9
+      pivot: {x: 0.15298508, y: 0.47076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c8de3ba96767480800000000000000
+      internalID: -8901797206635475811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi_Plant_B_00018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 698
+        width: 268
+        height: 325
+      alignment: 9
+      pivot: {x: 0.15298508, y: 0.47076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eecdc6eb0aa1f80800000000000000
+      internalID: -8135013037160730999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
