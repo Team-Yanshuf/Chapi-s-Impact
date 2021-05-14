@@ -18,8 +18,8 @@ public class PlayerPlanting : MonoBehaviour
     [SerializeField] float yOffset;
     [SerializeField] float zOffset;
     [Header("Timing of planting events in frames")]
-    [SerializeField] int secondsUntilPlanting;
-    [SerializeField] int secondsUntilEnding;
+    [SerializeField] float secondsUntilPlanting;
+    [SerializeField] float secondsUntilEnding;
 
 
 
