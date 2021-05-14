@@ -10,7 +10,12 @@ public class PlayerPlanting : MonoBehaviour
     bool plantLocked = false;
     float direction;
     int treesToPlant = 0;
+    int frameCount;
+    bool activateFrameCount;
 
+    [Header("Timing of planting events in frames")]
+    [SerializeField] int framesUntilPlanting;
+    [SerializeField] int framesUntilEnding;
     [SerializeField] float zOffset;
 
 
@@ -20,6 +25,7 @@ public class PlayerPlanting : MonoBehaviour
     {
         playerM = GetComponent<Player>();
         tree = Resources.Load<Tree>("TreeOfLife");
+        frameCount = 0;
     }
 
     // Update is called once per frame
@@ -29,15 +35,28 @@ public class PlayerPlanting : MonoBehaviour
 		{
             plantLocked = true;
             playerM.setPlanting(true);
-
+            //Get a consistent amount of real time regardless of frameRate;
             //CHANGE TO NOT HARDCODED VALUES!!!
-            Invoke("plant",0.4f);
-            Invoke("endPlanting", 1.33f);
-    
+            //Invoke("plant",0.4f);
+            //Invoke("endPlanting", 1.33f);
+            activateFrameCount = true;
         }
         direction = playerM.getChapiDirection();
         //adjustDirectionToFitTreePivot();
+        if (activateFrameCount)
+		{
+            frameCount++;
+            if (frameCount == framesUntilPlanting)
+                plant();
 
+            else if (frameCount == framesUntilEnding)
+			{
+                endPlanting();
+                activateFrameCount = false;
+                frameCount = 0;
+            }
+
+		}
     }
 
     void adjustDirectionToFitTreePivot()
