@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesRemainingToPlant: 3
-  treesRequiredToBeat: 0
+  treesRequiredToBeat: 1
 --- !u!114 &7265489389581004559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,6 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c896658655aba46bce4a430d7a7337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  room: {fileID: 7033828081335523630, guid: a8984e9fef1748d4ba29d6705bfeb7f3, type: 3}
 --- !u!114 &1569854392827043182
 MonoBehaviour:
   m_ObjectHideFlags: 0
