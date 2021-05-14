@@ -17,11 +17,10 @@ public class PlayerPlanting : MonoBehaviour
     [SerializeField] float xOffset;
     [SerializeField] float yOffset;
     [SerializeField] float zOffset;
+    
     [Header("Timing of planting events in frames")]
     [SerializeField] float secondsUntilPlanting;
     [SerializeField] float secondsUntilEnding;
-
-
 
 
     // Start is called before the first frame update
