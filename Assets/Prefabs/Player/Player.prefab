@@ -411,7 +411,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bd5e88b55b0d845bcd831220d4fe41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xOffset: 0
+  yOffset: 0
   zOffset: 2
+  secondsUntilPlanting: 0.35
+  secondsUntilEnding: 1
 --- !u!114 &1105898577
 MonoBehaviour:
   m_ObjectHideFlags: 0

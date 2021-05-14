@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/GarbageCan/Jump
+  Event: event:/SFX/GarbageCan/GarbageJump
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/SFX/GarbageCan/Shoot
+  Event: event:/SFX/GarbageCan/GarbageShoot
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
