@@ -30,10 +30,15 @@ public class LevelManager : MonoBehaviour
         waveM = GetComponent<EnemyWaveManager>();
         levelM = GetComponent<LevelManager>();
         natureM = GetComponent<NatureSpawner>();
+        spawner = GetComponent<LevelSpawner>();
         fogM = GetComponent<FogManager>();
+
+
         updateCurrentEnemyCount();
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
         GameManagerEvents.treePlanted.AddListener(updateTreesRequiered);
+
+
         //treesRequiredToBeat = 1;
     }
 
@@ -43,6 +48,7 @@ public class LevelManager : MonoBehaviour
         fogM.initFog();
         natureM.initSelf();
         waveM.initSelf();
+        spawner.init();
     }
 
     private void Update()
