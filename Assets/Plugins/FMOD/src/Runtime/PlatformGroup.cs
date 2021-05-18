@@ -6,7 +6,7 @@ using UnityEditor;
 
 namespace FMODUnity
 {
-    public class PlatformGroup : Platform
+	public class PlatformGroup : Platform
     {
         [SerializeField]
         public string displayName;

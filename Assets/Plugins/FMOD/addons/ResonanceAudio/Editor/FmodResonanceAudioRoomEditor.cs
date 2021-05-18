@@ -12,9 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using UnityEngine;
 using UnityEditor;
-using System.Collections;
+using UnityEngine;
 
 /// A custom editor for properties on the FmodResonanceAudioRoom script. This appears in the
 /// Inspector window of a FmodResonanceAudioRoom object.

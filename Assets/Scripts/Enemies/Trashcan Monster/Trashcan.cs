@@ -1,6 +1,5 @@
-﻿using UnityEngine.Events;
-using UnityEngine;
-using System;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class Trashcan : MonoBehaviour
 {

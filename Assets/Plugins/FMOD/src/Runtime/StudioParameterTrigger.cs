@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FMODUnity
 {
-    [Serializable]
+	[Serializable]
     public class EmitterRef
     {
         public StudioEventEmitter Target;

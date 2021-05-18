@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -26,7 +25,7 @@ namespace FMOD.Studio
 namespace FMODUnity
 {
 #if UNITY_EDITOR
-    [InitializeOnLoad]
+	[InitializeOnLoad]
 #endif
     public class PlatformAppleTV : Platform
     {

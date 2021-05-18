@@ -1,9 +1,9 @@
-﻿using UnityEngine;
-using System;
+﻿using System;
+using UnityEngine;
 
 namespace FMODUnity
 {
-    [AddComponentMenu("FMOD Studio/FMOD Studio Event Emitter")]
+	[AddComponentMenu("FMOD Studio/FMOD Studio Event Emitter")]
     public class StudioEventEmitter : EventHandler
     {
         [EventRef]

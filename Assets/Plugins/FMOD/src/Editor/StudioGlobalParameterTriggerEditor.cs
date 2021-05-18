@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEditor;
 using UnityEngine;
 
 namespace FMODUnity
 {
-    [CustomEditor(typeof(StudioGlobalParameterTrigger))]
+	[CustomEditor(typeof(StudioGlobalParameterTrigger))]
     public class StudioGlobalParameterTriggerEditor : Editor
     {
         SerializedProperty param;

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -8,7 +7,7 @@ using UnityEditor;
 namespace FMODUnity
 {
 #if UNITY_EDITOR
-    [InitializeOnLoad]
+	[InitializeOnLoad]
 #endif
     public class PlatformMobileLow : Platform
     {

@@ -7,13 +7,11 @@
 /* ======================================================================================== */
 
 using System;
-using System.Text;
 using System.Runtime.InteropServices;
-using System.Collections;
 
 namespace FMOD.Studio
 {
-    public partial class STUDIO_VERSION
+	public partial class STUDIO_VERSION
     {
 #if !UNITY_2017_4_OR_NEWER
         public const string dll     = "fmodstudio";

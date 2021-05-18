@@ -1,10 +1,10 @@
 ﻿#if (UNITY_TIMELINE_EXIST || !UNITY_2019_1_OR_NEWER)
 
-using UnityEditor;
-using UnityEngine;
 using FMODUnity;
 using System;
 using System.Linq;
+using UnityEditor;
+using UnityEngine;
 
 [CustomEditor(typeof(FMODEventPlayable))]
 public class FMODEventPlayableEditor : Editor

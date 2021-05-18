@@ -1,8 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Collections;
-using System.IO;
-using System.Runtime.InteropServices;
 using System.Text;
 using UnityEngine;
 
@@ -12,7 +9,7 @@ using UnityEditor;
 
 namespace FMODUnity
 {
-    [AddComponentMenu("")]
+	[AddComponentMenu("")]
     public class RuntimeManager : MonoBehaviour
     {
         static SystemNotInitializedException initException = null;

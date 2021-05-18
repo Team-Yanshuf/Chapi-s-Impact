@@ -5,7 +5,7 @@ public class LevelSpawner : MonoBehaviour
     [SerializeField] GameObject room;
 	Vector2Int coordinates;
 	GameObject[,] rooms= new GameObject[5,5];
-
+	//test.
 	public void init()
 	{
 		generateRandomMap();

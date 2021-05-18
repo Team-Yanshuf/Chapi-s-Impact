@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class StartMenuState : State
+﻿public class StartMenuState : State
 {
     
     public StartMenuState()
