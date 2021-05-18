@@ -15,7 +15,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 
 	private void Update()
 	{
-        changeCollisionLayerDuringDash();
+        //changeCollisionLayerDuringDash();
 	}
 	public bool isCollecting()
     {
@@ -46,7 +46,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 	}
 
 
-    void changeCollisionLayerDuringDash()
+    public void changeCollisionLayerDuringDash()
 	{
         if (playerM.getMovementInfo().isDashing)
 		{

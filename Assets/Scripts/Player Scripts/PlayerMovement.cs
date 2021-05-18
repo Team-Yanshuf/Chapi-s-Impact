@@ -93,12 +93,14 @@ public class PlayerMovement : MonoBehaviour
 
             Vector3 currentMovement = movement;
             isDashing = true;
+            playerM.changeCollisionLayerDuringDash();
             for (int i = 0; i < dashLength; i++)
             {
                 rb.MovePosition(transform.position + (currentMovement * (dashSpeed / dashLength)) * Time.deltaTime * 60f);
                 yield return null;
             }
             isDashing = false;
+            playerM.changeCollisionLayerDuringDash();
         }
     }
 

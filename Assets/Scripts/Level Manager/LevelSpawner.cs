@@ -1,51 +1,68 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LevelSpawner : MonoBehaviour
 {
-
     [SerializeField] GameObject room;
 	Vector2Int coordinates;
 	GameObject[,] rooms= new GameObject[5,5];
-    int occupied = 5;
-    void Start()
-	{
-		//generateRandomMap();
-		//printMapLayout();
-	}
 
-	private void Update()
+	public void init()
 	{
-		if (Input.GetKeyDown(KeyCode.G))
-			generateRandomMap();
-	}
-	private void printMapLayout()
-	{
-		for (int i = 0; i < rooms.GetLength(0); i++)
-		{
-			string str = "   ";
-			for (int j = 0; j < rooms.GetLength(1); j++)
-			{
-				if (rooms[i, j] != null)
-					str += "[X]\t";
-				else
-					str += "[ ]\t";
-			}
-			print(str);
-		}
+		generateRandomMap();
+		printMapLayout();
 	}
 
 	void generateRandomMap()
 	{
 		clearMap();
-
-		coordinates = new Vector2Int(2, 2);
-		for (int i = 0; i < 6; i++)
+		string str = "";
+		coordinates = new Vector2Int(2,2);
+		
+		for (int i = 1; i < 6; i++)
 		{
-			float offset = 1000;
-			rooms[coordinates.x, coordinates.y] = Instantiate(room, new Vector3(coordinates.x * 200 + offset, coordinates.y * 200, 0), Quaternion.Euler(40,0,0));
+			float offset = 200;
+			rooms[coordinates.x, coordinates.y] = Instantiate(room, new Vector3((coordinates.x*100)+offset,0, coordinates.y * 100),Quaternion.Euler(40,0,0));
 			coordinates = chooseNonOccupiedNeighbor(coordinates);
+
+		}
+
+		for (int i = 0; i < rooms.GetLength(0); i++)
+		{
+			for (int j = 0; j < rooms.GetLength(1); j++)
+			{
+				if (rooms[i, j] != null)
+					rooms[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j));
+			}
+		}
+
+		for (int i = 0; i < rooms.GetLength(0); i++)
+		{
+			for (int j = 0; j < rooms.GetLength(1); j++)
+			{
+				if (rooms[i, j] != null)
+					rooms[i, j].GetComponent<BridgePositioning>().initDirections();
+
+			}
+		}
+
+	}
+	private void printMapLayout()
+	{
+		Debug.ClearDeveloperConsole();
+		for (int i = 0; i < rooms.GetLength(1); i++)
+		{
+			string str = "   ";
+			for (int j = 0; j < rooms.GetLength(0); j++)
+			{
+				if (rooms[i,j] != null)
+				{
+					str += "[X]\t";
+				}
+
+				else
+					str += "[ ]\t";
+			}
+			print(str);
 		}
 	}
 
@@ -62,36 +79,73 @@ public class LevelSpawner : MonoBehaviour
 		}
 	}
 
-
-
 	Vector2Int chooseNonOccupiedNeighbor(Vector2Int vec)
 	{
-        int[] fullI = { vec.x - 1, vec.x, vec.x + 1 };
-		int[] neighboorI = { vec.x, vec.y };
+		bool val;
 
-		int[] fullJ = { vec.y - 1, vec.y, vec.y + 1 };
+        //int[] fullI = { vec.x - 1, vec.x, vec.x + 1 };
+		int[] neighboorI = { vec.x-1, vec.x+1 };
+
+		//int[] fullJ = { vec.y - 1, vec.y, vec.y + 1 };
         int[] neighboorJ = { vec.y - 1, vec.y + 1 };
 		
         int randI;
         int randJ;
-
         Vector2Int rand;
-        do
-        {
-			randI = UnityEngine.Random.Range(0, 3);
-			if (randI==1)
+		do
+		{
+			val = true;
+			int r = Random.Range(0, 2);
+			if (r == 0)
 			{
-				randJ = Random.Range(0, 2);
-				rand = new Vector2Int(vec.x,neighboorJ[randJ]);
+				randI = neighboorI[Random.Range(0, 2)];
+				randJ = vec.y;
+				rand = new Vector2Int(randI, randJ);
 			}
 
 			else
 			{
-				randJ = Random.Range(0, 3);
-				rand = new Vector2Int(fullI[randI], vec.y);
+				randI = vec.x;
+				randJ = neighboorJ[Random.Range(0, 2)];
+				rand = new Vector2Int(randI, randJ);
+			}
+
+			if (randI >= 0 && randI < rooms.GetLength(0) && randJ >= 0 && randJ < rooms.GetLength(1))
+			{
+				if (rooms[randI, randJ] != null)
+					val = false;
+			}
+			else
+			{
+				val = false;
 			}
 		}
-        while (rand.x < 0 || rand.x >= 5 || rand.y < 0 || rand.y >= 5 || rooms[rand.x,rand.y] != null);
-        return rand;
+		while (!val);
+		return rand;
+	}
+
+	GameObject[] getRoomAdjacencyList(int i, int j)
+	{
+		//ADJECENCY LIST IS LEFT SHIFTED!
+		//INDECES ARE ADJUSTED TO FIT THE DIFFERENCE BETWEEN
+		//PRINTED AND ACTUAL VERSION!
+
+		GameObject[] list = new GameObject[4];
+		if (rooms[i, j] == null)
+			return null;
+
+		if (i > 0 && rooms[i - 1, j] != null)
+			list[1] = rooms[i-1,j];
+
+		if (j > 0 && rooms[i, j - 1] != null)
+			list[2] = rooms[i,j-1];
+
+		if (i < rooms.GetLength(0) - 1 && rooms[i + 1, j] != null)
+			list[3] = rooms[i+1,j];
+
+		if (j < rooms.GetLength(1) - 1 && rooms[i, j + 1] != null)
+			list[0] = rooms[i,j+1];
+
+		return list;
 	}
 }
