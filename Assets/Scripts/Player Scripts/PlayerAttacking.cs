@@ -1,5 +1,4 @@
-﻿using FMOD.Studio;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {

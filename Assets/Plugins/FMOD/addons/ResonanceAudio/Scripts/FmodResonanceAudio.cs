@@ -12,12 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using UnityEngine;
+using FMODUnity;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using FMODUnity;
+using UnityEngine;
 
 /// This is the main Resonance Audio class that communicates with the FMOD Unity integration. Native
 /// functions of the system can only be called through this class to preserve the internal system

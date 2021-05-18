@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FMODUnity
 {
-    [CustomEditor(typeof(StudioParameterTrigger))]
+	[CustomEditor(typeof(StudioParameterTrigger))]
     public class StudioParameterTriggerEditor : Editor
     {
         StudioEventEmitter targetEmitter;

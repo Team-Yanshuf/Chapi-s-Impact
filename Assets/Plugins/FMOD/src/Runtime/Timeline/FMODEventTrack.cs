@@ -5,7 +5,6 @@ using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
 #if UNITY_EDITOR
-using UnityEditor;
 #endif
 
 [TrackColor(0.066f, 0.134f, 0.244f)]

@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Room : MonoBehaviour
 {
@@ -8,11 +7,6 @@ public class Room : MonoBehaviour
     bool[] adjecencyList;
 	GameObject[] roomAdjacencyList;
     Vector3[] spawnPositions;
-
-	internal Vector3 getSpawnPosition()
-	{
-		throw new NotImplementedException();
-	}
 
 	public void init(GameObject[] list)
 	{

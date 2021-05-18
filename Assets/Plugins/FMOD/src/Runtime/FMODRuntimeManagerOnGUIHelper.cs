@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace FMODUnity
 {
-    public class FMODRuntimeManagerOnGUIHelper : MonoBehaviour
+	public class FMODRuntimeManagerOnGUIHelper : MonoBehaviour
     {
         public RuntimeManager TargetRuntimeManager = null;
 

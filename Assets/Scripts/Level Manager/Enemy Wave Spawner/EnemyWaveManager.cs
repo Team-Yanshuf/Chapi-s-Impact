@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-    public struct SpawnwaveManagerInfo
+public struct SpawnwaveManagerInfo
 {
     public int totalNumberOfWaves { get; set; }
     public int remainingNumberOfWaves { get; set; }

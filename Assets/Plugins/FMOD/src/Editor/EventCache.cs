@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FMODUnity
 {
-    class EventCache : ScriptableObject
+	class EventCache : ScriptableObject
     {
         public static int CurrentCacheVersion = 5;
 

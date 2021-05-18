@@ -2,7 +2,7 @@
 
 namespace FMODUnity
 {
-    [AddComponentMenu("FMOD Studio/FMOD Studio Listener")]
+	[AddComponentMenu("FMOD Studio/FMOD Studio Listener")]
     public class StudioListener : MonoBehaviour
     {
         Rigidbody rigidBody;

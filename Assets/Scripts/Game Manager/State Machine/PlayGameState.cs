@@ -1,7 +1,4 @@
-﻿using UnityEngine;
-using UnityEngine.Events;
-
-public class PlayGameState : State
+﻿public class PlayGameState : State
 {
 
 	//PlayGameState is its own state machine.

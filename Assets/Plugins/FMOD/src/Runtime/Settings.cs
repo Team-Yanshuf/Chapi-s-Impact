@@ -14,7 +14,7 @@ using UnityEditor.Build.Reporting;
 
 namespace FMODUnity
 {
-    [Serializable]
+	[Serializable]
     public enum ImportType
     {
         StreamingAssets,

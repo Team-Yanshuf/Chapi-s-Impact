@@ -1,6 +1,3 @@
-using System.Threading;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 //Class implementing an abstract level state.

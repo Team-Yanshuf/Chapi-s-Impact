@@ -1,9 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public struct PlayerInfo
 {
-    
+    // hello
     public bool isMoving {get; set;}
     public bool isPlanting { get; set; }
     public bool isAttacking { get; set; }
