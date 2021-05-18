@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
     WeaponManager weaponM;
 
     SpriteRenderer renderer;
+    Timer timer;
 
     int treesToPlant = 0;
     bool planting = false;
@@ -131,4 +132,21 @@ public class Player : MonoBehaviour
 
         return info;
 	}
+
+    public void movePlayerBetweenRooms(Vector3 position)
+	{
+        gameObject.layer = LayerMask.NameToLayer("PlayerDash");
+        transform.position = position;
+
+        timer = GetComponent<Timer>();
+
+		timer.setParameters(3, returnToNormal);
+		timer.fire();
+		void returnToNormal()
+		{
+            gameObject.layer = LayerMask.NameToLayer("Player");
+		}
+	}
+
+    public void changeCollisionLayerDuringDash() => collisionM.changeCollisionLayerDuringDash();
 }

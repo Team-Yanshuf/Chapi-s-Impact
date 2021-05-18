@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8339227170743172306}
   - component: {fileID: 7303909756913856261}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BridgeStage4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,8 @@ GameObject:
   - component: {fileID: 7587131882840645426}
   - component: {fileID: 8807969983801481730}
   - component: {fileID: 2040925023334695237}
-  m_Layer: 0
+  - component: {fileID: -9197252927279795708}
+  m_Layer: 15
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,6 +180,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6816bbcf545c9b74fa3ed7c44945bb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direction: 
+--- !u!65 &-9197252927279795708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806611270808741690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.452538, y: 5.09, z: 0.2}
+  m_Center: {x: -8.30127, y: 0.07999992, z: 0}
 --- !u!1 &4635634384690853917
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599004438865196373}
   - component: {fileID: 7308104483368272814}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BridgeStage4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

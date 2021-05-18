@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Room : MonoBehaviour
@@ -8,17 +6,27 @@ public class Room : MonoBehaviour
 
     BridgePositioning bridgeM;
     bool[] adjecencyList;
-    // Start is called before the first frame update
+	GameObject[] roomAdjacencyList;
+    Vector3[] spawnPositions;
 
-    public void init(bool[] adjecencyList)
+	internal Vector3 getSpawnPosition()
+	{
+		throw new NotImplementedException();
+	}
+
+	public void init(GameObject[] list)
 	{
         bridgeM = GetComponent<BridgePositioning>();
-        this.adjecencyList = adjecencyList;
-        bridgeM.init(adjecencyList);
-    }
-
+        this.roomAdjacencyList=list;
+        bridgeM.init(list);
+	}
 	internal void setAdjecencyList(bool[] list)
 	{
         this.adjecencyList = list;
+	}
+
+    public void setRoomAdjacencyList(GameObject[] list)
+	{
+        this.roomAdjacencyList = list;
 	}
 }
