@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerPlanting : MonoBehaviour
 {
@@ -80,9 +81,12 @@ public class PlayerPlanting : MonoBehaviour
     void endPlanting()
 	{
         playerM.setPlanting(false);
-        GameManagerEvents.treePlanted.Invoke();
+        playerM.getRoom().invokeTreePlantedEvent();
         plantLocked = false;
 	}
 
-
+	internal void setRoom(Room currentRoom)
+	{
+       // currentRoom.addTreePlantedEventListener(endPlanting);
+	}
 }

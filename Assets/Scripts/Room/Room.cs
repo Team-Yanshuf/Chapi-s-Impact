@@ -3,12 +3,15 @@
 public struct RoomInfo
 {
 	public PollutionContainerInfo containerInfo;
+	public SpawnwaveManagerInfo wavesInfo;
 	public bool finishedLoading;
 
-	public RoomInfo(PollutionContainerInfo info)
+	public RoomInfo(PollutionContainerInfo containerInfo, SpawnwaveManagerInfo wavesInfo)
 	{
-		this.containerInfo = info;
-		this.finishedLoading = info.finishedLoading;
+		this.containerInfo = containerInfo;
+		this.finishedLoading = containerInfo.finishedLoading;
+
+		this.wavesInfo = wavesInfo;
 	}
 }
 
@@ -20,13 +23,18 @@ public class Room : MonoBehaviour
 	GameObject[] roomAdjacencyList;
     Vector3[] spawnPositions;
 
+	RoomEvents events;
+
 	FogManager fogM;
 	NatureSpawner natureM;
+	EnemyWaveManager waveM;
 
 
 
 	public void init(GameObject[] list)
 	{
+		events = GetComponent<RoomEvents>();
+		events.initEvents();
         bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
         bridgeM.init(list);
@@ -34,6 +42,11 @@ public class Room : MonoBehaviour
 
 		natureM = GetComponent<NatureSpawner>();
 		natureM.initSelf();
+
+		waveM = GetComponent<EnemyWaveManager>();
+		waveM.initSelf();
+
+	
 	}
 	internal void setAdjecencyList(bool[] list)
 	{
@@ -51,5 +64,10 @@ public class Room : MonoBehaviour
 		fogM.initFog();
 	}
 
-	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo());
+	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo(),waveM.getSpawnWaveManagerInfo());
+
+	public void invokeTreePlantedEvent()
+	{
+		events.treePlanted.Invoke();
+	}
 }

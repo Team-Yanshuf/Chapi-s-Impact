@@ -7,12 +7,14 @@ public struct SpawnWaveInfo
     public bool isDone { get; set; }
     public int remainingEnemies { get; set; }
     public int maxEnemies { get; set; }
+    public bool isActive { get; set; }
 
     public SpawnWaveInfo(bool isDone, int maxEnemies, int remainingEnemies)
 	{
         this.isDone = isDone;
         this.remainingEnemies = remainingEnemies;
         this.maxEnemies = maxEnemies;
+        isActive = false;
 	}
 }
 public class SpawnWave : MonoBehaviour

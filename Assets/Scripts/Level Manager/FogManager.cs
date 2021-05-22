@@ -5,6 +5,8 @@ public class FogManager : MonoBehaviour
     [SerializeField] int initialFogCount;
     BoxCollider fogBoundries;
     FogContainer pollution;
+
+    RoomEvents events;
     //LevelManager levelM;
 
     public void initSelf()
@@ -12,8 +14,11 @@ public class FogManager : MonoBehaviour
         //levelM = GetComponent<LevelManager>();
         fogBoundries = GetComponent<BoxCollider>();
 
-        GameManagerEvents.enemyDefeated.AddListener(clearFogBy20Precent);
-        GameManagerEvents.treePlanted.AddListener(clear200FogParticles);
+        events = GetComponent<RoomEvents>();
+        events.initEvents();
+        
+        events.dwindleLocalFog.AddListener(clearFogBy20Precent);
+        events.treePlanted.AddListener(clear200FogParticles);
     }
     public void initFog()
     {

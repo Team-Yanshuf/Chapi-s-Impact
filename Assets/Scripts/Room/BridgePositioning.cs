@@ -61,6 +61,7 @@ public class BridgePositioning : MonoBehaviour
 			{
 				Bridge comp = bridges[i].GetComponent<Bridge>();
 				BridgePositioning posit = roomAdjacencyList[i].GetComponent<BridgePositioning>();
+				comp.roomTo = roomAdjacencyList[i].GetComponent<Room>();
 				//comp.positionTo = posit.getBridgePositions()[(i + 2) % 4].position;
 				Transform[] pos = posit.getBridgePositions();
 				Vector3 t = pos[(i + 2) % 4].position;
