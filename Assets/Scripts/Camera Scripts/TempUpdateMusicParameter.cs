@@ -13,12 +13,12 @@ public class TempUpdateMusicParameter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (levelM.getPollutionInfo().finishedLoading)
-		{
-            float val =  100f / levelM.getPollutionInfo().remainingFogPrecentage- 1f;
-            //print(val);
-            emitter.SetParameter("Nature Revive", val);
-        }
+  //      if (levelM.getRoomManagerInfo().finishedLoading)
+		//{
+  //          float val =  100f / levelM.getRoomManagerInfo().remainingFogPrecentage- 1f;
+  //          //print(val);
+  //          emitter.SetParameter("Nature Revive", val);
+  //      }
 
     }
 }

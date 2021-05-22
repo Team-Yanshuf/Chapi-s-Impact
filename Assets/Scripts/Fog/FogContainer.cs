@@ -161,15 +161,18 @@ public class FogContainer : MonoBehaviour
 
         Vector3 point;
         Bounds bounds = collider.bounds;
-
+        int limiter = 0;
         do
         {
             point = new Vector3(Random.Range(bounds.min.x, bounds.max.x),
                                 Random.Range(bounds.min.y, bounds.max.y),
                                 Random.Range(bounds.min.z, bounds.max.z));
-            point = fogTransform.TransformPoint(point);
+            // point = fogTransform.TransformPoint(point);
+            point = transform.TransformPoint(point);
+            
+            limiter++;
         }
-        while (point != collider.ClosestPoint(point));
+        while (point != collider.ClosestPoint(point) );
 
         return point;
     }

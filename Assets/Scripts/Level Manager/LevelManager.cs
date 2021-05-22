@@ -5,9 +5,9 @@ public class LevelManager : MonoBehaviour
 {
     GameManager manager;
     LevelManager levelM;
-    FogManager fogM;
-    RoomsManager spawner;
-    NatureSpawner natureM;
+    //FogManager fogM;
+    RoomsManager roomM;
+    //NatureSpawner natureM;
     EnemyWaveManager waveM;
     Player player;
 
@@ -26,9 +26,9 @@ public class LevelManager : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         waveM = GetComponent<EnemyWaveManager>();
         levelM = GetComponent<LevelManager>();
-        natureM = GetComponent<NatureSpawner>();
-        spawner = GetComponent<RoomsManager>();
-        fogM = GetComponent<FogManager>();
+       // natureM = GetComponent<NatureSpawner>();
+        roomM = GetComponent<RoomsManager>();
+        //fogM = GetComponent<FogManager>();
 
 
         updateCurrentEnemyCount();
@@ -41,11 +41,11 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        fogM.initSelf();
-        fogM.initFog();
-        natureM.initSelf();
+        //fogM.initSelf();
+        //fogM.initFog();
+        //natureM.initSelf();
         waveM.initSelf();
-        spawner.init();
+        roomM.init();
     }
 
     private void Update()
@@ -103,6 +103,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
-
+    //public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
+    public RoomManagerInfo getRoomManagerInfo() => roomM.getRoomManagerInfo();
 }

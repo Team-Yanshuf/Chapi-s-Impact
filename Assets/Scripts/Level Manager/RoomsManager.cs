@@ -1,15 +1,64 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+public struct RoomManagerInfo
+{
+	public PollutionContainerInfo[] pollutionContainers { get; }
+	public int initialFogCount { get; set; }
+	public float remainingFogPrecentage { get; set; }
+	public bool finishedLoading { get; set; }
+
+	public RoomManagerInfo(PollutionContainerInfo[] containers)
+	{
+		this.pollutionContainers = containers;
+
+		//These are Faux values.
+		//They are provided so that calculateValues() can run.
+		initialFogCount = 0;
+		remainingFogPrecentage = 0;
+		finishedLoading = true;
+
+		//Real values are calculated here!
+		calculateValues();
+
+	}
+	void calculateValues()
+	{
+		int currentFogAmount = 0;
+		foreach (PollutionContainerInfo container in pollutionContainers)
+		{
+			initialFogCount += container.initialFogCount;
+			currentFogAmount += container.remainingFogAmount;
+
+			if (!container.finishedLoading)
+				finishedLoading = false;
+
+		}
+		if (initialFogCount > 0)
+			remainingFogPrecentage = (float)(100 * currentFogAmount / initialFogCount);
+		else remainingFogPrecentage = 0;
+	}
+
+
+
+
+
+
+}
 public class RoomsManager : MonoBehaviour
 {
     [SerializeField] GameObject room;
 	GameObject[,] roomMatrix= new GameObject[5,5];
 	List<Room> roomList = new List<Room>();
+	NatureSpawner natureM;
+	EnemyWaveManager waveM;
 
 	public void init()
 	{
 		initRooms();
+		initFogInRooms();
+
+
 
 		void initRooms()
 		{
@@ -18,13 +67,14 @@ public class RoomsManager : MonoBehaviour
 		void generateRandomMap()
 		{
 			clearMap();
-			string str = "";
+			//string str = "";
 			Vector2Int coordinates = new Vector2Int(2, 2);
 
 			for (int i = 1; i < 6; i++)
 			{
 				float offset = 200;
 				roomMatrix[coordinates.x, coordinates.y] = Instantiate(room, new Vector3((coordinates.x * 100) + offset, coordinates.y * 100, 0), Quaternion.Euler(40, 0, 0));
+				roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 				coordinates = chooseNonOccupiedNeighbor(coordinates);
 
 			}
@@ -148,9 +198,24 @@ public class RoomsManager : MonoBehaviour
 
 			return list;
 		}
-
-
+	}
+	void initFogInRooms()
+	{
+		foreach (Room room in roomList)
+		{
+			room.initFog();
+		}
 	}
 
+	public RoomManagerInfo getRoomManagerInfo()
+	{
+		PollutionContainerInfo[] containers = new PollutionContainerInfo[roomList.Count];
 
+		for(int i=0; i<containers.Length; i++)
+		{
+			containers[i]= roomList[i].getRoomInfo().containerInfo;
+		}
+
+		return new RoomManagerInfo(containers);
+	}
 }

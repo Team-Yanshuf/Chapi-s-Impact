@@ -5,17 +5,26 @@ public class FogManager : MonoBehaviour
     [SerializeField] int initialFogCount;
     BoxCollider fogBoundries;
     FogContainer pollution;
-    LevelManager levelM;
+    //LevelManager levelM;
 
     public void initSelf()
 	{
-        levelM = GetComponent<LevelManager>();
-        fogBoundries = GetComponentInChildren<BoxCollider>();
+        //levelM = GetComponent<LevelManager>();
+        fogBoundries = GetComponent<BoxCollider>();
 
         GameManagerEvents.enemyDefeated.AddListener(clearFogBy20Precent);
         GameManagerEvents.treePlanted.AddListener(clear200FogParticles);
     }
+    public void initFog()
+    {
+        pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
+        pollution.setBounds(fogBoundries);
+        pollution.setFogCount(initialFogCount);
 
+        //pollution.setFogTransform(levelM.transform.Find("LevelBoundries").transform);
+        pollution.setFogTransform(transform);
+        pollution.initFog();
+    }
 
     void clearFogBy20Precent()
     {
@@ -25,22 +34,7 @@ public class FogManager : MonoBehaviour
     {
         pollution.dwindleByAmout(200);
     }
-    public void initFog()
-	{
-       // StartCoroutine(initFogCoroutine());
-        pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
-        pollution.setBounds(fogBoundries);
-        pollution.setFogCount(initialFogCount);
-        pollution.setFogTransform(levelM.transform.Find("LevelBoundries").transform);
-        pollution.initFog();
-    }
-  ////  public IEnumerator initFogCoroutine()
-  //  {
 
-  //      //while (!levelM || !fogBoundries)
-  //      //    yield return null; 
-
-  //  }
 
     public PollutionContainerInfo getPollutionInfo()
     {
