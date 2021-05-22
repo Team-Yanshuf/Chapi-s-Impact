@@ -72,7 +72,7 @@ public class BridgePositioning : MonoBehaviour
 							Vector3 der = new Vector3(0, 0, 2);
 							der = d * der;
 							t += der;
-							t += new Vector3(0, 3, 0);
+							t += new Vector3(0, 5, 0);
 							break;
 						}
 					case 1:

@@ -48,7 +48,6 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 	{
         if (playerM.getMovementInfo().isDashing)
 		{
-            print("Dashing");
             gameObject.layer = LayerMask.NameToLayer("PlayerDash");
 
         }

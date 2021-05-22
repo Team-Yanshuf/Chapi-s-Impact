@@ -21,7 +21,7 @@ public class LevelSpawner : MonoBehaviour
 		for (int i = 1; i < 6; i++)
 		{
 			float offset = 200;
-			rooms[coordinates.x, coordinates.y] = Instantiate(room, new Vector3((coordinates.x*100)+offset,0, coordinates.y * 100),Quaternion.Euler(40,0,0));
+			rooms[coordinates.x, coordinates.y] = Instantiate(room, new Vector3((coordinates.x*100)+offset, coordinates.y * 100,0 ),Quaternion.Euler(40,0,0));
 			coordinates = chooseNonOccupiedNeighbor(coordinates);
 
 		}
