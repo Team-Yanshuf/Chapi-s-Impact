@@ -7,11 +7,6 @@ public class FogManager : MonoBehaviour
     FogContainer pollution;
     LevelManager levelM;
 
-    void Start()
-    {
-
-    }
-
     public void initSelf()
 	{
         levelM = GetComponent<LevelManager>();

@@ -906,6 +906,8 @@ GameObject:
   - component: {fileID: 7033828081335523625}
   - component: {fileID: 5770452791097709806}
   - component: {fileID: 5408571823915573278}
+  - component: {fileID: 932277054150288914}
+  - component: {fileID: 7784825240703724682}
   m_Layer: 0
   m_Name: TestRoom
   m_TagString: Ground
@@ -966,6 +968,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f8c980004fa1e94890f98aa5aa9f023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &932277054150288914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7033828081335523630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b96521cff18e54983d36b7cf236f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialFogCount: 500
+--- !u!65 &7784825240703724682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7033828081335523630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 63.24741, y: 42.589256, z: 5.5455008}
+  m_Center: {x: -0.32629204, y: -1.2606162, z: -2.272741}
 --- !u!1 &7033828081779393336
 GameObject:
   m_ObjectHideFlags: 0

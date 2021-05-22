@@ -8,11 +8,14 @@ public class Room : MonoBehaviour
 	GameObject[] roomAdjacencyList;
     Vector3[] spawnPositions;
 
+	FogManager fogM;
+
 	public void init(GameObject[] list)
 	{
         bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
         bridgeM.init(list);
+		fogM = GetComponent<FogManager>();
 	}
 	internal void setAdjecencyList(bool[] list)
 	{

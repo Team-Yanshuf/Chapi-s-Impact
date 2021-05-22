@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour
     GameManager manager;
     LevelManager levelM;
     FogManager fogM;
-    LevelSpawner spawner;
+    RoomsManager spawner;
     NatureSpawner natureM;
     EnemyWaveManager waveM;
     Player player;
@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour
         waveM = GetComponent<EnemyWaveManager>();
         levelM = GetComponent<LevelManager>();
         natureM = GetComponent<NatureSpawner>();
-        spawner = GetComponent<LevelSpawner>();
+        spawner = GetComponent<RoomsManager>();
         fogM = GetComponent<FogManager>();
 
 
