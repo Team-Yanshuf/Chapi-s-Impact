@@ -20,13 +20,13 @@ public class BridgePositioning : MonoBehaviour
                 if (m.gameObject.name.Equals("Top"))
                     bridgePositions[0] = m;
 
-                if (m.name.Equals("Left"))
+                if (m.gameObject.name.Equals("Left"))
                     bridgePositions[1] = m;
 
-                if (m.name.Equals("Bottom"))
+                if (m.gameObject.name.Equals("Bottom"))
                     bridgePositions[2] = m;
 
-                if (m.name.Equals("Right"))
+                if (m.gameObject.name.Equals("Right"))
                     bridgePositions[3] = m;
             }
 
@@ -64,41 +64,49 @@ public class BridgePositioning : MonoBehaviour
 				comp.roomTo = roomAdjacencyList[i].GetComponent<Room>();
 				//comp.positionTo = posit.getBridgePositions()[(i + 2) % 4].position;
 				Transform[] pos = posit.getBridgePositions();
-				Vector3 t = pos[(i + 2) % 4].position;
+				Vector3 v = pos[(i + 2) % 4].position;
+				Quaternion q = pos[(i + 2) % 4].rotation;
+				q = Quaternion.Euler(40, 0, 0);
 				switch (i)
 				{
 					case 0:
 						{
+
+
+							q *= Quaternion.Euler(0, 0, 270);
 							Quaternion d = Quaternion.Euler(40, 0, 0);
 							Vector3 der = new Vector3(0, 0, 2);
 							der = d * der;
-							t += der;
-							t += new Vector3(0, 5, 0);
+							v += der;
+							v += new Vector3(0, 5, 0);
 							break;
 						}
 					case 1:
 						{
-							t += new Vector3(2, 2, 0);
+							v += new Vector3(-2, 2, 0);
 							break;
 						}
 					case 2:
 						{
+
+							q *= Quaternion.Euler(0, 0, 90);
 							Quaternion d = Quaternion.Euler(40, 0, 0);
 							Vector3 der = new Vector3(0, 0, 2);
 							der = d * der;
-							t -= der;
-							t += new Vector3(0, 2, 0);
+							v -= der;
+							v += new Vector3(0, 2, 0);
 							break;
 						}
 					case 3:
 						{
-							t -= new Vector3(2, -2, 0);
+							q *= Quaternion.Euler(0, 0, 180);
+							v -= new Vector3(4, -2, 0);
 							break;
 						}
 				}
 
-					comp.positionTo = t;
-
+					comp.positionTo = v;
+					comp.transform.rotation= q;
 				//bridges[i].GetComponent<Bridge>().positionTo = roomAdjacencyList[i].GetComponent<BridgePositioning>().getBridgePositions()[(i + 2) % 4].position;
 			}
 		}
