@@ -481,9 +481,6 @@ GameObject:
   - component: {fileID: 2252709569066202680}
   - component: {fileID: 6816824357731097411}
   - component: {fileID: 7265489389581004559}
-  - component: {fileID: 1569854392827043182}
-  - component: {fileID: 2793120470201981413}
-  - component: {fileID: 301413130}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: LevelManager
@@ -535,43 +532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 7033828081335523630, guid: a8984e9fef1748d4ba29d6705bfeb7f3, type: 3}
---- !u!114 &1569854392827043182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9167614121016147255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c451b0dde2b6ab44b4ab702c6f184df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2793120470201981413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9167614121016147255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19b96521cff18e54983d36b7cf236f1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialFogCount: 600
---- !u!114 &301413130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9167614121016147255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83d83a106d6987e42815c549c96fd356, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &889829856593701522
 PrefabInstance:
   m_ObjectHideFlags: 0

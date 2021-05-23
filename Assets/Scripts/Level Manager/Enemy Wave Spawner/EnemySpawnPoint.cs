@@ -28,6 +28,7 @@ public class EnemySpawnPoint : MonoBehaviour
     SpawnPointInfo pointInfo;
 
     bool canUpdateRun = false;
+    RoomEvents events;
 
     void Update()
     {
@@ -61,15 +62,17 @@ public class EnemySpawnPoint : MonoBehaviour
         return null;
 	}
 
-    void spawnSelf()
+    void spawnSelf(RoomEvents roomEvents)
 	{
-        enemyToSpawn= chooseEnemyBasedOnSelection(); 
+        enemyToSpawn= chooseEnemyBasedOnSelection();
+        IEnemy enemy = enemyToSpawn.GetComponent<IEnemy>();
+        enemy.setRoomEvents(roomEvents);
 	}
 
-    public void initSelf()
+    public void initSelf(RoomEvents roomEvents)
 	{
         pointInfo = new SpawnPointInfo(enemy, true);
-        spawnSelf();
+        spawnSelf(roomEvents);
         canUpdateRun = true;
 	}
 

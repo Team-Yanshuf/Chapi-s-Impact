@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -22,6 +23,7 @@ public class SpawnWave : MonoBehaviour
     List<GameObject> enemies;
     SpawnWaveInfo waveInfo;
     bool initDone = false;
+    RoomEvents roomEvents;
 
     void Update()
     {
@@ -32,8 +34,9 @@ public class SpawnWave : MonoBehaviour
 
     }
 
-    public void initSelf()
+    public void initSelf(RoomEvents events)
 	{
+        this.roomEvents = events;
         enemies = new List<GameObject>();
 
         foreach (Transform child in transform)
@@ -43,7 +46,7 @@ public class SpawnWave : MonoBehaviour
 
         foreach(GameObject enemy in enemies)
 		{
-            enemy.GetComponent<EnemySpawnPoint>().initSelf();
+            enemy.GetComponent<EnemySpawnPoint>().initSelf(roomEvents);
 		}
 
         waveInfo = new SpawnWaveInfo(false, enemies.Count, enemies.Count);

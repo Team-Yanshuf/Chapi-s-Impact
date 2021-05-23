@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class Trashcan : MonoBehaviour
+public class Trashcan : MonoBehaviour, IEnemy
 {
     public GameObject target; 
     TrashcanAttacking attackingM;
@@ -15,7 +15,9 @@ public class Trashcan : MonoBehaviour
     int landCounter;
 
     [SerializeField] float maxHp;
-    void Start()
+	private RoomEvents currentRoomEvents;
+
+	void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");
         attackingM = GetComponent<TrashcanAttacking>();
@@ -42,7 +44,9 @@ public class Trashcan : MonoBehaviour
 
     public void die()
 	{
+        currentRoomEvents.dwindleLocalFog.Invoke();
         soundM.playDie();
+
         Destroy(this.gameObject);
 	}
 
@@ -80,4 +84,8 @@ public class Trashcan : MonoBehaviour
             movementM.approveJump();
     }
 
+	public void setRoomEvents(RoomEvents roomEvents)
+	{
+        this.currentRoomEvents = roomEvents;
+	}
 }

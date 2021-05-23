@@ -15,6 +15,12 @@ public struct RoomInfo
 	}
 }
 
+[RequireComponent(typeof(EnemyWaveManager))]
+[RequireComponent(typeof(RoomEvents))]
+[RequireComponent(typeof(NatureSpawner))]
+[RequireComponent(typeof(FogManager))]
+[RequireComponent(typeof(BridgePositioning))]
+[RequireComponent(typeof(BoxCollider))]
 public class Room : MonoBehaviour
 {
 	RoomInfo info;
@@ -44,7 +50,7 @@ public class Room : MonoBehaviour
 		natureM.initSelf();
 
 		waveM = GetComponent<EnemyWaveManager>();
-		waveM.initSelf();
+		waveM.initSelf(events);
 
 	
 	}

@@ -52,13 +52,16 @@ public class RoomsManager : MonoBehaviour
 	List<Room> roomList = new List<Room>();
 	NatureSpawner natureM;
 	EnemyWaveManager waveM;
+	Player player;
 
 	public void init()
 	{
+
 		initRooms();
 		initFogInRooms();
 
-
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		player.updateCurrentRoom(roomMatrix[2, 2].GetComponent<Room>());
 
 		void initRooms()
 		{
