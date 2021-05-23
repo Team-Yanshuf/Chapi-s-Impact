@@ -9213,6 +9213,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 7033828081335523630, guid: a8984e9fef1748d4ba29d6705bfeb7f3,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 2623651046616741384, guid: 2cd5dbe6661f2496e8bd273062eb0230,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[2]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: c8d353676cb24402f9bf7f7603b90f0f,
+        type: 3}
     - target: {fileID: 9167614121016147255, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
       propertyPath: m_Name
