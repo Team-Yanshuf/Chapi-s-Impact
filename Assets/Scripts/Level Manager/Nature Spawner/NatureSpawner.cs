@@ -4,49 +4,56 @@ using UnityEngine;
 
 public class NatureSpawner : MonoBehaviour
 {
-    LevelManager levelM;
+    //LevelManager levelM;
     List<GameObject> spawnPoints;
+    Room room;
+    RoomInfo roomInfo;
 
-    PollutionContainerInfo pollutionInfo;
-    void Start()
-    {
-
-    }
+    bool ready=false;
 
     public void initSelf()
 	{
-        levelM = GetComponent<LevelManager>();
+        //levelM = GetComponent<LevelManager>();
+        room = GetComponent<Room>();
         spawnPoints = getSpawnPointList();
         StartCoroutine(setPollutionInfoCoroutine());
+
+
+        ready = true;
     }
 
     void Update()
     {
-        foreach (GameObject obj in spawnPoints)
-           {
+        if (ready)
+		{
+            foreach (GameObject obj in spawnPoints)
+            {
                 NatureSpawnPoint point = obj.GetComponent<NatureSpawnPoint>();
                 if (point.isActive())
                 {
-                    point.setFogDone(pollutionInfo.finishedLoading);
-                    point.setFogState(pollutionInfo.remainingFogPrecentage);
+                    point.setFogDone(roomInfo.finishedLoading);
+                    point.setFogState(roomInfo.containerInfo.remainingFogPrecentage);
                 }
             }
+        }
+
     }
 
 	private void LateUpdate()
 	{
+        if(ready)
         setPollutionInfo();
 	}
 
 
 	void setPollutionInfo()
 	{
-        pollutionInfo=levelM.getPollutionInfo();
+        roomInfo=room.getRoomInfo();
 	}
     IEnumerator setPollutionInfoCoroutine()
 	{
        yield return new WaitForSeconds(2);
-        pollutionInfo = levelM.getPollutionInfo();
+        roomInfo = room.getRoomInfo();
     }
 
  

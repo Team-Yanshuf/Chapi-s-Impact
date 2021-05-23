@@ -5,10 +5,10 @@ public class LevelManager : MonoBehaviour
 {
     GameManager manager;
     LevelManager levelM;
-    FogManager fogM;
-    LevelSpawner spawner;
-    NatureSpawner natureM;
-    EnemyWaveManager waveM;
+    //FogManager fogM;
+    RoomsManager roomM;
+    //NatureSpawner natureM;
+    //EnemyWaveManager waveM;
     Player player;
 
     int startingEnemyCount;
@@ -24,11 +24,11 @@ public class LevelManager : MonoBehaviour
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        waveM = GetComponent<EnemyWaveManager>();
+        //waveM = GetComponent<EnemyWaveManager>();
         levelM = GetComponent<LevelManager>();
-        natureM = GetComponent<NatureSpawner>();
-        spawner = GetComponent<LevelSpawner>();
-        fogM = GetComponent<FogManager>();
+       // natureM = GetComponent<NatureSpawner>();
+        roomM = GetComponent<RoomsManager>();
+        //fogM = GetComponent<FogManager>();
 
 
         updateCurrentEnemyCount();
@@ -41,11 +41,11 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        fogM.initSelf();
-        fogM.initFog();
-        natureM.initSelf();
-        waveM.initSelf();
-        spawner.init();
+        //fogM.initSelf();
+        //fogM.initFog();
+        //natureM.initSelf();
+        //waveM.initSelf();
+        roomM.init();
     }
 
     private void Update()
@@ -95,14 +95,14 @@ public class LevelManager : MonoBehaviour
     }
     void checkForLevelBeaten()
     {
-        //print($"remaining waves: {waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves} \t trees: {treesRequiredToBeat}");
-        if (waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves <= 0 && treesRequiredToBeat <= 0 && !beatenLevel)
-        {
-            beatenLevel = true;
-            manager.beatLevel();
-        }
+        ////print($"remaining waves: {waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves} \t trees: {treesRequiredToBeat}");
+        //if (waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves <= 0 && treesRequiredToBeat <= 0 && !beatenLevel)
+        //{
+        //    beatenLevel = true;
+        //    manager.beatLevel();
+        //}
     }
 
-    public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
-
+    //public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
+    public RoomManagerInfo getRoomManagerInfo() => roomM.getRoomManagerInfo();
 }

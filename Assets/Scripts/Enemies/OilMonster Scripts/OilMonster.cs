@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class OilMonster : MonoBehaviour
+public class OilMonster : MonoBehaviour, IEnemy
 {
     [SerializeField] GameObject target;
 
@@ -10,8 +10,9 @@ public class OilMonster : MonoBehaviour
     EnemyAgro agroM;
     OilMonsterHealth healthM;
     OilMonsterCollision collisionM;
- 
-    void Awake()
+	RoomEvents currentRoomEvents;
+
+	void Awake()
     {
         target = GameObject.FindGameObjectWithTag("Player");
         initializeComponents();
@@ -47,6 +48,7 @@ public class OilMonster : MonoBehaviour
     public void die()
 	{
         soundM.playDie();
+        currentRoomEvents.dwindleLocalFog.Invoke();
         Destroy(this.gameObject);
 	}
     void initializeComponents()
@@ -58,4 +60,9 @@ public class OilMonster : MonoBehaviour
         soundM = GetComponent<OilMonsterSounds>();
         healthM = GetComponent<OilMonsterHealth>();
     }
+
+	public void setRoomEvents(RoomEvents roomEvents)
+	{
+        this.currentRoomEvents = roomEvents;
+	}
 }

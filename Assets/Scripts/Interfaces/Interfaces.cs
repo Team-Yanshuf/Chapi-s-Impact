@@ -16,6 +16,11 @@ public interface ICollectible
     void collected();
 }
 
+public interface IEnemy
+{
+    void setRoomEvents(RoomEvents roomEvents);
+}
+
 public interface IWeapon
 {
     void requestNextAttack();

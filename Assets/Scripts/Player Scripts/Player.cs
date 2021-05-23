@@ -13,6 +13,7 @@ public struct PlayerInfo
     public float vertical { get; set; }
     public Vector3 movement { get; set; }
     public float speed { get; set; }
+    public Room currentRoom { get; set; }
 }
 public class Player : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class Player : MonoBehaviour
     PlayerAnimation animationM;
     PlayerPlanting plantingM;
     WeaponManager weaponM;
+
+    Room currentRoom;
 
     SpriteRenderer renderer;
     Timer timer;
@@ -118,7 +121,6 @@ public class Player : MonoBehaviour
 	{
         PlayerInfo info = new PlayerInfo();
         Vector3 movement = getActualMovement();
-        //getMovementAxes(ref movement.x, ref movement.z); ;
 
         info.isAttacking = isAttacking();
         info.attackNumber = comboCount();
@@ -132,8 +134,11 @@ public class Player : MonoBehaviour
         return info;
 	}
 
-    public void movePlayerBetweenRooms(Vector3 position)
+    public void movePlayerBetweenRooms(Vector3 position, Room roomTo)
 	{
+        currentRoom = roomTo;
+        plantingM.setRoom(currentRoom);
+
         gameObject.layer = LayerMask.NameToLayer("PlayerDash");
         transform.position = position;
 
@@ -147,5 +152,11 @@ public class Player : MonoBehaviour
 		}
 	}
 
+    public void updateCurrentRoom(Room room)
+	{
+        this.currentRoom = room;
+	}
+
+    public Room getRoom() => currentRoom;
     public void changeCollisionLayerDuringDash() => collisionM.changeCollisionLayerDuringDash();
 }
