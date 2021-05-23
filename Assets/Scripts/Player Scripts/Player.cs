@@ -144,7 +144,7 @@ public class Player : MonoBehaviour
 
         timer = GetComponent<Timer>();
 
-		timer.setParameters(3, returnToNormal);
+		timer.setParameters(1, returnToNormal);
 		timer.fire();
 		void returnToNormal()
 		{
