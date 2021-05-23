@@ -75,7 +75,8 @@ public class RoomsManager : MonoBehaviour
 			for (int i = 1; i < 6; i++)
 			{
 				float offset = 200;
-				roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0,rooms.Length)], new Vector3((coordinates.x * 100) + offset, coordinates.y * 100, 0), Quaternion.Euler(40, 0, 0));
+
+				roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0,rooms.Length)], new Vector3((coordinates.x * 200) + offset, coordinates.y * 200, 0), Quaternion.Euler(40, 0, 0));
 				roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 				coordinates = chooseNonOccupiedNeighbor(coordinates);
 
