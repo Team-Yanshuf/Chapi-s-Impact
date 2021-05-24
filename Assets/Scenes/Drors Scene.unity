@@ -2413,20 +2413,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1212857498758450026, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
       propertyPath: m_Name
       value: Camera
-      objectReference: {fileID: 0}
-    - target: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1212857498758450071, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
@@ -2485,24 +2475,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3917868220920842120, guid: d397bcdba1ab86144b0d6c76ee6ec037,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3917868220920842120, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
       propertyPath: attenuationObject
       value: 
       objectReference: {fileID: 799412021}
-    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 799412021}
-    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-        type: 3}
-      propertyPath: zOffset
-      value: 16
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d397bcdba1ab86144b0d6c76ee6ec037, type: 3}
 --- !u!1 &356783044
@@ -10986,55 +10961,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.42, y: 26.08, z: 6.72}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1584045775 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1212857498758450027, guid: d397bcdba1ab86144b0d6c76ee6ec037,
-    type: 3}
-  m_PrefabInstance: {fileID: 352975855}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1584045776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584045775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Music/Plastic Enemies Theme
-  PlayEvent: 1
-  StopEvent: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
---- !u!114 &1584045782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584045775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AssetsPPU: 100
-  m_RefResolutionX: 320
-  m_RefResolutionY: 180
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!1 &1585297197
 GameObject:
   m_ObjectHideFlags: 0
