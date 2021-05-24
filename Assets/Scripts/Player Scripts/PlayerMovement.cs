@@ -160,6 +160,11 @@ public class PlayerMovement : MonoBehaviour
             return -1;
 	}
 
+    public void setSpeed(float speed)
+	{
+        this.speed = speed;
+	}
+    public float getSpeed() => speed;
 
     public PlayerMovementInfo  getMovementInfo()
 	{

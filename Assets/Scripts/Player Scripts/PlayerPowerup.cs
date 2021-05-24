@@ -60,6 +60,12 @@ public class PlayerPowerup : MonoBehaviour
 					}
                     break;
 				}
+
+			case "SpeedUp":
+				{
+                    movement.setSpeed(movement.getSpeed()+0.5f);
+                    break;
+				}
 		}
 	}
 }
