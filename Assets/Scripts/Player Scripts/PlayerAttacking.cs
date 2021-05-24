@@ -21,20 +21,22 @@ public class PlayerAttacking : MonoBehaviour
 	void Update()
 	{
 		if (playerM.meleePressed())
-			melee(); 
-		
-		
+			melee();
+
+
 		//SHOOTING IS NOT WORKING PROPERLY NOW. WILL FIX LATER.
 		//if (playerM.shootingPressed())
-			//shoot();
-		
+		//shoot();
+
+		//private void shoot()
+		//{
+		//	shooting = true;
+		//	throwProjectile();
+		//}
+
 	}
 
-	private void shoot()
-	{
-		shooting = true;
-		throwProjectile();
-	}
+
 
 	/********************** Handle Melee ********************/
 	void melee() => staff.requestNextAttack();

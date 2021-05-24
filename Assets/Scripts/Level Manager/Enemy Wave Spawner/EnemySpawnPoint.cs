@@ -65,6 +65,7 @@ public class EnemySpawnPoint : MonoBehaviour
     void spawnSelf(RoomEvents roomEvents)
 	{
         enemyToSpawn= chooseEnemyBasedOnSelection();
+        enemyToSpawn.transform.parent = this.transform;
         IEnemy enemy = enemyToSpawn.GetComponent<IEnemy>();
         enemy.setRoomEvents(roomEvents);
 	}

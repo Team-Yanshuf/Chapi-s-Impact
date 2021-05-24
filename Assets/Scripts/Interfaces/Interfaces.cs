@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using System;
 public interface IHitter
 {
     void hit();
@@ -34,5 +34,7 @@ public interface IHealthManager
     float getMaxHP();
 }
 
-
-
+public interface IPowerup
+{
+    string[] getPowerupFunctionality();
+}

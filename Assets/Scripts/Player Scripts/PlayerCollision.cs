@@ -24,7 +24,15 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Collectible"))
+		{
             collecting = true;
+            PowerupInfo info =  other.GetComponent<PowerupBase>().getPowerupInfo();
+
+            GetComponent<PlayerPowerup>().addNewPowerup(info);
+            other.GetComponent<PowerupBase>().destroy();
+        }
+
+
     }
 
     public void takeDamage(Vector3 pushback, float damage = 0)
