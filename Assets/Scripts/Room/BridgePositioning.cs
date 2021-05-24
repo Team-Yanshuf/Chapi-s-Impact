@@ -100,7 +100,7 @@ public class BridgePositioning : MonoBehaviour
 					case 3:
 						{
 							q *= Quaternion.Euler(0, 0, 180);
-							v -= new Vector3(4, -2, 0);
+							v -= new Vector3(-4, -2, 0);
 							break;
 						}
 				}
