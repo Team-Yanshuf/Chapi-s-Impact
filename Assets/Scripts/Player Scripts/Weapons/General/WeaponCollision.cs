@@ -10,5 +10,12 @@ public class WeaponCollision : MonoBehaviour
             Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
             enemy?.takeDamage(pushback * 5, 25);
         }
-    }
+
+		if (collision.CompareTag("ItemTent"))
+		{
+			IVulnrable tent = collision.GetComponent<IVulnrable>();
+			tent.takeDamage(Vector3.zero, 0);
+		}
+	}
 }
+

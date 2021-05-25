@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 [RequireComponent(typeof(Timer))]
 public class Staff : MonoBehaviour, IWeapon
@@ -102,15 +103,17 @@ public class Staff : MonoBehaviour, IWeapon
         }
     }
 
-    private void OnTriggerEnter(Collider collision)
-    {
-        if (collision.CompareTag("Enemy") && !collision.isTrigger)
-        {
-            IVulnrable enemy = collision.GetComponent<IVulnrable>();
-            Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
-            enemy?.takeDamage(pushback * pushbackForce, damage);
-        }
-    }
+  //  private void OnTriggerEnter(Collider collision)
+  //  {
+  //      if (collision.CompareTag("Enemy") && !collision.isTrigger )
+  //      {
+  //          print("collided with enemy");
+  //          IVulnrable enemy = collision.GetComponent<IVulnrable>();
+  //          Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
+  //          enemy?.takeDamage(pushback * pushbackForce, damage);
+  //      }
+
+ 
 
 }
 
