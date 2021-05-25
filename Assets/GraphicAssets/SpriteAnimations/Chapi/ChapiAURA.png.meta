@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 7be2f6b7164cf4e0880a70ec0fb31a05
+guid: dbb50fd49d90c41b0a41814fab96486c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6611786379778403982
-    second: OilHurt_00000
+      213: 8892281088802644028
+    second: Chapi'sAuraExport_00000
   - first:
-      213: -7451604578620132370
-    second: OilHurt_00001
+      213: -7754945183217239190
+    second: Chapi'sAuraExport_00001
   - first:
-      213: 6186355282665417342
-    second: OilHurt_00002
+      213: -8224647732751299738
+    second: Chapi'sAuraExport_00002
   - first:
-      213: 3062554818698818784
-    second: OilHurt_00003
+      213: 5269874698259486494
+    second: Chapi'sAuraExport_00003
   - first:
-      213: 3090052199364548767
-    second: OilHurt_00004
+      213: 2844580161810029546
+    second: Chapi'sAuraExport_00004
+  - first:
+      213: 4222058512432867389
+    second: Chapi'sAuraExport_00005
+  - first:
+      213: 6847359053270182197
+    second: Chapi'sAuraExport_00006
+  - first:
+      213: 4761702804564920960
+    second: Chapi'sAuraExport_00007
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,106 +99,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OilHurt_00000
+      name: Chapi'sAuraExport_00000
       rect:
         serializedVersion: 2
         x: 1
-        y: 303
-        width: 277
-        height: 208
+        y: 239
+        width: 293
+        height: 164
       alignment: 9
-      pivot: {x: 0.38989168, y: 0.6826923}
+      pivot: {x: 0.3447099, y: 0.12195122}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 271da8e71573e34a0800000000000000
-      internalID: -6611786379778403982
+      spriteID: c306105798ab76b70800000000000000
+      internalID: 8892281088802644028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OilHurt_00001
+      name: Chapi'sAuraExport_00001
       rect:
         serializedVersion: 2
         x: 1
-        y: 303
-        width: 277
-        height: 208
+        y: 405
+        width: 339
+        height: 183
       alignment: 9
-      pivot: {x: 0.38989168, y: 0.6826923}
+      pivot: {x: 0.36578172, y: 0.08743169}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee33ca4bd15969890800000000000000
-      internalID: -7451604578620132370
+      spriteID: a6bb5bd7176e06490800000000000000
+      internalID: -7754945183217239190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OilHurt_00002
+      name: Chapi'sAuraExport_00002
       rect:
         serializedVersion: 2
-        x: 280
-        y: 324
-        width: 222
-        height: 187
+        x: 422
+        y: 398
+        width: 381
+        height: 202
       alignment: 9
-      pivot: {x: 0.43243244, y: 0.77005345}
+      pivot: {x: 0.38057742, y: 0.05940594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7a22a55a595ad550800000000000000
-      internalID: 6186355282665417342
+      spriteID: 66b03ae867e2cdd80800000000000000
+      internalID: -8224647732751299738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OilHurt_00003
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 110
-        width: 232
-        height: 191
-      alignment: 9
-      pivot: {x: 0.4224138, y: 0.7486911}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e434b9a161608a20800000000000000
-      internalID: 3062554818698818784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OilHurt_00004
+      name: Chapi'sAuraExport_00003
       rect:
         serializedVersion: 2
         x: 1
-        y: 98
-        width: 263
-        height: 203
+        y: 590
+        width: 419
+        height: 217
       alignment: 9
-      pivot: {x: 0.39543727, y: 0.6995074}
+      pivot: {x: 0.39140812, y: 0.03686636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f98d9808a1212ea20800000000000000
-      internalID: 3090052199364548767
+      spriteID: e175398fd1b522940800000000000000
+      internalID: 5269874698259486494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi'sAuraExport_00004
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 602
+        width: 443
+        height: 221
+      alignment: 9
+      pivot: {x: 0.39729118, y: -0.004524887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb5fcff59af97720800000000000000
+      internalID: 2844580161810029546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi'sAuraExport_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 809
+        width: 452
+        height: 214
+      alignment: 9
+      pivot: {x: 0.40044248, y: -0.056074765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38a97ef8d3c79a30800000000000000
+      internalID: 4222058512432867389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi'sAuraExport_00006
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 825
+        width: 448
+        height: 198
+      alignment: 9
+      pivot: {x: 0.39955357, y: -0.13131313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53969b3b7c4b60f50800000000000000
+      internalID: 6847359053270182197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapi'sAuraExport_00007
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1020
+        width: 3
+        height: 3
+      alignment: 9
+      pivot: {x: 320, y: -179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ac210e877f41240800000000000000
+      internalID: 4761702804564920960
       vertices: []
       indices: 
       edges: []

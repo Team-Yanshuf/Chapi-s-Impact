@@ -3,80 +3,80 @@ guid: 78d4bce9b086d48f8afc7c984ed0d6a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3257396624544921176
-    second: Exporter Jelly Crawl_00000
+      213: 3294782311575699648
+    second: OilMove_00000
   - first:
-      213: -2974703106581787548
-    second: Exporter Jelly Crawl_00001
+      213: 1560568048113739220
+    second: OilMove_00001
   - first:
-      213: 8470402236249818680
-    second: Exporter Jelly Crawl_00002
+      213: 9027550028494852901
+    second: OilMove_00002
   - first:
-      213: 1818189590365868758
-    second: Exporter Jelly Crawl_00003
+      213: -8577863659108799695
+    second: OilMove_00003
   - first:
-      213: 8698553758398486483
-    second: Exporter Jelly Crawl_00004
+      213: 2760842845012858755
+    second: OilMove_00004
   - first:
-      213: -2243220764339938101
-    second: Exporter Jelly Crawl_00005
+      213: -1022974963498854577
+    second: OilMove_00005
   - first:
-      213: 6588151207751680229
-    second: Exporter Jelly Crawl_00006
+      213: -2361127002295836837
+    second: OilMove_00006
   - first:
-      213: -6380345905801100573
-    second: Exporter Jelly Crawl_00007
+      213: -5975341395381850164
+    second: OilMove_00007
   - first:
-      213: -107340009909808734
-    second: Exporter Jelly Crawl_00008
+      213: -3114004594177678387
+    second: OilMove_00008
   - first:
-      213: 6892163147685246259
-    second: Exporter Jelly Crawl_00009
+      213: -4883831932396116228
+    second: OilMove_00009
   - first:
-      213: 8704804029860056400
-    second: Exporter Jelly Crawl_00010
+      213: 7993547716353763531
+    second: OilMove_00010
   - first:
-      213: -6453254877653234852
-    second: Exporter Jelly Crawl_00011
+      213: 7452988007111726888
+    second: OilMove_00011
   - first:
-      213: 4278150042186605461
-    second: Exporter Jelly Crawl_00012
+      213: -4551489803233017964
+    second: OilMove_00012
   - first:
-      213: 287543416167422356
-    second: Exporter Jelly Crawl_00013
+      213: -8842087728705306996
+    second: OilMove_00013
   - first:
-      213: 8013365025846611269
-    second: Exporter Jelly Crawl_00014
+      213: -192320140365978548
+    second: OilMove_00014
   - first:
-      213: 5418651355947898377
-    second: Exporter Jelly Crawl_00015
+      213: -7887364719386020442
+    second: OilMove_00015
   - first:
-      213: 2726523282027353069
-    second: Exporter Jelly Crawl_00016
+      213: 6138876163828929888
+    second: OilMove_00016
   - first:
-      213: 3138521462038160636
-    second: Exporter Jelly Crawl_00017
+      213: 2022209985457331873
+    second: OilMove_00017
   - first:
-      213: -5129422171853981572
-    second: Exporter Jelly Crawl_00018
+      213: 5366504002298937472
+    second: OilMove_00018
   - first:
-      213: -5484878410205896733
-    second: Exporter Jelly Crawl_00019
+      213: 5365071064636201942
+    second: OilMove_00019
   - first:
-      213: -8507426024104531281
-    second: Exporter Jelly Crawl_00020
+      213: 220803271976111045
+    second: OilMove_00020
   - first:
-      213: 7179086911799731579
-    second: Exporter Jelly Crawl_00021
+      213: 7795336367170474349
+    second: OilMove_00021
   - first:
-      213: -3174600803310511197
-    second: Exporter Jelly Crawl_00022
+      213: -8808213138103648624
+    second: OilMove_00022
   - first:
-      213: -2544232112128538403
-    second: Exporter Jelly Crawl_00023
+      213: -6838017910129229217
+    second: OilMove_00023
   - first:
-      213: 4273977193883496207
-    second: Exporter Jelly Crawl_00024
+      213: -3867918604037454192
+    second: OilMove_00024
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,526 +150,526 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00000
+      name: OilMove_00000
       rect:
         serializedVersion: 2
-        x: 522
-        y: 147
-        width: 517
-        height: 438
+        x: 561
+        y: 356
+        width: 277
+        height: 208
       alignment: 9
-      pivot: {x: 0.5502901, y: 0.6152968}
+      pivot: {x: 0.38989168, y: 0.6826923}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8567e8ab8f8943d20800000000000000
-      internalID: 3257396624544921176
+      spriteID: 0c0c5bd4e0b69bd20800000000000000
+      internalID: 3294782311575699648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00001
+      name: OilMove_00001
       rect:
         serializedVersion: 2
         x: 1
-        y: 151
-        width: 519
-        height: 438
+        y: 146
+        width: 277
+        height: 208
       alignment: 9
-      pivot: {x: 0.54816955, y: 0.6152968}
+      pivot: {x: 0.38989168, y: 0.6826923}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46c01f3094bb7b6d0800000000000000
-      internalID: -2974703106581787548
+      spriteID: 4d5e4ab1f5048a510800000000000000
+      internalID: 1560568048113739220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00002
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 1027
-        width: 521
-        height: 438
-      alignment: 9
-      pivot: {x: 0.5403071, y: 0.6152968}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 836485ca4f9ec8570800000000000000
-      internalID: 8470402236249818680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00003
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 1467
-        width: 527
-        height: 437
-      alignment: 9
-      pivot: {x: 0.528463, y: 0.6167048}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d2121c9cc18b3910800000000000000
-      internalID: 1818189590365868758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00004
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 1470
-        width: 532
-        height: 437
-      alignment: 9
-      pivot: {x: 0.51409775, y: 0.6167048}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d71bfc6e8877b870800000000000000
-      internalID: 8698553758398486483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00005
+      name: OilMove_00002
       rect:
         serializedVersion: 2
         x: 1
-        y: 1906
-        width: 537
-        height: 437
+        y: 565
+        width: 278
+        height: 208
       alignment: 9
-      pivot: {x: 0.4962756, y: 0.61899316}
+      pivot: {x: 0.39568347, y: 0.6826923}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bccdcb4999a7ed0e0800000000000000
-      internalID: -2243220764339938101
+      spriteID: 523d080cbec484d70800000000000000
+      internalID: 9027550028494852901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00006
+      name: OilMove_00003
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 775
+        width: 281
+        height: 208
+      alignment: 9
+      pivot: {x: 0.40213522, y: 0.6826923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b6613137e45f880800000000000000
+      internalID: -8577863659108799695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00004
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 776
+        width: 285
+        height: 208
+      alignment: 9
+      pivot: {x: 0.4105263, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3879ba1a0fb705620800000000000000
+      internalID: 2760842845012858755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00005
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 985
+        width: 291
+        height: 209
+      alignment: 9
+      pivot: {x: 0.4226804, y: 0.68899524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47588ec0b9adc1f0800000000000000
+      internalID: -1022974963498854577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00006
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1196
+        width: 297
+        height: 210
+      alignment: 9
+      pivot: {x: 0.43771043, y: 0.6904762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fd29e40879b3fd0800000000000000
+      internalID: -2361127002295836837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00007
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1408
+        width: 302
+        height: 211
+      alignment: 9
+      pivot: {x: 0.44701988, y: 0.69668245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfe39cd8a2531da0800000000000000
+      internalID: -5975341395381850164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00008
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1408
+        width: 306
+        height: 212
+      alignment: 9
+      pivot: {x: 0.45751634, y: 0.6981132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3ea1ff155d8c4d0800000000000000
+      internalID: -3114004594177678387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00009
       rect:
         serializedVersion: 2
         x: 1
-        y: 2345
-        width: 544
-        height: 436
+        y: 1621
+        width: 309
+        height: 212
       alignment: 9
-      pivot: {x: 0.4788603, y: 0.6204128}
+      pivot: {x: 0.46278316, y: 0.7028302}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e089903e90dd6b50800000000000000
-      internalID: 6588151207751680229
+      spriteID: cf6e1deabb4293cb0800000000000000
+      internalID: -4883831932396116228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00007
+      name: OilMove_00010
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 2784
-        width: 549
-        height: 435
+        x: 627
+        y: 1835
+        width: 310
+        height: 212
       alignment: 9
-      pivot: {x: 0.46174863, y: 0.6218391}
+      pivot: {x: 0.46451613, y: 0.7028302}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e28b9404357477a0800000000000000
-      internalID: -6380345905801100573
+      spriteID: bc8a660eb49ceee60800000000000000
+      internalID: 7993547716353763531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00008
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 2783
-        width: 554
-        height: 436
-      alignment: 9
-      pivot: {x: 0.4467509, y: 0.6227064}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a1932764d6a28ef0800000000000000
-      internalID: -107340009909808734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00009
+      name: OilMove_00011
       rect:
         serializedVersion: 2
         x: 1
-        y: 3221
-        width: 560
-        height: 436
+        y: 1835
+        width: 311
+        height: 212
       alignment: 9
-      pivot: {x: 0.43660715, y: 0.6227064}
+      pivot: {x: 0.46623793, y: 0.7028302}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33531d7ddd1e5af50800000000000000
-      internalID: 6892163147685246259
+      spriteID: 8271427da155e6760800000000000000
+      internalID: 7452988007111726888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00010
+      name: OilMove_00012
       rect:
         serializedVersion: 2
-        x: 566
-        y: 3659
-        width: 562
-        height: 436
+        x: 314
+        y: 1835
+        width: 311
+        height: 212
       alignment: 9
-      pivot: {x: 0.4297153, y: 0.6227064}
+      pivot: {x: 0.46623793, y: 0.7028302}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05d8237252dadc870800000000000000
-      internalID: 8704804029860056400
+      spriteID: 49fbb77832cd5d0c0800000000000000
+      internalID: -4551489803233017964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00011
+      name: OilMove_00013
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3659
-        width: 563
-        height: 436
+        x: 312
+        y: 1621
+        width: 309
+        height: 212
       alignment: 9
-      pivot: {x: 0.42717585, y: 0.6227064}
+      pivot: {x: 0.46278316, y: 0.7028302}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5b0c6c21ee6176a0800000000000000
-      internalID: -6453254877653234852
+      spriteID: c8efda1ee089a4580800000000000000
+      internalID: -8842087728705306996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00012
+      name: OilMove_00014
       rect:
         serializedVersion: 2
-        x: 1130
-        y: 3659
-        width: 562
-        height: 436
+        x: 623
+        y: 1622
+        width: 307
+        height: 211
       alignment: 9
-      pivot: {x: 0.42793596, y: 0.6227064}
+      pivot: {x: 0.45928338, y: 0.7014218}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 593ea58fbca0f5b30800000000000000
-      internalID: 4278150042186605461
+      spriteID: c44255ee9ddb45df0800000000000000
+      internalID: -192320140365978548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00013
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 3221
-        width: 560
-        height: 436
-      alignment: 9
-      pivot: {x: 0.4330357, y: 0.6227064}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 499592aa63f8df300800000000000000
-      internalID: 287543416167422356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00014
-      rect:
-        serializedVersion: 2
-        x: 1125
-        y: 3221
-        width: 558
-        height: 436
-      alignment: 9
-      pivot: {x: 0.43996415, y: 0.6227064}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54d402dc801353f60800000000000000
-      internalID: 8013365025846611269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00015
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 2783
-        width: 553
-        height: 436
-      alignment: 9
-      pivot: {x: 0.44936708, y: 0.6227064}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90696f0f2bae23b40800000000000000
-      internalID: 5418651355947898377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00016
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 2347
-        width: 549
-        height: 435
-      alignment: 9
-      pivot: {x: 0.46174863, y: 0.6218391}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de39211ba7e86d520800000000000000
-      internalID: 2726523282027353069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00017
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 2345
-        width: 544
-        height: 436
-      alignment: 9
-      pivot: {x: 0.47334558, y: 0.6204128}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf469b024a44e8b20800000000000000
-      internalID: 3138521462038160636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00018
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 1909
-        width: 541
-        height: 436
-      alignment: 9
-      pivot: {x: 0.487061, y: 0.6204128}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7871a726b1a0d8b0800000000000000
-      internalID: -5129422171853981572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00019
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 1906
-        width: 536
-        height: 437
-      alignment: 9
-      pivot: {x: 0.5009328, y: 0.61899316}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3efd773652cc1e3b0800000000000000
-      internalID: -5484878410205896733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00020
+      name: OilMove_00015
       rect:
         serializedVersion: 2
         x: 1
-        y: 1467
-        width: 532
-        height: 437
+        y: 1408
+        width: 304
+        height: 211
       alignment: 9
-      pivot: {x: 0.51409775, y: 0.6167048}
+      pivot: {x: 0.45394737, y: 0.69668245}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: faae558fa1d8fe980800000000000000
-      internalID: -8507426024104531281
+      spriteID: 6a53c07a3937a8290800000000000000
+      internalID: -7887364719386020442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00021
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 1031
-        width: 527
-        height: 437
-      alignment: 9
-      pivot: {x: 0.5265655, y: 0.6167048}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b75aa75828d31a360800000000000000
-      internalID: 7179086911799731579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Exporter Jelly Crawl_00022
+      name: OilMove_00016
       rect:
         serializedVersion: 2
         x: 1
-        y: 1027
-        width: 523
-        height: 438
+        y: 1196
+        width: 301
+        height: 210
       alignment: 9
-      pivot: {x: 0.53632885, y: 0.6152968}
+      pivot: {x: 0.4451827, y: 0.6952381}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3abd10f936d81f3d0800000000000000
-      internalID: -3174600803310511197
+      spriteID: 065d229885ba13550800000000000000
+      internalID: 6138876163828929888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00023
+      name: OilMove_00017
       rect:
         serializedVersion: 2
-        x: 1049
-        y: 591
-        width: 521
-        height: 438
+        x: 603
+        y: 1196
+        width: 296
+        height: 210
       alignment: 9
-      pivot: {x: 0.5441459, y: 0.6152968}
+      pivot: {x: 0.4358108, y: 0.6904762}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd8cf6abf5211bcd0800000000000000
-      internalID: -2544232112128538403
+      spriteID: 1ae9e648445501c10800000000000000
+      internalID: 2022209985457331873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Exporter Jelly Crawl_00024
+      name: OilMove_00018
       rect:
         serializedVersion: 2
-        x: 522
-        y: 587
-        width: 518
-        height: 438
+        x: 1
+        y: 985
+        width: 292
+        height: 209
       alignment: 9
-      pivot: {x: 0.5492278, y: 0.6152968}
+      pivot: {x: 0.42465752, y: 0.68899524}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0feb830d97305b30800000000000000
-      internalID: 4273977193883496207
+      spriteID: 0808db605f6a97a40800000000000000
+      internalID: 5366504002298937472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00019
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 986
+        width: 287
+        height: 208
+      alignment: 9
+      pivot: {x: 0.41463414, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db1e5a35bf847a40800000000000000
+      internalID: 5365071064636201942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 775
+        width: 283
+        height: 208
+      alignment: 9
+      pivot: {x: 0.40636042, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb416fe763701300800000000000000
+      internalID: 220803271976111045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00021
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 566
+        width: 280
+        height: 208
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6826923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6151eddf199e2c60800000000000000
+      internalID: 7795336367170474349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00022
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 565
+        width: 278
+        height: 208
+      alignment: 9
+      pivot: {x: 0.39568347, y: 0.6826923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e376d91d0f2c580800000000000000
+      internalID: -8808213138103648624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00023
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 355
+        width: 277
+        height: 208
+      alignment: 9
+      pivot: {x: 0.38989168, y: 0.6826923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f520dfaa0fa7a11a0800000000000000
+      internalID: -6838017910129229217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OilMove_00024
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 356
+        width: 277
+        height: 208
+      alignment: 9
+      pivot: {x: 0.38989168, y: 0.6826923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0960932d584625ac0800000000000000
+      internalID: -3867918604037454192
       vertices: []
       indices: 
       edges: []

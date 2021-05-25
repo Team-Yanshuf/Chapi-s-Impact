@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c88641a695e1743d311d01313727f3cd:e0fe7a3f2c244900067892d14b94e161:ecf863ad60efc5d81540defdc33f5575$
+#
+:format=40300
+:texture=ChapiAURA.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Chapi'sAuraExport_00000;1;239;293;164; 0.3447098976109215;0.12195121951219512; 0;0;0;0
+Chapi'sAuraExport_00001;1;405;339;183; 0.36578171091445427;0.08743169398907102; 0;0;0;0
+Chapi'sAuraExport_00002;422;398;381;202; 0.3805774278215223;0.05940594059405946; 0;0;0;0
+Chapi'sAuraExport_00003;1;590;419;217; 0.3914081145584726;0.03686635944700456; 0;0;0;0
+Chapi'sAuraExport_00004;455;602;443;221; 0.3972911963882618;-0.004524886877828038; 0;0;0;0
+Chapi'sAuraExport_00005;1;809;452;214; 0.4004424778761062;-0.05607476635514019; 0;0;0;0
+Chapi'sAuraExport_00006;455;825;448;198; 0.39955357142857145;-0.13131313131313127; 0;0;0;0
+Chapi'sAuraExport_00007;905;1020;3;3; 320;-179; 0;0;0;0
