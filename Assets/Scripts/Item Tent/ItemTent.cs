@@ -7,10 +7,12 @@ using UnityEngine;
 public struct ItemTentInfo
 {
 	public bool isHurt;
+	public bool collapsed;
 
-	public ItemTentInfo(bool isHurt)
+	public ItemTentInfo(bool isHurt, bool collapsed)
 	{
 		this.isHurt = isHurt;
+		this.collapsed = collapsed;
 	}
 }
 
@@ -24,7 +26,9 @@ public class ItemTent : MonoBehaviour
 	TentItems itemM;
 	TentAnimation animationM;
 
+	bool collapsed;
 	ItemTentInfo info;
+	bool dead;
 
 	private void Start()
 	{
@@ -47,12 +51,15 @@ public class ItemTent : MonoBehaviour
 
 	internal void die()
 	{
-		itemM.spawnItem();
-		Destroy(this.gameObject);
+		if (!collapsed)
+		{
+			itemM.spawnItem();
+			collapsed = true;
+		}
 	}
 
 	public ItemTentInfo getTentInfo()
 	{
-		return new ItemTentInfo(collisionM.getIsHurt());
+		return new ItemTentInfo(collisionM.getIsHurt(),collapsed);
 	}
 }
