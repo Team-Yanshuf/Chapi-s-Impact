@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 7be2f6b7164cf4e0880a70ec0fb31a05
+guid: 73cfc4d320da944f08c7b825784b3be8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6611786379778403982
-    second: OilHurt_00000
+      213: 5034608963780058090
+    second: TrashHurt_00000
   - first:
-      213: -7451604578620132370
-    second: OilHurt_00001
+      213: 2247780030385394564
+    second: TrashHurt_00001
   - first:
-      213: 6186355282665417342
-    second: OilHurt_00002
+      213: -1674917991780609566
+    second: TrashHurt_00002
   - first:
-      213: 3062554818698818784
-    second: OilHurt_00003
+      213: -678451271157178236
+    second: TrashHurt_00003
   - first:
-      213: 3090052199364548767
-    second: OilHurt_00004
+      213: -8815877163483296133
+    second: TrashHurt_00004
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,106 +90,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OilHurt_00000
+      name: TrashHurt_00000
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 409
+        width: 167
+        height: 301
+      alignment: 9
+      pivot: {x: 0.35329342, y: 0.46843854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb9b159d268ed540800000000000000
+      internalID: 5034608963780058090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashHurt_00001
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 409
+        width: 167
+        height: 301
+      alignment: 9
+      pivot: {x: 0.35329342, y: 0.46843854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48396544708b13f10800000000000000
+      internalID: 2247780030385394564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashHurt_00002
       rect:
         serializedVersion: 2
         x: 1
-        y: 303
-        width: 277
-        height: 208
+        y: 703
+        width: 171
+        height: 320
       alignment: 9
-      pivot: {x: 0.38989168, y: 0.6826923}
+      pivot: {x: 0.39766082, y: 0.41875}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 271da8e71573e34a0800000000000000
-      internalID: -6611786379778403982
+      spriteID: 2e19108e5fe71c8e0800000000000000
+      internalID: -1674917991780609566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OilHurt_00001
+      name: TrashHurt_00003
       rect:
         serializedVersion: 2
-        x: 1
-        y: 303
-        width: 277
-        height: 208
+        x: 174
+        y: 712
+        width: 169
+        height: 311
       alignment: 9
-      pivot: {x: 0.38989168, y: 0.6826923}
+      pivot: {x: 0.37869823, y: 0.45016077}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee33ca4bd15969890800000000000000
-      internalID: -7451604578620132370
+      spriteID: 480a349d928a596f0800000000000000
+      internalID: -678451271157178236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OilHurt_00002
+      name: TrashHurt_00004
       rect:
         serializedVersion: 2
-        x: 280
-        y: 324
-        width: 222
-        height: 187
+        x: 174
+        y: 407
+        width: 168
+        height: 303
       alignment: 9
-      pivot: {x: 0.43243244, y: 0.77005345}
+      pivot: {x: 0.36309522, y: 0.46534654}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7a22a55a595ad550800000000000000
-      internalID: 6186355282665417342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OilHurt_00003
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 110
-        width: 232
-        height: 191
-      alignment: 9
-      pivot: {x: 0.4224138, y: 0.7486911}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e434b9a161608a20800000000000000
-      internalID: 3062554818698818784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OilHurt_00004
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 98
-        width: 263
-        height: 203
-      alignment: 9
-      pivot: {x: 0.39543727, y: 0.6995074}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f98d9808a1212ea20800000000000000
-      internalID: 3090052199364548767
+      spriteID: b7e8917ad66b7a580800000000000000
+      internalID: -8815877163483296133
       vertices: []
       indices: 
       edges: []

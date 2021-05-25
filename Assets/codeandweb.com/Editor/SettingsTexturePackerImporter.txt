@@ -42,6 +42,7 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_L_Weapon.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_R.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_R_Weapon.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiAURA.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/AuraToPlant.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/Chapi_Hit_B1.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/Chapi_Hit_B2.tpsheet
@@ -115,7 +116,10 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyDies.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Smoke/SmokeLoop001.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentCrush.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentShake.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashHurt.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/Tree_Windy.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Left.tpsheet
@@ -167,6 +171,7 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_L_Weapon.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_R.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_R_Weapon.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/ChapiAURA.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/AuraToPlant.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/Chapi_Hit_B1.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/Chapi_Hit_B2.png
@@ -240,7 +245,10 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyDies.png
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.png
 - Assets/GraphicAssets/SpriteAnimations/Smoke/SmokeLoop001.png
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentCrush.png
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentShake.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.png
+- Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashHurt.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/Tree_Windy.png
 - Assets/GraphicAssets/SpriteAnimations/Tree/TreeGrowth_Left.png
@@ -343,7 +351,11 @@ normalmapFileNames:
 - 
 - 
 - 
+- 
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleF3d_n.png
+- 
+- 
+- 
 - 
 - 
 - 

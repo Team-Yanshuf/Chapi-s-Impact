@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:9ac0037003ae45382a9230b82b72d2e3:6aa7dca770168b85ed6dfb27be47b2b5:6314e84d39241fbad4dbd90fb8f7b593$
+#
+:format=40300
+:texture=TentCrush.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+TentCrush_00000;604;551;322;472; 0.40372670807453415;0.3389830508474576; 0;0;0;0
+TentCrush_00001;604;551;322;472; 0.40372670807453415;0.3389830508474576; 0;0;0;0
+TentCrush_00002;1;138;321;411; 0.40498442367601245;0.3941605839416058; 0;0;0;0
+TentCrush_00003;324;216;459;333; 0.43790849673202614;0.4924924924924925; 0;0;0;0
+TentCrush_00004;1;719;601;304; 0.454242928452579;0.5460526315789473; 0;0;0;0

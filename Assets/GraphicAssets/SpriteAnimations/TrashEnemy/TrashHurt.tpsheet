@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:a61f089030a76bce00cf2a08f828059c:d0857a887106073378bcdffaee43915d:868a5e2896a6da7c7684b935e63c8071$
+#
+:format=40300
+:texture=TrashHurt.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+TrashHurt_00000;344;409;167;301; 0.3532934131736527;0.46843853820598; 0;0;0;0
+TrashHurt_00001;344;409;167;301; 0.3532934131736527;0.46843853820598; 0;0;0;0
+TrashHurt_00002;1;703;171;320; 0.39766081871345027;0.41874999999999996; 0;0;0;0
+TrashHurt_00003;174;712;169;311; 0.378698224852071;0.4501607717041801; 0;0;0;0
+TrashHurt_00004;174;407;168;303; 0.3630952380952381;0.4653465346534653; 0;0;0;0

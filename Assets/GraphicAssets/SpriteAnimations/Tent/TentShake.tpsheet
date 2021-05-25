@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:2dede11e3e8738e36b1a7afe5c64c886:d755d23790ced86ba5aa32f4d09e7415:dcab1fc28e3f21bdf73151c0b59257fb$
+#
+:format=40300
+:texture=TentShake.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+TentShake_00000;650;551;322;472; 0.40372670807453415;0.3389830508474576; 0;0;0;0
+TentShake_00001;650;551;322;472; 0.40372670807453415;0.3389830508474576; 0;0;0;0
+TentShake_00002;1;544;322;479; 0.422360248447205;0.3549060542797495; 0;0;0;0
+TentShake_00003;325;548;323;475; 0.4086687306501548;0.3431578947368421; 0;0;0;0
+TentShake_00004;1;66;323;476; 0.39628482972136225;0.34243697478991597; 0;0;0;0

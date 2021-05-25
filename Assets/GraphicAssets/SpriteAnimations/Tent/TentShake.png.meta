@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 7be2f6b7164cf4e0880a70ec0fb31a05
+guid: c298c1b39756a4830a43f938e6c55169
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6611786379778403982
-    second: OilHurt_00000
+      213: -4209981583412582783
+    second: TentShake_00000
   - first:
-      213: -7451604578620132370
-    second: OilHurt_00001
+      213: 2825172266314944809
+    second: TentShake_00001
   - first:
-      213: 6186355282665417342
-    second: OilHurt_00002
+      213: 4989153579896393321
+    second: TentShake_00002
   - first:
-      213: 3062554818698818784
-    second: OilHurt_00003
+      213: 197322060204569242
+    second: TentShake_00003
   - first:
-      213: 3090052199364548767
-    second: OilHurt_00004
+      213: 4258895522417415212
+    second: TentShake_00004
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,106 +90,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OilHurt_00000
+      name: TentShake_00000
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 551
+        width: 322
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4037267, y: 0.33898306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186a1c92e042395c0800000000000000
+      internalID: -4209981583412582783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentShake_00001
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 551
+        width: 322
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4037267, y: 0.33898306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921dcf23537053720800000000000000
+      internalID: 2825172266314944809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentShake_00002
       rect:
         serializedVersion: 2
         x: 1
-        y: 303
-        width: 277
-        height: 208
+        y: 544
+        width: 322
+        height: 479
       alignment: 9
-      pivot: {x: 0.38989168, y: 0.6826923}
+      pivot: {x: 0.42236024, y: 0.35490605}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 271da8e71573e34a0800000000000000
-      internalID: -6611786379778403982
+      spriteID: 96ec79b4fb80d3540800000000000000
+      internalID: 4989153579896393321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OilHurt_00001
+      name: TentShake_00003
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 548
+        width: 323
+        height: 475
+      alignment: 9
+      pivot: {x: 0.40866873, y: 0.3431579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9277d84e570db200800000000000000
+      internalID: 197322060204569242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentShake_00004
       rect:
         serializedVersion: 2
         x: 1
-        y: 303
-        width: 277
-        height: 208
+        y: 66
+        width: 323
+        height: 476
       alignment: 9
-      pivot: {x: 0.38989168, y: 0.6826923}
+      pivot: {x: 0.39628482, y: 0.34243697}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee33ca4bd15969890800000000000000
-      internalID: -7451604578620132370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OilHurt_00002
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 324
-        width: 222
-        height: 187
-      alignment: 9
-      pivot: {x: 0.43243244, y: 0.77005345}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7a22a55a595ad550800000000000000
-      internalID: 6186355282665417342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OilHurt_00003
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 110
-        width: 232
-        height: 191
-      alignment: 9
-      pivot: {x: 0.4224138, y: 0.7486911}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e434b9a161608a20800000000000000
-      internalID: 3062554818698818784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OilHurt_00004
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 98
-        width: 263
-        height: 203
-      alignment: 9
-      pivot: {x: 0.39543727, y: 0.6995074}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f98d9808a1212ea20800000000000000
-      internalID: 3090052199364548767
+      spriteID: c24113db9e2aa1b30800000000000000
+      internalID: 4258895522417415212
       vertices: []
       indices: 
       edges: []
