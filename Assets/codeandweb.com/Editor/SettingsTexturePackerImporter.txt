@@ -116,6 +116,8 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyDies.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Smoke/SmokeLoop001.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentCrush.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentShake.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashHurt.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.tpsheet
@@ -243,6 +245,8 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyDies.png
 - Assets/GraphicAssets/SpriteAnimations/Jelly/JellyInjured.png
 - Assets/GraphicAssets/SpriteAnimations/Smoke/SmokeLoop001.png
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentCrush.png
+- Assets/GraphicAssets/SpriteAnimations/Tent/TentShake.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashHurt.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashJump.png
@@ -349,6 +353,8 @@ normalmapFileNames:
 - 
 - 
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleF3d_n.png
+- 
+- 
 - 
 - 
 - 
