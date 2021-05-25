@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using System;
 public interface IHitter
 {
     void hit();
@@ -8,7 +8,7 @@ public interface IHitter
 
 public interface IVulnrable
 {
-    void takeDamage(Vector3 pushback, float damage = 0 );
+    void takeDamage(Vector3 pushback= default(Vector3), float damage = 0 );
 }
 
 public interface ICollectible
@@ -34,5 +34,7 @@ public interface IHealthManager
     float getMaxHP();
 }
 
-
-
+public interface IPowerup
+{
+    string[] getPowerupFunctionality();
+}

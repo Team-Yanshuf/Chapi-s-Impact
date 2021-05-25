@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
     PlayerAnimation animationM;
     PlayerPlanting plantingM;
     WeaponManager weaponM;
+    PlayerPowerup powerupM;
 
     Room currentRoom;
 
@@ -47,12 +48,13 @@ public class Player : MonoBehaviour
         animationM = GetComponent<PlayerAnimation>();
         plantingM = GetComponent<PlayerPlanting>();
         weaponM = GetComponentInChildren<WeaponManager>();
-
+        powerupM = GetComponent<PlayerPowerup>();
 	}
 	private void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
         weaponM.initSelf();
+        powerupM.initSelf();
     }
 
     //*******************INPUT FUNCTIONS*****************//

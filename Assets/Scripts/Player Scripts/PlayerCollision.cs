@@ -10,21 +10,24 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
     {
         playerM = GetComponent<Player>();
     }
-
-	private void Update()
-	{
-        //changeCollisionLayerDuringDash();
-	}
 	public bool isCollecting()
     {
         bool temp = collecting;
         collecting = false;
         return temp;
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Collectible"))
+        if (other.gameObject.CompareTag("Collectible"))
+		{
             collecting = true;
+            PowerupInfo info =  other.gameObject.GetComponent<PowerupBase>().getPowerupInfo();
+
+            GetComponent<PlayerPowerup>().addNewPowerup(info);
+            other.gameObject.GetComponent<PowerupBase>().destroy();
+        }
+
+
     }
 
     public void takeDamage(Vector3 pushback, float damage = 0)
