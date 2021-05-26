@@ -33,7 +33,7 @@ public class TentAnimation : MonoBehaviour
 		{
 			//print("hurt state");
 			animator.SetBool("Hurt", info.isHurt);
-			animator.SetBool("Hurt", false);
+			//animator.SetBool("Hurt", false);
 		}
 
 	}
