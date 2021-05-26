@@ -7,7 +7,6 @@ public class FogManager : MonoBehaviour
     FogContainer pollution;
 
     RoomEvents events;
-    //LevelManager levelM;
 
     public void initSelf()
 	{
@@ -15,7 +14,6 @@ public class FogManager : MonoBehaviour
         fogBoundries = GetComponent<BoxCollider>();
 
         events = GetComponent<RoomEvents>();
-        events.initEvents();
         
         events.dwindleLocalFog.AddListener(clearFogBy20Precent);
         events.treePlanted.AddListener(clear200FogParticles);
@@ -27,7 +25,6 @@ public class FogManager : MonoBehaviour
         pollution.setFogCount(initialFogCount);
         pollution.transform.parent = this.transform;
 
-        //pollution.setFogTransform(levelM.transform.Find("LevelBoundries").transform);
         pollution.setFogTransform(transform);
         pollution.initFog();
     }

@@ -25,13 +25,13 @@ public class TentAnimation : MonoBehaviour
 	{
 		if (info.collapsed)
 		{
-			print("collapsed state");
+			//print("collapsed state");
 			animator.SetBool("Collapsed", true);
 			ready = false;
 		}
 		else if (info.isHurt)
 		{
-			print("hurt state");
+			//print("hurt state");
 			animator.SetBool("Hurt", info.isHurt);
 			animator.SetBool("Hurt", false);
 		}

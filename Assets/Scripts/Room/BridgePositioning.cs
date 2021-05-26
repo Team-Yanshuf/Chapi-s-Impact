@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class BridgePositioning : MonoBehaviour
 {
@@ -109,6 +110,15 @@ public class BridgePositioning : MonoBehaviour
 					comp.transform.rotation= q;
 				//bridges[i].GetComponent<Bridge>().positionTo = roomAdjacencyList[i].GetComponent<BridgePositioning>().getBridgePositions()[(i + 2) % 4].position;
 			}
+		}
+	}
+
+	internal void openBridges()
+	{
+		foreach (GameObject bridge in bridges)
+		{
+			if(bridge)
+			bridge.GetComponent<Bridge>().openBridge();
 		}
 	}
 }
