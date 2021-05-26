@@ -3128,6 +3128,9 @@ MonoBehaviour:
   treePlanted:
     m_PersistentCalls:
       m_Calls: []
+  roomCleared:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2044970143011291439
 MonoBehaviour:
   m_ObjectHideFlags: 0
