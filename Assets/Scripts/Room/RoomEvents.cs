@@ -8,13 +8,19 @@ public class RoomEvents : MonoBehaviour
 	bool ready = false;
 	public UnityEvent dwindleLocalFog;
 	public UnityEvent treePlanted;
+	public UnityEvent roomCleared;
 
 	public void initEvents()
 	{
 		dwindleLocalFog = new UnityEvent();
-		dwindleLocalFog = new UnityEvent();
+		treePlanted= new UnityEvent();
+		roomCleared = new UnityEvent();
+
 		ready = true;
 	}
+
+
+
 
 
 }

@@ -11,8 +11,6 @@ public struct SpawnwaveManagerInfo
         this.totalNumberOfWaves = total;
         this.remainingNumberOfWaves = remainingWaves;
 	}
-
-
 }
 public class EnemyWaveManager : MonoBehaviour
 {
@@ -24,10 +22,10 @@ public class EnemyWaveManager : MonoBehaviour
 
     public RoomEvents roomEvents;
 
-    bool canUpdateRun = false;
+    bool ready = false;
     void Update()
     {
-        if (canUpdateRun)
+        if (ready)
         {
             if (currentWave.isWaveDone() && currentWaveIndex<waveManagerInfo.totalNumberOfWaves)
 			{
@@ -36,7 +34,6 @@ public class EnemyWaveManager : MonoBehaviour
 
             updateWaveManagerInfo();
         }
-
     }
 
     public void initSelf(RoomEvents events)
@@ -64,7 +61,7 @@ public class EnemyWaveManager : MonoBehaviour
         }
 
         currentWaveIndex = -1;
-        canUpdateRun = true;
+        ready = true;
     }
 
 	public void activateNextWave()
@@ -72,6 +69,8 @@ public class EnemyWaveManager : MonoBehaviour
         currentWaveIndex++;
         if (waves.Count<=currentWaveIndex )
         {
+            roomEvents.roomCleared.Invoke();
+            waveManagerInfo.remainingNumberOfWaves = 0;
             print("No waves.");
             return;
         }
@@ -80,7 +79,11 @@ public class EnemyWaveManager : MonoBehaviour
         currentWave.initSelf(roomEvents);
     }
 
-    void updateWaveManagerInfo() => waveManagerInfo.remainingNumberOfWaves = waveManagerInfo.totalNumberOfWaves - currentWaveIndex;
+    void updateWaveManagerInfo()
+    {
+        waveManagerInfo.remainingNumberOfWaves = waveManagerInfo.totalNumberOfWaves - currentWaveIndex;
+        //print("Remaining number of waves:" + waveManagerInfo.remainingNumberOfWaves);
+    }
 
     public SpawnwaveManagerInfo getSpawnWaveManagerInfo() => waveManagerInfo;
 

@@ -2457,8 +2457,8 @@ Transform:
   - {fileID: 4105846921576895174}
   - {fileID: 4110848531947840021}
   - {fileID: 3433316197613244045}
-  - {fileID: 8986144312511849414}
   - {fileID: 3837363922566848062}
+  - {fileID: 2080747475131390851}
   - {fileID: 5908754482582781527}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2530,7 +2530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b96521cff18e54983d36b7cf236f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialFogCount: 100
+  initialFogCount: 200
 --- !u!114 &3664686419992802793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5489,6 +5489,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6022e1fc7041d6a44bea29efe4f6c923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &4649628336526363828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 4664323731923643296}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080747475131390851}
+  m_Layer: 0
+  m_Name: Grid Room2 (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080747475131390851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 4664323731923643296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4649628336526363828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8986144312511849414}
+  m_Father: {fileID: 4327452489601370214}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4824024735004193805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5967,6 +5998,37 @@ Transform:
   m_Father: {fileID: 4327452489601370214}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6546923916990955624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 4664323731923643296}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8986144312511849414}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8986144312511849414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4327452489601370214, guid: fdea4f7d866b15046b0e98af0c2bb413,
+    type: 3}
+  m_PrefabInstance: {fileID: 4664323731923643296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546923916990955624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2080747475131390851}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6822818076033879371
 GameObject:
   m_ObjectHideFlags: 0
@@ -6298,7 +6360,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4327452489601370214}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &9126037875834280897
 Tilemap:
@@ -9992,12 +10054,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdea4f7d866b15046b0e98af0c2bb413, type: 3}
---- !u!4 &8986144312511849414 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4327452489601370214, guid: fdea4f7d866b15046b0e98af0c2bb413,
-    type: 3}
-  m_PrefabInstance: {fileID: 4664323731923643296}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6465322410387144571
 PrefabInstance:
   m_ObjectHideFlags: 0

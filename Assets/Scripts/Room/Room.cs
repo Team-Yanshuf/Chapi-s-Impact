@@ -41,6 +41,7 @@ public class Room : MonoBehaviour
 	{
 		events = GetComponent<RoomEvents>();
 		events.initEvents();
+
         bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
         bridgeM.init(list);
@@ -52,7 +53,8 @@ public class Room : MonoBehaviour
 		waveM = GetComponent<EnemyWaveManager>();
 		waveM.initSelf(events);
 
-	
+		events.roomCleared.AddListener(decideOpenBridges);
+		events.dwindleLocalFog.AddListener(printed);
 	}
 	internal void setAdjecencyList(bool[] list)
 	{
@@ -70,10 +72,20 @@ public class Room : MonoBehaviour
 		fogM.initFog();
 	}
 
+	public void decideOpenBridges()
+	{
+		bridgeM.openBridges();
+	}
 	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo(),waveM.getSpawnWaveManagerInfo());
 
 	public void invokeTreePlantedEvent()
 	{
 		events.treePlanted.Invoke();
 	}
+
+	public void printed()
+	{
+
+	}
+	
 }

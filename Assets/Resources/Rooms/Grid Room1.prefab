@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &-6207594922586558776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 6828283165568764143}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693211918296716761}
+  m_Layer: 0
+  m_Name: Grid Room1 (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693211918296716761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 6828283165568764143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: -6207594922586558776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8839435657122004705}
+  m_Father: {fileID: 2623651046616741390}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &173915836951649880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3050,7 +3081,7 @@ Transform:
   - {fileID: 1199160721731005542}
   - {fileID: 6443830708955536546}
   - {fileID: 5710041486857682910}
-  - {fileID: 8839435657122004705}
+  - {fileID: 693211918296716761}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
@@ -3121,7 +3152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b96521cff18e54983d36b7cf236f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialFogCount: 100
+  initialFogCount: 200
 --- !u!114 &3895592940204538996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9369,6 +9400,37 @@ Transform:
   m_Father: {fileID: 1199160721731005542}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6546923916990955624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 6828283165568764143}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8839435657122004705}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8839435657122004705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2623651046616741390, guid: f98f5be519b9c9442b8830f8eec2c119,
+    type: 3}
+  m_PrefabInstance: {fileID: 6828283165568764143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546923916990955624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 693211918296716761}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7149943373192921660
 GameObject:
   m_ObjectHideFlags: 0
@@ -10192,12 +10254,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f98f5be519b9c9442b8830f8eec2c119, type: 3}
---- !u!4 &8839435657122004705 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2623651046616741390, guid: f98f5be519b9c9442b8830f8eec2c119,
-    type: 3}
-  m_PrefabInstance: {fileID: 6828283165568764143}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8662131546927179114
 PrefabInstance:
   m_ObjectHideFlags: 0

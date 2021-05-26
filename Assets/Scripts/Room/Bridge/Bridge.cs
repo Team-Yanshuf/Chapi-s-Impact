@@ -6,12 +6,20 @@ public class Bridge : MonoBehaviour
 	internal Vector3 positionTo;
 	[SerializeField] internal Room roomTo;
 
+
+	[SerializeField] bool isOpen = false;
 	private void OnTriggerEnter(Collider other)
 	{
+		if(isOpen)
 		if (other.gameObject.CompareTag("Player"))
 		{
 			other.GetComponent<Player>().movePlayerBetweenRooms(positionTo,roomTo);
 		}
+	}
+
+	public void openBridge()
+	{
+		isOpen = true;
 	}
 
 }
