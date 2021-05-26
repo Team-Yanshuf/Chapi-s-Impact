@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 4739e4e3b62df4bf59c303366a4f730a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7173872497089199802
+    second: PowerUP-AURA 2_00034
+  - first:
+      213: 4059658470913016736
+    second: PowerUP-AURA 2_00035
+  - first:
+      213: -6373320101326426025
+    second: PowerUP-AURA 2_00036
+  - first:
+      213: 7097104115459812626
+    second: PowerUP-AURA 2_00037
+  - first:
+      213: -5465417217623834232
+    second: PowerUP-AURA 2_00038
+  - first:
+      213: 4885093074175238050
+    second: PowerUP-AURA 2_00039
+  - first:
+      213: -1110315022737733390
+    second: PowerUP-AURA 2_00040
+  - first:
+      213: 7929963881944511382
+    second: PowerUP-AURA 2_00041
+  - first:
+      213: 8223199603329548715
+    second: PowerUP-AURA 2_00042
+  - first:
+      213: 391830055276733246
+    second: PowerUP-AURA 2_00043
+  - first:
+      213: 1542834226901097204
+    second: PowerUP-AURA 2_00044
+  - first:
+      213: -3532920675527433386
+    second: PowerUP-AURA 2_00045
+  - first:
+      213: 7328474848956430969
+    second: PowerUP-AURA 2_00046
+  - first:
+      213: 2392523175409211963
+    second: PowerUP-AURA 2_00047
+  - first:
+      213: 147623056892345289
+    second: PowerUP-AURA 2_00048
+  - first:
+      213: -7646915328533805711
+    second: PowerUP-AURA 2_00049
+  - first:
+      213: -7106220360844328025
+    second: PowerUP-AURA 2_00050
+  - first:
+      213: 6652489132818289294
+    second: PowerUP-AURA 2_00051
+  - first:
+      213: 82161245529120666
+    second: PowerUP-AURA 2_00052
+  - first:
+      213: -2928782919969704214
+    second: PowerUP-AURA 2_00053
+  - first:
+      213: -6914963793700557113
+    second: PowerUP-AURA 2_00054
+  - first:
+      213: -2441451921043204020
+    second: PowerUP-AURA 2_00055
+  - first:
+      213: -5099877611213231284
+    second: PowerUP-AURA 2_00056
+  - first:
+      213: -4975634939784578141
+    second: PowerUP-AURA 2_00057
+  - first:
+      213: 8230029112767986906
+    second: PowerUP-AURA 2_00058
+  - first:
+      213: -5380294689601985575
+    second: PowerUP-AURA 2_00059
+  - first:
+      213: -4786430452540621418
+    second: PowerUP-AURA 2_00060
+  - first:
+      213: 760202046648514288
+    second: PowerUP-AURA 2_00061
+  - first:
+      213: -4325952833528764938
+    second: PowerUP-AURA 2_00062
+  - first:
+      213: 961124382723763910
+    second: PowerUP-AURA 2_00063
+  - first:
+      213: 7823219015301158450
+    second: PowerUP-AURA 2_00064
+  - first:
+      213: -4899388057390671013
+    second: PowerUP-AURA 2_00065
+  - first:
+      213: 405105607095120552
+    second: PowerUP-AURA 2_00066
+  - first:
+      213: 4150041487711844636
+    second: PowerUP-AURA 2_00067
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00034
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1440
+        width: 111
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5855856, y: 0.77408636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641cd0309f8417c90800000000000000
+      internalID: -7173872497089199802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00035
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1743
+        width: 116
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5689655, y: 0.7631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a30d2cceddc65830800000000000000
+      internalID: 4059658470913016736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00036
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 636
+        width: 92
+        height: 257
+      alignment: 9
+      pivot: {x: 0.45652175, y: 0.78210115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750f498922b6d87a0800000000000000
+      internalID: -6373320101326426025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00037
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 373
+        width: 87
+        height: 287
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.77003485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21de1f7479afd7260800000000000000
+      internalID: 7097104115459812626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00038
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 696
+        width: 92
+        height: 290
+      alignment: 9
+      pivot: {x: 0.45652175, y: 0.7413793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8814a326fffe624b0800000000000000
+      internalID: -5465417217623834232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00039
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1136
+        width: 93
+        height: 302
+      alignment: 9
+      pivot: {x: 0.4516129, y: 0.7317881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af9fe4c4465bc340800000000000000
+      internalID: 4885093074175238050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00040
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 895
+        width: 94
+        height: 317
+      alignment: 9
+      pivot: {x: 0.44680852, y: 0.7287066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f800f89e5e5790f0800000000000000
+      internalID: -1110315022737733390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00041
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 422
+        width: 94
+        height: 257
+      alignment: 9
+      pivot: {x: 0.44680852, y: 0.8910506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693faf8c224ec0e60800000000000000
+      internalID: 7929963881944511382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00042
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 988
+        width: 95
+        height: 248
+      alignment: 9
+      pivot: {x: 0.44210526, y: 0.8427419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba14799887cae1270800000000000000
+      internalID: 8223199603329548715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00043
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1222
+        width: 95
+        height: 270
+      alignment: 9
+      pivot: {x: 0.44210526, y: 0.8185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e336719fb5f007500800000000000000
+      internalID: 391830055276733246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00044
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 662
+        width: 94
+        height: 276
+      alignment: 9
+      pivot: {x: 0.43617022, y: 0.79347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa11c91e8f396510800000000000000
+      internalID: 1542834226901097204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00045
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1214
+        width: 116
+        height: 284
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.7746479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653ed832d5b88fec0800000000000000
+      internalID: -3532920675527433386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1262
+        width: 116
+        height: 286
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.7622378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97abe651c09f3b560800000000000000
+      internalID: 7328474848956430969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00047
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 965
+        width: 93
+        height: 255
+      alignment: 9
+      pivot: {x: 0.4408602, y: 0.79607844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ad723e623f33120800000000000000
+      internalID: 2392523175409211963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00048
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1216
+        width: 116
+        height: 266
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.7781955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbb9ba53667c0200800000000000000
+      internalID: 147623056892345289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00049
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1775
+        width: 117
+        height: 272
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.7683824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175c0471603b0e590800000000000000
+      internalID: -7646915328533805711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00050
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1800
+        width: 117
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5641026, y: 0.84210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3c9307b32a16d90800000000000000
+      internalID: -7106220360844328025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00051
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1807
+        width: 118
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5677966, y: 0.79583335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82d7c1be93625c50800000000000000
+      internalID: 6652489132818289294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00052
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1793
+        width: 117
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5726496, y: 0.77559054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f111ea735e32100800000000000000
+      internalID: 82161245529120666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00053
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1550
+        width: 117
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5726496, y: 0.7490196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae679fe937fda57d0800000000000000
+      internalID: -2928782919969704214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00054
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1796
+        width: 117
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5726496, y: 0.72908366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce6ac1111d1900a0800000000000000
+      internalID: -6914963793700557113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00055
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1497
+        width: 116
+        height: 297
+      alignment: 9
+      pivot: {x: 0.57758623, y: 0.7777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c485606c9683e1ed0800000000000000
+      internalID: -2441451921043204020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00056
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1494
+        width: 116
+        height: 304
+      alignment: 9
+      pivot: {x: 0.57758623, y: 0.75328946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4beaa935589939b0800000000000000
+      internalID: -5099877611213231284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00057
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1484
+        width: 116
+        height: 289
+      alignment: 9
+      pivot: {x: 0.57758623, y: 0.71972317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab3e12626ef2fab0800000000000000
+      internalID: -4975634939784578141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00058
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 956
+        width: 115
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5826087, y: 0.71710527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcb8ad9fdfe63270800000000000000
+      internalID: 8230029112767986906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00059
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1500
+        width: 116
+        height: 291
+      alignment: 9
+      pivot: {x: 0.57758623, y: 0.73883164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d36a5f5c7a5555b0800000000000000
+      internalID: -5380294689601985575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00060
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1782
+        width: 112
+        height: 265
+      alignment: 9
+      pivot: {x: 0.59821427, y: 0.8037736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d343eecde239db0800000000000000
+      internalID: -4786430452540621418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00061
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1238
+        width: 113
+        height: 257
+      alignment: 9
+      pivot: {x: 0.59292036, y: 0.7548638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f67204dbb7cc8a00800000000000000
+      internalID: 760202046648514288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00062
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 681
+        width: 113
+        height: 273
+      alignment: 9
+      pivot: {x: 0.59292036, y: 0.73992676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f56c6a51d027f3c0800000000000000
+      internalID: -4325952833528764938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00063
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 940
+        width: 113
+        height: 274
+      alignment: 9
+      pivot: {x: 0.5840708, y: 0.71532845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce6739a889965d00800000000000000
+      internalID: 961124382723763910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00064
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1756
+        width: 112
+        height: 291
+      alignment: 9
+      pivot: {x: 0.58928573, y: 0.7182131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2365b17ce38a19c60800000000000000
+      internalID: 7823219015301158450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00065
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1526
+        width: 112
+        height: 254
+      alignment: 9
+      pivot: {x: 0.58928573, y: 0.81889766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b10761580e10cb0800000000000000
+      internalID: -4899388057390671013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00066
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1537
+        width: 112
+        height: 217
+      alignment: 9
+      pivot: {x: 0.58928573, y: 0.7557604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a27c6f37693f9500800000000000000
+      internalID: 405105607095120552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUP-AURA 2_00067
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1277
+        width: 111
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5855856, y: 0.7635659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19b236ceb8e79930800000000000000
+      internalID: 4150041487711844636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

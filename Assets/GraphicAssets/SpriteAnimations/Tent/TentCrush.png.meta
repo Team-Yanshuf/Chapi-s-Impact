@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: -7710521985016827573
     second: TentCrush_00004
+  - first:
+      213: 861536589972825702
+    second: TentCrush_00005
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -93,12 +96,12 @@ TextureImporter:
       name: TentCrush_00000
       rect:
         serializedVersion: 2
-        x: 604
-        y: 551
-        width: 322
-        height: 472
+        x: 673
+        y: 550
+        width: 323
+        height: 473
       alignment: 9
-      pivot: {x: 0.4037267, y: 0.33898306}
+      pivot: {x: 0.39009288, y: 0.31078225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -114,12 +117,12 @@ TextureImporter:
       name: TentCrush_00001
       rect:
         serializedVersion: 2
-        x: 604
-        y: 551
-        width: 322
-        height: 472
+        x: 673
+        y: 550
+        width: 323
+        height: 473
       alignment: 9
-      pivot: {x: 0.4037267, y: 0.33898306}
+      pivot: {x: 0.39009288, y: 0.31078225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,12 +138,12 @@ TextureImporter:
       name: TentCrush_00002
       rect:
         serializedVersion: 2
-        x: 1
-        y: 138
+        x: 604
+        y: 136
         width: 321
-        height: 411
+        height: 412
       alignment: 9
-      pivot: {x: 0.4049844, y: 0.3941606}
+      pivot: {x: 0.3894081, y: 0.3616505}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,12 +159,12 @@ TextureImporter:
       name: TentCrush_00003
       rect:
         serializedVersion: 2
-        x: 324
-        y: 216
-        width: 459
-        height: 333
+        x: 1
+        y: 194
+        width: 460
+        height: 334
       alignment: 9
-      pivot: {x: 0.4379085, y: 0.4924925}
+      pivot: {x: 0.42826086, y: 0.4520958}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,11 +181,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 719
+        y: 530
         width: 601
         height: 304
       alignment: 9
-      pivot: {x: 0.45424291, y: 0.54605263}
+      pivot: {x: 0.44592345, y: 0.50328946}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,6 +193,27 @@ TextureImporter:
       bones: []
       spriteID: b417b325b19bef490800000000000000
       internalID: -7710521985016827573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentCrush_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 836
+        width: 670
+        height: 187
+      alignment: 9
+      pivot: {x: 0.4522388, y: 0.8235294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666e456c6fac4fb00800000000000000
+      internalID: 861536589972825702
       vertices: []
       indices: 
       edges: []

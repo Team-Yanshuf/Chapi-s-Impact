@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 4258895522417415212
     second: TentShake_00004
+  - first:
+      213: -6081764268197578999
+    second: TentShake_00005
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,11 +97,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 551
-        width: 322
-        height: 472
+        y: 550
+        width: 323
+        height: 473
       alignment: 9
-      pivot: {x: 0.4037267, y: 0.33898306}
+      pivot: {x: 0.39009288, y: 0.31078225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -115,11 +118,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 650
-        y: 551
-        width: 322
-        height: 472
+        y: 550
+        width: 323
+        height: 473
       alignment: 9
-      pivot: {x: 0.4037267, y: 0.33898306}
+      pivot: {x: 0.39009288, y: 0.31078225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,7 +143,7 @@ TextureImporter:
         width: 322
         height: 479
       alignment: 9
-      pivot: {x: 0.42236024, y: 0.35490605}
+      pivot: {x: 0.4068323, y: 0.32776618}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,7 +164,7 @@ TextureImporter:
         width: 323
         height: 475
       alignment: 9
-      pivot: {x: 0.40866873, y: 0.3431579}
+      pivot: {x: 0.39318886, y: 0.31578946}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,10 +182,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 66
-        width: 323
+        width: 322
         height: 476
       alignment: 9
-      pivot: {x: 0.39628482, y: 0.34243697}
+      pivot: {x: 0.38198757, y: 0.31512606}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,6 +193,27 @@ TextureImporter:
       bones: []
       spriteID: c24113db9e2aa1b30800000000000000
       internalID: 4258895522417415212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentShake_00005
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 550
+        width: 323
+        height: 473
+      alignment: 9
+      pivot: {x: 0.39009288, y: 0.31078225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9077b62ee9b399ba0800000000000000
+      internalID: -6081764268197578999
       vertices: []
       indices: 
       edges: []

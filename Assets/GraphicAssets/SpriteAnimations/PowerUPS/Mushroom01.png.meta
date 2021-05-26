@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 9e87c4278a9da45dd87235c8e7db986f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6133323401464443824
+    second: Mush01_00000
+  - first:
+      213: 5283042923417207547
+    second: Mush01_00001
+  - first:
+      213: 8050696131423019713
+    second: Mush01_00002
+  - first:
+      213: -6877280933918318343
+    second: Mush01_00003
+  - first:
+      213: 6798783618432931031
+    second: Mush01_00004
+  - first:
+      213: -3786650501208447506
+    second: Mush01_00005
+  - first:
+      213: -96230000196898778
+    second: Mush01_00006
+  - first:
+      213: -6960862571505630831
+    second: Mush01_00007
+  - first:
+      213: 2571285990100392621
+    second: Mush01_00008
+  - first:
+      213: 4655416865339143477
+    second: Mush01_00009
+  - first:
+      213: -2921911012439804911
+    second: Mush01_00010
+  - first:
+      213: -1765994450726211112
+    second: Mush01_00011
+  - first:
+      213: 4489095467937701739
+    second: Mush01_00012
+  - first:
+      213: 2092632776353706012
+    second: Mush01_00013
+  - first:
+      213: 4155554154397227758
+    second: Mush01_00014
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mush01_00000
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 10
+        width: 39
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5641026, y: 3.357143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c0f13bcde02eaa0800000000000000
+      internalID: -6133323401464443824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00001
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 9
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.55, y: 3.2790697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf28c6f4c83215940800000000000000
+      internalID: 5283042923417207547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00002
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 148
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: 0.52380955, y: 3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2a4142a71d9bf60800000000000000
+      internalID: 8050696131423019713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00003
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 197
+        width: 50
+        height: 58
+      alignment: 9
+      pivot: {x: 0.44, y: 2.4310346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f06b319d6dfe80a0800000000000000
+      internalID: -6877280933918318343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00004
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 28
+        width: 83
+        height: 106
+      alignment: 9
+      pivot: {x: 0.26506025, y: 1.3301886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d49071fda12a5e50800000000000000
+      internalID: 6798783618432931031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 95
+        height: 124
+      alignment: 9
+      pivot: {x: 0.23157895, y: 1.1370968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee56ae28e6d137bc0800000000000000
+      internalID: -3786650501208447506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 97
+        height: 127
+      alignment: 9
+      pivot: {x: 0.22680412, y: 1.1102362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620378d135f1aaef0800000000000000
+      internalID: -96230000196898778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00007
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 94
+        height: 122
+      alignment: 9
+      pivot: {x: 0.23404256, y: 1.1557378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19148171f5c066f90800000000000000
+      internalID: -6960862571505630831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00008
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 154
+        width: 79
+        height: 101
+      alignment: 9
+      pivot: {x: 0.278481, y: 1.3960396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa5fd71cfa0fa320800000000000000
+      internalID: 2571285990100392621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00009
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 54
+        width: 78
+        height: 98
+      alignment: 9
+      pivot: {x: 0.2820513, y: 1.4387755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535f6eb39fc5b9040800000000000000
+      internalID: 4655416865339143477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00010
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 151
+        width: 82
+        height: 104
+      alignment: 9
+      pivot: {x: 0.2682927, y: 1.3557693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11439364a694377d0800000000000000
+      internalID: -2921911012439804911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00011
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 95
+        height: 124
+      alignment: 9
+      pivot: {x: 0.23157895, y: 1.1370968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d13729576ded77e0800000000000000
+      internalID: -1765994450726211112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00012
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 96
+        height: 126
+      alignment: 9
+      pivot: {x: 0.22916667, y: 1.1190476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f1e393b887c4e30800000000000000
+      internalID: 4489095467937701739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00013
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 136
+        width: 92
+        height: 119
+      alignment: 9
+      pivot: {x: 0.23913044, y: 1.1848739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10f6ef3c668a0d10800000000000000
+      internalID: 2092632776353706012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mush01_00014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 128
+        width: 97
+        height: 127
+      alignment: 9
+      pivot: {x: 0.22680412, y: 1.1102362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeadeb18c7e7ba930800000000000000
+      internalID: 4155554154397227758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
