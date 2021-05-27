@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
@@ -408,7 +407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.721
@@ -1525,7 +1523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
@@ -1599,7 +1596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.592
@@ -1878,7 +1874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
   m_LightType: 1
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
@@ -3410,7 +3405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
   m_LightType: 1
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
@@ -4296,13 +4290,13 @@ PrefabInstance:
     - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
       propertyPath: rooms.Array.size
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
       propertyPath: rooms.Array.data[0]
       value: 
-      objectReference: {fileID: 7033828081335523630, guid: a8984e9fef1748d4ba29d6705bfeb7f3,
+      objectReference: {fileID: 4327452489601370212, guid: d84d435275ba44f039f4415af4d4d31a,
         type: 3}
     - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
@@ -4319,6 +4313,42 @@ PrefabInstance:
     - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
       propertyPath: rooms.Array.data[3]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: f34805735c9ed4babb8e11d9d7c17843,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[4]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: 083e039effcac492cbc315ca9889374a,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[5]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: 2d026d908f23f44b095293e09fb9afaa,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[6]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: e4a7728983e264e7a841dc2eb50bfb61,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[7]
+      value: 
+      objectReference: {fileID: 2623651046616741384, guid: 1baafedcbc4a14af48098edc072c4e19,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[8]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: 785cc4f69400f4a6390f28af2b767c52,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[9]
       value: 
       objectReference: {fileID: 4327452489601370212, guid: f34805735c9ed4babb8e11d9d7c17843,
         type: 3}
