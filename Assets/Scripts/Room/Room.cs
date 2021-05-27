@@ -25,7 +25,7 @@ public struct RoomInfo
 [RequireComponent(typeof(FogManager))]
 [RequireComponent(typeof(BridgePositioning))]
 [RequireComponent(typeof(BoxCollider))]
-[RequireComponent(typeof(LightingManager))]
+[RequireComponent(typeof(LightingManager))] //
 public class Room : MonoBehaviour
 {
 	RoomInfo info;
