@@ -82,7 +82,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -142,7 +142,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles:
-  - {fileID: 5139718171379498272, guid: 33c6c2a43b8f03a47bfa20436aeef5e5, type: 3}
+  - {fileID: 5139718171379498272, guid: a180abda117c344398d664c500dc39d7, type: 3}
+  - {fileID: 5139718171379498272, guid: 1b29580bcd5004b6ea1f9ed8cc91796a, type: 3}
+  - {fileID: 5139718171379498272, guid: 794aa16df8f4849e8b7ad43651bd69be, type: 3}
+  - {fileID: 5139718171379498272, guid: b08cba0ec42dd47d392f7d70e360e0ef, type: 3}
   min: 5
   max: 10
 --- !u!114 &412299310450456477
