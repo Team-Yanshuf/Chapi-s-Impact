@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementDirection: 0
-  jumpHeight: 150
-  jumpDistance: 100
+  jumpHeight: 500
+  jumpDistance: 500
 --- !u!114 &2876103171634304324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,12 +355,12 @@ PrefabInstance:
     - target: {fileID: 6309938986905019962, guid: 49d63bfd26ef6d8448be01df95e20936,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.007
+      value: 0.004
       objectReference: {fileID: 0}
     - target: {fileID: 6309938986905019962, guid: 49d63bfd26ef6d8448be01df95e20936,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.007
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6309938986905019962, guid: 49d63bfd26ef6d8448be01df95e20936,
         type: 3}
