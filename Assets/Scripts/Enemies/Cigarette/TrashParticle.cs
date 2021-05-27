@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class CigaretteParticle : MonoBehaviour
+public class TrashParticle : MonoBehaviour
 {
 	Rigidbody rb;
 	[SerializeField] int min, max;

@@ -53,6 +53,7 @@ public class ItemTent : MonoBehaviour
 	{
 		if (!collapsed)
 		{
+			Destroy(GetComponent<BoxCollider>());
 			itemM.spawnItem();
 			collapsed = true;
 		}

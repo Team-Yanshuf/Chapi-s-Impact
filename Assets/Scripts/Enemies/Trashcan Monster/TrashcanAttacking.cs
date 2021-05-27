@@ -7,8 +7,8 @@ public class TrashcanAttacking : MonoBehaviour
     Trashcan enemyM;
     bool attacking = false;
 
-    [SerializeField] CigaretteParticle particle;
-
+    //[SerializeField] TrashParticle particle;
+    [SerializeField] TrashParticle[] particles;
     [Header("Range of particles to spawn")]
     [SerializeField] int min;
     [SerializeField] int max;
@@ -33,7 +33,7 @@ public class TrashcanAttacking : MonoBehaviour
         for (int i=0; i<amount*3; i++)
         {
             if (i%3==0)
-            Instantiate<CigaretteParticle>(particle, spawnPosition , Quaternion.identity).transform.SetParent(this.transform);
+            Instantiate<TrashParticle>(particles[Random.Range(0,particles.Length)], spawnPosition , Quaternion.identity).transform.SetParent(this.transform);
             yield return null;
         }
         attacking = false;
