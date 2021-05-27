@@ -13,6 +13,7 @@ TagManager:
   - FogContainer
   - Ground
   - ItemTent
+  - FogBoundries
   layers:
   - Default
   - TransparentFX
