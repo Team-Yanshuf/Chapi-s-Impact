@@ -54,7 +54,7 @@ public class BridgePositioning : MonoBehaviour
 
 					bridges[i] = obj;
 
-					obj.GetComponent<Bridge>().initSelf();
+					obj.GetComponent<Bridge>().initSelf(this);
 				}
 			}
 		}

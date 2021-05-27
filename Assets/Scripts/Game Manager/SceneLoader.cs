@@ -12,7 +12,7 @@ public class SceneLoader : MonoBehaviour
 
     public  void moveToFirstLevel()
     {
-        SceneManager.LoadScene("Yinon'sStage001");
+        SceneManager.LoadScene("FullGameLoop");
     }
 
 

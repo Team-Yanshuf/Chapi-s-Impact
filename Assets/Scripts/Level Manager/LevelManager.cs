@@ -18,6 +18,10 @@ public class LevelManager : MonoBehaviour
     int currentEnemyCount;
     int treesPlanted;
 
+
+    
+
+
     bool beatenLevel = false;
 
     void Awake()

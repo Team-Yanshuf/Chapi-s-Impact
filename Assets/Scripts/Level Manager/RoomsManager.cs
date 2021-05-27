@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public struct RoomManagerInfo
 {
@@ -8,7 +9,9 @@ public struct RoomManagerInfo
 	public float remainingFogPrecentage { get; set; }
 	public bool finishedLoading { get; set; }
 
-	public RoomManagerInfo(PollutionContainerInfo[] containers)
+	public GameObject currentRoom;
+
+	public RoomManagerInfo(PollutionContainerInfo[] containers, GameObject currentRoom)
 	{
 		this.pollutionContainers = containers;
 
@@ -17,6 +20,7 @@ public struct RoomManagerInfo
 		initialFogCount = 0;
 		remainingFogPrecentage = 0;
 		finishedLoading = true;
+		this.currentRoom = currentRoom;
 
 		//Real values are calculated here!
 		calculateValues();
@@ -47,20 +51,21 @@ public struct RoomManagerInfo
 }
 public class RoomsManager : MonoBehaviour
 {
-    [SerializeField] GameObject room;
+    [SerializeField] GameObject currentRoom;
 	[SerializeField] GameObject[] rooms;
 	GameObject[,] roomMatrix= new GameObject[5,5];
 	List<Room> roomList = new List<Room>();
 	Player player;
 
+	bool ready = false;
+	[SerializeField] Light2D lightSource;
 	public void init()
 	{
 		initRooms();
-		initFogInRooms();
 
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 		player.updateCurrentRoom(roomMatrix[2, 2].GetComponent<Room>());
-
+		ready = true;
 		void initRooms()
 		{
 			generateRandomMap();
@@ -68,7 +73,6 @@ public class RoomsManager : MonoBehaviour
 		void generateRandomMap()
 		{
 			clearMap();
-			//string str = "";
 			Vector2Int coordinates = new Vector2Int(2, 2);
 
 			for (int i = 1; i < 6; i++)
@@ -81,12 +85,14 @@ public class RoomsManager : MonoBehaviour
 
 			}
 
+			currentRoom = roomMatrix[2, 2];
+			currentRoom.GetComponent<Room>().setIsActive(true);
 			for (int i = 0; i < roomMatrix.GetLength(0); i++)
 			{
 				for (int j = 0; j < roomMatrix.GetLength(1); j++)
 				{
 					if (roomMatrix[i, j] != null)
-						roomMatrix[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j));
+						roomMatrix[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j),lightSource);
 				}
 			}
 
@@ -136,10 +142,7 @@ public class RoomsManager : MonoBehaviour
 		{
 			bool val;
 
-			//int[] fullI = { vec.x - 1, vec.x, vec.x + 1 };
 			int[] neighboorI = { vec.x - 1, vec.x + 1 };
-
-			//int[] fullJ = { vec.y - 1, vec.y, vec.y + 1 };
 			int[] neighboorJ = { vec.y - 1, vec.y + 1 };
 
 			int randI;
@@ -201,12 +204,21 @@ public class RoomsManager : MonoBehaviour
 			return list;
 		}
 	}
-	void initFogInRooms()
+
+	private void Update()
 	{
-		foreach (Room room in roomList)
+		if (ready)
 		{
-			room.initFog();
+			if (!currentRoom.GetComponent<Room>().getRoomInfo().isActive)
+			{
+				foreach (GameObject room in rooms)
+				{
+					if (room.GetComponent<Room>().isActive)
+						currentRoom = room;
+				}
+			}
 		}
+
 	}
 
 	public RoomManagerInfo getRoomManagerInfo()
@@ -218,6 +230,7 @@ public class RoomsManager : MonoBehaviour
 			containers[i]= roomList[i].getRoomInfo().containerInfo;
 		}
 
-		return new RoomManagerInfo(containers);
+		return new RoomManagerInfo(containers,currentRoom);
 	}
+
 }

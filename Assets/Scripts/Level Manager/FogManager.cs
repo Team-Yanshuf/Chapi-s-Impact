@@ -17,6 +17,8 @@ public class FogManager : MonoBehaviour
         
         events.dwindleLocalFog.AddListener(clearFogBy20Precent);
         events.treePlanted.AddListener(clear200FogParticles);
+
+        initFog();
     }
     public void initFog()
     {
