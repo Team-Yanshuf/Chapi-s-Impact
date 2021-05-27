@@ -11,7 +11,7 @@ using UnityEditor.Build.Reporting;
 
 namespace FMODUnity
 {
-	[InitializeOnLoad]
+    [InitializeOnLoad]
     public class EventManager : MonoBehaviour
     {
         const string CacheAssetName = "FMODStudioCache";

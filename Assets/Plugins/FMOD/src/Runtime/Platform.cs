@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -8,7 +9,7 @@ using UnityEditor;
 
 namespace FMOD
 {
-	public partial class VERSION
+    public partial class VERSION
     {
 #if DEVELOPMENT_BUILD
         public const string dllSuffix = "L";
@@ -20,7 +21,7 @@ namespace FMOD
 
 namespace FMOD.Studio
 {
-	public partial class STUDIO_VERSION
+    public partial class STUDIO_VERSION
     {
 #if DEVELOPMENT_BUILD
         public const string dllSuffix = "L";
@@ -32,7 +33,7 @@ namespace FMOD.Studio
 
 namespace FMODUnity
 {
-	public class PlatformCallbackHandler : ScriptableObject
+    public class PlatformCallbackHandler : ScriptableObject
     {
         // A hook for custom initialization logic. RuntimeManager.Initialize calls this
         // just before calling system.Initialize.

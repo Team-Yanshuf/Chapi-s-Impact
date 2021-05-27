@@ -2,7 +2,7 @@
 
 namespace FMODUnity
 {
-	[CustomEditor(typeof(StudioListener))]
+    [CustomEditor(typeof(StudioListener))]
     [CanEditMultipleObjects]
     public class StudioListenerEditor : Editor
     {

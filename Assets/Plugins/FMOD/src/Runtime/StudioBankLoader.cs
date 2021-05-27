@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections.Generic;
 
 namespace FMODUnity
 {
-	[AddComponentMenu("FMOD Studio/FMOD Studio Bank Loader")]
+    [AddComponentMenu("FMOD Studio/FMOD Studio Bank Loader")]
     public class StudioBankLoader : MonoBehaviour
     {
         public LoaderGameEvent LoadEvent;

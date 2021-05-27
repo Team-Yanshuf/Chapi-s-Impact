@@ -7,17 +7,17 @@
 /* ======================================================================================== */
 
 using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using System.Text;
+using System.Runtime.InteropServices;
+using System.Collections.Generic;
 
 namespace FMOD
 {
-	/*
+    /*
         FMOD version number.  Check this against FMOD::System::getVersion / System_GetVersion
         0xaaaabbcc -> aaaa = major version number.  bb = minor version number.  cc = development version number.
     */
-	public partial class VERSION
+    public partial class VERSION
     {
         public const int    number = 0x00020105;
 #if !UNITY_2017_4_OR_NEWER

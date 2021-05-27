@@ -25,7 +25,7 @@ namespace FMOD.Studio
 namespace FMODUnity
 {
 #if UNITY_EDITOR
-	[InitializeOnLoad]
+    [InitializeOnLoad]
 #endif
     public class PlatformMac : Platform
     {

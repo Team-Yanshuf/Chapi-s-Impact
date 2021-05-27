@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -25,7 +26,7 @@ namespace FMOD.Studio
 namespace FMODUnity
 {
 #if UNITY_EDITOR
-	[InitializeOnLoad]
+    [InitializeOnLoad]
 #endif
     public class PlatformAndroid : Platform
     {

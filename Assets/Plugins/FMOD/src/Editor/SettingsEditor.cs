@@ -1,13 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using UnityEditor;
 using UnityEngine;
+using System.Collections.Generic;
+using UnityEditor;
+using System.IO;
+using System;
+using System.Linq;
 
 namespace FMODUnity
 {
-	[CustomEditor(typeof(Settings))]
+    [CustomEditor(typeof(Settings))]
     public class SettingsEditor : Editor
     {
         string[] ToggleParent = new string[] { "Disabled", "Enabled", "Development Build Only",  };
