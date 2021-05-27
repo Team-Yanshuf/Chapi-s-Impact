@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupList:
-  - {fileID: 2137843885682228577, guid: b9d9c87be45c725429405e6e122be62c, type: 3}
-  - {fileID: 3245626771540714344, guid: ac2079a37ff58f644ae1b4272d051493, type: 3}
+  - {fileID: 6702265556020663775, guid: 774cc560ec5b34bee982517fc059358f, type: 3}
+  - {fileID: 6702265556020663775, guid: a2fd3527a67384ad5b5b510a2bc4e7f6, type: 3}
 --- !u!95 &7562465720049998476
 Animator:
   serializedVersion: 3
