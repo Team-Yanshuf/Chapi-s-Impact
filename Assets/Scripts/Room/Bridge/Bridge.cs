@@ -10,8 +10,11 @@ public class Bridge : MonoBehaviour
 
 	[SerializeField] bool isOpen = false;
 
-	public void initSelf()
+	GameObject currentRoom;
+
+	public void initSelf(BridgePositioning bridgeM)
 	{
+		currentRoom = bridgeM.gameObject;
 		renderers = GetComponentsInChildren<SpriteRenderer>();
 
 		for (int i = 0; i < renderers.Length; i++)
@@ -27,6 +30,10 @@ public class Bridge : MonoBehaviour
 		if (other.gameObject.CompareTag("Player"))
 		{
 			other.GetComponent<Player>().movePlayerBetweenRooms(positionTo,roomTo);
+				roomTo.setIsActive(true);
+				currentRoom.GetComponent<Room>().setIsActive(false);
+				roomTo.resetLight();
+				
 		}
 	}
 

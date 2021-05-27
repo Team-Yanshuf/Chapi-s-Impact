@@ -1,17 +1,21 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public struct RoomInfo
 {
 	public PollutionContainerInfo containerInfo;
 	public SpawnwaveManagerInfo wavesInfo;
 	public bool finishedLoading;
+	public bool isActive;
 
-	public RoomInfo(PollutionContainerInfo containerInfo, SpawnwaveManagerInfo wavesInfo)
+	public RoomInfo(PollutionContainerInfo containerInfo, SpawnwaveManagerInfo wavesInfo, bool isActive)
 	{
 		this.containerInfo = containerInfo;
 		this.finishedLoading = containerInfo.finishedLoading;
 
 		this.wavesInfo = wavesInfo;
+		this.isActive = isActive;
 	}
 }
 
@@ -21,6 +25,7 @@ public struct RoomInfo
 [RequireComponent(typeof(FogManager))]
 [RequireComponent(typeof(BridgePositioning))]
 [RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(LightingManager))]
 public class Room : MonoBehaviour
 {
 	RoomInfo info;
@@ -34,18 +39,22 @@ public class Room : MonoBehaviour
 	FogManager fogM;
 	NatureSpawner natureM;
 	EnemyWaveManager waveM;
+	LightingManager lightingM;
 
+	public bool isActive;
 
-
-	public void init(GameObject[] list)
+	public void init(GameObject[] list, Light2D lightSource)
 	{
 		events = GetComponent<RoomEvents>();
 		events.initEvents();
+		events.roomCleared.AddListener(decideOpenBridges);
 
-        bridgeM = GetComponent<BridgePositioning>();
+		bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
         bridgeM.init(list);
+
 		fogM = GetComponent<FogManager>();
+		fogM.initSelf();
 
 		natureM = GetComponent<NatureSpawner>();
 		natureM.initSelf();
@@ -53,8 +62,11 @@ public class Room : MonoBehaviour
 		waveM = GetComponent<EnemyWaveManager>();
 		waveM.initSelf(events);
 
-		events.roomCleared.AddListener(decideOpenBridges);
-		events.dwindleLocalFog.AddListener(printed);
+		lightingM = GetComponent<LightingManager>();
+		lightingM.initSelf(lightSource);
+		attachLighting();
+
+
 	}
 	internal void setAdjecencyList(bool[] list)
 	{
@@ -76,16 +88,26 @@ public class Room : MonoBehaviour
 	{
 		bridgeM.openBridges();
 	}
-	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo(),waveM.getSpawnWaveManagerInfo());
+	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo(),waveM.getSpawnWaveManagerInfo(),isActive);
 
 	public void invokeTreePlantedEvent()
 	{
 		events.treePlanted.Invoke();
 	}
 
-	public void printed()
+	public void setIsActive(bool val)
 	{
-
+		this.isActive = val;
 	}
-	
+
+	internal void attachLighting()
+	{
+		events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
+		events.treePlanted.AddListener(lightingM.adaptLightingToTreePlanted);
+	}
+
+	internal void resetLight()
+	{
+		lightingM.resetLighting();
+	}
 }
