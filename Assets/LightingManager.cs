@@ -58,9 +58,9 @@ public class LightingManager : MonoBehaviour
     void setCurrentIntensity()
 	{
         float fog = (float )(20f / roomM.getRoomInfo().containerInfo.remainingFogPrecentage);
-        print("fog value is  " + fog);
+        //print("fog value is  " + fog);
         currentIntensity= fog; //= 1f-normalizeValueInRange(roomM.getRoomInfo().containerInfo.remainingFogPrecentage);
-        print("currentIntensity is: " +currentIntensity);
+        //print("currentIntensity is: " +currentIntensity);
     }
 
     public void resetLighting()

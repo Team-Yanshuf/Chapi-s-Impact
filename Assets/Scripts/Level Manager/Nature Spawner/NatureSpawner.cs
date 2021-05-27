@@ -55,9 +55,6 @@ public class NatureSpawner : MonoBehaviour
        yield return new WaitForSeconds(2);
         roomInfo = room.getRoomInfo();
     }
-
- 
-
     List<GameObject> getSpawnPointList()
 	{
         List<GameObject> list = new List<GameObject>();
