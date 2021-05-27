@@ -8,7 +8,7 @@ using UnityEditor;
 #if UNITY_EDITOR
 namespace FMOD
 {
-	public partial class VERSION
+    public partial class VERSION
     {
         public const string dll = "fmodstudioL";
     }
@@ -16,7 +16,7 @@ namespace FMOD
 
 namespace FMOD.Studio
 {
-	public partial class STUDIO_VERSION
+    public partial class STUDIO_VERSION
     {
         public const string dll = "fmodstudioL";
     }
@@ -25,7 +25,7 @@ namespace FMOD.Studio
 
 namespace FMODUnity
 {
-	public class PlatformPlayInEditor : Platform
+    public class PlatformPlayInEditor : Platform
     {
         public PlatformPlayInEditor()
         {

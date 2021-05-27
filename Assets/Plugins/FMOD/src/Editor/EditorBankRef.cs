@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace FMODUnity
 {
-	public class EditorBankRef : ScriptableObject
+    public class EditorBankRef : ScriptableObject
     {
         public static string CalculateName(string filePath, string basePath)
         {

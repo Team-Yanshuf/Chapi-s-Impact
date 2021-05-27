@@ -5,7 +5,7 @@ using System.IO;
 
 namespace FMODUnity
 {
-	public static class CodeGeneration {
+    public static class CodeGeneration {
         public static void GenerateStaticPluginRegistration(string filePath, Platform platform,
             Action<string> reportError)
         {

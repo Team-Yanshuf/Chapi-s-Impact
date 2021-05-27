@@ -1,10 +1,13 @@
-﻿using System.Linq;
-using UnityEditor;
+﻿using System;
+using System.Linq;
+using System.Text;
 using UnityEngine;
+using UnityEditor;
+using System.IO;
 
 namespace FMODUnity
-{
-	[CustomPropertyDrawer(typeof(EventRefAttribute))]
+{    
+    [CustomPropertyDrawer(typeof(EventRefAttribute))]
     class EventRefDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)

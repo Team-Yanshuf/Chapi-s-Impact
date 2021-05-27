@@ -2,7 +2,7 @@
 
 namespace FMODUnity
 {
-	[Serializable]
+    [Serializable]
     public class ParamRef
     {
         public string Name;

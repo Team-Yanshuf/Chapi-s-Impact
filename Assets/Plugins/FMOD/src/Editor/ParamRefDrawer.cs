@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FMODUnity
 {
-	[CustomPropertyDrawer(typeof(ParamRefAttribute))]
+    [CustomPropertyDrawer(typeof(ParamRefAttribute))]
     class ParamRefDrawer : PropertyDrawer
     {
         public bool MouseDrag(Event e)

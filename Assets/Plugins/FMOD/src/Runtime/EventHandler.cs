@@ -2,7 +2,7 @@
 
 namespace FMODUnity
 {
-	public abstract class EventHandler : MonoBehaviour
+    public abstract class EventHandler : MonoBehaviour
     {
         public string CollisionTag = "";
 

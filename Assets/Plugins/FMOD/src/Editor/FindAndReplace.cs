@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+using UnityEditor;
+using System.Collections.Generic;
 
 namespace FMODUnity
 {
-	class FindAndReplace : EditorWindow
+    class FindAndReplace : EditorWindow
     {
         [MenuItem("FMOD/Find and Replace", priority = 2)]
         static void ShowFindAndReplace()
