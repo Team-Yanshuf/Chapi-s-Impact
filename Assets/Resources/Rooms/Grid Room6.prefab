@@ -2464,7 +2464,7 @@ GameObject:
   - component: {fileID: 1266054093206880557}
   - component: {fileID: 149864328309383238}
   m_Layer: 0
-  m_Name: Grid Room3
+  m_Name: Grid Room6
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2477,7 +2477,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4327452489601370212}
-  m_LocalRotation: {x: 0.34202006, y: 0, z: 0, w: 0.9396927}
+  m_LocalRotation: {x: 0.24184473, y: -0.24184473, z: 0.66446304, w: 0.66446304}
   m_LocalPosition: {x: 24.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2496,7 +2496,7 @@ Transform:
   - {fileID: 5908754482582781527}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 90}
 --- !u!156049354 &4327452489601370213
 Grid:
   m_ObjectHideFlags: 0

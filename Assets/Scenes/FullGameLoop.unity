@@ -4229,7 +4229,7 @@ PrefabInstance:
     - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
       propertyPath: rooms.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
@@ -4248,6 +4248,12 @@ PrefabInstance:
       propertyPath: rooms.Array.data[2]
       value: 
       objectReference: {fileID: 4327452489601370212, guid: c8d353676cb24402f9bf7f7603b90f0f,
+        type: 3}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: rooms.Array.data[3]
+      value: 
+      objectReference: {fileID: 4327452489601370212, guid: f34805735c9ed4babb8e11d9d7c17843,
         type: 3}
     - target: {fileID: 9167614121016147255, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
