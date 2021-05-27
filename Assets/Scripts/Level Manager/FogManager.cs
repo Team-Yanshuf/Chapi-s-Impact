@@ -11,7 +11,15 @@ public class FogManager : MonoBehaviour
     public void initSelf()
 	{
         //levelM = GetComponent<LevelManager>();
-        fogBoundries = GetComponent<BoxCollider>();
+        foreach(Transform t in transform)
+		{
+
+            if (t.CompareTag("FogBoundries"))
+			{
+                fogBoundries = t.gameObject.GetComponent<BoxCollider>();
+                break;
+			}
+		}
 
         events = GetComponent<RoomEvents>();
         
