@@ -1323,8 +1323,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 44.28, z: 6.72}
-  m_Center: {x: 0, y: 6.6480207, z: 0}
+  m_Size: {x: 5, y: 44.280003, z: 60.46746}
+  m_Center: {x: -0.0000012998953, y: 6.648045, z: -26.873707}
 --- !u!1 &2623651045014991234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,8 +1571,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.42, y: 26.08, z: 9.483969}
-  m_Center: {x: 0.92, y: -2.9, z: -1.3819845}
+  m_Size: {x: 2.42, y: 26.079998, z: 37.224846}
+  m_Center: {x: 0.91997313, y: -2.9000015, z: -15.252454}
 --- !u!1 &2623651045187382379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,8 +1825,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.5, y: 10.82, z: 6.72}
-  m_Center: {x: 15, y: -11.64, z: 0.0000014479293}
+  m_Size: {x: 5.5000005, y: 11.842306, z: 55.297817}
+  m_Center: {x: 15.000055, y: -13.746355, z: -24.289032}
 --- !u!65 &2623651045571299195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1838,8 +1838,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.42, y: 35.48395, z: 6.72}
-  m_Center: {x: -0.51, y: 0.49310446, z: 0.0000014479293}
+  m_Size: {x: 2.42, y: 35.48395, z: 91.108025}
+  m_Center: {x: -0.51043165, y: 0.49310198, z: -42.194405}
 --- !u!65 &2623651045571299172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1851,8 +1851,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.16, y: 8.8, z: 6.72}
-  m_Center: {x: 42.04, y: 9.5, z: 0.0000014479293}
+  m_Size: {x: 10.159999, y: 8.799991, z: 42.41392}
+  m_Center: {x: 42.040123, y: 9.500008, z: -17.846973}
 --- !u!1 &2623651045654023553
 GameObject:
   m_ObjectHideFlags: 0
@@ -3358,8 +3358,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 58.930397, z: 6.72}
-  m_Center: {x: 0.45, y: 1.5, z: 0}
+  m_Size: {x: 2.5, y: 58.930397, z: 34.66169}
+  m_Center: {x: 0.44999915, y: 1.4999994, z: -13.970836}
 --- !u!1 &3203481515461049450
 GameObject:
   m_ObjectHideFlags: 0
@@ -4051,7 +4051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323a8ed0ebd809c4782894660710ce42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: 0
+  enemy: 1
 --- !u!1 &6071433109107480909
 GameObject:
   m_ObjectHideFlags: 0
@@ -9582,7 +9582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323a8ed0ebd809c4782894660710ce42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: 0
+  enemy: 1
 --- !u!1001 &1266397533452033228
 PrefabInstance:
   m_ObjectHideFlags: 0
