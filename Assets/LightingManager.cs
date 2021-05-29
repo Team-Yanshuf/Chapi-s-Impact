@@ -59,6 +59,7 @@ public class LightingManager : MonoBehaviour
 	{
         float fog = (float )(20f / roomM.getRoomInfo().containerInfo.remainingFogPrecentage);
         //print("fog value is  " + fog);
+        fog = Mathf.Clamp(fog, 0.1f, 0.8f);
         currentIntensity= fog; //= 1f-normalizeValueInRange(roomM.getRoomInfo().containerInfo.remainingFogPrecentage);
         //print("currentIntensity is: " +currentIntensity);
     }
