@@ -32,15 +32,6 @@ public class NaturePiece : MonoBehaviour
 		this.precentage = precentage;
 		fixedDelta = 100f - precentage;
 	}
-    void manipulateAnimation()
-	{
-
-       // animator.Play("",0,nextNormalizedTime);
-	}
-    void clacNextNormalizedTime()
-	{
-    //    float delta = (float) 1 / (100 - precentage); 
-	}
 
 	internal void setCurrentFogState(float cDelta)
 	{
@@ -52,7 +43,7 @@ public class NaturePiece : MonoBehaviour
 		else
 		{
 			currentState= (float)(fixedDelta / cDelta);
-			print("Next stage is : " + currentState);
+			//print("Type: " + type + "fixedDelta: " + fixedDelta + ", currentDelta: " + cDelta+", currentState: " + currentState);
             animator?.Play("Base Layer."+animationName, 0, currentState);
 
         }

@@ -79,9 +79,21 @@ public class RoomsManager : MonoBehaviour
 			{
 				float offset = 200;
 
-				roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0,rooms.Length)], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
-				roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
-				coordinates = chooseNonOccupiedNeighbor(coordinates);
+				if (i==1)
+				{
+					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[0], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
+					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
+					coordinates = chooseNonOccupiedNeighbor(coordinates);
+				}
+				else
+				{
+					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0, rooms.Length)], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
+					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
+					coordinates = chooseNonOccupiedNeighbor(coordinates);
+				}
+				//roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0,rooms.Length)], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
+				//roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
+				//coordinates = chooseNonOccupiedNeighbor(coordinates);
 
 			}
 

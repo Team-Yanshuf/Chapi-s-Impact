@@ -40,26 +40,9 @@ public class NatureSpawnPoint : MonoBehaviour
 
 		naturePiece.GetComponent<NaturePiece>().setType(type);
 		naturePiece.GetComponent<NaturePiece>().initSelf();
-		//naturePiece.GetComponent<NaturePiece>().
+		naturePiece.transform.SetParent(this.transform);
 	}
 
-		private void Update()
-		{
-			if (active && fogDoneGenerating)
-			{
-			print("Fog finished "  + fogDoneGenerating	);
-			passCurrentStateToNaturePiece();
-
-
-
-			//if (currentFogState <= precentage)
-			//{
-			//	renderer.enabled = true;
-			//	renderer.sprite = sprite;
-			//	rendererSet = true;
-			//}
-		}
-		}
 
 		public bool isActive() => active;
 
@@ -69,7 +52,12 @@ public class NatureSpawnPoint : MonoBehaviour
 		public void setFogState(float precentage)
 		{
 			currentFogState = precentage;
+		if (active && fogDoneGenerating)
+		{
+			print("Fog finished " + fogDoneGenerating);
+			passCurrentStateToNaturePiece();
 		}
+	}
 
 		void setNaturePieceBasedOnType()
 		{
