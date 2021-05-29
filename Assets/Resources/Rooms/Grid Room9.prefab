@@ -2579,7 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b96521cff18e54983d36b7cf236f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialFogCount: 100
+  initialFogCount: 40
 --- !u!114 &-5437743020124174365
 MonoBehaviour:
   m_ObjectHideFlags: 0

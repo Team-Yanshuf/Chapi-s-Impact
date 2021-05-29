@@ -24,7 +24,7 @@ public class NatureSpawner : MonoBehaviour
 
     void Update()
     {
-        if (ready)
+        if (ready && room.getRoomInfo().isActive)
 		{
             foreach (GameObject obj in spawnPoints)
             {
@@ -55,9 +55,6 @@ public class NatureSpawner : MonoBehaviour
        yield return new WaitForSeconds(2);
         roomInfo = room.getRoomInfo();
     }
-
- 
-
     List<GameObject> getSpawnPointList()
 	{
         List<GameObject> list = new List<GameObject>();

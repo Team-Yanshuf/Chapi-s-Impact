@@ -1,85 +1,98 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public enum NatureType
 {
-	BUSH,
-	GRASS,
-	TREE,
-	WATERPLANT
+	ROCK1,
+	ROCK2,
+	ROCK3,
+	TREE1
 }
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class NatureSpawnPoint : MonoBehaviour
 {
 	[Header("Is this spawn point active?")]
-    [SerializeField] bool active; //Should this spawnpoint be used?
+	[SerializeField] bool active; //Should this spawnpoint be used?
 	[Header("What type of nature should grow here?")]
 	[SerializeField] NatureType type;
 
 	[Header("Make the sprite appear when fog reaches this %")]
 	[SerializeField] [Range(0f, 100f)] float precentage;
-	Sprite sprite;
-	SpriteRenderer renderer;
+	//Sprite sprite;
+	//SpriteRenderer renderer;
 
 	float currentFogState;
 	bool rendererSet; //is the renderer sprite already set?
 	bool fogDoneGenerating;
 
+
+	GameObject naturePiece;
+
+
+
 	private void Start()
 	{
-		renderer = GetComponent<SpriteRenderer>();
-		renderer.enabled = false;
-		setSpriteBasedOnType();
+		setNaturePieceBasedOnType();
+		naturePiece = Instantiate(naturePiece, transform.position, Quaternion.identity);
+		naturePiece.GetComponent<NaturePiece>().setPrecent(precentage);
+
+
+		naturePiece.GetComponent<NaturePiece>().setType(type);
+		naturePiece.GetComponent<NaturePiece>().initSelf();
+		naturePiece.transform.SetParent(this.transform);
 	}
 
-	private void Update()
-	{
-		if (active && !rendererSet && fogDoneGenerating)
+
+		public bool isActive() => active;
+
+		public NatureType getType() => type;
+
+		public void setFogDone(bool done) => fogDoneGenerating = done;
+		public void setFogState(float precentage)
 		{
-			if (currentFogState <= precentage)
+			currentFogState = precentage;
+		if (active && fogDoneGenerating)
+		{
+			print("Fog finished " + fogDoneGenerating);
+			passCurrentStateToNaturePiece();
+		}
+	}
+
+		void setNaturePieceBasedOnType()
+		{
+			switch (type)
 			{
-				renderer.enabled = true;
-				renderer.sprite = sprite;
-				rendererSet = true;
+				case NatureType.ROCK1:
+					{
+						naturePiece = Resources.Load<GameObject>("Nature/Rock1");
+
+						break;
+					}
+
+				case NatureType.ROCK2:
+					{
+						naturePiece = Resources.Load<GameObject>("Nature/Rock2");
+						break;
+					}
+
+				case NatureType.ROCK3:
+					{
+						naturePiece = Resources.Load<GameObject>("Nature/Rock3");
+						break;
+					}
+				case NatureType.TREE1:
+					{
+						naturePiece = Resources.Load<GameObject>("Nature/Tree1");
+						break;
+					}
 			}
+			
 		}
-	}
 
-	public bool isActive() => active;
-
-	public NatureType getType() => type;
-
-	public void setFogDone(bool done) => fogDoneGenerating = done;
-	public void setFogState(float precentage)
-	{
-		currentFogState = precentage;
-	}
-		void setSpriteBasedOnType()
-	{
-		switch(type)
+		void passCurrentStateToNaturePiece()
 		{
-			case NatureType.BUSH:
-				{
-					sprite = Resources.Load<Sprite>("Nature/Bush");
-					break;
-				}
-
-			case NatureType.TREE:
-				{
-					sprite = Resources.Load<Sprite>("Nature/Tree");
-					break;
-				}
-
-			case NatureType.GRASS:
-				{
-					sprite = Resources.Load<Sprite>("Nature/Grass");
-					break;
-				}
-			case NatureType.WATERPLANT:
-				{
-					sprite = Resources.Load<Sprite>("Nature/Water Plant");
-					break;
-				}
+			naturePiece.GetComponent<NaturePiece>().setCurrentFogState(currentFogState);
 		}
+
 	}
-}
