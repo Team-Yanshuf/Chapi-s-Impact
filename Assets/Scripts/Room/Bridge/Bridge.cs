@@ -7,13 +7,14 @@ public class Bridge : MonoBehaviour
 	internal Vector3 positionTo;
 	[SerializeField] internal Room roomTo;
 	SpriteRenderer[] renderers;
-
+	BridgePositioning bridgeM;
 	[SerializeField] bool isOpen = false;
 
 	GameObject currentRoom;
 
 	public void initSelf(BridgePositioning bridgeM)
 	{
+		this.bridgeM = bridgeM;
 		currentRoom = bridgeM.gameObject;
 		renderers = GetComponentsInChildren<SpriteRenderer>();
 
@@ -30,9 +31,12 @@ public class Bridge : MonoBehaviour
 		if (other.gameObject.CompareTag("Player"))
 		{
 			other.GetComponent<Player>().movePlayerBetweenRooms(positionTo,roomTo);
-				roomTo.setIsActive(true);
-				currentRoom.GetComponent<Room>().setIsActive(false);
-				roomTo.resetLight();
+				currentRoom.GetComponent<RoomEvents>().roomLeft.Invoke();
+				roomTo.GetComponent<RoomEvents>().roomEntered.Invoke();
+
+				//roomTo.setIsActive(true);
+
+				//roomTo.resetLight();
 				
 		}
 	}

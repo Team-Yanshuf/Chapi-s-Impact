@@ -5,11 +5,13 @@ public struct SpawnwaveManagerInfo
 {
     public int totalNumberOfWaves { get; set; }
     public int remainingNumberOfWaves { get; set; }
+    public bool isCompleted { get; set; }
 
     public SpawnwaveManagerInfo(int total, int remainingWaves)
 	{
         this.totalNumberOfWaves = total;
         this.remainingNumberOfWaves = remainingWaves;
+        isCompleted = remainingNumberOfWaves == 0;
 	}
 }
 public class EnemyWaveManager : MonoBehaviour
@@ -82,6 +84,7 @@ public class EnemyWaveManager : MonoBehaviour
     void updateWaveManagerInfo()
     {
         waveManagerInfo.remainingNumberOfWaves = waveManagerInfo.totalNumberOfWaves - currentWaveIndex;
+        waveManagerInfo.isCompleted = waveManagerInfo.remainingNumberOfWaves == 0;
         //print("Remaining number of waves:" + waveManagerInfo.remainingNumberOfWaves);
     }
 
