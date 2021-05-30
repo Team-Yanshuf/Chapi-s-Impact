@@ -64,8 +64,10 @@ public class LightingManager : MonoBehaviour
         //print("currentIntensity is: " +currentIntensity);
     }
 
-    public void resetLighting()
+    public void resetLightingToRoomCurrent(float roomCurrent)
 	{
-        light.intensity = 0.1f;
+        light.intensity = roomCurrent;
 	}
+
+    public float getIntensity() => light.intensity;
 }
