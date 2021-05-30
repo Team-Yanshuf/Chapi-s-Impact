@@ -29,16 +29,16 @@ public class LightingManager : MonoBehaviour
             setCurrentIntensity();
             light.intensity = currentIntensity;
 
-			//StartCoroutine(co());
+			////StartCoroutine(co());
 
-			IEnumerator co()
-			{
-				for (int i = 0; i < 100; i++)
-				{
-					light.intensity += 0.01f;
-					yield return null;
-				}
-			}
+			//IEnumerator co()
+			//{
+			//	for (int i = 0; i < 100; i++)
+			//	{
+			//		light.intensity += 0.01f;
+			//		yield return null;
+			//	}
+			//}
 
 	}
 
