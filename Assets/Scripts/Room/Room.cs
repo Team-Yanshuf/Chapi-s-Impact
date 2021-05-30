@@ -58,9 +58,9 @@ public class Room : MonoBehaviour
 		events.initEvents();
 		events.roomCleared.AddListener(decideOpenBridges);
 
-		events.roomEntered.AddListener(instantiateEnemies);
-		events.roomEntered.AddListener(resetLight);
-		events.roomEntered.AddListener(attachLighting);
+		//events.roomEntered.AddListener(instantiateEnemies);
+		//events.roomEntered.AddListener(resetLight);
+		//events.roomEntered.AddListener(attachLighting);
 
 		bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
@@ -136,6 +136,7 @@ public class Room : MonoBehaviour
 		previousLightIntensity = lightingM.getIntensity();
 		events.roomEntered.RemoveAllListeners();
 		events.roomCleared.RemoveAllListeners();
+		events.removeAllListeners();
 	}
 
 	public void enterRoom()
@@ -143,5 +144,6 @@ public class Room : MonoBehaviour
 		instantiateEnemies();
 		attachLighting();
 		resetLight();
+
 	}
 }

@@ -26,8 +26,6 @@ public class LightingManager : MonoBehaviour
 
 	internal void adaptLightingToEnemyDeath()
 	{
-        if (roomM.isActive)
-        {
             setCurrentIntensity();
             light.intensity = currentIntensity;
 
@@ -41,7 +39,7 @@ public class LightingManager : MonoBehaviour
 					yield return null;
 				}
 			}
-		}
+
 	}
 
     internal void adaptLightingToTreePlanted()

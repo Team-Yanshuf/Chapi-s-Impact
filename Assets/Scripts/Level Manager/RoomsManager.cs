@@ -108,7 +108,7 @@ public class RoomsManager : MonoBehaviour
 						roomMatrix[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j),lightSource);
 				}
 			}
-			roomMatrix[2,2].GetComponent<RoomEvents>().roomEntered.Invoke();
+			roomMatrix[2, 2].GetComponent<Room>().enterRoom();
 
 
 
