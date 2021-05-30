@@ -9,6 +9,7 @@ public struct RoomInfo
 	public bool finishedLoading;
 	public bool isActive;
 
+
 	public RoomInfo(PollutionContainerInfo containerInfo, SpawnwaveManagerInfo wavesInfo, bool isActive)
 	{
 		this.containerInfo = containerInfo;
@@ -46,14 +47,16 @@ public class Room : MonoBehaviour
 	public bool isActive;
 	internal bool isInstantiated;
 
+
+	float previousLightIntensity;
+
 	public void init(GameObject[] list, Light2D lightSource)
 	{
+		previousLightIntensity = 0.1f;
+
 		events = GetComponent<RoomEvents>();
 		events.initEvents();
 		events.roomCleared.AddListener(decideOpenBridges);
-		events.roomEntered.AddListener(instantiateEnemies);
-		events.roomEntered.AddListener(resetLight);
-		events.roomEntered.AddListener(attachLighting);
 
 		bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
@@ -66,13 +69,9 @@ public class Room : MonoBehaviour
 		natureM.initSelf();
 
 		waveM = GetComponent<EnemyWaveManager>();
-		//waveM.initSelf(events);
 
 		lightingM = GetComponent<LightingManager>();
 		lightingM.initSelf(lightSource);
-		//attachLighting();
-
-
 
 		roomCompleted = false;
 		isInstantiated = false;
@@ -107,21 +106,11 @@ public class Room : MonoBehaviour
 	{
 		events.treePlanted.AddListener(lightingM.adaptLightingToTreePlanted);
 		events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
-		//try
-		//{
-
-		//}
-		//catch(NullReferenceException e)
-		//{
-		//	print($"in room {this.name}: events is {events != null}, tree planted is {events.treePlanted != null}  ");
-		//}
-
-
 	}
 
 	internal void resetLight()
 	{
-		lightingM.resetLighting();
+		lightingM.resetLightingToRoomCurrent(previousLightIntensity);
 	}
 
 	internal void instantiateEnemies()
@@ -131,6 +120,20 @@ public class Room : MonoBehaviour
 			waveM.initSelf(events);
 			isInstantiated = true;
 		}
+
+	}
+
+	public void exitRoom()
+	{
+		previousLightIntensity = lightingM.getIntensity();
+		events.removeAllListeners();
+	}
+
+	public void enterRoom()
+	{
+		instantiateEnemies();
+		attachLighting();
+		resetLight();
 
 	}
 }

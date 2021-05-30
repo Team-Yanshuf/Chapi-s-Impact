@@ -18,8 +18,18 @@ public class RoomEvents : MonoBehaviour
 		treePlanted= new UnityEvent();
 		roomCleared = new UnityEvent();
 		roomLeft = new UnityEvent();
+		roomEntered = new UnityEvent();
 
 		ready = true;
+	}
+
+	public void removeAllListeners()
+	{
+		dwindleLocalFog.RemoveAllListeners();
+		treePlanted.RemoveAllListeners();
+		roomCleared.RemoveAllListeners();
+		roomLeft.RemoveAllListeners();
+		roomEntered.RemoveAllListeners();
 	}
 
 

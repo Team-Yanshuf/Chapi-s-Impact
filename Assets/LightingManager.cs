@@ -26,22 +26,20 @@ public class LightingManager : MonoBehaviour
 
 	internal void adaptLightingToEnemyDeath()
 	{
-        if (roomM.isActive)
-        {
             setCurrentIntensity();
             light.intensity = currentIntensity;
 
-			//StartCoroutine(co());
+			////StartCoroutine(co());
 
-			IEnumerator co()
-			{
-				for (int i = 0; i < 100; i++)
-				{
-					light.intensity += 0.01f;
-					yield return null;
-				}
-			}
-		}
+			//IEnumerator co()
+			//{
+			//	for (int i = 0; i < 100; i++)
+			//	{
+			//		light.intensity += 0.01f;
+			//		yield return null;
+			//	}
+			//}
+
 	}
 
     internal void adaptLightingToTreePlanted()
@@ -64,8 +62,10 @@ public class LightingManager : MonoBehaviour
         //print("currentIntensity is: " +currentIntensity);
     }
 
-    public void resetLighting()
+    public void resetLightingToRoomCurrent(float roomCurrent)
 	{
-        light.intensity = 0.1f;
+        light.intensity = roomCurrent;
 	}
+
+    public float getIntensity() => light.intensity;
 }

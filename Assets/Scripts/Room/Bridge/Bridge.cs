@@ -31,13 +31,9 @@ public class Bridge : MonoBehaviour
 		if (other.gameObject.CompareTag("Player"))
 		{
 			other.GetComponent<Player>().movePlayerBetweenRooms(positionTo,roomTo);
-				currentRoom.GetComponent<RoomEvents>().roomLeft.Invoke();
-				roomTo.GetComponent<RoomEvents>().roomEntered.Invoke();
-
-				//roomTo.setIsActive(true);
-
-				//roomTo.resetLight();
-				
+		
+			currentRoom.GetComponent<Room>().exitRoom();
+			roomTo.GetComponent<Room>().enterRoom();
 		}
 	}
 
