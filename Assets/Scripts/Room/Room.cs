@@ -25,7 +25,7 @@ public struct RoomInfo
 [RequireComponent(typeof(FogManager))]
 [RequireComponent(typeof(BridgePositioning))]
 [RequireComponent(typeof(BoxCollider))]
-[RequireComponent(typeof(LightingManager))] //
+[RequireComponent(typeof(LightingManager))]
 public class Room : MonoBehaviour
 {
 	RoomInfo info;
@@ -41,13 +41,19 @@ public class Room : MonoBehaviour
 	EnemyWaveManager waveM;
 	LightingManager lightingM;
 
+	bool roomCompleted;
+
 	public bool isActive;
+	internal bool isInstantiated;
 
 	public void init(GameObject[] list, Light2D lightSource)
 	{
 		events = GetComponent<RoomEvents>();
 		events.initEvents();
 		events.roomCleared.AddListener(decideOpenBridges);
+		events.roomEntered.AddListener(instantiateEnemies);
+		events.roomEntered.AddListener(resetLight);
+		events.roomEntered.AddListener(attachLighting);
 
 		bridgeM = GetComponent<BridgePositioning>();
         this.roomAdjacencyList=list;
@@ -60,13 +66,16 @@ public class Room : MonoBehaviour
 		natureM.initSelf();
 
 		waveM = GetComponent<EnemyWaveManager>();
-		waveM.initSelf(events);
+		//waveM.initSelf(events);
 
 		lightingM = GetComponent<LightingManager>();
 		lightingM.initSelf(lightSource);
-		attachLighting();
+		//attachLighting();
 
 
+
+		roomCompleted = false;
+		isInstantiated = false;
 	}
 	internal void setAdjecencyList(bool[] list)
 	{
@@ -76,12 +85,6 @@ public class Room : MonoBehaviour
     public void setRoomAdjacencyList(GameObject[] list)
 	{
         this.roomAdjacencyList = list;
-	}
-
-	public void initFog()
-	{
-		fogM.initSelf();
-		fogM.initFog();
 	}
 
 	public void decideOpenBridges()
@@ -102,12 +105,32 @@ public class Room : MonoBehaviour
 
 	internal void attachLighting()
 	{
-		events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
 		events.treePlanted.AddListener(lightingM.adaptLightingToTreePlanted);
+		events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
+		//try
+		//{
+
+		//}
+		//catch(NullReferenceException e)
+		//{
+		//	print($"in room {this.name}: events is {events != null}, tree planted is {events.treePlanted != null}  ");
+		//}
+
+
 	}
 
 	internal void resetLight()
 	{
 		lightingM.resetLighting();
+	}
+
+	internal void instantiateEnemies()
+	{
+		if(!waveM.getSpawnWaveManagerInfo().isCompleted)
+		{
+			waveM.initSelf(events);
+			isInstantiated = true;
+		}
+
 	}
 }

@@ -84,6 +84,7 @@ public class RoomsManager : MonoBehaviour
 					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[0], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
 					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 					coordinates = chooseNonOccupiedNeighbor(coordinates);
+
 				}
 				else
 				{
@@ -107,6 +108,9 @@ public class RoomsManager : MonoBehaviour
 						roomMatrix[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j),lightSource);
 				}
 			}
+			roomMatrix[2,2].GetComponent<RoomEvents>().roomEntered.Invoke();
+
+
 
 			for (int i = 0; i < roomMatrix.GetLength(0); i++)
 			{
@@ -219,17 +223,25 @@ public class RoomsManager : MonoBehaviour
 
 	private void Update()
 	{
-		if (ready)
-		{
-			if (!currentRoom.GetComponent<Room>().getRoomInfo().isActive)
-			{
-				foreach (GameObject room in rooms)
-				{
-					if (room.GetComponent<Room>().isActive)
-						currentRoom = room;
-				}
-			}
-		}
+		//if (ready)
+		//{
+		//	Room room = currentRoom.GetComponent<Room>();
+		//	if (room.isActive && !room.isInstantiated)
+		//	{
+		//		//room.instantiateEnemies();
+		//	}
+
+
+		//	if (!room.getRoomInfo().isActive)
+		//	{
+		//		foreach (GameObject cRoom in rooms)
+		//		{
+		//			if (cRoom.GetComponent<Room>().isActive)
+		//				currentRoom = cRoom;
+		//		}
+		//		currentRoom.GetComponent<Room>().instantiateEnemies();
+		//	}
+		//}
 
 	}
 

@@ -54,7 +54,6 @@ public class NatureSpawnPoint : MonoBehaviour
 			currentFogState = precentage;
 		if (active && fogDoneGenerating)
 		{
-			print("Fog finished " + fogDoneGenerating);
 			passCurrentStateToNaturePiece();
 		}
 	}
