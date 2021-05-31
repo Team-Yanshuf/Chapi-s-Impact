@@ -28,11 +28,6 @@ public class NatureSpawnPoint : MonoBehaviour
 	NatureSpawner natureM;
 	GameObject naturePiece;
 
-	private void Start()
-	{
-
-	}
-
 	public void initSelf(RoomInfo roomInfo)
 	{
 		natureM = transform.parent.GetComponentInParent<NatureSpawner>();
@@ -43,12 +38,17 @@ public class NatureSpawnPoint : MonoBehaviour
 
 		piece.setType(type);
 		piece.initSelf();
-		piece.setPrecent(precentage);
+		piece.setPrecent(precentage/100f);
 		piece.transform.SetParent(this.transform);
 	}
 
+	private void Update()
+	{
+		if (fogDoneGenerating)
+		passCurrentStateToNaturePiece();
+	}
 
-		public bool isActive() => active;
+	public bool isActive() => active;
 
 		public NatureType getType() => type;
 
@@ -56,11 +56,11 @@ public class NatureSpawnPoint : MonoBehaviour
 		public void setFogState(float precentage)
 		{
 			currentFogPrecentage = precentage;
-		if (active && fogDoneGenerating)
-		{
-			passCurrentStateToNaturePiece();
+			if (active && fogDoneGenerating)
+			{
+				passCurrentStateToNaturePiece();
+			}
 		}
-	}
 
 	internal void setRoomState(RoomInfo roomInfo)
 	{

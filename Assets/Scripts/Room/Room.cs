@@ -50,6 +50,8 @@ public class Room : MonoBehaviour
 
 	float previousLightIntensity;
 
+
+
 	public void init(GameObject[] list, Light2D lightSource)
 	{
 		previousLightIntensity = 0.1f;
