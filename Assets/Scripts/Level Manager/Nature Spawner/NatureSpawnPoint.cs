@@ -26,21 +26,19 @@ public class NatureSpawnPoint : MonoBehaviour
 	bool rendererSet; //is the renderer sprite already set?
 	bool fogDoneGenerating;
 
-
 	GameObject naturePiece;
-
-
 
 	private void Start()
 	{
 		setNaturePieceBasedOnType();
 		naturePiece = Instantiate(naturePiece, transform.position, Quaternion.identity);
-		naturePiece.GetComponent<NaturePiece>().setPrecent(precentage);
+		NaturePiece piece = naturePiece.GetComponent<NaturePiece>();
 
 
-		naturePiece.GetComponent<NaturePiece>().setType(type);
-		naturePiece.GetComponent<NaturePiece>().initSelf();
-		naturePiece.transform.SetParent(this.transform);
+		piece.setType(type);
+		piece.initSelf();
+		piece.setPrecent(precentage);
+		piece.transform.SetParent(this.transform);
 	}
 
 

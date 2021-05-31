@@ -2591,6 +2591,12 @@ MonoBehaviour:
   roomCleared:
     m_PersistentCalls:
       m_Calls: []
+  roomLeft:
+    m_PersistentCalls:
+      m_Calls: []
+  roomEntered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &373165037088121025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9951,7 +9957,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10041,7 +10047,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10131,7 +10137,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10221,7 +10227,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10306,12 +10312,12 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: active
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10401,7 +10407,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10491,7 +10497,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
@@ -10581,7 +10587,7 @@ PrefabInstance:
     - target: {fileID: 8579965430790967368, guid: ae0c5676f59592d44988530e84b15cdb,
         type: 3}
       propertyPath: precentage
-      value: 37
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae0c5676f59592d44988530e84b15cdb, type: 3}
