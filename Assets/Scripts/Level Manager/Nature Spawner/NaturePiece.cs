@@ -35,7 +35,6 @@ public class NaturePiece : MonoBehaviour
 
 	internal void setCurrentFogState(float cDelta)
 	{
-		print($"Fixed delta: {fixedDelta}, cDelta {cDelta}");
 		if ((cDelta <= fixedDelta))
 		{
 			animator?.Play("Base Layer." + animationName, 0, 0.99f);
