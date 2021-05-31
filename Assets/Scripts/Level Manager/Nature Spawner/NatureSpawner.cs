@@ -47,9 +47,9 @@ public class NatureSpawner : MonoBehaviour
             }
 
             //int current = (int) (4- Mathf.Ceil((room.getRoomInfo().containerInfo.remainingFogPrecentage/100f) * 4));
-            //float opacity = (float)(room.getRoomInfo().containerInfo.remainingFogPrecentage);
-          //  print(room.getRoomInfo().containerInfo.remainingFogPrecentage) ;
-            //floors[0].GetComponent<Tilemap>().color= new Color(1,1,1,opacity);
+            float opacity = 1f-(room.getRoomInfo().containerInfo.remainingFogPrecentage);
+           print(room.getRoomInfo().containerInfo.remainingFogPrecentage) ;
+            floors[0].GetComponent<Tilemap>().color= new Color(1,1,1,opacity);
    //         for(int i=0; i<floors.Length; i++)
 			//{
    //             print(current);

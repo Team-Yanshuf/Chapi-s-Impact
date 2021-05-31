@@ -14,9 +14,7 @@ public struct PollutionContainerInfo
         this.initialFogCount = initial;
         this.remainingFogAmount = remaining;
         this.finishedLoading = finishedLoading;
-        this.remainingFogPrecentage = 0;
-        double temp = (double) ((double)remaining / (double)initial);
-        Debug.Log($"remaining: {this.remainingFogAmount}, initial: {this.initialFogCount} , remaining % {temp}");
+        this.remainingFogPrecentage = ((float)remaining / (float)initial);
     }
     public override string ToString()
     {
