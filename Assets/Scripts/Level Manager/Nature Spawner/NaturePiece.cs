@@ -30,19 +30,19 @@ public class NaturePiece : MonoBehaviour
 	internal void setPrecent(float precentage)
 	{
 		this.precentage = precentage;
-		fixedDelta = 100f - precentage;
+		fixedDelta = precentage;
 	}
 
 	internal void setCurrentFogState(float cDelta)
 	{
-
+		print($"Fixed delta: {fixedDelta}, cDelta {cDelta}");
 		if ((cDelta <= fixedDelta))
 		{
 			animator?.Play("Base Layer." + animationName, 0, 0.99f);
 		}
 		else
 		{
-			currentState= (float)(fixedDelta / cDelta);
+			currentState= (float)((fixedDelta / cDelta));
 			//print("Type: " + type + "fixedDelta: " + fixedDelta + ", currentDelta: " + cDelta+", currentState: " + currentState);
             animator?.Play("Base Layer."+animationName, 0, currentState);
 
