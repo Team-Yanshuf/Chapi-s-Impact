@@ -8,25 +8,16 @@ public struct PollutionContainerInfo
     public int initialFogCount { get; set; }
     public int remainingFogAmount { get; set; }
     public float remainingFogPrecentage { get; set; }
-
-    public static PollutionContainerInfo zero = new PollutionContainerInfo(0,0,0,false);
     public bool finishedLoading { get; set; }
-    public PollutionContainerInfo(int initial, int remainingAmount, float remainingPrecentage, bool finishedLoading)
-    {
-        this.initialFogCount = initial;
-        this.remainingFogAmount = remainingAmount;
-        this.remainingFogPrecentage = remainingPrecentage;
-        this.finishedLoading = finishedLoading;
-    }
-
-    public bool equals(PollutionContainerInfo info)
+    public PollutionContainerInfo(int initial, int remaining, bool finishedLoading)
 	{
-        if (this.initialFogCount != info.initialFogCount || remainingFogAmount != info.remainingFogAmount || remainingFogPrecentage != info.remainingFogPrecentage || finishedLoading!=info.finishedLoading )
-		{
-            return false;
-		}
-        return true;
-	}
+        this.initialFogCount = initial;
+        this.remainingFogAmount = remaining;
+        this.finishedLoading = finishedLoading;
+        this.remainingFogPrecentage = 0;
+        double temp = (double) ((double)remaining / (double)initial);
+        Debug.Log($"remaining: {this.remainingFogAmount}, initial: {this.initialFogCount} , remaining % {temp}");
+    }
     public override string ToString()
     {
         return ($"initialFogCount: {initialFogCount}, remaining amount: {remainingFogAmount} , remaining precent: {remainingFogPrecentage}");
@@ -41,34 +32,27 @@ public class FogContainer : MonoBehaviour
     List<GameObject> pollution;
     int fogAmount;
     Transform fogTransform;
-
+    bool isFinishedLoading;
     public void setFogTransform(Transform transform)
     {
         this.fogTransform = transform;
     }
-    void Start()
-    {
+
+    public void initSelf(int initialAmount)
+	{
         particle = Resources.Load<FogParticle>("FogParticle/FogParticle");
         pollution = new List<GameObject>();
-        info = new PollutionContainerInfo(0, 0, 0, false);
+        fogAmount = initialAmount;
+        isFinishedLoading = false;
+        //info = new PollutionContainerInfo(0, 0, 0, false);
     }
-    private void Update()
+    public PollutionContainerInfo getPollutionStatus()
     {
-        updateFogInfo();
-    }
-    public PollutionContainerInfo getPollutionStatus() => info;
-    void updateFogInfo()
-    {
-        info.initialFogCount = fogAmount;
-        info.remainingFogPrecentage = (float) (100*pollution.Count / fogAmount);
-        info.remainingFogAmount = pollution.Count;
+        if (pollution.Count == fogAmount)
+            isFinishedLoading = true;
 
-        if (!info.finishedLoading)
-		{
-            if (info.initialFogCount == info.remainingFogAmount)
-                info.finishedLoading = true;
-		}
-    }
+        return new PollutionContainerInfo(fogAmount, pollution.Count, isFinishedLoading);
+    }//=> info;
     public void initFog()
     {
         StartCoroutine(initFogCoroutine());
@@ -99,10 +83,7 @@ public class FogContainer : MonoBehaviour
             yield return null;
         }
     }
-    public void setFogCount(int count)
-    {
-        this.fogAmount = count;
-    }
+
     public void dwindleByPrecentage(int precent)
     {
         StartCoroutine(dwindleFogByPrecentage());

@@ -31,8 +31,9 @@ public class FogManager : MonoBehaviour
     public void initFog()
     {
         pollution = GameObject.Instantiate(Resources.Load<FogContainer>("FogContainer/FogContainer"));
+        pollution.initSelf(initialFogCount);
         pollution.setBounds(fogBoundries);
-        pollution.setFogCount(initialFogCount);
+        //pollution.setFogCount(initialFogCount);
         pollution.transform.parent = this.transform;
 
         pollution.setFogTransform(transform);
