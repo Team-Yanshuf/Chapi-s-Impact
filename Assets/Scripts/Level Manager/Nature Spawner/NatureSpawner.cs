@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class NatureSpawner : MonoBehaviour
 {
@@ -8,16 +9,37 @@ public class NatureSpawner : MonoBehaviour
     List<GameObject> spawnPoints;
     Room room;
     RoomInfo roomInfo;
-
+    GameObject[] floors;
     bool ready=false;
 
     public void initSelf()
 	{
-        //levelM = GetComponent<LevelManager>();
+        floors = new GameObject[2];
         room = GetComponent<Room>();
         spawnPoints = getSpawnPointList();
         StartCoroutine(setPollutionInfoCoroutine());
 
+            foreach (Transform t in transform)
+            {
+            if (t.gameObject.name.Equals("Stage1"))
+            {
+                floors[0] = t.gameObject;
+            }
+
+            else if (t.gameObject.name.Equals("Stage4"))
+            {
+                floors[1] = t.gameObject;
+            }
+
+            else if (floors[0] && floors[1])
+                break;
+
+            }
+
+            foreach(GameObject point in spawnPoints)
+		    {
+                point.GetComponent<NatureSpawnPoint>().initSelf(room.getRoomInfo());
+        }
 
         ready = true;
     }
@@ -31,10 +53,14 @@ public class NatureSpawner : MonoBehaviour
                 NatureSpawnPoint point = obj.GetComponent<NatureSpawnPoint>();
                 if (point.isActive())
                 {
-                    point.setFogDone(roomInfo.finishedLoading);
-                    point.setFogState(roomInfo.containerInfo.remainingFogPrecentage);
+                    point.setRoomState(room.getRoomInfo());
+  
                 }
             }
+            float fogPrecent = (room.getRoomInfo().containerInfo.remainingFogPrecentage);
+            floors[0].GetComponent<Tilemap>().color= new Color(1,1,1, fogPrecent);
+            floors[1].GetComponent<Tilemap>().color = new Color(1, 1, 1, 1f- fogPrecent);
+
         }
     }
 
@@ -44,6 +70,10 @@ public class NatureSpawner : MonoBehaviour
         setPollutionInfo();
 	}
 
+    void handleFloorSwap()
+	{
+
+	}
 
 	void setPollutionInfo()
 	{

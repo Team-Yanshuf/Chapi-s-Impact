@@ -50,6 +50,8 @@ public class Room : MonoBehaviour
 
 	float previousLightIntensity;
 
+
+
 	public void init(GameObject[] list, Light2D lightSource)
 	{
 		previousLightIntensity = 0.1f;
@@ -65,10 +67,12 @@ public class Room : MonoBehaviour
 		fogM = GetComponent<FogManager>();
 		fogM.initSelf();
 
+		waveM = GetComponent<EnemyWaveManager>();
+		
 		natureM = GetComponent<NatureSpawner>();
 		natureM.initSelf();
 
-		waveM = GetComponent<EnemyWaveManager>();
+
 
 		lightingM = GetComponent<LightingManager>();
 		lightingM.initSelf(lightSource);

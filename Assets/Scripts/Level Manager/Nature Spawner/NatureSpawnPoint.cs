@@ -22,14 +22,15 @@ public class NatureSpawnPoint : MonoBehaviour
 	//Sprite sprite;
 	//SpriteRenderer renderer;
 
-	float currentFogState;
+	float currentFogPrecentage;
 	bool rendererSet; //is the renderer sprite already set?
 	bool fogDoneGenerating;
-
+	NatureSpawner natureM;
 	GameObject naturePiece;
 
-	private void Start()
+	public void initSelf(RoomInfo roomInfo)
 	{
+		natureM = transform.parent.GetComponentInParent<NatureSpawner>();
 		setNaturePieceBasedOnType();
 		naturePiece = Instantiate(naturePiece, transform.position, Quaternion.identity);
 		NaturePiece piece = naturePiece.GetComponent<NaturePiece>();
@@ -37,26 +38,40 @@ public class NatureSpawnPoint : MonoBehaviour
 
 		piece.setType(type);
 		piece.initSelf();
-		piece.setPrecent(precentage);
+		piece.setPrecent(precentage/100f);
 		piece.transform.SetParent(this.transform);
 	}
 
+	private void Update()
+	{
+		if (fogDoneGenerating)
+		passCurrentStateToNaturePiece();
+	}
 
-		public bool isActive() => active;
+	public bool isActive() => active;
 
 		public NatureType getType() => type;
 
 		public void setFogDone(bool done) => fogDoneGenerating = done;
 		public void setFogState(float precentage)
 		{
-			currentFogState = precentage;
-		if (active && fogDoneGenerating)
-		{
-			passCurrentStateToNaturePiece();
+			currentFogPrecentage = precentage;
+			if (active && fogDoneGenerating)
+			{
+				passCurrentStateToNaturePiece();
+			}
 		}
+
+	internal void setRoomState(RoomInfo roomInfo)
+	{
+		//point.setFogDone(roomInfo.finishedLoading);
+		//point.setFogState(roomInfo.containerInfo.remainingFogPrecentage);
+
+		fogDoneGenerating = roomInfo.finishedLoading;
+		currentFogPrecentage = roomInfo.containerInfo.remainingFogPrecentage;
 	}
 
-		void setNaturePieceBasedOnType()
+	void setNaturePieceBasedOnType()
 		{
 			switch (type)
 			{
@@ -89,7 +104,8 @@ public class NatureSpawnPoint : MonoBehaviour
 
 		void passCurrentStateToNaturePiece()
 		{
-			naturePiece.GetComponent<NaturePiece>().setCurrentFogState(currentFogState);
+			naturePiece.GetComponent<NaturePiece>().setCurrentFogState(currentFogPrecentage);
 		}
+
 
 	}

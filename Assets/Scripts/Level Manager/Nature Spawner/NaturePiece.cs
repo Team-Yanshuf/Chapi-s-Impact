@@ -23,10 +23,6 @@ public class NaturePiece : MonoBehaviour
 		ready = true;
     }
 
-    void Update()
-    {
-        //setCurrentFogState();
-    }
 	internal void setPrecent(float precentage)
 	{
 		this.precentage = precentage;
@@ -35,6 +31,7 @@ public class NaturePiece : MonoBehaviour
 
 	internal void setCurrentFogState(float cDelta)
 	{
+		print(cDelta);
 		if ((cDelta <= fixedDelta))
 		{
 			animator?.Play("Base Layer." + animationName, 0, 0.99f);
