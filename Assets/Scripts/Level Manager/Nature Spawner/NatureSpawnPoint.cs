@@ -22,14 +22,20 @@ public class NatureSpawnPoint : MonoBehaviour
 	//Sprite sprite;
 	//SpriteRenderer renderer;
 
-	float currentFogState;
+	float currentFogPrecentage;
 	bool rendererSet; //is the renderer sprite already set?
 	bool fogDoneGenerating;
-
+	NatureSpawner natureM;
 	GameObject naturePiece;
 
 	private void Start()
 	{
+
+	}
+
+	public void initSelf(RoomInfo roomInfo)
+	{
+		natureM = transform.parent.GetComponentInParent<NatureSpawner>();
 		setNaturePieceBasedOnType();
 		naturePiece = Instantiate(naturePiece, transform.position, Quaternion.identity);
 		NaturePiece piece = naturePiece.GetComponent<NaturePiece>();
@@ -49,14 +55,23 @@ public class NatureSpawnPoint : MonoBehaviour
 		public void setFogDone(bool done) => fogDoneGenerating = done;
 		public void setFogState(float precentage)
 		{
-			currentFogState = precentage;
+			currentFogPrecentage = precentage;
 		if (active && fogDoneGenerating)
 		{
 			passCurrentStateToNaturePiece();
 		}
 	}
 
-		void setNaturePieceBasedOnType()
+	internal void setRoomState(RoomInfo roomInfo)
+	{
+		//point.setFogDone(roomInfo.finishedLoading);
+		//point.setFogState(roomInfo.containerInfo.remainingFogPrecentage);
+
+		fogDoneGenerating = roomInfo.finishedLoading;
+		currentFogPrecentage = roomInfo.containerInfo.remainingFogPrecentage;
+	}
+
+	void setNaturePieceBasedOnType()
 		{
 			switch (type)
 			{
@@ -89,7 +104,8 @@ public class NatureSpawnPoint : MonoBehaviour
 
 		void passCurrentStateToNaturePiece()
 		{
-			naturePiece.GetComponent<NaturePiece>().setCurrentFogState(currentFogState);
+			naturePiece.GetComponent<NaturePiece>().setCurrentFogState(currentFogPrecentage);
 		}
+
 
 	}

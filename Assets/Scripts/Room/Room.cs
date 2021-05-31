@@ -65,10 +65,12 @@ public class Room : MonoBehaviour
 		fogM = GetComponent<FogManager>();
 		fogM.initSelf();
 
+		waveM = GetComponent<EnemyWaveManager>();
+		
 		natureM = GetComponent<NatureSpawner>();
 		natureM.initSelf();
 
-		waveM = GetComponent<EnemyWaveManager>();
+
 
 		lightingM = GetComponent<LightingManager>();
 		lightingM.initSelf(lightSource);

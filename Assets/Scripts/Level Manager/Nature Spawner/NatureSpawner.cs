@@ -14,20 +14,32 @@ public class NatureSpawner : MonoBehaviour
 
     public void initSelf()
 	{
-        floors = new GameObject[4];
+        floors = new GameObject[2];
         room = GetComponent<Room>();
         spawnPoints = getSpawnPointList();
         StartCoroutine(setPollutionInfoCoroutine());
 
             foreach (Transform t in transform)
             {
-                if (t.gameObject.name.Equals("Stage4"))
-                {
-                    floors[0] = t.gameObject;
-                    break;
-                }
+            if (t.gameObject.name.Equals("Stage1"))
+            {
+                floors[0] = t.gameObject;
+            }
+
+            else if (t.gameObject.name.Equals("Stage4"))
+            {
+                floors[1] = t.gameObject;
+            }
+
+            else if (floors[0] && floors[1])
+                break;
 
             }
+
+            foreach(GameObject point in spawnPoints)
+		    {
+                point.GetComponent<NatureSpawnPoint>().initSelf(room.getRoomInfo());
+        }
 
         ready = true;
     }
@@ -41,26 +53,13 @@ public class NatureSpawner : MonoBehaviour
                 NatureSpawnPoint point = obj.GetComponent<NatureSpawnPoint>();
                 if (point.isActive())
                 {
-                    point.setFogDone(roomInfo.finishedLoading);
-                    point.setFogState(roomInfo.containerInfo.remainingFogPrecentage);
+                    point.setRoomState(room.getRoomInfo());
+  
                 }
             }
-
-            //int current = (int) (4- Mathf.Ceil((room.getRoomInfo().containerInfo.remainingFogPrecentage/100f) * 4));
-            float opacity = 1f-(room.getRoomInfo().containerInfo.remainingFogPrecentage);
-           print(room.getRoomInfo().containerInfo.remainingFogPrecentage) ;
-            floors[0].GetComponent<Tilemap>().color= new Color(1,1,1,opacity);
-   //         for(int i=0; i<floors.Length; i++)
-			//{
-   //             print(current);
-   //             if (i == current)
-   //             {
-   //                 floors[i].SetActive(true);
-   //             }
-   //             else
-   //                 floors[i].SetActive(false);
-			//}
-
+            float fogPrecent = (room.getRoomInfo().containerInfo.remainingFogPrecentage);
+            floors[0].GetComponent<Tilemap>().color= new Color(1,1,1, fogPrecent);
+            floors[1].GetComponent<Tilemap>().color = new Color(1, 1, 1, 1f- fogPrecent);
 
         }
     }
