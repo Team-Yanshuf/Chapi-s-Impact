@@ -39,7 +39,7 @@ public struct RoomManagerInfo
 
 		}
 		if (initialFogCount > 0)
-			remainingFogPrecentage = (float)(100 * currentFogAmount / initialFogCount);
+			remainingFogPrecentage = ((float) currentFogAmount / (float) initialFogCount);
 		else remainingFogPrecentage = 0;
 	}
 
