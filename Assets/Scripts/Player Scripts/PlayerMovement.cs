@@ -37,12 +37,16 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        setMovementVector();
+        if(playerM.getPlayerInfo().isControlledByPlayer)
+		{
+            setMovementVector();
 
-        if (!playerM.isPlanting() && !playerM.isAttacking())
-        move();
+            if (!playerM.isPlanting() && !playerM.isAttacking())
+                move();
 
-        handleWeaponDirection();
+            handleWeaponDirection();
+        }
+
     }
     private void setMovementVector()
     {

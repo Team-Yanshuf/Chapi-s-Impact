@@ -6,6 +6,8 @@ public class CameraFollowPlayer : MonoBehaviour
     [SerializeField] float zOffset;
     [SerializeField] float yOffset;
     Vector3 position;
+
+    [SerializeField] bool canFollow;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +21,12 @@ public class CameraFollowPlayer : MonoBehaviour
         if (!player)
             return;
 
-        position = player.transform.position - new Vector3(0, yOffset, zOffset);
-        transform.position = position;
+        if (canFollow)
+		{
+            position = player.transform.position - new Vector3(0, yOffset, zOffset);
+            transform.position = position;
+        }
+
     }
 }
 

@@ -4,6 +4,7 @@ public struct PlayerInfo
 {
     // hello
     public bool isMoving {get; set;}
+    public bool isControlledByPlayer { get; set; }
     public bool isPlanting { get; set; }
     public bool isAttacking { get; set; }
 
@@ -37,7 +38,7 @@ public class Player : MonoBehaviour
     int treesToPlant = 0;
     bool planting = false;
 
-	// [SerializeField] int health;
+    [SerializeField] bool isAllowedToMove;
 	private void Awake()
 	{
         movementM = GetComponent<PlayerMovement>();
@@ -124,6 +125,7 @@ public class Player : MonoBehaviour
         PlayerInfo info = new PlayerInfo();
         Vector3 movement = getActualMovement();
 
+        info.isControlledByPlayer = isAllowedToMove;
         info.isAttacking = isAttacking();
         info.attackNumber = comboCount();
         info.isPlanting = isPlanting();

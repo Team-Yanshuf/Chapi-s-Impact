@@ -20,7 +20,7 @@ public class PlayerAttacking : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (playerM.meleePressed())
+		if (playerM.meleePressed() && playerM.getPlayerInfo().isControlledByPlayer)
 			melee();
 
 
