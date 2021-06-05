@@ -481,6 +481,7 @@ GameObject:
   - component: {fileID: 2252709569066202680}
   - component: {fileID: 6816824357731097411}
   - component: {fileID: 7265489389581004559}
+  - component: {fileID: 647571954}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: LevelManager
@@ -531,7 +532,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c896658655aba46bce4a430d7a7337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  room: {fileID: 7033828081335523630, guid: a8984e9fef1748d4ba29d6705bfeb7f3, type: 3}
+  currentRoom: {fileID: 0}
+  rooms:
+  - {fileID: 4327452489601370212, guid: d84d435275ba44f039f4415af4d4d31a, type: 3}
+  - {fileID: 2623651046616741384, guid: 2cd5dbe6661f2496e8bd273062eb0230, type: 3}
+  - {fileID: 4327452489601370212, guid: c8d353676cb24402f9bf7f7603b90f0f, type: 3}
+  - {fileID: 4327452489601370212, guid: f34805735c9ed4babb8e11d9d7c17843, type: 3}
+  - {fileID: 4327452489601370212, guid: 083e039effcac492cbc315ca9889374a, type: 3}
+  - {fileID: 4327452489601370212, guid: 2d026d908f23f44b095293e09fb9afaa, type: 3}
+  - {fileID: 4327452489601370212, guid: e4a7728983e264e7a841dc2eb50bfb61, type: 3}
+  - {fileID: 2623651046616741384, guid: 1baafedcbc4a14af48098edc072c4e19, type: 3}
+  - {fileID: 4327452489601370212, guid: 785cc4f69400f4a6390f28af2b767c52, type: 3}
+  lightSource: {fileID: 647571954}
+--- !u!114 &647571954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9167614121016147255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 000000001dfa2a08e9e4e65d03c40ed9
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1001 &889829856593701522
 PrefabInstance:
   m_ObjectHideFlags: 0
