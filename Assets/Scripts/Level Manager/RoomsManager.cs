@@ -82,6 +82,7 @@ public class RoomsManager : MonoBehaviour
 
 				if (i==1)
 				{
+
 					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[0], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
 					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 					coordinates = chooseNonOccupiedNeighbor(coordinates);
@@ -89,7 +90,15 @@ public class RoomsManager : MonoBehaviour
 				}
 				else
 				{
-					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0, rooms.Length)], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
+
+					GameObject roomToInstantiate = rooms[Random.Range(0, rooms.Length)];
+					while (roomList.Contains(roomToInstantiate.GetComponent<Room>()))
+					{
+						print("Retry");
+						roomToInstantiate = rooms[Random.Range(0, rooms.Length)];
+					}
+
+					roomMatrix[coordinates.x, coordinates.y] = Instantiate(roomToInstantiate, new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
 					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 					coordinates = chooseNonOccupiedNeighbor(coordinates);
 				}
