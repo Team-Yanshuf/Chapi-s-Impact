@@ -168,9 +168,10 @@ public class Player : MonoBehaviour
     public Room getRoom() => currentRoom;
     public void changeCollisionLayerDuringDash() => collisionM.changeCollisionLayerDuringDash();
 
-    public void revokePlayerControl()
+    public void revokePlayerControl(string direction)
 	{
         isControlledByPlayer = false;
+        movementM.setFauxMovementVector(direction);
         //change isControlledByPlayer to false.
         //this will cause movement, planting and attacking to lock up.
         //make sure camera listens to isControlledByPlayer.

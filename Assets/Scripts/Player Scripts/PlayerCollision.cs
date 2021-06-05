@@ -33,9 +33,14 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 
         if (other.gameObject.CompareTag("BridgeStart"))
         {
-            print("Revoked");
-            gameObject.layer = LayerMask.NameToLayer("PlayerTraverseRooms");
-            playerM.revokePlayerControl();
+            Bridge bridge = other.GetComponent<Bridge>();
+            if (bridge.getBridgeInfo().isOpen)
+			{
+                print("Revoked");
+                gameObject.layer = LayerMask.NameToLayer("PlayerTraverseRooms");
+                playerM.revokePlayerControl(bridge.getBridgeInfo().direction);
+            }
+
         }
 
         else if (other.gameObject.CompareTag("BridgeEnd"))

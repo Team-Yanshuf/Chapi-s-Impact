@@ -1333,7 +1333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2623651044966918354}
   - component: {fileID: 2623651044966918355}
-  m_Layer: 10
+  m_Layer: 16
   m_Name: Right Barriar (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2623651045093008435}
   - component: {fileID: 2623651045093008444}
-  m_Layer: 10
+  m_Layer: 16
   m_Name: Right Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1624,7 +1624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2623651045187382378}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Barriars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1835,7 +1835,7 @@ GameObject:
   - component: {fileID: 2623651045571299174}
   - component: {fileID: 2623651045571299195}
   - component: {fileID: 2623651045571299172}
-  m_Layer: 10
+  m_Layer: 16
   m_Name: Left And Corners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3374,7 +3374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2623651046825731093}
   - component: {fileID: 2623651046825731094}
-  m_Layer: 10
+  m_Layer: 16
   m_Name: Right Barriar (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

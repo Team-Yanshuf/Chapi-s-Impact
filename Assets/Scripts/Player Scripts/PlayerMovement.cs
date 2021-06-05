@@ -11,6 +11,12 @@ public struct PlayerMovementInfo
 	{
         this.isDashing = isDashing;
 	}
+
+    public static Vector3 transformVectorToFitPlane(Vector3 vec)
+	{
+        Quaternion q = Quaternion.Euler(40, 0, 0);
+        return q * vec;
+	}
 }
 public class PlayerMovement : MonoBehaviour
 {
@@ -24,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] float dashSpeed;
     [SerializeField] float dashLength;
+
+    Vector3 FauxMovementForRoomTraversal;
 
     float direction, horizontal, vertical;
     bool isDashing;
@@ -49,11 +57,16 @@ public class PlayerMovement : MonoBehaviour
 
         else
 		{
-            move();
+            movePlayerBetweenRooms();
             handleWeaponDirection();
 		}
 
     }
+
+    void movePlayerBetweenRooms()
+	{
+        rb.MovePosition(transform.position + FauxMovementForRoomTraversal);
+	}
     private void setMovementVector()
     {
         if (playerM.isPlanting() || playerM.isAttacking())
@@ -182,4 +195,33 @@ public class PlayerMovement : MonoBehaviour
         return info;
 	}
 
+	internal void setFauxMovementVector(string direction)
+	{
+		switch (direction)
+		{
+            case "Top":
+				{
+                    FauxMovementForRoomTraversal = PlayerMovementInfo.transformVectorToFitPlane(new Vector3(0, 1, 0));
+                    break;
+				}
+
+            case "Bottom":
+				{
+                    FauxMovementForRoomTraversal = PlayerMovementInfo.transformVectorToFitPlane(new Vector3(0, -1, 0));
+                    break;
+				}
+
+            case "Left":
+				{
+                    FauxMovementForRoomTraversal = PlayerMovementInfo.transformVectorToFitPlane(new Vector3(-1,0, 0));
+                    break;
+				}
+
+            case "Right":
+				{
+                    FauxMovementForRoomTraversal = PlayerMovementInfo.transformVectorToFitPlane(new Vector3(1, 0, 0));
+                    break;
+				}
+		}
+	}
 }
