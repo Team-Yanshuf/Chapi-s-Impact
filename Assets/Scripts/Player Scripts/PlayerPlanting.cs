@@ -33,7 +33,8 @@ public class PlayerPlanting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerM.plantingPressed() && !plantLocked && playerM.getHowManyTreesCanPlant()>0)
+        if (playerM.plantingPressed() && !plantLocked && playerM.getHowManyTreesCanPlant()>0
+            && playerM.getPlayerInfo().isControlledByPlayer)
 		{
             plantLocked = true;
             playerM.setPlanting(true);

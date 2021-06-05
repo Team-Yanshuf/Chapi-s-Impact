@@ -1,6 +1,21 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+
+public struct BridgeInfo
+{
+	public bool isOpen { get; }
+	public string direction { get; }
+	public BridgeInfo(bool isOpen, string direction)
+	{
+		this.isOpen = isOpen;
+		this.direction = direction;
+	}
+
+
+}
+
+
 public class Bridge : MonoBehaviour
 {
 	[SerializeField] public string direction;
@@ -30,11 +45,15 @@ public class Bridge : MonoBehaviour
 		if(isOpen)
 		if (other.gameObject.CompareTag("Player"))
 		{
-			other.GetComponent<Player>().movePlayerBetweenRooms(positionTo,roomTo);
 		
 			currentRoom.GetComponent<Room>().exitRoom();
 			roomTo.GetComponent<Room>().enterRoom();
 		}
+	}
+
+	public void movePlayer()
+	{
+		GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().movePlayerBetweenRooms(positionTo, roomTo);
 	}
 
 	public void openBridge()
@@ -58,5 +77,9 @@ public class Bridge : MonoBehaviour
 			}
 		}
 	}
+
+	public BridgeInfo getBridgeInfo() => new BridgeInfo(isOpen,direction);
+
+
 
 }
