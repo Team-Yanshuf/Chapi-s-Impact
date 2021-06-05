@@ -30,11 +30,16 @@ public class Bridge : MonoBehaviour
 		if(isOpen)
 		if (other.gameObject.CompareTag("Player"))
 		{
-			other.GetComponent<Player>().movePlayerBetweenRooms(positionTo,roomTo);
+			//
 		
 			currentRoom.GetComponent<Room>().exitRoom();
 			roomTo.GetComponent<Room>().enterRoom();
 		}
+	}
+
+	public void movePlayer()
+	{
+		GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().movePlayerBetweenRooms(positionTo, roomTo);
 	}
 
 	public void openBridge()

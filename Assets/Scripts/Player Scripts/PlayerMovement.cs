@@ -47,6 +47,12 @@ public class PlayerMovement : MonoBehaviour
             handleWeaponDirection();
         }
 
+        else
+		{
+            move();
+            handleWeaponDirection();
+		}
+
     }
     private void setMovementVector()
     {

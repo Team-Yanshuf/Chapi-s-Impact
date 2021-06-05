@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -920,6 +920,21 @@ PrefabInstance:
       propertyPath: zOffset
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: canFollow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140684668929511995, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: seagulls
+      value: 
+      objectReference: {fileID: 1795879563}
+    - target: {fileID: 7140684668929511995, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: backgroud
+      value: 
+      objectReference: {fileID: 1795879567}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d397bcdba1ab86144b0d6c76ee6ec037, type: 3}
 --- !u!1 &401677746
@@ -1584,6 +1599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zOffset: 0
   yOffset: 0
+  canFollow: 0
 --- !u!114 &726012268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2131,6 +2147,16 @@ PrefabInstance:
     - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
       propertyPath: hurtVolume
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: isAllowedToMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
+        type: 3}
+      propertyPath: isControlledByPlayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
@@ -4215,6 +4241,30 @@ Transform:
   m_Father: {fileID: 1003224609}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 39.570004, y: 0, z: 90}
+--- !u!114 &1795879563 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5242490730888922028, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+    type: 3}
+  m_PrefabInstance: {fileID: 352975855}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1795879567 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1584045776, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+    type: 3}
+  m_PrefabInstance: {fileID: 352975855}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1799455338
 PrefabInstance:
   m_ObjectHideFlags: 0

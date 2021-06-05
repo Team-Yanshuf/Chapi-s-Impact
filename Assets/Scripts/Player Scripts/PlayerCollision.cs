@@ -26,11 +26,28 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
             GetComponent<PlayerPowerup>().addNewPowerup(info);
             other.gameObject.GetComponent<PowerupBase>().destroy();
         }
-
-
     }
 
-    public void takeDamage(Vector3 pushback, float damage = 0)
+	private void OnTriggerEnter(Collider other)
+	{
+
+        if (other.gameObject.CompareTag("BridgeStart"))
+        {
+            print("Revoked");
+            gameObject.layer = LayerMask.NameToLayer("PlayerTraverseRooms");
+            playerM.revokePlayerControl();
+        }
+
+        else if (other.gameObject.CompareTag("BridgeEnd"))
+        {
+            print("Restored");
+
+            other.GetComponentInParent<Bridge>().movePlayer();
+            playerM.restorePlayerControl();
+        }
+    }
+
+	public void takeDamage(Vector3 pushback, float damage = 0)
     {
         hurt = true;
         playerM.takeDamage(pushback,damage);
@@ -52,7 +69,6 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
         if (playerM.getMovementInfo().isDashing)
 		{
             gameObject.layer = LayerMask.NameToLayer("PlayerDash");
-
         }
 
 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8339227170743172306}
   - component: {fileID: 7303909756913856261}
   m_Layer: 15
-  m_Name: BridgeStage4 (1)
+  m_Name: Bridge Part 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: -9197252927279795708}
   m_Layer: 15
   m_Name: Bridge
-  m_TagString: Untagged
+  m_TagString: BridgeStart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,9 +207,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4031841698421051781}
   - component: {fileID: 2323879393906138206}
+  - component: {fileID: 4719006368155836793}
   m_Layer: 15
-  m_Name: BridgeStage4 (3)
-  m_TagString: Untagged
+  m_Name: Bridge End
+  m_TagString: BridgeEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,6 +280,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &4719006368155836793
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4484402845904643436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.244427, y: 5.09, z: 6.0743446}
+  m_Center: {x: 2.7682133, y: 0.07999992, z: 0.60152626}
 --- !u!1 &4635634384690853917
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +304,7 @@ GameObject:
   - component: {fileID: 599004438865196373}
   - component: {fileID: 7308104483368272814}
   m_Layer: 15
-  m_Name: BridgeStage4 (2)
+  m_Name: Bridge Part 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

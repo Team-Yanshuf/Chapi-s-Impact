@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public struct PlayerInfo
 {
@@ -38,7 +39,10 @@ public class Player : MonoBehaviour
     int treesToPlant = 0;
     bool planting = false;
 
-    [SerializeField] bool isAllowedToMove;
+    [SerializeField] bool isControlledByPlayer;
+
+
+
 	private void Awake()
 	{
         movementM = GetComponent<PlayerMovement>();
@@ -125,7 +129,7 @@ public class Player : MonoBehaviour
         PlayerInfo info = new PlayerInfo();
         Vector3 movement = getActualMovement();
 
-        info.isControlledByPlayer = isAllowedToMove;
+        info.isControlledByPlayer = isControlledByPlayer;
         info.isAttacking = isAttacking();
         info.attackNumber = comboCount();
         info.isPlanting = isPlanting();
@@ -163,4 +167,23 @@ public class Player : MonoBehaviour
 
     public Room getRoom() => currentRoom;
     public void changeCollisionLayerDuringDash() => collisionM.changeCollisionLayerDuringDash();
+
+    public void revokePlayerControl()
+	{
+        isControlledByPlayer = false;
+        //change isControlledByPlayer to false.
+        //this will cause movement, planting and attacking to lock up.
+        //make sure camera listens to isControlledByPlayer.
+        //when called, make movement script make chapi move in his direction.
+        //inside collision script, fill block for begin bridge and end bridge.
+
+        //in begin, make player start walking.
+        //in end, make player teleport and free movement for player.
+	}
+
+    internal void restorePlayerControl()
+    {
+        isControlledByPlayer = true;
+    }
+
 }

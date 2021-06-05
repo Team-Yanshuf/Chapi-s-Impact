@@ -21,6 +21,8 @@ public class CameraFollowPlayer : MonoBehaviour
         if (!player)
             return;
 
+
+        if (player.GetComponent<Player>().getPlayerInfo().isControlledByPlayer)
         if (canFollow)
 		{
             position = player.transform.position - new Vector3(0, yOffset, zOffset);
