@@ -15,6 +15,8 @@ public class TrashcanAnimation : MonoBehaviour
         renderer = GetComponent<SpriteRenderer>();
         trashM.addJumpEventListener(haltAnimation);
         trashM.addLandEventListener(resumeAnimation);
+
+        animator.Play("TrashJump", 0, Random.Range(0f, 1f));
     }
 
     // Update is called once per frame

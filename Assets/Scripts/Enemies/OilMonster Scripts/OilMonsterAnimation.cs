@@ -13,6 +13,8 @@ public class OilMonsterAnimation : MonoBehaviour
         oilMonsterM = GetComponent<OilMonster>();
         animator = GetComponent<Animator>();
         render = GetComponent<SpriteRenderer>();
+
+        animator.Play("Walk", 0, Random.Range(0f, 1f));
     }
 
     // Update is called once per frame

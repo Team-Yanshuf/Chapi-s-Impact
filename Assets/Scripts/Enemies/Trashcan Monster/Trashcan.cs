@@ -11,7 +11,7 @@ public class Trashcan : MonoBehaviour, IEnemy
     TrashcanHealth healthM;
     TrashcanEvents eventM;
 
-
+    int currentJumpMax;
     int landCounter;
 
     [SerializeField] float maxHp;
@@ -34,6 +34,7 @@ public class Trashcan : MonoBehaviour, IEnemy
         eventM.land.AddListener(incrementLandCounter);
 
         landCounter = 0;
+        currentJumpMax = Random.Range(1, 5);
     }
 
 	internal void takeDamage(float damage)
@@ -63,9 +64,10 @@ public class Trashcan : MonoBehaviour, IEnemy
     public void incrementLandCounter() => landCounter++;
     public bool canAttackBasedOnLands()
     {
-        if (landCounter>2)
+        if (landCounter>currentJumpMax)
         {
             landCounter = 0;
+            currentJumpMax = Random.Range(1, 5);
             return true;
         }
         return false;
