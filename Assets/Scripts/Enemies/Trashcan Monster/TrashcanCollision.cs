@@ -6,12 +6,22 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
     bool hurt;
     bool grounded;
 
-    public bool isGrounded() => grounded;
-    // Start is called before the first frame update
-    void Start()
+    bool ready;
+    public bool isGrounded()
     {
+        if(grounded)
+		{
+            grounded = false;
+            return true;
+		}
+        return false;
+    }
+
+    public void initSelf()
+	{
         hurt = false;
         trashM = GetComponent<Trashcan>();
+        ready = true;
     }
 
     public void takeDamage(Vector3 pushback, float damage = 0)
@@ -32,16 +42,20 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            grounded = true;
-            trashM.invokeLandEvent();
-        }
+        if (ready)
+		{
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                grounded = true;
+                trashM.invokeLandEvent();
+            }
 
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-            IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
-            player.takeDamage(Vector3.zero,10);
+            else if (collision.gameObject.CompareTag("Player"))
+            {
+                IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
+                player.takeDamage(Vector3.zero, 10);
+            }
         }
+      
     }
 }

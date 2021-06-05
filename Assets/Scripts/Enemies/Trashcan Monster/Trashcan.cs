@@ -9,7 +9,7 @@ public class Trashcan : MonoBehaviour, IEnemy
     TrashcanMovement movementM;
     TrashcanSounds soundM;
     TrashcanHealth healthM;
-    //TrashcanEvents eventM
+    TrashcanEvents eventM;
 
 
     int landCounter;
@@ -21,11 +21,17 @@ public class Trashcan : MonoBehaviour, IEnemy
     {
         target = GameObject.FindGameObjectWithTag("Player");
         attackingM = GetComponent<TrashcanAttacking>();
+        
         collisionM = GetComponent<TrashcanCollision>();
+        collisionM.initSelf();
+        
         movementM = GetComponent<TrashcanMovement>();
         soundM = GetComponent<TrashcanSounds>();
         healthM = GetComponent<TrashcanHealth>();
-        TrashcanEvents.land.AddListener(incrementLandCounter);
+        eventM = GetComponent<TrashcanEvents>();
+
+        eventM.initSelf();
+        eventM.land.AddListener(incrementLandCounter);
 
         landCounter = 0;
     }
@@ -57,22 +63,21 @@ public class Trashcan : MonoBehaviour, IEnemy
     public void incrementLandCounter() => landCounter++;
     public bool canAttackBasedOnLands()
     {
-        if (landCounter>=2)
+        if (landCounter>2)
         {
             landCounter = 0;
             return true;
         }
         return false;
     }
-        //=> landCounter;
 
 
     //****Event Functions*****
 
-    public void invokeJumpEvent() => TrashcanEvents.jump.Invoke();
-    public void addJumpEventListener(UnityAction call) => TrashcanEvents.jump.AddListener(call);
-    public void invokeLandEvent() => TrashcanEvents.land.Invoke();
-    public void addLandEventListener(UnityAction call) => TrashcanEvents.land.AddListener(call);
+    public void invokeJumpEvent() => eventM.jump.Invoke();
+    public void addJumpEventListener(UnityAction call) => eventM.jump.AddListener(call);
+    public void invokeLandEvent() => eventM.land.Invoke();
+    public void addLandEventListener(UnityAction call) => eventM.land.AddListener(call);
 
 
     void decideNextAction()

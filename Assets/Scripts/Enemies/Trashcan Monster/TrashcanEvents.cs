@@ -3,10 +3,14 @@ using UnityEngine.Events;
 
 public class TrashcanEvents : MonoBehaviour
 {
-    internal static UnityEvent jump = new UnityEvent();
-    internal static UnityEvent land = new UnityEvent();
+    internal UnityEvent jump;
+    internal UnityEvent land;
 
-
+    public void initSelf()
+	{
+        jump = new UnityEvent();
+        land = new UnityEvent();
+	}
 
 
      //UnityEvent jump;

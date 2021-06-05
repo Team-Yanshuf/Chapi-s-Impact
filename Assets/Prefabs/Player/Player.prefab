@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1e5d8033007434f8f5f00026d9b95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isControlledByPlayer: 1
 --- !u!114 &300265745222436763
 MonoBehaviour:
   m_ObjectHideFlags: 0
