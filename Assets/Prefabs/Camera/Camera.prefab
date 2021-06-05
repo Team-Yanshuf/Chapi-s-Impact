@@ -95,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zOffset: 25
   yOffset: 0
+  canFollow: 1
 --- !u!114 &3917868220920842120
 MonoBehaviour:
   m_ObjectHideFlags: 0
