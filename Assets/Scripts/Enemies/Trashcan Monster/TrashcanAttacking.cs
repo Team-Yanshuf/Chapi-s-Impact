@@ -21,6 +21,7 @@ public class TrashcanAttacking : MonoBehaviour
 
     void attack()
     {
+        print(gameObject.name + " is attacking");
         StartCoroutine(spawnCigaretteParticles());
     }
 
@@ -30,9 +31,9 @@ public class TrashcanAttacking : MonoBehaviour
 
         Vector3 offset = new Vector3(0, 3, 0);
         Vector3 spawnPosition = transform.position + offset;
-        for (int i=0; i<amount*3; i++)
+        for (int i=0; i<amount; i++)
         {
-            if (i%3==0)
+            //if (i%2==0)
             Instantiate<TrashParticle>(particles[Random.Range(0,particles.Length)], spawnPosition , Quaternion.identity).transform.SetParent(this.transform);
             yield return null;
         }

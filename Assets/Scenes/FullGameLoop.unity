@@ -2144,20 +2144,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1313611706, guid: afc19573045fdac4081c14462eb0761d, type: 3}
-      propertyPath: hurtVolume
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: isAllowedToMove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2301962181626829113, guid: afc19573045fdac4081c14462eb0761d,
-        type: 3}
-      propertyPath: isControlledByPlayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4502266292215735126, guid: afc19573045fdac4081c14462eb0761d,
         type: 3}
       propertyPath: m_Name

@@ -23,7 +23,6 @@ public class TrashcanMovement : MonoBehaviour
     {
         trashM = GetComponent<Trashcan>();
         rb = GetComponent<Rigidbody>();
-        //TrashcanEvents.jump.AddListener(jumpMove);
         trashM.addJumpEventListener(jumpMove);
     }
 
@@ -38,7 +37,7 @@ public class TrashcanMovement : MonoBehaviour
     //jumpMove is called by the jumping animation itself, inside the editor.
     void jumpMove()
 	{
-        if (trashM.isGrounded()) // && !trashM.isAttacking())
+       // if (trashM.isGrounded()) // && !trashM.isAttacking())
 		{
             movement = (-Physics.gravity.normalized * jumpHeight + direction * jumpDistance) * Time.fixedDeltaTime;
             rb.AddForce(movement, ForceMode.Impulse);
