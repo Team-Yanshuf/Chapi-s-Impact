@@ -64,8 +64,9 @@ public class RoomsManager : MonoBehaviour
 		initRooms();
 
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-		player.updateCurrentRoom(roomMatrix[2, 2].GetComponent<Room>());
+		player.updateCurrentRoom(roomMatrix[3, 3].GetComponent<Room>());
 		ready = true;
+	
 		void initRooms()
 		{
 			generateRandomMap();
@@ -73,14 +74,15 @@ public class RoomsManager : MonoBehaviour
 		void generateRandomMap()
 		{
 			clearMap();
-			Vector2Int coordinates = new Vector2Int(2, 2);
+			Vector2Int coordinates = new Vector2Int(3, 3);
 
-			for (int i = 1; i < 6; i++)
+			for (int i = 1; i < 8; i++)
 			{
 				float offset = 200;
 
 				if (i==1)
 				{
+
 					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[0], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
 					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 					coordinates = chooseNonOccupiedNeighbor(coordinates);
@@ -88,7 +90,15 @@ public class RoomsManager : MonoBehaviour
 				}
 				else
 				{
-					roomMatrix[coordinates.x, coordinates.y] = Instantiate(rooms[Random.Range(0, rooms.Length)], new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
+
+					GameObject roomToInstantiate = rooms[Random.Range(0, rooms.Length)];
+					while (roomList.Contains(roomToInstantiate.GetComponent<Room>()))
+					{
+						print("Retry");
+						roomToInstantiate = rooms[Random.Range(0, rooms.Length)];
+					}
+
+					roomMatrix[coordinates.x, coordinates.y] = Instantiate(roomToInstantiate, new Vector3((coordinates.x * 250) + offset, coordinates.y * 250, 0), Quaternion.Euler(40, 0, 0));
 					roomList.Add(roomMatrix[coordinates.x, coordinates.y].GetComponent<Room>());
 					coordinates = chooseNonOccupiedNeighbor(coordinates);
 				}
@@ -98,7 +108,7 @@ public class RoomsManager : MonoBehaviour
 
 			}
 
-			currentRoom = roomMatrix[2, 2];
+			currentRoom = roomMatrix[3,3];
 			currentRoom.GetComponent<Room>().setIsActive(true);
 			for (int i = 0; i < roomMatrix.GetLength(0); i++)
 			{
@@ -108,7 +118,7 @@ public class RoomsManager : MonoBehaviour
 						roomMatrix[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j),lightSource);
 				}
 			}
-			roomMatrix[2, 2].GetComponent<Room>().enterRoom();
+			roomMatrix[3, 3].GetComponent<Room>().enterRoom();
 
 
 

@@ -140,4 +140,11 @@ public class Room : MonoBehaviour
 		resetLight();
 
 	}
+
+	public override bool Equals(object other)
+	{
+		Room otherRoom = (Room)other;
+		string current = gameObject.name.Replace("(Clone)", "");
+		return current.Equals(otherRoom.gameObject.name);
+	}
 }
