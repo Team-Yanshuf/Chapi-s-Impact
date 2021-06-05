@@ -130,7 +130,7 @@ public class Room : MonoBehaviour
 	public void exitRoom()
 	{
 		previousLightIntensity = lightingM.getIntensity();
-		events.removeAllListeners();
+		//events.removeAllListeners();
 	}
 
 	public void enterRoom()

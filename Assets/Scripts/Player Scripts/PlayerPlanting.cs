@@ -82,6 +82,7 @@ public class PlayerPlanting : MonoBehaviour
     void endPlanting()
 	{
         playerM.setPlanting(false);
+        print("Current Room: " + playerM.getRoom().gameObject.name);
         playerM.getRoom().invokeTreePlantedEvent();
         plantLocked = false;
 	}

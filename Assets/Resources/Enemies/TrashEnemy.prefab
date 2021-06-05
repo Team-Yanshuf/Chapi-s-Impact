@@ -173,8 +173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementDirection: 0
-  jumpHeight: 80
-  jumpDistance: 80
+  jumpHeight: 300
+  jumpDistance: 500
 --- !u!114 &2876103171634304324
 MonoBehaviour:
   m_ObjectHideFlags: 0
