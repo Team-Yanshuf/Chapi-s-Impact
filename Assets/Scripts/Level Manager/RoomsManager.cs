@@ -64,8 +64,9 @@ public class RoomsManager : MonoBehaviour
 		initRooms();
 
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-		player.updateCurrentRoom(roomMatrix[2, 2].GetComponent<Room>());
+		player.updateCurrentRoom(roomMatrix[3, 3].GetComponent<Room>());
 		ready = true;
+	
 		void initRooms()
 		{
 			generateRandomMap();
@@ -73,9 +74,9 @@ public class RoomsManager : MonoBehaviour
 		void generateRandomMap()
 		{
 			clearMap();
-			Vector2Int coordinates = new Vector2Int(2, 2);
+			Vector2Int coordinates = new Vector2Int(3, 3);
 
-			for (int i = 1; i < 6; i++)
+			for (int i = 1; i < 8; i++)
 			{
 				float offset = 200;
 
@@ -98,7 +99,7 @@ public class RoomsManager : MonoBehaviour
 
 			}
 
-			currentRoom = roomMatrix[2, 2];
+			currentRoom = roomMatrix[3,3];
 			currentRoom.GetComponent<Room>().setIsActive(true);
 			for (int i = 0; i < roomMatrix.GetLength(0); i++)
 			{
@@ -108,7 +109,7 @@ public class RoomsManager : MonoBehaviour
 						roomMatrix[i, j].GetComponent<Room>().init(getRoomAdjacencyList(i, j),lightSource);
 				}
 			}
-			roomMatrix[2, 2].GetComponent<Room>().enterRoom();
+			roomMatrix[3, 3].GetComponent<Room>().enterRoom();
 
 
 
