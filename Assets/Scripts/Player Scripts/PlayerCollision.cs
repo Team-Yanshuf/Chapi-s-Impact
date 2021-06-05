@@ -30,25 +30,26 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 
 	private void OnTriggerEnter(Collider other)
 	{
-
         if (other.gameObject.CompareTag("BridgeStart"))
         {
             Bridge bridge = other.GetComponent<Bridge>();
             if (bridge.getBridgeInfo().isOpen)
 			{
-                print("Revoked");
                 gameObject.layer = LayerMask.NameToLayer("PlayerTraverseRooms");
                 playerM.revokePlayerControl(bridge.getBridgeInfo().direction);
+                bridge.exitRoom();
             }
 
         }
 
         else if (other.gameObject.CompareTag("BridgeEnd"))
         {
-            print("Restored");
+            Bridge bridge = other.GetComponentInParent<Bridge>();
 
+            bridge.enterNextRoom();
             other.GetComponentInParent<Bridge>().movePlayer();
             playerM.restorePlayerControl();
+
         }
     }
 

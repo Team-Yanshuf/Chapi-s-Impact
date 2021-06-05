@@ -40,15 +40,14 @@ public class Bridge : MonoBehaviour
 	}
 
 
-	private void OnTriggerEnter(Collider other)
+	public void exitRoom()
 	{
-		if(isOpen)
-		if (other.gameObject.CompareTag("Player"))
-		{
-		
-			currentRoom.GetComponent<Room>().exitRoom();
-			roomTo.GetComponent<Room>().enterRoom();
-		}
+		currentRoom.GetComponent<Room>().exitRoom();
+	}
+
+	public void enterNextRoom()
+	{
+		roomTo.GetComponent<Room>().enterRoom();
 	}
 
 	public void movePlayer()
