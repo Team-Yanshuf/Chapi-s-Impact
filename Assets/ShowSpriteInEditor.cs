@@ -2,23 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteAlways]
+
 public class ShowSpriteInEditor : MonoBehaviour
 {
 	NatureType type;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		transform.localScale = new Vector3(0.5f, 0.5f, 1);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	}
+
+	private void Update()
+	{
+
+		makeSpriteAppearInEditor();
+	}
+
 	void makeSpriteAppearInEditor()
 	{
 		SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+		type = GetComponent<NatureSpawnPoint>().getType();
 		switch (type)
 		{
 			case NatureType.ROCK1:

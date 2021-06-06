@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1945269228539096341}
   - component: {fileID: -5961506827039488580}
   - component: {fileID: 8579965430790967368}
+  - component: {fileID: 1609560573994037419}
   m_Layer: 0
   m_Name: Point
   m_TagString: Untagged
@@ -71,15 +72,16 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -4158811765113711167, guid: 3e8955ec0b5414ebfa433f5f9d5a2e98,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.48, y: 4.63}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &8579965430790967368
@@ -95,5 +97,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 0
-  type: 0
+  type: 2
   precentage: 0
+--- !u!114 &1609560573994037419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30942911809519093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d62e798ab7805c4eb9ba54920e92f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

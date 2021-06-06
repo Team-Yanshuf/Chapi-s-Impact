@@ -8,8 +8,6 @@ public enum NatureType
 	ROCK3,
 	TREE1
 }
-
-[RequireComponent(typeof(SpriteRenderer))]
 public class NatureSpawnPoint : MonoBehaviour
 {
 	[Header("Is this spawn point active?")]
@@ -27,7 +25,12 @@ public class NatureSpawnPoint : MonoBehaviour
 	bool fogDoneGenerating;
 	NatureSpawner natureM;
 	GameObject naturePiece;
+	ShowSpriteInEditor spriteHandler;
 
+	private void Awake()
+	{
+		spriteHandler = GetComponent<ShowSpriteInEditor>();
+	}
 	public void initSelf(RoomInfo roomInfo)
 	{
 		natureM = transform.parent.GetComponentInParent<NatureSpawner>();
@@ -40,12 +43,15 @@ public class NatureSpawnPoint : MonoBehaviour
 		piece.initSelf();
 		piece.setPrecent(precentage/100f);
 		piece.transform.SetParent(this.transform);
+
+		Destroy(GetComponent<ShowSpriteInEditor>());
+		Destroy(GetComponent<SpriteRenderer>());
 	}
 
 	private void Update()
 	{
 		if (fogDoneGenerating)
-		passCurrentStateToNaturePiece();
+			passCurrentStateToNaturePiece();
 	}
 
 	public bool isActive() => active;
