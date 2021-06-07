@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 enum Selection
 {
@@ -46,7 +47,12 @@ public class TrashcanMovement : MonoBehaviour
 		}
 	}
 
-    void resetMovementVector()
+	internal void push(Vector3 pushback)
+	{
+        rb.AddForce(pushback, ForceMode.Impulse);
+	}
+
+	void resetMovementVector()
 	{
         movement = Vector3.zero;	
     }

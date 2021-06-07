@@ -37,6 +37,11 @@ public class Trashcan : MonoBehaviour, IEnemy
         currentJumpMax = Random.Range(1, 5);
     }
 
+	internal void push(Vector3 pushback)
+	{
+        movementM.push(pushback);
+	}
+
 	internal void takeDamage(float damage)
 	{
         healthM.reductHP(damage);
@@ -58,7 +63,7 @@ public class Trashcan : MonoBehaviour, IEnemy
 	}
 
     //PLACE HOLDER!!!
-    public bool isHurt() => false;
+    public bool isHurt() => collisionM.isHurt();
 
 
     public void incrementLandCounter() => landCounter++;

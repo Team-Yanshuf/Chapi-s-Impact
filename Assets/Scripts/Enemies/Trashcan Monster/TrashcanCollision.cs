@@ -27,10 +27,11 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
     public void takeDamage(Vector3 pushback, float damage = 0)
     {
         trashM.takeDamage(damage);
+        trashM.push(pushback);
         hurt = true;
 	}
 
-    bool isHurt()
+    public bool isHurt()
 	{
         if (hurt)
 		{
