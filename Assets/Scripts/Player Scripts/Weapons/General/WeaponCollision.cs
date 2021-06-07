@@ -12,15 +12,24 @@ public struct WeaponCollisionInfo
 
 public class WeaponCollision : MonoBehaviour
 {
+    WeaponManager manager;
 
-    bool hit;
+	private void Start()
+	{
+        manager = GetComponent<WeaponManager>();
+	}
+	bool hit;
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Enemy") && !collision.isTrigger)
         {
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
-            Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
-            enemy?.takeDamage(pushback * 5, 25);
+
+
+            Vector3 direction = (transform.position - collision.transform.position).normalized;
+            //Vector3 pushback = new Vector3(-direction, 0, 0);
+            
+            enemy?.takeDamage(-direction * 20, 25);
             Camera.main.GetComponent<CameraFollowPlayer>().shake();
             hit = true;
             print(hit);

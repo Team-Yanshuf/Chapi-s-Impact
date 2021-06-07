@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class TrashcanAnimation : MonoBehaviour
 {
@@ -32,9 +33,33 @@ public class TrashcanAnimation : MonoBehaviour
     void setParameters()
 	{
         animator.SetBool("Attacking", trashM.isAttacking());
+        bool isHurt  = trashM.isHurt();
+        if (isHurt)
+		{
+            StartCoroutine(colorRed());
+		}
+        //animator.SetBool("IsHurt", isHurt);
+
+
         //animator.SetBool("isMoving", trashM.isMoving());
 	}
 
+
+    IEnumerator colorRed()
+	{
+        Color origin = renderer.color;
+        Color dest = new Color(120f, 0, 0);
+
+        renderer.color = dest;
+
+        float interpolator = 0f;
+        for (int i=0; i<50; i++)
+		{
+            renderer.color = Color.Lerp(dest, origin, interpolator);
+            interpolator += 0.02f;
+            yield return null;
+		}
+	}
 
     void setLookDirection()
     {
