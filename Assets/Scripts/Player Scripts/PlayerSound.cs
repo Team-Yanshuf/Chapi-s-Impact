@@ -140,6 +140,15 @@ public class PlayerSound : MonoBehaviour
 	{
 		if (playerM.isAttacking() && attackNumber != playerM.comboCount())
 		{
+            if (playerM.weaponM.getWeaponInfo().collisionI.hit)
+			{
+                hit.setParameterByName("Hit object", 1);
+			}
+            else
+			{
+                hit.setParameterByName("Hit object", 0);
+			}
+
 			hit.start();
 			attackNumber = playerM.comboCount();
 		}

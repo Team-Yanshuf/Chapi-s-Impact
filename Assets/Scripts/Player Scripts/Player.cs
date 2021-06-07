@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     PlayerCollision collisionM;
     PlayerAnimation animationM;
     PlayerPlanting plantingM;
-    WeaponManager weaponM;
+    public WeaponManager weaponM;
     PlayerPowerup powerupM;
 
     Room currentRoom;

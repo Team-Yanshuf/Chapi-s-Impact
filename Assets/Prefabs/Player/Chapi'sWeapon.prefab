@@ -74,6 +74,8 @@ GameObject:
   - component: {fileID: 1277851526}
   - component: {fileID: 1277851531}
   - component: {fileID: 1105898577}
+  - component: {fileID: 4991728627559726799}
+  - component: {fileID: -8977566336876546131}
   m_Layer: 0
   m_Name: Chapi'sWeapon
   m_TagString: Weapon
@@ -232,5 +234,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a80c9274ebb33774ba849dda0279682e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4991728627559726799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286185333049113406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65988c8d34c42364db1328cffec93301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shit: event:/SFX/Chapi (player)/Chapi Hurt
+  hitVolume: 10
+--- !u!114 &-8977566336876546131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286185333049113406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86122b3844f301247b038165f985f550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

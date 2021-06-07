@@ -108,7 +108,7 @@ public class NatureSpawnPoint : MonoBehaviour
 				case NatureType.TREE1:
 					{
 						naturePiece = Resources.Load<GameObject>("Nature/Tree1");
-					offset = new Vector3(0, 5, 0);
+					offset = new Vector3(0, 4, 0);
 					break;
 					}
 			}
