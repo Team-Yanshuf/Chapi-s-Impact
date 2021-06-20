@@ -29,7 +29,6 @@ public class WeaponCollision : MonoBehaviour
             enemy?.takeDamage(pushbackForce * 5, 25);
             Camera.main.GetComponent<CameraFollowPlayer>().shake();
             hit = true;
-            print(hit);
         }
 
 		if (collision.CompareTag("ItemTent"))
