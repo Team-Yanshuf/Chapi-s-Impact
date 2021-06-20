@@ -26,10 +26,9 @@ public class WeaponCollision : MonoBehaviour
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
 
 
-            Vector3 direction = (transform.position - collision.transform.position).normalized;
-            //Vector3 pushback = new Vector3(-direction, 0, 0);
+            Vector3 pushbackForce = (collision.transform.position - transform.position).normalized;
             
-            enemy?.takeDamage(-direction * 20, 25);
+            enemy?.takeDamage(pushbackForce * 5, 25);
             Camera.main.GetComponent<CameraFollowPlayer>().shake();
             hit = true;
             print(hit);
@@ -48,13 +47,11 @@ public class WeaponCollision : MonoBehaviour
 	{
         if (hit)
 		{
-           // print(hit);
             hit = false;
             return true;
 		}
         else
 		{
-           // print("False reached");
             return false;
         }
 
@@ -62,8 +59,6 @@ public class WeaponCollision : MonoBehaviour
 
     public WeaponCollisionInfo getWeaponCollisionInfo()
 	{
-        //print(getHit());
-        //print(GameObject.FindObjectsOfType<WeaponCollision>()[1]);
         return new WeaponCollisionInfo(getHit());
 	}
 }
