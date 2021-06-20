@@ -22,12 +22,12 @@ public class WeaponSound : MonoBehaviour
 	{
         weaponM = GetComponent<WeaponManager>();
 
-        hit = FMODUnity.RuntimeManager.CreateInstance(Shit);
-        setVolumes();
+      //  hit = FMODUnity.RuntimeManager.CreateInstance(Shit);
+        //setVolumes();
 
 
 
-        ready = true;
+        //ready = true;
     }
 
     // Update is called once per frame
