@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
 	static GameManager manager;
 	SceneLoader sceneLoader;
-	[SerializeField] public State currentState;
+	//[SerializeField] public State currentState;
 	bool isChapiDead;
 
 	Timer timer;
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 		//initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
 		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
-		chooseCurrentStateBasedOnScene();
+		//chooseCurrentStateBasedOnScene();
 		timer = GetComponent<Timer>();
 
 	}
@@ -33,23 +33,23 @@ public class GameManager : MonoBehaviour
 	{
 		isChapiDead = false;
 		//	initGameManagerSingelton();
-		chooseCurrentStateBasedOnScene();
+		//schooseCurrentStateBasedOnScene();
 	}
 
-	void setCurrentState(State state)
-	{
-		currentState?.exitState();
-		this.currentState = state;
-		currentState?.enterState();
-	}
+	//void setCurrentState(State state)
+	//{
+	//	currentState?.exitState();
+	//	this.currentState = state;
+	//	currentState?.enterState();
+	//}
 
 	void Update()
 	{
-		currentState?.tick();
+		//currentState?.tick();
 		if (isChapiDead)
 		{
 			isChapiDead = false;
-			currentState?.exitState();
+			//currentState?.exitState();
 			moveToMainMenu();
 		}
 
@@ -58,20 +58,12 @@ public class GameManager : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.Escape))
 			Application.Quit();
 
-		if (Input.GetKeyDown(KeyCode.S))
-		{
-			print(currentState);
-		}
+		//if (Input.GetKeyDown(KeyCode.S))
+		//{
+		//	print(currentState);
+		//}
 	}
 
-	void checkForPause()
-	{
-		if (Input.GetKeyDown(KeyCode.R))
-		{
-			currentState?.exitState();
-			setCurrentState(new GamePauseState());
-		}
-	}
 
 	void initGameManagerSingelton()
 	{
@@ -103,44 +95,44 @@ public class GameManager : MonoBehaviour
 		sceneLoader.moveToNextLevel();
 	}
 
-	void chooseCurrentStateBasedOnScene()
-	{
+	//void chooseCurrentStateBasedOnScene()
+	//{
 
-		//string[] sceneNames = sceneLoader.getSceneListInBuild();
-		string scene = sceneLoader.getCurrentScene();
-		switch (scene)
-		{
-			case "Guy StartMenu":
-				{
-					setCurrentState(new StartMenuState());
-					break;
-				}
+	//	//string[] sceneNames = sceneLoader.getSceneListInBuild();
+	//	string scene = sceneLoader.getCurrentScene();
+	//	switch (scene)
+	//	{
+	//		case "Guy StartMenu":
+	//			{
+	//				setCurrentState(new StartMenuState());
+	//				break;
+	//			}
 
-			case "Yinon'sStage001":
-				{
-					setCurrentState(new PlayGameState());
-					break;
-				}
+	//		case "Yinon'sStage001":
+	//			{
+	//				setCurrentState(new PlayGameState());
+	//				break;
+	//			}
 
-			case "Guy's Stage1":
-				{
-					setCurrentState(new PlayGameState());
-					break;
-				}
+	//		case "Guy's Stage1":
+	//			{
+	//				setCurrentState(new PlayGameState());
+	//				break;
+	//			}
 
-			case "FullGameLoop":
-				{
-					setCurrentState(new PlayGameState());
-					break;
-				}
+	//		case "FullGameLoop":
+	//			{
+	//				setCurrentState(new PlayGameState());
+	//				break;
+	//			}
 
-			//case "Guy's Stage1":
-			//	{
-			//		setCurrentState(new PlayGameState());
-			//		break;
-			//	}
-		}
-	}
+	//		//case "Guy's Stage1":
+	//		//	{
+	//		//		setCurrentState(new PlayGameState());
+	//		//		break;
+	//		//	}
+	//	}
+	//}
 
 	void chapiDiedCallback() => isChapiDead = true;
 	public void moveToMainMenu()
