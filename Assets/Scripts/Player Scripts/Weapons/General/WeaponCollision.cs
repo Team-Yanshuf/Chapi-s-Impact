@@ -24,8 +24,6 @@ public class WeaponCollision : MonoBehaviour
         if (collision.CompareTag("Enemy") && !collision.isTrigger)
         {
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
-
-
             Vector3 pushbackForce = (collision.transform.position - transform.position).normalized;
             
             enemy?.takeDamage(pushbackForce * 5, 25);

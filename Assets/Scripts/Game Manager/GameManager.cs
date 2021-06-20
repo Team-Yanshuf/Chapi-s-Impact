@@ -12,9 +12,6 @@ public class GameManager : MonoBehaviour
 	// Start is called before the first frame update
 	private void Awake()
 	{
-
-
-
 		//initGameManagerSingelton();
 		sceneLoader = GetComponent<SceneLoader>();
 		GameManagerEvents.chapiDied.AddListener(chapiDiedCallback);
@@ -36,7 +33,7 @@ public class GameManager : MonoBehaviour
 	{
 		isChapiDead = false;
 		//	initGameManagerSingelton();
-		//chooseCurrentStateBasedOnScene();
+		chooseCurrentStateBasedOnScene();
 	}
 
 	void setCurrentState(State state)
@@ -46,7 +43,6 @@ public class GameManager : MonoBehaviour
 		currentState?.enterState();
 	}
 
-	// Update is called once per frame
 	void Update()
 	{
 		currentState?.tick();
@@ -61,6 +57,11 @@ public class GameManager : MonoBehaviour
 		//EXIT GAME
 		if (Input.GetKeyDown(KeyCode.Escape))
 			Application.Quit();
+
+		if (Input.GetKeyDown(KeyCode.S))
+		{
+			print(currentState);
+		}
 	}
 
 	void checkForPause()
@@ -122,6 +123,12 @@ public class GameManager : MonoBehaviour
 				}
 
 			case "Guy's Stage1":
+				{
+					setCurrentState(new PlayGameState());
+					break;
+				}
+
+			case "FullGameLoop":
 				{
 					setCurrentState(new PlayGameState());
 					break;
