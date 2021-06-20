@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class StartMenuButtonManager : MonoBehaviour
@@ -15,11 +13,5 @@ public class StartMenuButtonManager : MonoBehaviour
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         start.onClick.AddListener(manager.moveToFirstLevel);
         quit.onClick.AddListener(manager.quit);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
