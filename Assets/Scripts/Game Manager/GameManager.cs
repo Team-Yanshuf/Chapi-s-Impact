@@ -86,4 +86,9 @@ public class GameManager : MonoBehaviour
 		sceneLoader.moveToWinScene();
 	}
 
+	public void quit()
+	{
+		Application.Quit();
+	}
+
 }
