@@ -33,7 +33,7 @@ public class TrashcanAttacking : MonoBehaviour
         for (int i=0; i<amount; i++)
         {
             //if (i%2==0)
-            Instantiate<TrashParticle>(particles[Random.Range(0,particles.Length)], spawnPosition , Quaternion.identity).transform.SetParent(this.transform);
+            Instantiate<TrashParticle>(particles[Random.Range(0,particles.Length)], spawnPosition , Quaternion.identity);
             yield return null;
         }
         attacking = false;
