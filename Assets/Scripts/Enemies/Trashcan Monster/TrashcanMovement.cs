@@ -18,6 +18,10 @@ public class TrashcanMovement : MonoBehaviour
     Vector3 direction;
     Vector3 movement;
 
+    //For handling bug where the trashcan gets stuck in mid air.
+    Timer stuckTimer;
+    Vector3 stuckDirection;
+
     bool moving;
     // Start is called before the first frame update
     void Start()
@@ -25,13 +29,20 @@ public class TrashcanMovement : MonoBehaviour
         trashM = GetComponent<Trashcan>();
         rb = GetComponent<Rigidbody>();
         trashM.addJumpEventListener(jumpMove);
+        stuckTimer = GetComponent<Timer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         updateDirection();
-    }
+
+      //  if (rb.velocity == Vector3.zero)
+        {
+            fireStuckInAirTimer();
+           
+        }    
+        }
 
 
 
@@ -97,4 +108,25 @@ public class TrashcanMovement : MonoBehaviour
     {
         
     }
+
+    void checkForAirStuck()
+	{
+        if (!trashM.isGrounded() && rb.velocity==Vector3.zero)
+		{
+            print("Stuck in the air!!");
+            rb.AddForce(-(Physics.gravity+stuckDirection), ForceMode.Impulse);
+		}
+	}
+
+    void fireStuckInAirTimer()
+	{
+        if (!stuckTimer.isRunning() && rb.velocity==Vector3.zero)
+		{
+            stuckDirection = direction;
+            stuckTimer.setParameters(1.5f, checkForAirStuck);
+            stuckTimer.fire();
+            print("Started timer");
+        }
+
+	}
 }

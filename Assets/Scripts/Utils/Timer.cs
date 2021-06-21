@@ -45,6 +45,11 @@ public class Timer : MonoBehaviour
 		this.timeStarted = Time.realtimeSinceStartup;
 	}
 
+	public bool isRunning()
+	{
+		return started;
+	}
+
 
 
 
