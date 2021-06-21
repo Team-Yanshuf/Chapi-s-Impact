@@ -54,9 +54,4 @@ public class Timer : MonoBehaviour
 	{
 		return started;
 	}
-
-
-
-
-
 }
