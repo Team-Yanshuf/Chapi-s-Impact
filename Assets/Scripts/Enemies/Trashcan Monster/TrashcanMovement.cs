@@ -39,7 +39,9 @@ public class TrashcanMovement : MonoBehaviour
 
       //  if (rb.velocity == Vector3.zero)
         {
+            if (!stuckTimer.isRunning())
             fireStuckInAirTimer();
+
            
         }    
         }
@@ -114,7 +116,7 @@ public class TrashcanMovement : MonoBehaviour
         if (!trashM.isGrounded() && rb.velocity==Vector3.zero)
 		{
             print("Stuck in the air!!");
-            rb.AddForce(-(Physics.gravity+stuckDirection), ForceMode.Impulse);
+            rb.AddForce(-(Physics.gravity*0.5f+stuckDirection*2f), ForceMode.Impulse);
 		}
 	}
 
@@ -127,6 +129,11 @@ public class TrashcanMovement : MonoBehaviour
             stuckTimer.fire();
             print("Started timer");
         }
+
+        else if (stuckTimer.isRunning() && rb.velocity!=Vector3.zero)
+		{
+            stuckTimer.stop();
+		}
 
 	}
 }

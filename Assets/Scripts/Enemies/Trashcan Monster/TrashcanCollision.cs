@@ -57,6 +57,5 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
                 player.takeDamage(Vector3.zero, 10);
             }
         }
-      
     }
 }
