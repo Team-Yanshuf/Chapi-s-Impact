@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Win Scene.unity
     guid: bea4448b28c56f147a5c0a6974c71d7e
   - enabled: 0
-    path: Assets/Scenes/Yinon'sStage001.unity
+    path: Assets/Scenes/Currently Unused Scenes/Yinon'sStage001.unity
     guid: 7c368099dd0224c74be45d4a7affe9d9
   m_configObjects: {}

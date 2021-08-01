@@ -151,6 +151,9 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Water/WaterRipple01.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Water/WaterStand.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Wheel_Enemy/Wheel_Enemy_Hit.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Wheel_Enemy/Wheel_Enemy_Idle.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Wheel_Enemy/Wheel_Enemy_Run.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Hit_B1.png
@@ -302,6 +305,9 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Water/WaterRipple01.png
 - Assets/GraphicAssets/SpriteAnimations/Water/WaterStand.png
 - Assets/GraphicAssets/SpriteAnimations/Well/Well.png
+- Assets/GraphicAssets/SpriteAnimations/Wheel_Enemy/Wheel_Enemy_Hit.png
+- Assets/GraphicAssets/SpriteAnimations/Wheel_Enemy/Wheel_Enemy_Idle.png
+- Assets/GraphicAssets/SpriteAnimations/Wheel_Enemy/Wheel_Enemy_Run.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 - 
@@ -405,6 +411,9 @@ normalmapFileNames:
 - 
 - 
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleF3d_n.png
+- 
+- 
+- 
 - 
 - 
 - 
