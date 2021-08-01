@@ -5,6 +5,7 @@ public enum EnemyType
 {
     OIL_MONSTER,
     TRASHCAN,
+    WHEEL,
     NONE
 }
 
@@ -50,6 +51,11 @@ public class EnemySpawnPoint : MonoBehaviour
             case EnemyType.TRASHCAN:
 				{
                     return (GameObject)Instantiate(Resources.Load("Enemies/TrashEnemy"),transform.position,Quaternion.identity);
+				}
+
+            case EnemyType.WHEEL:
+				{
+                    return (GameObject)Instantiate(Resources.Load("Enemies/Wheel"), transform.position, Quaternion.identity);
 				}
 
             case EnemyType.NONE:
