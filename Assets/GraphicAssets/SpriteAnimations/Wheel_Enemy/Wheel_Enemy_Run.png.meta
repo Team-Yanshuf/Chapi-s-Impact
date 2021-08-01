@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: a3127d1fb508a4aa2aae15b36dd75de0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7454308941316289984
+    second: WHEEL_RUN_00000
+  - first:
+      213: 5783052821335528106
+    second: WHEEL_RUN_00001
+  - first:
+      213: -4160332058103402852
+    second: WHEEL_RUN_00002
+  - first:
+      213: 5147005231947696159
+    second: WHEEL_RUN_00003
+  - first:
+      213: 3634210639112468617
+    second: WHEEL_RUN_00004
+  - first:
+      213: -6059575549031351367
+    second: WHEEL_RUN_00005
+  - first:
+      213: 6029017053252857133
+    second: WHEEL_RUN_00006
+  - first:
+      213: 1589251622307714599
+    second: WHEEL_RUN_00007
+  - first:
+      213: 1233125620088855137
+    second: WHEEL_RUN_00008
+  - first:
+      213: 2340734301091943971
+    second: WHEEL_RUN_00009
+  - first:
+      213: 6644187203702529378
+    second: WHEEL_RUN_00010
+  - first:
+      213: -6595994871188837605
+    second: WHEEL_RUN_00011
+  - first:
+      213: -9110230797119559333
+    second: WHEEL_RUN_00012
+  - first:
+      213: 6398854484966569925
+    second: WHEEL_RUN_00013
+  - first:
+      213: -5224663082256409787
+    second: WHEEL_RUN_00014
+  - first:
+      213: -2713799291549908571
+    second: WHEEL_RUN_00015
+  - first:
+      213: 7440133188254062978
+    second: WHEEL_RUN_00016
+  - first:
+      213: -7891141371563217535
+    second: WHEEL_RUN_00017
+  - first:
+      213: 4048030926994580150
+    second: WHEEL_RUN_00018
+  - first:
+      213: 1780123959486362625
+    second: WHEEL_RUN_00019
+  - first:
+      213: -6414149573202212934
+    second: WHEEL_RUN_00020
+  - first:
+      213: -784456095930744618
+    second: WHEEL_RUN_00021
+  - first:
+      213: -7667697275296202638
+    second: WHEEL_RUN_00022
+  - first:
+      213: -889623021123751093
+    second: WHEEL_RUN_00023
+  - first:
+      213: 1181933014206311297
+    second: WHEEL_RUN_00024
+  - first:
+      213: 2417049964350063405
+    second: WHEEL_RUN_00025
+  - first:
+      213: 1115533877519223300
+    second: WHEEL_RUN_00026
+  - first:
+      213: 1752560131798346930
+    second: WHEEL_RUN_00027
+  - first:
+      213: 7189697220047939329
+    second: WHEEL_RUN_00028
+  - first:
+      213: -5728953595192004726
+    second: WHEEL_RUN_00029
+  - first:
+      213: 6895740056149321439
+    second: WHEEL_RUN_00030
+  - first:
+      213: 6280536519639136351
+    second: WHEEL_RUN_00031
+  - first:
+      213: -5188257890055199340
+    second: WHEEL_RUN_00032
+  - first:
+      213: 3609724742019072931
+    second: WHEEL_RUN_00033
+  - first:
+      213: 3804530084796076297
+    second: WHEEL_RUN_00034
+  - first:
+      213: 2917707284368904083
+    second: WHEEL_RUN_00035
+  - first:
+      213: 869217065947119160
+    second: WHEEL_RUN_00036
+  - first:
+      213: 4826892693591224568
+    second: WHEEL_RUN_00037
+  - first:
+      213: -882484112014996470
+    second: WHEEL_RUN_00038
+  - first:
+      213: -5441645060075143427
+    second: WHEEL_RUN_00039
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WHEEL_RUN_00000
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 656
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5fc2dcc76037760800000000000000
+      internalID: 7454308941316289984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00001
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 656
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2560da6e7814050800000000000000
+      internalID: 5783052821335528106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00002
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 426
+        width: 214
+        height: 228
+      alignment: 9
+      pivot: {x: 0.37383178, y: 0.5877193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ea31919088346c0800000000000000
+      internalID: -4160332058103402852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00003
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 655
+        width: 215
+        height: 228
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.5877193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18c15b0df5dd6740800000000000000
+      internalID: 5147005231947696159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00004
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 424
+        width: 214
+        height: 228
+      alignment: 9
+      pivot: {x: 0.37383178, y: 0.5877193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9887e37425f4f6230800000000000000
+      internalID: 3634210639112468617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00005
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1117
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbf756a42018eba0800000000000000
+      internalID: -6059575549031351367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00006
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1117
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2da8eb111f5ba350800000000000000
+      internalID: 6029017053252857133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00007
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 885
+        width: 359
+        height: 230
+      alignment: 9
+      pivot: {x: 0.6239554, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7265d562ee72e0610800000000000000
+      internalID: 1589251622307714599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00008
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 885
+        width: 359
+        height: 230
+      alignment: 9
+      pivot: {x: 0.6239554, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a54d4d731fc1110800000000000000
+      internalID: 1233125620088855137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 655
+        width: 359
+        height: 230
+      alignment: 9
+      pivot: {x: 0.6239554, y: 0.59130436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3265822f175fb7020800000000000000
+      internalID: 2340734301091943971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00010
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1117
+        width: 399
+        height: 230
+      alignment: 9
+      pivot: {x: 0.6716792, y: 0.5826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d92e13f05e43c50800000000000000
+      internalID: 6644187203702529378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 887
+        width: 396
+        height: 229
+      alignment: 9
+      pivot: {x: 0.67676765, y: 0.57641923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bad7a9c915674a0800000000000000
+      internalID: -6595994871188837605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00012
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1584
+        width: 447
+        height: 231
+      alignment: 9
+      pivot: {x: 0.7225951, y: 0.5800866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b596ddbab55f19180800000000000000
+      internalID: -9110230797119559333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1580
+        width: 444
+        height: 233
+      alignment: 9
+      pivot: {x: 0.7274775, y: 0.583691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f8d1604c4dc850800000000000000
+      internalID: 6398854484966569925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00014
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1349
+        width: 440
+        height: 233
+      alignment: 9
+      pivot: {x: 0.7340909, y: 0.583691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b520fab944e77b0800000000000000
+      internalID: -5224663082256409787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1349
+        width: 407
+        height: 229
+      alignment: 9
+      pivot: {x: 0.7223587, y: 0.58515286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a106733ce5a65ad0800000000000000
+      internalID: -2713799291549908571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1118
+        width: 403
+        height: 229
+      alignment: 9
+      pivot: {x: 0.72952855, y: 0.5720524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2895a7717b9a04760800000000000000
+      internalID: 7440133188254062978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00017
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1817
+        width: 458
+        height: 230
+      alignment: 9
+      pivot: {x: 0.7620087, y: 0.5782609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18de59b4bb80d7290800000000000000
+      internalID: -7891141371563217535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1815
+        width: 458
+        height: 232
+      alignment: 9
+      pivot: {x: 0.7620087, y: 0.58189654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2ae434eae7d2830800000000000000
+      internalID: 4048030926994580150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1815
+        width: 458
+        height: 232
+      alignment: 9
+      pivot: {x: 0.7620087, y: 0.58189654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104b8554f4544b810800000000000000
+      internalID: 1780123959486362625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab70f0162fc5cf6a0800000000000000
+      internalID: -6414149573202212934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00021
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 424
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5720524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d08824465d0d15f0800000000000000
+      internalID: -784456095930744618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00022
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2704dbc04fdd69590800000000000000
+      internalID: -7667697275296202638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00023
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 885
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43b8e1639c67a3f0800000000000000
+      internalID: -889623021123751093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00024
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 885
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18be21470d1176010800000000000000
+      internalID: 1181933014206311297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23c471f2261b8120800000000000000
+      internalID: 2417049964350063405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00026
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 654
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5720524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a8278b62c2b7f00800000000000000
+      internalID: 1115533877519223300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc2a578728525810800000000000000
+      internalID: 1752560131798346930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107229b678fe6c360800000000000000
+      internalID: 7189697220047939329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00029
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 885
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f22e7fe0bae70b0800000000000000
+      internalID: -5728953595192004726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00030
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6663ebb0792bf50800000000000000
+      internalID: 6895740056149321439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00031
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 424
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5720524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5875fb50b2f82750800000000000000
+      internalID: 6280536519639136351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00032
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495642400fa9ff7b0800000000000000
+      internalID: -5188257890055199340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00033
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a34cf81781581230800000000000000
+      internalID: 3609724742019072931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00034
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9019e8174f76cc430800000000000000
+      internalID: 3804530084796076297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fc0630157cd7820800000000000000
+      internalID: 2917707284368904083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00036
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 654
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5720524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e3c70f054101c00800000000000000
+      internalID: 869217065947119160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00037
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 215
+        height: 229
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.58078605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0fe62b4519cf240800000000000000
+      internalID: 4826892693591224568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00038
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 885
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c8b6f2069c0c3f0800000000000000
+      internalID: -882484112014996470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN_00039
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 885
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49302325, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe367026a46b74b0800000000000000
+      internalID: -5441645060075143427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

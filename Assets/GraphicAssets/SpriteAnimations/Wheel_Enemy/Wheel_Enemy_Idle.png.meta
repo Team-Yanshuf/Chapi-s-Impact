@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: d70fd3ea4315b4f719461880d7e51779
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2491912718648536818
+    second: WHEEL_IDLE_00000
+  - first:
+      213: -4934062570892802843
+    second: WHEEL_IDLE_00001
+  - first:
+      213: -2709071583207695104
+    second: WHEEL_IDLE_00002
+  - first:
+      213: -3064403353931189973
+    second: WHEEL_IDLE_00003
+  - first:
+      213: -7192525346105824154
+    second: WHEEL_IDLE_00004
+  - first:
+      213: 8283022170862499101
+    second: WHEEL_IDLE_00005
+  - first:
+      213: 5239617195497309609
+    second: WHEEL_IDLE_00006
+  - first:
+      213: 6269643542522898060
+    second: WHEEL_IDLE_00007
+  - first:
+      213: 3569195170188668918
+    second: WHEEL_IDLE_00008
+  - first:
+      213: -7814633615002118017
+    second: WHEEL_IDLE_00009
+  - first:
+      213: 2904394234951050527
+    second: WHEEL_IDLE_00010
+  - first:
+      213: 6279279524034116598
+    second: WHEEL_IDLE_00011
+  - first:
+      213: -7403998367600960967
+    second: WHEEL_IDLE_00012
+  - first:
+      213: 2499346687018969357
+    second: WHEEL_IDLE_00013
+  - first:
+      213: 1715488431940157619
+    second: WHEEL_IDLE_00014
+  - first:
+      213: 4674362056054978483
+    second: WHEEL_IDLE_00015
+  - first:
+      213: 2819324862020754595
+    second: WHEEL_IDLE_00016
+  - first:
+      213: -9131648156897998343
+    second: WHEEL_IDLE_00017
+  - first:
+      213: -8514028291614612730
+    second: WHEEL_IDLE_00018
+  - first:
+      213: 3956926492179800096
+    second: WHEEL_IDLE_00019
+  - first:
+      213: -5308898431098289547
+    second: WHEEL_IDLE_00020
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00000
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1599
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fee2563a6d059220800000000000000
+      internalID: 2491912718648536818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00001
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1387
+        width: 215
+        height: 225
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4426acb30b68bb0800000000000000
+      internalID: -4934062570892802843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1367
+        width: 215
+        height: 222
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6036036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ddcc39fb1776ad0800000000000000
+      internalID: -2709071583207695104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00003
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1150
+        width: 215
+        height: 220
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b217a60b26d0975d0800000000000000
+      internalID: -3064403353931189973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00004
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 943
+        width: 215
+        height: 218
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6146789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c6e5b2e440f2c90800000000000000
+      internalID: -7192525346105824154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 215
+        height: 215
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15b1f077c433f270800000000000000
+      internalID: 8283022170862499101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00006
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 930
+        width: 215
+        height: 216
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6203704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a545a0241cd6b840800000000000000
+      internalID: 5239617195497309609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1146
+        width: 215
+        height: 219
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.61187214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86266c759f320750800000000000000
+      internalID: 6269643542522898060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00008
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1370
+        width: 215
+        height: 223
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.60089684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffa22dc814588130800000000000000
+      internalID: 3569195170188668918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00009
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1595
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78d8ff7128dc8390800000000000000
+      internalID: -7814633615002118017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00010
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1599
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1523f52b2b7e4820800000000000000
+      internalID: 2904394234951050527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00011
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1372
+        width: 215
+        height: 225
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbff63457b742750800000000000000
+      internalID: 6279279524034116598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00012
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1163
+        width: 215
+        height: 222
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6036036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a929576b6bf3990800000000000000
+      internalID: -7403998367600960967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00013
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1148
+        width: 215
+        height: 220
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09a05ad1967fa220800000000000000
+      internalID: 2499346687018969357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00014
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 930
+        width: 215
+        height: 218
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.6146789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0c51ac3a3aec710800000000000000
+      internalID: 1715488431940157619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00015
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1614
+        width: 224
+        height: 215
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.6232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b8be268baed040800000000000000
+      internalID: 4674362056054978483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00016
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1831
+        width: 224
+        height: 216
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.6203704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac9c2b4601402720800000000000000
+      internalID: 2819324862020754595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00017
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1828
+        width: 224
+        height: 219
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.61187214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f98e32026ed54180800000000000000
+      internalID: -9131648156897998343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00018
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1824
+        width: 224
+        height: 223
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.60089684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6036fa6c06818d980800000000000000
+      internalID: -8514028291614612730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1820
+        width: 224
+        height: 227
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020a5b01ea3d9e630800000000000000
+      internalID: 3956926492179800096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_IDLE_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1591
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57202c131010356b0800000000000000
+      internalID: -5308898431098289547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

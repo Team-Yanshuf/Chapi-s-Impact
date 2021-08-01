@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: e89301dac03f74822bdcb5508ef2593a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4397332047103933029
+    second: WHEEL_HIT_00000
+  - first:
+      213: -8863956488887484848
+    second: WHEEL_HIT_00001
+  - first:
+      213: -4641679515836843957
+    second: WHEEL_HIT_00002
+  - first:
+      213: 5799627089748400199
+    second: WHEEL_HIT_00003
+  - first:
+      213: -5790360004319677092
+    second: WHEEL_HIT_00004
+  - first:
+      213: -8850200036032147430
+    second: WHEEL_HIT_00005
+  - first:
+      213: 6467107973622657876
+    second: WHEEL_HIT_00006
+  - first:
+      213: -3119585705770105135
+    second: WHEEL_HIT_00007
+  - first:
+      213: 2320329492206248450
+    second: WHEEL_HIT_00008
+  - first:
+      213: -3809105412299794111
+    second: WHEEL_HIT_00009
+  - first:
+      213: 6690689369151692441
+    second: WHEEL_HIT_00010
+  - first:
+      213: 1433036317557399016
+    second: WHEEL_HIT_00011
+  - first:
+      213: -6737605616385840256
+    second: WHEEL_HIT_00012
+  - first:
+      213: 4065587874643810754
+    second: WHEEL_HIT_00013
+  - first:
+      213: 7306154636804656725
+    second: WHEEL_HIT_00014
+  - first:
+      213: 6632893969368337047
+    second: WHEEL_HIT_00015
+  - first:
+      213: 1790952400966586392
+    second: WHEEL_HIT_00016
+  - first:
+      213: 2853400934969665712
+    second: WHEEL_HIT_00017
+  - first:
+      213: -6740141944129777375
+    second: WHEEL_HIT_00018
+  - first:
+      213: -8393654896794518012
+    second: WHEEL_HIT_00019
+  - first:
+      213: 2984500185289987098
+    second: WHEEL_HIT_00020
+  - first:
+      213: -1677574001529448527
+    second: WHEEL_HIT_00021
+  - first:
+      213: -8534107951892663092
+    second: WHEEL_HIT_00022
+  - first:
+      213: 7518834437060931908
+    second: WHEEL_HIT_00023
+  - first:
+      213: -1755060456572878178
+    second: WHEEL_HIT_00024
+  - first:
+      213: -6866582195426957171
+    second: WHEEL_HIT_00025
+  - first:
+      213: 4450608255549533777
+    second: WHEEL_HIT_00026
+  - first:
+      213: -6965615921804390297
+    second: WHEEL_HIT_00027
+  - first:
+      213: -7382192631710325142
+    second: WHEEL_HIT_00028
+  - first:
+      213: 4653376284427177821
+    second: WHEEL_HIT_00029
+  - first:
+      213: 6533463298587326182
+    second: WHEEL_HIT_00030
+  - first:
+      213: 2765644683838926700
+    second: WHEEL_HIT_00031
+  - first:
+      213: -5847293376657121654
+    second: WHEEL_HIT_00032
+  - first:
+      213: 6512386669105653940
+    second: WHEEL_HIT_00033
+  - first:
+      213: 747905529079620933
+    second: WHEEL_HIT_00034
+  - first:
+      213: -5500079949580471361
+    second: WHEEL_HIT_00035
+  - first:
+      213: 7040714749010816997
+    second: WHEEL_HIT_00036
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WHEEL_HIT_00000
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1284
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95cdec1dc989f2c0800000000000000
+      internalID: -4397332047103933029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1685
+        width: 197
+        height: 362
+      alignment: 9
+      pivot: {x: 0.26395938, y: 0.5414365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eb75f5986ecf480800000000000000
+      internalID: -8863956488887484848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1685
+        width: 197
+        height: 362
+      alignment: 9
+      pivot: {x: 0.26395938, y: 0.5414365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b487651b211759fb0800000000000000
+      internalID: -4641679515836843957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1685
+        width: 197
+        height: 362
+      alignment: 9
+      pivot: {x: 0.26395938, y: 0.5414365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7489f224c1a6c7050800000000000000
+      internalID: 5799627089748400199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00004
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 206
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5255814, y: 0.4845815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5575e4314284afa0800000000000000
+      internalID: -5790360004319677092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00005
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 206
+        width: 215
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5255814, y: 0.4845815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10972525f5cd2580800000000000000
+      internalID: -8850200036032147430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00006
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 603
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453ffd31078cfb950800000000000000
+      internalID: 6467107973622657876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00007
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 333
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6cf21345105b4d0800000000000000
+      internalID: -3119585705770105135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1414
+        width: 221
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202e0d82167733020800000000000000
+      internalID: 2320329492206248450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00009
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 873
+        width: 221
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1495adb1fc6532bc0800000000000000
+      internalID: -3809105412299794111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00010
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 63
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ed4ce488a1adc50800000000000000
+      internalID: 6690689369151692441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00011
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 603
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed1e3230fa23e310800000000000000
+      internalID: 1433036317557399016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 872
+        width: 215
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b25a6a3673f72a0800000000000000
+      internalID: -6737605616385840256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00013
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1778
+        width: 221
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9974fa1aedb6830800000000000000
+      internalID: 4065587874643810754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00014
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1508
+        width: 220
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5772727, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e80d8beeca46560800000000000000
+      internalID: 7306154636804656725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00015
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 968
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ac70d2ce5cc0c50800000000000000
+      internalID: 6632893969368337047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00016
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1238
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8101f3548bdbad810800000000000000
+      internalID: 1790952400966586392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 601
+        width: 215
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b862aa4801599720800000000000000
+      internalID: 2853400934969665712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00018
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1509
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1211f64dc943672a0800000000000000
+      internalID: -6740141944129777375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00019
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1510
+        width: 215
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54681647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e3855c75fb38b80800000000000000
+      internalID: -8393654896794518012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00020
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1779
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a141c402b131b6920800000000000000
+      internalID: 2984500185289987098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 215
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b71862755f08b8e0800000000000000
+      internalID: -1677574001529448527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 215
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4f99c8802c09980800000000000000
+      internalID: -8534107951892663092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00023
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1238
+        width: 216
+        height: 268
+      alignment: 9
+      pivot: {x: 0.587963, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441bdf18514485860800000000000000
+      internalID: 7518834437060931908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00024
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1780
+        width: 215
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54681647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9283ae30d5c4a7e0800000000000000
+      internalID: -1755060456572878178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00025
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1782
+        width: 221
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.5509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88ed8cbfdff4b0a0800000000000000
+      internalID: -6866582195426957171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00026
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 435
+        width: 221
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.55938697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e637ac0acb3cd30800000000000000
+      internalID: 4450608255549533777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00027
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 982
+        width: 215
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.5703125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7605b0b7939255f90800000000000000
+      internalID: -6965615921804390297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00028
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 705
+        width: 215
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.55938697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66666bf9ee2d8990800000000000000
+      internalID: -7382192631710325142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00029
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1513
+        width: 222
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.5509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f4287731d149040800000000000000
+      internalID: 4653376284427177821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00030
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1240
+        width: 221
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.54681647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6795911468baa50800000000000000
+      internalID: 6533463298587326182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00031
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 333
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6faa2bdf2b816620800000000000000
+      internalID: 2765644683838926700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00032
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 63
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e9bda77ad3adea0800000000000000
+      internalID: -5847293376657121654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00033
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1779
+        width: 220
+        height: 268
+      alignment: 9
+      pivot: {x: 0.57272726, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b82804eb25a06a50800000000000000
+      internalID: 6512386669105653940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00034
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1143
+        width: 221
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5701358, y: 0.54275095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545675abd18116a00800000000000000
+      internalID: 747905529079620933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00035
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 698
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3f1013d6acba3b0800000000000000
+      internalID: -5500079949580471361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_HIT_00036
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 968
+        width: 215
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5860465, y: 0.54477614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efa4abc2c4a5b160800000000000000
+      internalID: 7040714749010816997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
