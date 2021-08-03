@@ -26,22 +26,48 @@ public class WheelMovement : MonoBehaviour
     {
         
     }
-
     private void setMovementVector()
 	{
         directionVector = (target.transform.position - transform.position).normalized;
 	}
-
     private void sprint()
 	{
-        print($"Fired! with direction of {directionVector} and speed of {sprintSpeed}");
+
         rb.AddForce(directionVector * sprintSpeed, ForceMode.Impulse);
 	}
-    
-
     private void setWheelSprint()
 	{
         setMovementVector();
         sprint();
+	}
+
+
+
+
+
+    /*
+     * Wheel is going to be a non format state machine implementation.
+     * The wheel will transition between animations and movements based on a timer.
+     * The same timer will be reset and reused to time the next transition when the current one ends. 
+     * each timer function will run and then activate the next timer.
+     * The Wheel cycle is:
+     * Idle -> Startup -> Sprint -> Collision -> Stars 
+     *  ^                                            |
+     *  |------------------------------------------ <
+     */
+
+    private void setIdleTimer()
+	{
+
+	}
+
+    private void setStartupTimer()
+	{
+
+	}
+
+    private void setStarsTimer()
+	{
+
 	}
 }
