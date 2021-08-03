@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 3dbb8f30390c045d1803c553c09e4641
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5128786766906476244
+    second: WHEEL_RUN Left_00000
+  - first:
+      213: 64499775800147343
+    second: WHEEL_RUN Left_00001
+  - first:
+      213: 995493376601238590
+    second: WHEEL_RUN Left_00002
+  - first:
+      213: -2774445821863276776
+    second: WHEEL_RUN Left_00003
+  - first:
+      213: 3733442532326154288
+    second: WHEEL_RUN Left_00004
+  - first:
+      213: -8707726492409570629
+    second: WHEEL_RUN Left_00005
+  - first:
+      213: -5330296700290474360
+    second: WHEEL_RUN Left_00006
+  - first:
+      213: 3597358548701905306
+    second: WHEEL_RUN Left_00007
+  - first:
+      213: -3879656603233106884
+    second: WHEEL_RUN Left_00008
+  - first:
+      213: -6199841134104908942
+    second: WHEEL_RUN Left_00009
+  - first:
+      213: 3548061445995961440
+    second: WHEEL_RUN Left_00010
+  - first:
+      213: -1327945315345881801
+    second: WHEEL_RUN Left_00011
+  - first:
+      213: 5950349957172665016
+    second: WHEEL_RUN Left_00012
+  - first:
+      213: 7051267566042851853
+    second: WHEEL_RUN Left_00013
+  - first:
+      213: -776776442659291126
+    second: WHEEL_RUN Left_00014
+  - first:
+      213: -2537852710643868962
+    second: WHEEL_RUN Left_00015
+  - first:
+      213: 8120716610300902057
+    second: WHEEL_RUN Left_00016
+  - first:
+      213: -6968286667553415201
+    second: WHEEL_RUN Left_00017
+  - first:
+      213: 528741246565399157
+    second: WHEEL_RUN Left_00018
+  - first:
+      213: 5980626996918519248
+    second: WHEEL_RUN Left_00019
+  - first:
+      213: 5066682173448967612
+    second: WHEEL_RUN Left_00020
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00000
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1599
+        width: 216
+        height: 227
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29b0d5eb93e2d8b0800000000000000
+      internalID: -5128786766906476244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00001
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1387
+        width: 216
+        height: 225
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.59555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8df8a0543625e000800000000000000
+      internalID: 64499775800147343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1367
+        width: 216
+        height: 222
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6036036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c2290a3f3b0dd00800000000000000
+      internalID: 995493376601238590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00003
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1150
+        width: 216
+        height: 220
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fc54389303f79d0800000000000000
+      internalID: -2774445821863276776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00004
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 943
+        width: 216
+        height: 218
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6146789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030a2a8d33adfc330800000000000000
+      internalID: 3733442532326154288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 216
+        height: 215
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba5ba204e0f72780800000000000000
+      internalID: -8707726492409570629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00006
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 930
+        width: 216
+        height: 216
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6203704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88edfb7646bf606b0800000000000000
+      internalID: -5330296700290474360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1146
+        width: 216
+        height: 219
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.61187214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9187195a826ce130800000000000000
+      internalID: 3597358548701905306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00008
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1370
+        width: 216
+        height: 223
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.60089684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34cac9efd0b82ac0800000000000000
+      internalID: -3879656603233106884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00009
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1595
+        width: 216
+        height: 227
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b62d1365db5f9a0800000000000000
+      internalID: -6199841134104908942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00010
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1599
+        width: 216
+        height: 227
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c19d1361f3d3130800000000000000
+      internalID: 3548061445995961440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00011
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1372
+        width: 216
+        height: 225
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.59555554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7352aad75c0329de0800000000000000
+      internalID: -1327945315345881801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00012
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1163
+        width: 216
+        height: 222
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6036036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba998e72c3e39250800000000000000
+      internalID: 5950349957172665016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00013
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1148
+        width: 216
+        height: 220
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aa73afd722bd160800000000000000
+      internalID: 7051267566042851853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00014
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 930
+        width: 216
+        height: 218
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.6146789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00c661e0f55835f0800000000000000
+      internalID: -776776442659291126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00015
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1614
+        width: 225
+        height: 215
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.6232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda5fc1e76cb7ccd0800000000000000
+      internalID: -2537852710643868962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00016
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1831
+        width: 225
+        height: 216
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.6203704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa799e4bb492b070800000000000000
+      internalID: 8120716610300902057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00017
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1828
+        width: 225
+        height: 219
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.61187214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf5367023cab4f90800000000000000
+      internalID: -6968286667553415201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00018
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1824
+        width: 225
+        height: 223
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.60089684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ab0a3cc57765700800000000000000
+      internalID: 528741246565399157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1820
+        width: 225
+        height: 227
+      alignment: 9
+      pivot: {x: 0.38666666, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5807521947ff250800000000000000
+      internalID: 5980626996918519248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WHEEL_RUN Left_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1591
+        width: 216
+        height: 227
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.59030837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5da32a798705640800000000000000
+      internalID: 5066682173448967612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
