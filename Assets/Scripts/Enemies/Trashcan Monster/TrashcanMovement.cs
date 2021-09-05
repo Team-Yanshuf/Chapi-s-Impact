@@ -126,7 +126,6 @@ public class TrashcanMovement : MonoBehaviour
             stuckDirection = direction;
             stuckTimer.setParameters(1.5f, checkForAirStuck);
             stuckTimer.fire();
-            print("Started timer");
         }
 
         else if (stuckTimer.isRunning() && rb.velocity!=Vector3.zero)

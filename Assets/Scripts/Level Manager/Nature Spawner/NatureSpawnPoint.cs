@@ -78,7 +78,7 @@ public class NatureSpawnPoint : MonoBehaviour
 		//point.setFogState(roomInfo.containerInfo.remainingFogPrecentage);
 
 		fogDoneGenerating = roomInfo.finishedLoading;
-		currentFogPrecentage = roomInfo.containerInfo.remainingFogPrecentage;
+		currentFogPrecentage = roomInfo.containerInfo.RemainingFogPrecentage;
 	}
 
 	void setNaturePieceBasedOnType()
