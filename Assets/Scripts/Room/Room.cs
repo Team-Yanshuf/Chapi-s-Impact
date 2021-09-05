@@ -13,7 +13,7 @@ public struct RoomInfo
 	public RoomInfo(PollutionContainerInfo containerInfo, SpawnwaveManagerInfo wavesInfo, bool isActive)
 	{
 		this.containerInfo = containerInfo;
-		this.finishedLoading = containerInfo.finishedLoading;
+		this.finishedLoading = containerInfo.FinishedLoading;
 
 		this.wavesInfo = wavesInfo;
 		this.isActive = isActive;
@@ -108,8 +108,8 @@ public class Room : MonoBehaviour
 
 	internal void attachLighting()
 	{
-		events.treePlanted.AddListener(lightingM.adaptLightingToTreePlanted);
-		events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
+		//events.treePlanted.AddListener(lightingM.adaptLightingToTreePlanted);
+		//events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
 	}
 
 	internal void resetLight()

@@ -57,7 +57,7 @@ public class NatureSpawner : MonoBehaviour
   
                 }
             }
-            float fogPrecent = (room.getRoomInfo().containerInfo.remainingFogPrecentage);
+            float fogPrecent = (room.getRoomInfo().containerInfo.RemainingFogPrecentage);
             floors[0].GetComponent<Tilemap>().color= new Color(1,1,1, fogPrecent);
             floors[1].GetComponent<Tilemap>().color = new Color(1, 1, 1, 1f- fogPrecent);
 
