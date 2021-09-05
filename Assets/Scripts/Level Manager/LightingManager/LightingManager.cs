@@ -28,8 +28,24 @@ public class LightingManager : MonoBehaviour
     void onPollutionDwindled(float i_FogDwindled)
     {
         float fog = Mathf.Clamp(i_FogDwindled, 0.1f, 0.8f);
-        currentIntensity = fog; 
-        light.intensity = currentIntensity;
+        currentIntensity = fog;
+
+
+        float delta = currentIntensity - light.intensity;
+        StartCoroutine(updateLight());
+        //light.intensity = currentIntensity;
+
+        IEnumerator updateLight()
+		{
+            int numberOfSteps = 3;
+            float step = delta / numberOfSteps;
+            for(int i = 0; i < numberOfSteps; i++)
+			{
+                light.intensity += step;
+                light.intensity = Mathf.Clamp(light.intensity, 0.1f, 0.7f);
+                yield return null;
+			}
+		}
     }
 
     public void resetLightingToRoomCurrent(float roomCurrent)
