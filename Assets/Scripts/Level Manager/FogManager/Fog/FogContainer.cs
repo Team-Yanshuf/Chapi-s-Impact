@@ -1,29 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 
 public struct PollutionContainerInfo
 {
-    public int initialFogCount { get; set; }
-    public int remainingFogAmount { get; set; }
-    public float remainingFogPrecentage { get; set; }
-    public bool finishedLoading { get; set; }
+    public int InitialFogCount { get; set; }
+    public int RemainingFogAmount { get; set; }
+    public float RemainingFogPrecentage { get; set; }
+    public float RemainingFogPrecentageInverse { get; set; }
+    public bool FinishedLoading { get; set; }
     public PollutionContainerInfo(int initial, int remaining, bool finishedLoading)
 	{
-        this.initialFogCount = initial;
-        this.remainingFogAmount = remaining;
-        this.finishedLoading = finishedLoading;
-        this.remainingFogPrecentage = ((float)remaining / (float)initial);
+        this.InitialFogCount = initial;
+        this.RemainingFogAmount = remaining;
+        this.FinishedLoading = finishedLoading;
+        this.RemainingFogPrecentage = ((float)remaining / (float)initial);
+        this.RemainingFogPrecentageInverse = 1f - RemainingFogPrecentage;
     }
     public override string ToString()
     {
-        return ($"initialFogCount: {initialFogCount}, remaining amount: {remainingFogAmount} , remaining precent: {remainingFogPrecentage}");
+        return ($"initialFogCount: {InitialFogCount}, remaining amount: {RemainingFogAmount} , remaining precent: {RemainingFogPrecentage}");
     }
 }
 
 public class FogContainer : MonoBehaviour
 {
+    public static Action<float> FogDwindledEventHandler;
     PollutionContainerInfo info;
     FogParticle particle;
     BoxCollider collider;
@@ -50,7 +54,7 @@ public class FogContainer : MonoBehaviour
             isFinishedLoading = true;
 
         return new PollutionContainerInfo(fogAmount, pollution.Count, isFinishedLoading);
-    }//=> info;
+    }
     public void initFog()
     {
         StartCoroutine(initFogCoroutine());
@@ -85,7 +89,6 @@ public class FogContainer : MonoBehaviour
     public void dwindleByPrecentage(int precent)
     {
         StartCoroutine(dwindleFogByPrecentage());
-
          IEnumerator dwindleFogByPrecentage()
         {
             int amount = (pollution.Count * precent) / 100;
@@ -95,6 +98,8 @@ public class FogContainer : MonoBehaviour
                 {
                     Destroy(pollution[0]);
                     pollution.RemoveAt(0);
+                    PollutionContainerInfo info = getPollutionStatus();
+                    FogDwindledEventHandler.Invoke(info.RemainingFogPrecentageInverse);
                 }
                 yield return null;
             }
@@ -108,12 +113,14 @@ public class FogContainer : MonoBehaviour
         {
             if (amount >= pollution.Count)
             {
-                foreach (GameObject particle in pollution)
+                for(int i = pollution.Count - 1; i >= 0; i--)
                 {
-                    Destroy(particle);
+
+                    Destroy(pollution[0]);
+                    pollution.RemoveAt(0);
+                    FogDwindledEventHandler.Invoke(getPollutionStatus().RemainingFogPrecentageInverse);
                     yield return null;
                 }
-                pollution.Clear();
             }
 
             else
@@ -124,7 +131,10 @@ public class FogContainer : MonoBehaviour
                     {
                         Destroy(pollution[0]);
                         pollution.RemoveAt(0);
+                        FogDwindledEventHandler.Invoke(getPollutionStatus().RemainingFogPrecentageInverse);
+
                     }
+
                     yield return null;
                 }
             }
@@ -144,10 +154,9 @@ public class FogContainer : MonoBehaviour
         int limiter = 0;
         do
         {
-            point = new Vector3(Random.Range(bounds.min.x, bounds.max.x),
-                                Random.Range(bounds.min.y, bounds.max.y),
-                                Random.Range(bounds.min.z, bounds.max.z));
-            // point = fogTransform.TransformPoint(point);
+            point = new Vector3(UnityEngine.Random.Range(bounds.min.x, bounds.max.x),
+								UnityEngine.Random.Range(bounds.min.y, bounds.max.y),
+								UnityEngine.Random.Range(bounds.min.z, bounds.max.z));
             point = transform.TransformPoint(point);
             
             limiter++;

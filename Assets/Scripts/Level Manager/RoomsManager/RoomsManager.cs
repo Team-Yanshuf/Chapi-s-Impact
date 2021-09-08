@@ -31,10 +31,10 @@ public struct RoomManagerInfo
 		int currentFogAmount = 0;
 		foreach (PollutionContainerInfo container in pollutionContainers)
 		{
-			initialFogCount += container.initialFogCount;
-			currentFogAmount += container.remainingFogAmount;
+			initialFogCount += container.InitialFogCount;
+			currentFogAmount += container.RemainingFogAmount;
 
-			if (!container.finishedLoading)
+			if (!container.FinishedLoading)
 				finishedLoading = false;
 
 		}
