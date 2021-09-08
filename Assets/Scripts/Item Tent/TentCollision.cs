@@ -12,7 +12,7 @@ public class TentCollision : MonoBehaviour, IVulnrable
 		isHurt = false;
 		tentM = GetComponent<ItemTent>();
 	}
-	public void takeDamage(Vector3 pushback = default, float damage = 0)
+	public void TakeDamageAndApplyPushBack(Vector3 pushback = default, float damage = 0)
 	{
 		isHurt = true;
 		tentM.takeDamage(20);
@@ -28,4 +28,9 @@ public class TentCollision : MonoBehaviour, IVulnrable
 		return false;
 	}
 
+	public void ApplyPushBack(Vector3 i_Pushback = default)
+	{
+		//Should not apply pushback.
+		throw new System.NotImplementedException();
+	}
 }

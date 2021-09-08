@@ -37,7 +37,7 @@ public class Trashcan : MonoBehaviour, IEnemy
         currentJumpMax = Random.Range(1, 5);
     }
 
-	internal void push(Vector3 pushback)
+	internal void Push(Vector3 pushback)
 	{
         movementM.push(pushback);
 	}

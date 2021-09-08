@@ -93,7 +93,7 @@ public class Player : MonoBehaviour
     public bool isMoving() => movementM.isMoving();
     public bool isDashing() => movementM.isDash();
     public bool isCollecting() => collisionM.isCollecting();
-    public PlayerMovementInfo getMovementInfo() => movementM.getMovementInfo();
+    public PlayerMovementInfo GetMovementInfo() => movementM.getMovementInfo();
 	internal void grantPlantPremission()
 	{
         treesToPlant++;

@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 4308325542019062072}
   - component: {fileID: 9075797428396420706}
   - component: {fileID: 8422455957861243453}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 4308325542019062209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.36, y: 1.4, z: -2.3}
-  m_LocalScale: {x: 1, y: 1, z: 20.579826}
+  m_LocalScale: {x: 1.5668, y: 1.5668, z: 32.244473}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,6 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1978588c6956b4ba27123b304f6d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!114 &4308325542019062212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,8 +66,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 0
-  sprintSpeed: 50
-  target: {fileID: 0}
+  sprintSpeed: 35
 --- !u!114 &4308325542019062213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,8 +157,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.257018, y: 2.224082, z: 0.0084599685}
-  m_Center: {x: 0.30149078, y: -0.26795912, z: -0.00030447863}
+  m_Size: {x: 1.6558752, y: 1.6914183, z: 0.0084599685}
+  m_Center: {x: 0.35614014, y: -0.23381346, z: -0.00030447863}
 --- !u!114 &4308325542019062073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,3 +214,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66394ff50d0aaeb44a03face8dc8ad05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wheelIdle:
+    m_PersistentCalls:
+      m_Calls: []
+  wheelStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  wheelSprint:
+    m_PersistentCalls:
+      m_Calls: []
+  wheelCollidedWithWall:
+    m_PersistentCalls:
+      m_Calls: []
+  wheelCollidedWithChapi:
+    m_PersistentCalls:
+      m_Calls: []

@@ -2,28 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WheelCollision : MonoBehaviour
+public class WheelCollision : MonoBehaviour, IVulnrable
 {
-	
+	Wheel wheelM;
+	bool isReady = false;
 
-	// Start is called before the first frame update
-	void Start()
-    {
-        
-    }
+	public void InitSelf()
+	{
+		wheelM = GetComponent<Wheel>();
+		isReady = true;
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	void IVulnrable.ApplyPushBack(Vector3 i_Pushback)
+	{
+		throw new System.NotImplementedException();
+	}
 
 	private void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.CompareTag("Player"))
+		if (isReady)
 		{
-			IVulnrable other = (IVulnrable)collision.gameObject.GetComponent<PlayerCollision>();
-			other.takeDamage(Vector3.zero,30);
+			if (collision.gameObject.CompareTag("Player"))
+			{
+				IVulnrable other = (IVulnrable)collision.gameObject.GetComponent<PlayerCollision>();
+				other.TakeDamageAndApplyPushBack(Vector3.zero, 30);
+			}
+			
+			else if (collision.gameObject.CompareTag("LevelBoundries"))
+			{
+				wheelM.ApplyPushback(-wheelM.GetWheelMovementInfo().MovementVector.normalized*10);
+				wheelM.GetWheelEvents().OnWheelCollidedWithWall();
+			}
+
 		}
+
+	}
+
+	void IVulnrable.TakeDamageAndApplyPushBack(Vector3 i_Pushback, float i_Damage)
+	{
+		throw new System.NotImplementedException();
 	}
 }

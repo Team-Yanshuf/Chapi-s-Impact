@@ -2,33 +2,53 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public struct WheelMovementInfo
+{
+    public Vector3 MovementVector { get; set; }
+    //public bool MajorVelocityChange { get; set; }
+
+    public WheelMovementInfo(Vector3 i_MovementVector)
+	{
+        MovementVector = i_MovementVector;
+        //MajorVelocityChange = i_MajorVelocityChange;
+	}
+}
+
+
 public class WheelMovement : MonoBehaviour
 {
     Wheel wheelM;
     Vector3 directionVector;
     [SerializeField] float walkSpeed;
     [SerializeField] float sprintSpeed;
-    [SerializeField] GameObject target;
 
     Timer timer;
     Rigidbody rb;
-    public void initSelf()
+
+    Vector3 previousVelocity;
+    public void InitSelf()
 	{
         wheelM = GetComponent<Wheel>();
         rb = GetComponent<Rigidbody>();
         timer = GetComponent<Timer>();
 
-        InvokeRepeating("setWheelSprint",3, 3);
+        wheelM.GetWheelEvents().wheelSprint.AddListener(setWheelSprint);
+        previousVelocity = Vector3.zero;
 	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void setMovementVector()
+	public void Update()
 	{
-        directionVector = (target.transform.position - transform.position).normalized;
+        if(rb.velocity.magnitude > 5f)
+		{
+            DetectSevereVelocityChange();
+            previousVelocity = rb.velocity;
+        }
+    }
+
+	private void setMovementVector()
+	{
+        directionVector = (wheelM.GetTarget().transform.position - transform.position).normalized;
 	}
     private void sprint()
 	{
@@ -41,6 +61,29 @@ public class WheelMovement : MonoBehaviour
         sprint();
 	}
 
+    public WheelMovementInfo GetWheelMovementInfo()
+	{
+        return new WheelMovementInfo(rb.velocity);
+	}
+
+    public void ApplyPushback(Vector3 i_Pushback)
+	{
+        rb.AddForce(i_Pushback, ForceMode.Impulse);
+	}
+
+    public bool DetectSevereVelocityChange()
+	{
+		float deltaVelocity = previousVelocity.magnitude / rb.velocity.magnitude;
+        //print(deltaVelocity);
+        
+        if (deltaVelocity < 0.05f)
+		{
+			wheelM.GetWheelEvents().OnWheelCollidedWithWall();
+			return true;
+		}
+
+        return false;
+	}
 
 
 

@@ -26,7 +26,7 @@ public class WeaponCollision : MonoBehaviour
             IVulnrable enemy = collision.GetComponent<IVulnrable>();
             Vector3 pushbackForce = (collision.transform.position - transform.position).normalized;
             
-            enemy?.takeDamage(pushbackForce * 5, 25);
+            enemy?.TakeDamageAndApplyPushBack(pushbackForce * 5, 25);
             Camera.main.GetComponent<CameraFollowPlayer>().shake();
             hit = true;
         }
@@ -34,7 +34,7 @@ public class WeaponCollision : MonoBehaviour
 		if (collision.CompareTag("ItemTent"))
 		{
 			IVulnrable tent = collision.GetComponent<IVulnrable>();
-			tent.takeDamage(Vector3.zero, 0);
+			tent.TakeDamageAndApplyPushBack(Vector3.zero, 0);
             Camera.main.GetComponent<CameraFollowPlayer>().shake();
             hit = true;
         }
