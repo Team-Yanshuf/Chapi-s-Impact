@@ -20,7 +20,7 @@ public class GameManagerEvents : MonoBehaviour
 
 	public static void onPause() => pause?.Invoke();
     public static void onResume() => resume?.Invoke();
-    public static void onEnemyDefeated() => enemyDefeated?.Invoke();
+    public static void OnEnemyDefeated() => enemyDefeated?.Invoke();
     public static void onChapiDied() => chapiDied?.Invoke();
     public static void onTreePlanted() => treePlanted?.Invoke();
 }

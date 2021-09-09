@@ -1,13 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wheel : MonoBehaviour
+public class Wheel : MonoBehaviour, IEnemy
 {
     WheelMovement movementM;
     WheelCollision collisionM;
     WheelEvents eventsM;
     WheelAnimation animationM;
+    WheelHealth healthM;
+    RoomEvents currentRoomEvents;
 
     [SerializeField] GameObject target;
 
@@ -20,14 +23,14 @@ public class Wheel : MonoBehaviour
         movementM = GetComponent<WheelMovement>();
         movementM.InitSelf();
 
- 
-
-
         animationM = GetComponent<WheelAnimation>();
         animationM.InitSelf();
 
         collisionM = GetComponent<WheelCollision>();
         collisionM.InitSelf();
+
+        healthM = GetComponent<WheelHealth>();
+        healthM.InitSelf();
 
     }
 
@@ -36,7 +39,19 @@ public class Wheel : MonoBehaviour
         return eventsM;
 	}
 
-    public void ApplyDamage(float Damage)
+	internal void Die()
+	{
+        //GameManagerEvents.OnEnemyDefeated();
+        currentRoomEvents.dwindleLocalFog.Invoke();
+        Destroy(gameObject);
+	}
+
+	internal void TakeDamage(float i_Damage)
+	{
+        healthM.ReductHP((int) i_Damage);
+	}
+
+	public void ApplyDamage(float i_Damage)
 	{
 
 	}
@@ -54,5 +69,10 @@ public class Wheel : MonoBehaviour
     public GameObject GetTarget()
 	{
         return target;
+	}
+
+	void IEnemy.setRoomEvents(RoomEvents i_RoomEvents)
+	{
+        currentRoomEvents = i_RoomEvents;
 	}
 }

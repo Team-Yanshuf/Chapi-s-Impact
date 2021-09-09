@@ -54,10 +54,10 @@ public class Trashcan : MonoBehaviour, IEnemy
     public bool isGrounded() => collisionM.isGrounded();
     public float getLookDirection() => movementM.getLookDirection();
 
-    public void die()
+    public void Die()
 	{
         currentRoomEvents.dwindleLocalFog.Invoke();
-        soundM.playDie();
+        soundM.PlayDie();
 
         Destroy(this.gameObject);
 	}

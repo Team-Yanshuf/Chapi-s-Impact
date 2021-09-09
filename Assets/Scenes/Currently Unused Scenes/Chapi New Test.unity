@@ -7562,6 +7562,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1846967227, guid: 80008d05c2336c34290c773a2cba91f7, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4308325542019062074, guid: 80008d05c2336c34290c773a2cba91f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -7626,6 +7630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wheel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308325542019062209, guid: 80008d05c2336c34290c773a2cba91f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80008d05c2336c34290c773a2cba91f7, type: 3}

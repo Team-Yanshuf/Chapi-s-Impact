@@ -31,8 +31,8 @@ public class TrashcanHealth : MonoBehaviour, IHealthManager
     {
         if (hp <= 0)
         {
-            GameManagerEvents.onEnemyDefeated();
-            trashM.die();
+            GameManagerEvents.OnEnemyDefeated();
+            trashM.Die();
         }
     }
 

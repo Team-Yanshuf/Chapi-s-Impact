@@ -40,6 +40,7 @@ public class WheelCollision : MonoBehaviour, IVulnrable
 
 	void IVulnrable.TakeDamageAndApplyPushBack(Vector3 i_Pushback, float i_Damage)
 	{
-		throw new System.NotImplementedException();
+		wheelM.TakeDamage(i_Damage);
+		wheelM.ApplyPushback(i_Pushback);
 	}
 }
