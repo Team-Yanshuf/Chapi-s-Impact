@@ -19,7 +19,7 @@ public class EnemyHealthbar : MonoBehaviour
         updateBar();
     }
 
-    public void setCurrentHP(float hp)
+    public void SetCurrentHP(float hp)
     {
         int delta = (int)(currentHealth - hp);
         StartCoroutine(set());

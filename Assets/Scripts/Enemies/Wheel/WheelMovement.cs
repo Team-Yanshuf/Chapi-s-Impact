@@ -5,13 +5,14 @@ using UnityEngine;
 
 public struct WheelMovementInfo
 {
-    public Vector3 MovementVector { get; set; }
-    //public bool MajorVelocityChange { get; set; }
+    public Vector3 VelocityVector { get; set; }
+    //public float Speed { get; set; }
 
-    public WheelMovementInfo(Vector3 i_MovementVector)
+    public Vector3 DirectionVector { get; set; }
+    public WheelMovementInfo(Vector3 i_VelocityVector, Vector3 i_DirectionVector)
 	{
-        MovementVector = i_MovementVector;
-        //MajorVelocityChange = i_MajorVelocityChange;
+        VelocityVector = i_VelocityVector;
+        DirectionVector = i_DirectionVector;
 	}
 }
 
@@ -63,7 +64,7 @@ public class WheelMovement : MonoBehaviour
 
     public WheelMovementInfo GetWheelMovementInfo()
 	{
-        return new WheelMovementInfo(rb.velocity);
+        return new WheelMovementInfo(rb.velocity, directionVector);
 	}
 
     public void ApplyPushback(Vector3 i_Pushback)

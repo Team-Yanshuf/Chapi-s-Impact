@@ -17,9 +17,10 @@ public class WheelAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
         wheelM = GetComponent<Wheel>();
 
-        wheelM.GetWheelEvents().wheelCollidedWithWall.AddListener(OnHittingAWall);
         wheelM.GetWheelEvents().wheelIdle.AddListener(OnPassOutAnimationEnds);
         wheelM.GetWheelEvents().wheelStarted.AddListener(OnIdleAnimationEnd);
+        wheelM.GetWheelEvents().wheelCollidedWithWall.AddListener(OnHittingAWall);
+
         isReady = true;
     }
 
@@ -28,26 +29,38 @@ public class WheelAnimation : MonoBehaviour
     {
         updateAnimations();
         if (isIdle)
-		{
+        {
             setLookDirection();
-		}
+        }
+        //print(wheelM.GetWheelMovementInfo().MovementVector.magnitude);
     }
 
     private void updateAnimations()
 	{
         animator.SetBool("IsPassedOut", isPassedOut);
+
+		if (!animator.GetBool("IsIdle") && !animator.GetBool("IsPassedOut"))
+		{
+			//if (Mathf.Abs(wheelM.GetWheelMovementInfo().MovementVector.magnitude) < 0.01f)
+			//{
+			//	print("Velocity is small.");
+			//	animator.SetBool("IsIdle", true);
+			//}
+		}
 	}
 
     public void OnIdleAnimationEnd()
 	{
+        print("Is idle end called?");
         isIdle = false;
         isStarting = true;
 	}
 
     public void OnHittingAWall()
 	{
-        if (wheelM.GetWheelMovementInfo().MovementVector.magnitude > 0)
+        if (wheelM.GetWheelMovementInfo().VelocityVector.magnitude > 0)
 		{
+            isIdle = false;
             isSprinting = false;
             isPassedOut = true;
             updateAnimations();
@@ -63,6 +76,7 @@ public class WheelAnimation : MonoBehaviour
 
     public void OnStarterAnimationEnd()
 	{
+        isIdle = false;
         isSprinting = true;
 	}
 

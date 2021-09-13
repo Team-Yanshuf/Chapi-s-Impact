@@ -12,11 +12,13 @@ public class Wheel : MonoBehaviour, IEnemy
     WheelHealth healthM;
     RoomEvents currentRoomEvents;
 
-    [SerializeField] GameObject target;
+    GameObject target;
 
     // Start is called before the first frame update
     void Start()
     {
+        target = LevelManager.player.gameObject;
+
         eventsM = GetComponent<WheelEvents>();
         eventsM.InitSelf();
 
@@ -41,8 +43,8 @@ public class Wheel : MonoBehaviour, IEnemy
 
 	internal void Die()
 	{
-        //GameManagerEvents.OnEnemyDefeated();
-        currentRoomEvents.dwindleLocalFog.Invoke();
+		GameManagerEvents.OnEnemyDefeated();
+		currentRoomEvents?.dwindleLocalFog.Invoke();
         Destroy(gameObject);
 	}
 

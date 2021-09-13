@@ -32,10 +32,10 @@ public class LightingManager : MonoBehaviour
 
 
         float delta = currentIntensity - light.intensity;
-        StartCoroutine(updateLight());
-        //light.intensity = currentIntensity;
+        //StartCoroutine(updateLight());
+        updateLight();
 
-        IEnumerator updateLight()
+        void updateLight()
 		{
             int numberOfSteps = 3;
             float step = delta / numberOfSteps;
@@ -43,7 +43,7 @@ public class LightingManager : MonoBehaviour
 			{
                 light.intensity += step;
                 light.intensity = Mathf.Clamp(light.intensity, 0.1f, 0.7f);
-                yield return null;
+                //yield return null;
 			}
 		}
     }

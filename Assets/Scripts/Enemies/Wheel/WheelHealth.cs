@@ -7,6 +7,7 @@ public class WheelHealth : MonoBehaviour
     Wheel wheelM;
     [SerializeField] int maxHealth;
     int currentHealth;
+    EnemyHealthbar healthBar;
     bool isReady = false;
 
 
@@ -16,6 +17,8 @@ public class WheelHealth : MonoBehaviour
     {
         wheelM = GetComponent<Wheel>();
         currentHealth = maxHealth;
+        healthBar = GetComponentInChildren<EnemyHealthbar>();
+        healthBar.initBar(maxHealth);
         isReady = true;
     }
 
@@ -31,6 +34,7 @@ public class WheelHealth : MonoBehaviour
     public void ReductHP(int damage = 0)
 	{
         currentHealth -= damage;
+        healthBar.SetCurrentHP(currentHealth);
 	}
 
     private void CheckIfAlive()

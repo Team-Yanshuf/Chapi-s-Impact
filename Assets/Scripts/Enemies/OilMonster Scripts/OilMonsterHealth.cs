@@ -18,7 +18,7 @@ public class OilMonsterHealth : MonoBehaviour, IHealthManager
     void Update()
     {
         checkIfAlive();
-        bar.setCurrentHP(currentHP);
+        bar.SetCurrentHP(currentHP);
     }
 
     public void initHP(float hp)

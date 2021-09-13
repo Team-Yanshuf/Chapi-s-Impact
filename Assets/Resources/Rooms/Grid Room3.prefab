@@ -2872,7 +2872,7 @@ GameObject:
   - component: {fileID: 8997268714926866506}
   m_Layer: 16
   m_Name: Barriers
-  m_TagString: Untagged
+  m_TagString: LevelBoundries
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323a8ed0ebd809c4782894660710ce42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: 0
+  enemy: 1
 --- !u!1 &5468416910054001885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,7 +5329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323a8ed0ebd809c4782894660710ce42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: 0
+  enemy: 1
 --- !u!1 &5977520603819491870
 GameObject:
   m_ObjectHideFlags: 0
@@ -9017,7 +9017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323a8ed0ebd809c4782894660710ce42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: 1
+  enemy: 0
 --- !u!1 &8123889253501385168
 GameObject:
   m_ObjectHideFlags: 0

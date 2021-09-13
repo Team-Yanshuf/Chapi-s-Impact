@@ -30,7 +30,8 @@ public class WheelCollision : MonoBehaviour, IVulnrable
 			
 			else if (collision.gameObject.CompareTag("LevelBoundries"))
 			{
-				wheelM.ApplyPushback(-wheelM.GetWheelMovementInfo().MovementVector.normalized*10);
+				print($"movement vector is { wheelM.GetWheelMovementInfo().DirectionVector}");
+				wheelM.ApplyPushback(-wheelM.GetWheelMovementInfo().DirectionVector.normalized*10);
 				wheelM.GetWheelEvents().OnWheelCollidedWithWall();
 			}
 

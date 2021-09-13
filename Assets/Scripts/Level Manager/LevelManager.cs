@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     RoomsManager roomM;
     //NatureSpawner natureM;
     //EnemyWaveManager waveM;
-    Player player;
+    public static Player player;
 
     int startingEnemyCount;
     int enemiesRequiredToPlant = 3;
