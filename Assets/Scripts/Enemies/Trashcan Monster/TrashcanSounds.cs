@@ -25,7 +25,7 @@ public class TrashcanSounds : MonoBehaviour
         playHurt();
     }
 
-    public void playDie() => die?.Play();
+    public void PlayDie() => die?.Play();
     void playMove()
 	{
         if (trashM.isMoving())

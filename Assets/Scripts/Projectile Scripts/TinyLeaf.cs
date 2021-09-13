@@ -10,7 +10,7 @@ public class TinyLeaf : MonoBehaviour
         {
             IVulnrable enemy = collision.gameObject.GetComponent<IVulnrable>();
             Vector3 pushback = new Vector3(transform.localScale.x, 0, 0);
-            enemy?.takeDamage(Vector3.zero, 10);
+            enemy?.TakeDamageAndApplyPushBack(Vector3.zero, 10);
         }
     }
 }

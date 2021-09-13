@@ -37,7 +37,7 @@ public class Trashcan : MonoBehaviour, IEnemy
         currentJumpMax = Random.Range(1, 5);
     }
 
-	internal void push(Vector3 pushback)
+	internal void Push(Vector3 pushback)
 	{
         movementM.push(pushback);
 	}
@@ -54,10 +54,10 @@ public class Trashcan : MonoBehaviour, IEnemy
     public bool isGrounded() => collisionM.isGrounded();
     public float getLookDirection() => movementM.getLookDirection();
 
-    public void die()
+    public void Die()
 	{
         currentRoomEvents.dwindleLocalFog.Invoke();
-        soundM.playDie();
+        soundM.PlayDie();
 
         Destroy(this.gameObject);
 	}

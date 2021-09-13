@@ -8,7 +8,8 @@ public interface IHitter
 
 public interface IVulnrable
 {
-    void takeDamage(Vector3 pushback= default(Vector3), float damage = 0 );
+    void TakeDamageAndApplyPushBack(Vector3 i_Pushback= default(Vector3), float i_Damage = 0 );
+    void ApplyPushBack(Vector3 i_Pushback = default(Vector3));
 }
 
 public interface ICollectible

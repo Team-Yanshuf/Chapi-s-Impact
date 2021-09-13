@@ -20,7 +20,7 @@ public class OilMonster : MonoBehaviour, IEnemy
         healthM.initHP(100);
     }
 
-    internal void pushback(Vector3 pushback) => movementM.pushback(pushback);
+    internal void Pushback(Vector3 pushback) => movementM.pushback(pushback);
 	public Vector3 getTargetPosition()
     {
         if (target)

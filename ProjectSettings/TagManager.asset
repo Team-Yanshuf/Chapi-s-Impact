@@ -16,6 +16,7 @@ TagManager:
   - FogBoundries
   - BridgeStart
   - BridgeEnd
+  - LevelBoundries
   layers:
   - Default
   - TransparentFX

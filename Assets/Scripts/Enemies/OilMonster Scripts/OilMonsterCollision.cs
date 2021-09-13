@@ -13,11 +13,11 @@ public class OilMonsterCollision : MonoBehaviour, IVulnrable
         monsterM= GetComponent<OilMonster>();       
     }
 
-    public void takeDamage(Vector3 pushback, float damage = 0)
+    public void TakeDamageAndApplyPushBack(Vector3 pushback, float damage = 0)
     {
         hurt = true;
         monsterM.takeDamage(damage);
-        monsterM.pushback(pushback);
+        monsterM.Pushback(pushback);
     }
 
   
@@ -28,7 +28,7 @@ public class OilMonsterCollision : MonoBehaviour, IVulnrable
         { 
             IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
             float sign= Mathf.Sign(collision.transform.position.x-transform.position.x);
-            player?.takeDamage(transform.right*sign*pushbackForce, damage);
+            player?.TakeDamageAndApplyPushBack(transform.right*sign*pushbackForce, damage);
         }
     }
 
@@ -43,4 +43,9 @@ public class OilMonsterCollision : MonoBehaviour, IVulnrable
 
     //This is called by the hurt animation.
     public void setNotHurt() => hurt = false;
+
+	public void ApplyPushBack(Vector3 i_Pushback = default)
+	{
+        monsterM.Pushback(i_Pushback);
+	}
 }

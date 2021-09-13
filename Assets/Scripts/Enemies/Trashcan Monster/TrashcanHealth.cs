@@ -10,7 +10,6 @@ public class TrashcanHealth : MonoBehaviour, IHealthManager
         trashM = GetComponent<Trashcan>();
         hp = trashM.getMaxHP();
         bar = GetComponentInChildren<EnemyHealthbar>();
-        Canvas k = GetComponent < Canvas > ();
         bar?.initBar(hp);
     }
 
@@ -18,7 +17,7 @@ public class TrashcanHealth : MonoBehaviour, IHealthManager
     void Update()
     {
         checkIfAlive();
-        bar.setCurrentHP(hp);
+        bar.SetCurrentHP(hp);
     }
 
     public void reductHP(float damage = 0)
@@ -31,8 +30,8 @@ public class TrashcanHealth : MonoBehaviour, IHealthManager
     {
         if (hp <= 0)
         {
-            GameManagerEvents.onEnemyDefeated();
-            trashM.die();
+            GameManagerEvents.OnEnemyDefeated();
+            trashM.Die();
         }
     }
 

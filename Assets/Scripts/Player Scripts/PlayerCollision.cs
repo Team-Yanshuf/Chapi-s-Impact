@@ -53,7 +53,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
         }
     }
 
-	public void takeDamage(Vector3 pushback, float damage = 0)
+	public void TakeDamageAndApplyPushBack(Vector3 pushback, float damage = 0)
     {
         hurt = true;
         playerM.takeDamage(pushback,damage);
@@ -72,7 +72,7 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 
     public void changeCollisionLayerDuringDash()
 	{
-        if (playerM.getMovementInfo().isDashing)
+        if (playerM.GetMovementInfo().isDashing)
 		{
             gameObject.layer = LayerMask.NameToLayer("PlayerDash");
         }
@@ -82,5 +82,12 @@ public class PlayerCollision : MonoBehaviour, IVulnrable
 		{
 			gameObject.layer = LayerMask.NameToLayer("Player");
 		}
+	}
+
+	public void ApplyPushBack(Vector3 i_Pushback = default)
+	{
+        //for now, nothing. 
+        //To Do: Create a pushback only method.
+		throw new System.NotImplementedException();
 	}
 }

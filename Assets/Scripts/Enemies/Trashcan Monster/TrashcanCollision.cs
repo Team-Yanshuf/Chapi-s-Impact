@@ -24,10 +24,10 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
         ready = true;
     }
 
-    public void takeDamage(Vector3 pushback, float damage = 0)
+    public void TakeDamageAndApplyPushBack(Vector3 pushback, float damage = 0)
     {
         trashM.takeDamage(damage);
-        trashM.push(pushback);
+        trashM.Push(pushback);
         hurt = true;
 	}
 
@@ -54,8 +54,13 @@ public class TrashcanCollision : MonoBehaviour, IVulnrable
             else if (collision.gameObject.CompareTag("Player"))
             {
                 IVulnrable player = collision.gameObject.GetComponent<IVulnrable>();
-                player.takeDamage(Vector3.zero, 10);
+                player.TakeDamageAndApplyPushBack(Vector3.zero, 10);
             }
         }
     }
+
+	public void ApplyPushBack(Vector3 i_Pushback = default)
+	{
+        trashM.Push(i_Pushback);
+	}
 }
