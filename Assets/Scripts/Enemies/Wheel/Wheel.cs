@@ -10,11 +10,11 @@ public class Wheel : MonoBehaviour, IEnemy
     WheelEvents eventsM;
     WheelAnimation animationM;
     WheelHealth healthM;
+    WheelStates statesM;
     RoomEvents currentRoomEvents;
-
+    
     GameObject target;
 
-    // Start is called before the first frame update
     void Start()
     {
         target = LevelManager.player.gameObject;
@@ -34,6 +34,8 @@ public class Wheel : MonoBehaviour, IEnemy
         healthM = GetComponent<WheelHealth>();
         healthM.InitSelf();
 
+        statesM = GetComponent<WheelStates>();
+        statesM.InitSelf();
     }
 
     public WheelEvents GetWheelEvents()
@@ -51,11 +53,6 @@ public class Wheel : MonoBehaviour, IEnemy
 	internal void TakeDamage(float i_Damage)
 	{
         healthM.ReductHP((int) i_Damage);
-	}
-
-	public void ApplyDamage(float i_Damage)
-	{
-
 	}
 
     public void ApplyPushback(Vector3 i_Pushback)
@@ -76,5 +73,10 @@ public class Wheel : MonoBehaviour, IEnemy
 	void IEnemy.setRoomEvents(RoomEvents i_RoomEvents)
 	{
         currentRoomEvents = i_RoomEvents;
+	}
+
+    public WheelStatesInfo GetWheelStatesInfo()
+	{
+        return statesM.GetWheelStateInfo();
 	}
 }

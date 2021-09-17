@@ -5,82 +5,46 @@ public class WheelAnimation : MonoBehaviour
     Wheel wheelM;
     Animator animator;
 
-    bool isReady = false;
-    bool isIdle;
-    bool isStarting;
-    bool isSprinting = false;
-    bool isHittingAWall;
-    bool isPassedOut;
+	bool isReady;
 
-    public void InitSelf()
+	public void InitSelf()
 	{
         animator = GetComponent<Animator>();
         wheelM = GetComponent<Wheel>();
-
-        wheelM.GetWheelEvents().wheelIdle.AddListener(OnPassOutAnimationEnds);
-        wheelM.GetWheelEvents().wheelStarted.AddListener(OnIdleAnimationEnd);
-        wheelM.GetWheelEvents().wheelCollidedWithWall.AddListener(OnHittingAWall);
-
         isReady = true;
     }
 
 
     void Update()
     {
-        updateAnimations();
-        if (isIdle)
-        {
-            setLookDirection();
+        if (isReady)
+		{
+            updateAnimations();
+            WheelStatesInfo info = wheelM.GetWheelStatesInfo();
+            if (info.Idle || info.Starting)
+            {
+                setLookDirection();
+            }
         }
-        //print(wheelM.GetWheelMovementInfo().MovementVector.magnitude);
     }
 
     private void updateAnimations()
 	{
-        animator.SetBool("IsPassedOut", isPassedOut);
+        WheelStatesInfo info = wheelM.GetWheelStatesInfo();
+        animator.SetBool("IsPassedOut", info.Paralyzed);
+		animator.SetBool("IsIdle", info.Idle);
 
-		if (!animator.GetBool("IsIdle") && !animator.GetBool("IsPassedOut"))
+		if (wheelM.GetWheelStatesInfo().Sprinting)
 		{
-			//if (Mathf.Abs(wheelM.GetWheelMovementInfo().MovementVector.magnitude) < 0.01f)
-			//{
-			//	print("Velocity is small.");
-			//	animator.SetBool("IsIdle", true);
-			//}
+            //0.01 is an arbitrarily low threshold.
+			if (wheelM.GetWheelMovementInfo().Decelerating && wheelM.GetWheelMovementInfo().VelocityVector.magnitude < 0.01f)
+			{
+				animator.SetBool("IsIdle", true);
+			}
 		}
 	}
 
-    public void OnIdleAnimationEnd()
-	{
-        print("Is idle end called?");
-        isIdle = false;
-        isStarting = true;
-	}
-
-    public void OnHittingAWall()
-	{
-        if (wheelM.GetWheelMovementInfo().VelocityVector.magnitude > 0)
-		{
-            isIdle = false;
-            isSprinting = false;
-            isPassedOut = true;
-            updateAnimations();
-        }
-	}
-
-    public void OnPassOutAnimationEnds()
-	{
-        isPassedOut = false;
-        isIdle = true;
-        updateAnimations();
-	}
-
-    public void OnStarterAnimationEnd()
-	{
-        isIdle = false;
-        isSprinting = true;
-	}
-
-    private void setLookDirection()
+	private void setLookDirection()
 	{
         Vector3 movementDirection = (wheelM.GetTarget().transform.position - transform.position).normalized;
         animator.SetFloat("Horizontal", movementDirection.x);
