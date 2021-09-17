@@ -5,6 +5,7 @@ using UnityEngine;
 public class WheelCollision : MonoBehaviour, IVulnrable
 {
 	Wheel wheelM;
+	[SerializeField] float damage;
 	bool isReady = false;
 
 	public void InitSelf()
@@ -25,12 +26,11 @@ public class WheelCollision : MonoBehaviour, IVulnrable
 			if (collision.gameObject.CompareTag("Player"))
 			{
 				IVulnrable other = (IVulnrable)collision.gameObject.GetComponent<PlayerCollision>();
-				other.TakeDamageAndApplyPushBack(Vector3.zero, 30);
+				other.TakeDamageAndApplyPushBack(Vector3.zero, damage);
 			}
 			
 			else if (collision.gameObject.CompareTag("LevelBoundries"))
 			{
-				print($"movement vector is { wheelM.GetWheelMovementInfo().DirectionVector}");
 				wheelM.ApplyPushback(-wheelM.GetWheelMovementInfo().DirectionVector.normalized*10);
 				wheelM.GetWheelEvents().OnWheelCollidedWithWall();
 			}
