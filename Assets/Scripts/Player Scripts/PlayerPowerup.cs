@@ -66,6 +66,12 @@ public class PlayerPowerup : MonoBehaviour
                     movement.setSpeed(movement.getSpeed()+0.5f);
                     break;
 				}
+
+            case "RecoverHealth":
+				{
+                    health.RecoverHealthBy(35);
+                    break;
+				}
 		}
 	}
 }

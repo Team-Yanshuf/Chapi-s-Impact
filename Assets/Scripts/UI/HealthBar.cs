@@ -12,12 +12,19 @@ public class HealthBar : MonoBehaviour
     Vector3 initial;
     void Start()
     {
+        //InitSelf();
+    }
+    
+    public void InitSelf()
+	{
         interpolator = 0f;
-        health = 100;
+
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        health = player.getHP();
+        print(health);
         image = GetComponentsInChildren<Image>()[2];
         initial = image.rectTransform.localPosition;
-        target = new Vector3(initial.x, initial.y-4f, initial.z);
+        target = new Vector3(initial.x, initial.y - 4f, initial.z);
     }
 
     // Update is called once per frame

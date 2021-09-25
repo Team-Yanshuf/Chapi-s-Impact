@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] int hp;
+    int hp;
+    [SerializeField] int maxHP;
     [SerializeField] float invincibilityDuration;
     [SerializeField] float flashingDelta;
 
@@ -14,11 +15,10 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         playerM = GetComponent<Player>();
-
+        hp = maxHP;
         isInvincible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         checkHpStatus();
@@ -39,6 +39,10 @@ public class PlayerHealth : MonoBehaviour
 
 	}
 
+    public void RecoverHealthBy(int i_HealthToAdd)
+	{
+        hp += i_HealthToAdd;
+	}
     private void checkHpStatus()
     {
         if (hp<=0)
