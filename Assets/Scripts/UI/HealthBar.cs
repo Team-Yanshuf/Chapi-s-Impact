@@ -10,10 +10,6 @@ public class HealthBar : MonoBehaviour
     float interpolator;
     Vector3 target;
     Vector3 initial;
-    void Start()
-    {
-        //InitSelf();
-    }
     
     public void InitSelf()
 	{
@@ -27,7 +23,6 @@ public class HealthBar : MonoBehaviour
         target = new Vector3(initial.x, initial.y - 4f, initial.z);
     }
 
-    // Update is called once per frame
     void Update()
     {
         triggerFlaskReduction();
@@ -41,14 +36,14 @@ public class HealthBar : MonoBehaviour
 
     IEnumerator updateFlask()
 	{
+        int maxHealth = player.GetPlayerHealthInfo().maxHP;
         int difference = health - (int)player?.getHP();
         health = (int)player?.getHP();
         for (int i=0; i<difference; i++)
 		{
-            
+            interpolator += 1f / maxHealth;
             image.rectTransform.localPosition = Vector3.Lerp(initial, target, interpolator);
-            interpolator += 0.01f;
-            //image.transform.position += new Vector3(0, -1, 0);
+
             yield return null;
 		}
 

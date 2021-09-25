@@ -87,7 +87,10 @@ public class Player : MonoBehaviour
 
     public int getHP() => healthM.getHP();
 
-
+    public PlayerHealthInfo GetPlayerHealthInfo()
+	{
+        return healthM.GetPlayerHealthInfo();
+	}
     //******************MOVEMENT FUNCTIONS **************//
 
     public bool isMoving() => movementM.isMoving();
