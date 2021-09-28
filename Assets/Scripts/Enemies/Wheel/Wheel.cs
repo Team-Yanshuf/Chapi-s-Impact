@@ -12,6 +12,7 @@ public class Wheel : MonoBehaviour, IEnemy
     WheelHealth healthM;
     WheelStates statesM;
     RoomEvents currentRoomEvents;
+    WheelAudio audioM;
     
     GameObject target;
 
@@ -36,6 +37,9 @@ public class Wheel : MonoBehaviour, IEnemy
 
         statesM = GetComponent<WheelStates>();
         statesM.InitSelf();
+
+        audioM = GetComponent<WheelAudio>();
+        audioM.InitSelf();
     }
 
     public WheelEvents GetWheelEvents()
