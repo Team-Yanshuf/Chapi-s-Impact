@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public struct PowerupInfo
 {
@@ -21,16 +19,7 @@ public struct PowerupInfo
 public abstract class PowerupBase : MonoBehaviour
 {
     PowerupInfo info;
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
+ 
 	public void destroy()
 	{
         Destroy(this.gameObject);

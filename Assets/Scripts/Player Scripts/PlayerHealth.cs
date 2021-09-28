@@ -1,9 +1,22 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+
+public struct PlayerHealthInfo
+{
+    public int maxHP { get; set; }
+    public int currentHP { get; set; }
+
+    public PlayerHealthInfo(int i_MaxHP, int i_CurrentHP)
+	{
+        maxHP = i_MaxHP;
+        currentHP = i_CurrentHP;
+	}
+}
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] int hp;
+    int currentHP;
+    [SerializeField] int maxHP;
     [SerializeField] float invincibilityDuration;
     [SerializeField] float flashingDelta;
 
@@ -14,11 +27,10 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         playerM = GetComponent<Player>();
-
+        currentHP = maxHP;
         isInvincible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         checkHpStatus();
@@ -32,16 +44,20 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
-            hp -= (int)damage;
+            currentHP -= (int)damage;
             isInvincible = true;
             StartCoroutine(becomeInvincible(invincibilityDuration));
         }
 
 	}
 
+    public void RecoverHealthBy(int i_HealthToAdd)
+	{
+        currentHP += i_HealthToAdd;
+	}
     private void checkHpStatus()
     {
-        if (hp<=0)
+        if (currentHP<=0)
         {
             dead = true;
             playerM.die();
@@ -73,6 +89,11 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = false;
     }
 
-    public int getHP() => hp;
+    public int getHP() => currentHP;
+
+    public PlayerHealthInfo GetPlayerHealthInfo()
+	{
+        return new PlayerHealthInfo(maxHP, currentHP);
+	}
 
 }
