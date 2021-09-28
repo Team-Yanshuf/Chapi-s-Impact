@@ -18,7 +18,6 @@ public class HealthBar : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         currentHealth = player.getHP();
-        print(currentHealth);
         image = GetComponentsInChildren<Image>()[2];
         initial = image.rectTransform.localPosition;
         target = new Vector3(initial.x, initial.y - 4f, initial.z);
@@ -44,10 +43,12 @@ public class HealthBar : MonoBehaviour
         int differenceFromPreviousAmountOfHealth = currentHealth - currentHealthFromPlayer;
         currentHealth = currentHealthFromPlayer;
 
-        for (int i=0; i<differenceFromPreviousAmountOfHealth; i++)
+        int signOfFlaskFlactuation = (int) Mathf.Sign(differenceFromPreviousAmountOfHealth);
+
+        for (int i=0; i<Mathf.Abs(differenceFromPreviousAmountOfHealth); i++)
 		{
             image.rectTransform.localPosition = Vector3.Lerp(initial, target, interpolator);
-            interpolator += 1f / maxHealth;
+            interpolator += (float)signOfFlaskFlactuation / maxHealth;
             yield return null;
 		}
 

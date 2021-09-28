@@ -10,7 +10,6 @@ public class UICanvas : MonoBehaviour
 	{
         bar = GetComponentInChildren<HealthBar>();
         bar.InitSelf();
-        print("Bar Initialized");
     }
   
 }

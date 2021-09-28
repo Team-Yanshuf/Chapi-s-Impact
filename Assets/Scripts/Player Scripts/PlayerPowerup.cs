@@ -45,19 +45,7 @@ public class PlayerPowerup : MonoBehaviour
 		{
             case "EnlargeWeapon":
 				{
-                    //weaponTransform.localScale *= 2;
-                    //weaponTransform.position += new Vector3(0, 1, 0);
-                    StartCoroutine(enlarge(2));
-                    IEnumerator enlarge(int scale)
-					{
-                        Vector3 target = weaponTransform.localScale * scale;
-                        for(int i=0; i<50; i++)
-						{
-                            weaponTransform.position += new Vector3(0, 0.02f, 0);
-                            weaponTransform.localScale=Vector3.Lerp(weaponTransform.localScale, target, 0.02f * i);
-                            yield return null;
-						}
-					}
+                    enlargeWeapon();
                     break;
 				}
 
@@ -73,5 +61,21 @@ public class PlayerPowerup : MonoBehaviour
                     break;
 				}
 		}
+
 	}
+
+    private void enlargeWeapon()
+	{
+        StartCoroutine(enlarge(2));
+        IEnumerator enlarge(int scale)
+        {
+            Vector3 target = weaponTransform.localScale * scale;
+            for (int i = 0; i < 50; i++)
+            {
+                weaponTransform.position += new Vector3(0, 0.02f, 0);
+                weaponTransform.localScale = Vector3.Lerp(weaponTransform.localScale, target, 0.02f * i);
+                yield return null;
+            }
+        }
+    }
 }
