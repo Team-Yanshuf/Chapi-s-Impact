@@ -5,13 +5,14 @@ using UnityEngine.Experimental.Rendering.Universal;
 public struct RoomManagerInfo
 {
 	public PollutionContainerInfo[] pollutionContainers { get; }
+	public RoomInfo[] rooms { get; }
 	public int initialFogCount { get; set; }
 	public float remainingFogPrecentage { get; set; }
 	public bool finishedLoading { get; set; }
 
 	public GameObject currentRoom;
 
-	public RoomManagerInfo(PollutionContainerInfo[] containers, GameObject currentRoom)
+	public RoomManagerInfo(PollutionContainerInfo[] containers, RoomInfo[] rooms, GameObject currentRoom)
 	{
 		this.pollutionContainers = containers;
 
@@ -21,6 +22,7 @@ public struct RoomManagerInfo
 		remainingFogPrecentage = 0;
 		finishedLoading = true;
 		this.currentRoom = currentRoom;
+		this.rooms = rooms;
 
 		//Real values are calculated here!
 		calculateValues();
@@ -60,7 +62,7 @@ public class RoomsManager : MonoBehaviour
 
 	bool ready = false;
 	[SerializeField] Light2D lightSource;
-	public void init()
+	public void InitSelf()
 	{
 		initRooms();
 
@@ -265,13 +267,14 @@ public class RoomsManager : MonoBehaviour
 	public RoomManagerInfo getRoomManagerInfo()
 	{
 		PollutionContainerInfo[] containers = new PollutionContainerInfo[roomList.Count];
-
+		RoomInfo[] rooms = new RoomInfo[roomList.Count];
 		for(int i=0; i<containers.Length; i++)
 		{
 			containers[i]= roomList[i].getRoomInfo().containerInfo;
+			rooms[i] = roomList[i].getRoomInfo();
 		}
 
-		return new RoomManagerInfo(containers,currentRoom);
+		return new RoomManagerInfo(containers, rooms, currentRoom);
 	}
 
 }
