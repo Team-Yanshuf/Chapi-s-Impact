@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1e5d8033007434f8f5f00026d9b95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponM: {fileID: 0}
   isControlledByPlayer: 1
 --- !u!114 &300265745222436763
 MonoBehaviour:
@@ -177,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5444a991a92b8fe4eab9503c761b7ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 100
+  maxHP: 100
   invincibilityDuration: 1.5
   flashingDelta: 0.1
 --- !u!114 &4705456647671918313

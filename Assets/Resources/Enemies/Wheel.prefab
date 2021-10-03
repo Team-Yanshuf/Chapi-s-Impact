@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 8422455957861243453}
   - component: {fileID: 1846967227}
   - component: {fileID: 2667142712636060896}
+  - component: {fileID: 187492473}
   m_Layer: 11
   m_Name: Wheel
   m_TagString: Enemy
@@ -244,6 +245,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccf60100e7d0a249866174c7e6e1ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &187492473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4308325542019062209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2636524b4165f40b62d34f0a1d2da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SsoundEvent: 
+  volume: 0
 --- !u!1001 &4308325542662064534
 PrefabInstance:
   m_ObjectHideFlags: 0

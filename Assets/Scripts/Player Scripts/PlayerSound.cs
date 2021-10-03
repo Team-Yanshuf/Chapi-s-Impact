@@ -46,14 +46,8 @@ public class PlayerSound : MonoBehaviour
     void initSelf()
 	{
         footsteps = FMODUnity.RuntimeManager.CreateInstance(Sfootsteps);
-
-
 		dash = FMODUnity.RuntimeManager.CreateInstance(Sdash);
-
-
 		hit = FMODUnity.RuntimeManager.CreateInstance(Shit);
-
-
 		aura = FMODUnity.RuntimeManager.CreateInstance(Saura);
 
         //shoot = FMODUnity.RuntimeManager.CreateInstance(Sshoot);
