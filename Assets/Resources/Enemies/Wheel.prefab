@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 8422455957861243453}
   - component: {fileID: 1846967227}
   - component: {fileID: 2667142712636060896}
-  - component: {fileID: 3819658667330325654}
+  - component: {fileID: 187492473}
   m_Layer: 11
   m_Name: Wheel
   m_TagString: Enemy
@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88e26d1cf515df4b9a7aef5ac5814c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 40
+  damage: 30
 --- !u!212 &4308325542019062214
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c269f9fb068a37b4cbc9be184c3b117f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 100
 --- !u!114 &2667142712636060896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ccf60100e7d0a249866174c7e6e1ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3819658667330325654
+--- !u!114 &187492473
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
