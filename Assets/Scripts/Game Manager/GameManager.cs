@@ -77,8 +77,12 @@ public class GameManager : MonoBehaviour
 
 	internal void BeatLevel()
 	{
-		timer.setParameters(1, sceneLoader.moveToWinScene);
-		timer.fire();
+		if (!timer.isRunning())
+		{
+			timer.setParameters(1, sceneLoader.moveToWinScene);
+			timer.fire();
+		}
+
 	}
 
 	void moveWin()

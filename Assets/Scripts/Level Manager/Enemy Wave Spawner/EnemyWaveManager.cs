@@ -59,7 +59,7 @@ public class EnemyWaveManager : MonoBehaviour
             waves.RemoveAt(Random.Range(1, waves.Count));
         }
         totalNumberOfWaves = waves.Count;
-        remainingNumberOfWaves = waves.Count;
+        remainingNumberOfWaves = waves.Count + 1;
         currentWaveIndex = -1;
        
     }
