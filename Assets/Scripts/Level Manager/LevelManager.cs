@@ -90,14 +90,11 @@ public class LevelManager : MonoBehaviour
         RoomInfo[] rooms = levelM.getRoomManagerInfo().rooms;
         foreach(RoomInfo info in rooms)
 		{
-            print($"clear? {info.wavesInfo.AreAllWavesDefeatedInRoom} \t remaining: {info.wavesInfo.RemainingNumberOfWaves}");
             if (!info.wavesInfo.AreAllWavesDefeatedInRoom)
                 return;
 		}
-        print("Reached this far.");
         manager.BeatLevel();
 	}
 
-	//public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
 	public RoomManagerInfo getRoomManagerInfo() => roomM.getRoomManagerInfo();
 }

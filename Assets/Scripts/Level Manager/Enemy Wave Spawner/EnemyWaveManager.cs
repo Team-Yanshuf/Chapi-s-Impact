@@ -17,7 +17,6 @@ public struct SpawnwaveManagerInfo
 }
 public class EnemyWaveManager : MonoBehaviour
 {
-    //SpawnwaveManagerInfo waveManagerInfo;
     int randomizedNumberOfSpawnWaves;
     int currentWaveIndex;
     int totalNumberOfWaves;
@@ -36,8 +35,6 @@ public class EnemyWaveManager : MonoBehaviour
 			{
                 ActivateNextWave();
 			}
-
-            updateWaveManagerInfo();
         }
     }
 
@@ -84,21 +81,8 @@ public class EnemyWaveManager : MonoBehaviour
         ready = true;
     }
 
-    void updateWaveManagerInfo()
-    {
-        //waveManagerInfo.RemainingNumberOfWaves = waveManagerInfo.TotalNumberOfWaves - currentWaveIndex;
-        //waveManagerInfo.AreAllWavesDefeatedInRoom = waveManagerInfo.RemainingNumberOfWaves == 0;
-        //print("Remaining number of waves:" + waveManagerInfo.remainingNumberOfWaves);
-    }
-
-	//public SpawnwaveManagerInfo GetSpawnWaveManagerInfo() => waveManagerInfo;
-
-
 	public SpawnwaveManagerInfo GetSpawnWaveManagerInfo()
 	{
         return new SpawnwaveManagerInfo(totalNumberOfWaves, remainingNumberOfWaves);
-        //int totalNumberOfWavesInRoom = waves.Count;
-        //int remainingNumberOfWavesInRoom = waves.Count - currentWaveIndex;
-        //return new SpawnwaveManagerInfo(totalNumberOfWavesInRoom, remainingNumberOfWavesInRoom);
 	}
 }

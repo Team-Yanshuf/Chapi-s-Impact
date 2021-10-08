@@ -27,30 +27,26 @@ public struct RoomInfo
 [RequireComponent(typeof(BridgePositioning))]
 [RequireComponent(typeof(BoxCollider))]
 [RequireComponent(typeof(LightingManager))]
+
 public class Room : MonoBehaviour
 {
 	RoomInfo info;
-    BridgePositioning bridgeM;
-    bool[] adjecencyList;
+	Vector3[] spawnPositions;
+
+	BridgePositioning bridgeM;
 	GameObject[] roomAdjacencyList;
-    Vector3[] spawnPositions;
-
 	RoomEvents events;
-
 	FogManager fogM;
 	NatureSpawner natureM;
 	EnemyWaveManager waveM;
 	LightingManager lightingM;
 
 	bool roomCompleted;
-
+	bool isInstantiated;
+	bool[] adjecencyList;
 	public bool isActive;
-	internal bool isInstantiated;
-
 
 	float previousLightIntensity;
-
-
 
 	public void init(GameObject[] list, Light2D lightSource)
 	{
@@ -80,15 +76,6 @@ public class Room : MonoBehaviour
 		roomCompleted = false;
 		isInstantiated = false;
 	}
-	internal void setAdjecencyList(bool[] list)
-	{
-        this.adjecencyList = list;
-	}
-
-    public void setRoomAdjacencyList(GameObject[] list)
-	{
-        this.roomAdjacencyList = list;
-	}
 
 	public void decideOpenBridges()
 	{
@@ -106,12 +93,6 @@ public class Room : MonoBehaviour
 		this.isActive = val;
 	}
 
-	internal void attachLighting()
-	{
-		//events.treePlanted.AddListener(lightingM.adaptLightingToTreePlanted);
-		//events.dwindleLocalFog.AddListener(lightingM.adaptLightingToEnemyDeath);
-	}
-
 	internal void resetLight()
 	{
 		lightingM.resetLightingToRoomCurrent(previousLightIntensity);
@@ -119,13 +100,11 @@ public class Room : MonoBehaviour
 
 	internal void InstantiateEnemiesInRoom()
 	{
-		print($"are all defeated? {waveM.GetSpawnWaveManagerInfo().AreAllWavesDefeatedInRoom} \t remaining: {waveM.GetSpawnWaveManagerInfo().RemainingNumberOfWaves}");
 		if(!waveM.GetSpawnWaveManagerInfo().AreAllWavesDefeatedInRoom)
 		{
 			waveM.initSelfsub(events);
 			isInstantiated = true;
 		}
-
 	}
 
 	public void exitRoom()
