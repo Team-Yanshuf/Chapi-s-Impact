@@ -90,7 +90,7 @@ public class LevelManager : MonoBehaviour
         RoomInfo[] rooms = levelM.getRoomManagerInfo().rooms;
         foreach(RoomInfo info in rooms)
 		{
-            if (!info.wavesInfo.isCompleted)
+            if (!info.wavesInfo.AreAllWavesDefeatedInRoom)
                 return;
 		}
 

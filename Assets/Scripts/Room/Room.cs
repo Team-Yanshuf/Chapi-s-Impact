@@ -94,7 +94,7 @@ public class Room : MonoBehaviour
 	{
 		bridgeM.openBridges();
 	}
-	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo(),waveM.getSpawnWaveManagerInfo(),isActive);
+	public RoomInfo getRoomInfo() => new RoomInfo(fogM.getPollutionInfo(),waveM.GetSpawnWaveManagerInfo(),isActive);
 
 	public void invokeTreePlantedEvent()
 	{
@@ -119,7 +119,7 @@ public class Room : MonoBehaviour
 
 	internal void instantiateEnemies()
 	{
-		if(!waveM.getSpawnWaveManagerInfo().isCompleted)
+		if(!waveM.GetSpawnWaveManagerInfo().AreAllWavesDefeatedInRoom)
 		{
 			waveM.initSelf(events);
 			isInstantiated = true;
