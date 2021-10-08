@@ -64,15 +64,15 @@ public class Room : MonoBehaviour
         this.roomAdjacencyList=list;
         bridgeM.init(list);
 
+		waveM = GetComponent<EnemyWaveManager>();
+		waveM.initWaves();
+
 		fogM = GetComponent<FogManager>();
 		fogM.initSelf();
 
-		waveM = GetComponent<EnemyWaveManager>();
-		
+
 		natureM = GetComponent<NatureSpawner>();
 		natureM.initSelf();
-
-
 
 		lightingM = GetComponent<LightingManager>();
 		lightingM.initSelf(lightSource);
@@ -117,7 +117,7 @@ public class Room : MonoBehaviour
 		lightingM.resetLightingToRoomCurrent(previousLightIntensity);
 	}
 
-	internal void instantiateEnemies()
+	internal void InstantiateEnemiesInRoom()
 	{
 		if(!waveM.GetSpawnWaveManagerInfo().AreAllWavesDefeatedInRoom)
 		{
@@ -135,8 +135,8 @@ public class Room : MonoBehaviour
 
 	public void enterRoom()
 	{
-		instantiateEnemies();
-		attachLighting();
+		InstantiateEnemiesInRoom();
+		//attachLighting();
 		resetLight();
 
 	}
