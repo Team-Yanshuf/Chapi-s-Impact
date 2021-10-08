@@ -5,10 +5,7 @@ public class LevelManager : MonoBehaviour
 {
     GameManager manager;
     LevelManager levelM;
-    //FogManager fogM;
     RoomsManager roomM;
-    //NatureSpawner natureM;
-    //EnemyWaveManager waveM;
     public static Player player;
 
     int startingEnemyCount;
@@ -28,12 +25,8 @@ public class LevelManager : MonoBehaviour
     {
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        //waveM = GetComponent<EnemyWaveManager>();
         levelM = GetComponent<LevelManager>();
-       // natureM = GetComponent<NatureSpawner>();
         roomM = GetComponent<RoomsManager>();
-        //fogM = GetComponent<FogManager>();
-
 
         updateCurrentEnemyCount();
         GameManagerEvents.enemyDefeated.AddListener(updateCurrentEnemyCount);
@@ -49,13 +42,13 @@ public class LevelManager : MonoBehaviour
         //fogM.initFog();
         //natureM.initSelf();
         //waveM.initSelf();
-        roomM.init();
+        roomM.InitSelf();
     }
 
     private void Update()
     {
-        checkForLevelBeaten();
-        updateEnemyCount();
+		checkForLevelBeaten();
+		updateEnemyCount();
     }
 
 
@@ -70,11 +63,6 @@ public class LevelManager : MonoBehaviour
     }
     void updateEnemyCount()
     {
-
-
-
-
-
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         currentEnemyCount = enemies.Length;
     }
@@ -97,16 +85,16 @@ public class LevelManager : MonoBehaviour
     {
         treesRequiredToBeat--;
     }
-    void checkForLevelBeaten()
-    {
-        ////print($"remaining waves: {waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves} \t trees: {treesRequiredToBeat}");
-        //if (waveM.getSpawnWaveManagerInfo().remainingNumberOfWaves <= 0 && treesRequiredToBeat <= 0 && !beatenLevel)
-        //{
-        //    beatenLevel = true;
-        //    manager.beatLevel();
-        //}
-    }
+	void checkForLevelBeaten()
+	{
+        RoomInfo[] rooms = levelM.getRoomManagerInfo().rooms;
+        foreach(RoomInfo info in rooms)
+		{
+            if (!info.wavesInfo.AreAllWavesDefeatedInRoom)
+                return;
+		}
+        manager.BeatLevel();
+	}
 
-    //public PollutionContainerInfo getPollutionInfo() => fogM.getPollutionInfo();
-    public RoomManagerInfo getRoomManagerInfo() => roomM.getRoomManagerInfo();
+	public RoomManagerInfo getRoomManagerInfo() => roomM.getRoomManagerInfo();
 }
