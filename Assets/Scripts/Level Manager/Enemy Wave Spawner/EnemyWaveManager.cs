@@ -12,14 +12,16 @@ public struct SpawnwaveManagerInfo
 	{
         this.TotalNumberOfWaves = total;
         this.RemainingNumberOfWaves = remainingWaves;
-        AreAllWavesDefeatedInRoom = RemainingNumberOfWaves == 0;
+        AreAllWavesDefeatedInRoom = RemainingNumberOfWaves <= 0;
 	}
 }
 public class EnemyWaveManager : MonoBehaviour
 {
-    SpawnwaveManagerInfo waveManagerInfo;
+    //SpawnwaveManagerInfo waveManagerInfo;
     int randomizedNumberOfSpawnWaves;
     int currentWaveIndex;
+    int totalNumberOfWaves;
+    int remainingNumberOfWaves;
     SpawnWave currentWave;
     List<SpawnWave> waves;
 
@@ -30,51 +32,49 @@ public class EnemyWaveManager : MonoBehaviour
     {
         if (ready)
         {
-            if (currentWave.isWaveDone() && currentWaveIndex<waveManagerInfo.TotalNumberOfWaves)
+            if (currentWave.isWaveDone() && currentWaveIndex< totalNumberOfWaves)
 			{
-                activateNextWave();
+                ActivateNextWave();
 			}
 
             updateWaveManagerInfo();
         }
     }
 
-    public void initSelf(RoomEvents events)
+    public void initSelfsub(RoomEvents events)
     {
         this.roomEvents = events;
-        initWaves();
-        activateNextWave();
-        waveManagerInfo = new SpawnwaveManagerInfo(waves.Count, waves.Count);
+        InitSelf();
+        ActivateNextWave();
     }
 
-	internal void setRoomEvents(RoomEvents events)
-	{
-        this.roomEvents = events;
-	}
-
-	public void initWaves()
+	public void InitSelf()
     {
         waves = new List<SpawnWave>(GetComponentsInChildren<SpawnWave>());
         randomizedNumberOfSpawnWaves = Random.Range(1, waves.Count + 1);
-        int count = waves.Count;
+
         
-        for (int i = 0; i < count - randomizedNumberOfSpawnWaves; i++)
+        for (int i = 0; i < totalNumberOfWaves - randomizedNumberOfSpawnWaves; i++)
         {
             waves.RemoveAt(Random.Range(1, waves.Count));
         }
-
+        totalNumberOfWaves = waves.Count;
+        remainingNumberOfWaves = waves.Count;
         currentWaveIndex = -1;
        
     }
 
-	public void activateNextWave()
+	public void ActivateNextWave()
     {
         currentWaveIndex++;
-        if (waves.Count<=currentWaveIndex )
-        {
+        remainingNumberOfWaves--;
+
+		if (totalNumberOfWaves <= currentWaveIndex)
+		{
             roomEvents.roomCleared.Invoke();
-            waveManagerInfo.RemainingNumberOfWaves = 0;
-            print("No waves.");
+            remainingNumberOfWaves = 0;
+            
+            print("No Waves.");
             return;
         }
 
@@ -86,8 +86,8 @@ public class EnemyWaveManager : MonoBehaviour
 
     void updateWaveManagerInfo()
     {
-        waveManagerInfo.RemainingNumberOfWaves = waveManagerInfo.TotalNumberOfWaves - currentWaveIndex;
-        waveManagerInfo.AreAllWavesDefeatedInRoom = waveManagerInfo.RemainingNumberOfWaves == 0;
+        //waveManagerInfo.RemainingNumberOfWaves = waveManagerInfo.TotalNumberOfWaves - currentWaveIndex;
+        //waveManagerInfo.AreAllWavesDefeatedInRoom = waveManagerInfo.RemainingNumberOfWaves == 0;
         //print("Remaining number of waves:" + waveManagerInfo.remainingNumberOfWaves);
     }
 
@@ -96,8 +96,9 @@ public class EnemyWaveManager : MonoBehaviour
 
 	public SpawnwaveManagerInfo GetSpawnWaveManagerInfo()
 	{
-        int totalNumberOfWavesInRoom = waves.Count;
-        int remainingNumberOfWavesInRoom = waves.Count - currentWaveIndex;
-        return new SpawnwaveManagerInfo(totalNumberOfWavesInRoom, remainingNumberOfWavesInRoom);
+        return new SpawnwaveManagerInfo(totalNumberOfWaves, remainingNumberOfWaves);
+        //int totalNumberOfWavesInRoom = waves.Count;
+        //int remainingNumberOfWavesInRoom = waves.Count - currentWaveIndex;
+        //return new SpawnwaveManagerInfo(totalNumberOfWavesInRoom, remainingNumberOfWavesInRoom);
 	}
 }

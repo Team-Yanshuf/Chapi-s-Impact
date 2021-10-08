@@ -65,7 +65,7 @@ public class Room : MonoBehaviour
         bridgeM.init(list);
 
 		waveM = GetComponent<EnemyWaveManager>();
-		waveM.initWaves();
+		waveM.InitSelf();
 
 		fogM = GetComponent<FogManager>();
 		fogM.initSelf();
@@ -119,9 +119,10 @@ public class Room : MonoBehaviour
 
 	internal void InstantiateEnemiesInRoom()
 	{
+		print($"are all defeated? {waveM.GetSpawnWaveManagerInfo().AreAllWavesDefeatedInRoom} \t remaining: {waveM.GetSpawnWaveManagerInfo().RemainingNumberOfWaves}");
 		if(!waveM.GetSpawnWaveManagerInfo().AreAllWavesDefeatedInRoom)
 		{
-			waveM.initSelf(events);
+			waveM.initSelfsub(events);
 			isInstantiated = true;
 		}
 
